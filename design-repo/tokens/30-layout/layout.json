@@ -1,0 +1,67 @@
+{
+  "$meta": {
+    "description": "Page container and grid tokens.",
+    "evidence": [
+      "mv.tw.maxWidth",
+      "mv.css.spacing-steps",
+      "mv.layout.grids"
+    ]
+  },
+  "layout": {
+    "container": {
+      "maxWidth": {
+        "$type": "dimension",
+        "$value": "1520px"
+      },
+      "margin": {
+        "$type": "other",
+        "$value": "0 auto"
+      }
+    },
+    "gutter": {
+      "$type": "dimension",
+      "$value": "{spacing.page-margin}"
+    },
+    "gutter-wide": {
+      "$type": "dimension",
+      "$value": "{spacing.page-margin-wide}"
+    },
+    "section-gap": {
+      "$type": "dimension",
+      "$value": "{spacing.section-margin}"
+    },
+    "grid": {
+      "solution-panel": {
+        "$type": "other",
+        "$value": {
+          "0": "1 column",
+          "920": "1fr 2fr",
+          "1280": "1fr 1fr"
+        }
+      },
+      "usp-cards": {
+        "$type": "other",
+        "$value": {
+          "0": "1 column stacked list",
+          "640": "2 columns",
+          "1280": "4 columns"
+        }
+      },
+      "footer": {
+        "$type": "other",
+        "$value": {
+          "0": "accordion column",
+          "768": "4-col grid",
+          "1024": "flex row wrap"
+        }
+      },
+      "use-case-tabs": {
+        "$type": "other",
+        "$value": {
+          "0": "5-col compact strip",
+          "640": "flex row, flex-grow tabs"
+        }
+      }
+    }
+  }
+}

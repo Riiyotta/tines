@@ -1,0 +1,83 @@
+{
+  "$comment": "Rhythm / position rules beyond JSON Schema. Every rule id here is implemented under the same id in schema/semantic_validate.py RULES (verify_all.py checks the two sets are identical and severities agree).",
+  "graphVersion": "1.0.0",
+  "rules": [
+    {
+      "id": "TEMPLATE_SEQUENCE",
+      "severity": "error",
+      "description": "nodes must be an in-order subsequence of the declared template's node list, contain every required:true node, and contain no node absent from that template."
+    },
+    {
+      "id": "ROUTE_BINDING",
+      "severity": "error",
+      "description": "route must be one of the declared template's routes."
+    },
+    {
+      "id": "NAV_FIRST",
+      "severity": "error",
+      "description": "chrome.site-nav must be the first node."
+    },
+    {
+      "id": "FOOTER_LAST",
+      "severity": "error",
+      "description": "chrome.site-footer must be the last node."
+    },
+    {
+      "id": "CTA_PRECEDES_FOOTER",
+      "severity": "error",
+      "description": "conversion.start-today-cta must sit immediately before chrome.site-footer."
+    },
+    {
+      "id": "ONE_HERO_INTRO",
+      "severity": "error",
+      "description": "exactly one hero.intro, immediately after chrome.site-nav.",
+      "exception": "None needed: the only template has a hero."
+    },
+    {
+      "id": "NO_REPEAT",
+      "severity": "error",
+      "description": "no section appears twice (every template node is repeatable:false; no section has variants, so the key is the section id)."
+    },
+    {
+      "id": "HERO_CLUSTER",
+      "severity": "error",
+      "description": "proof.logo-marquee, hero.wordmark-stage and hero.product-demo may only appear before every NARRATIVE/SHOWCASE/proof.why-tines node (they belong to the hero region)."
+    },
+    {
+      "id": "NO_ADJACENT_SAME_CATEGORY",
+      "severity": "warn",
+      "description": "two adjacent nodes of the same category are flagged.",
+      "exceptions": [
+        [
+          "hero.wordmark-stage",
+          "hero.product-demo"
+        ],
+        [
+          "narrative.monitor-banner",
+          "narrative.solution-panel"
+        ]
+      ],
+      "exceptionNote": "Both pairs are adjacent on the real homepage."
+    },
+    {
+      "id": "ASSET_ROLE_SECTION",
+      "severity": "error",
+      "description": "every assetRole used in a node must list that node's section in assets/asset-roles.json allowedSections."
+    },
+    {
+      "id": "REDUCED_MOTION_REQUIRED",
+      "severity": "error",
+      "description": "every node's motion.reducedMotionFallback must equal its section contract's const fallback."
+    },
+    {
+      "id": "MAX_WORDS",
+      "severity": "error",
+      "description": "every string with a schema maxWords budget must not exceed it (words = whitespace-separated tokens)."
+    },
+    {
+      "id": "UNIQUE_TEAM_TABS",
+      "severity": "error",
+      "description": "showcase.use-case-tabs tabs[].teamId must be unique."
+    }
+  ]
+}

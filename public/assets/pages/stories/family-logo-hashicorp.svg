@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="34" fill="none" viewBox="0 0 32 34">
+  <g fill="#000" clip-path="url(#hashicorp-1)">
+    <path d="M13.338 0 0 7.693v18.483l5.01 2.892V10.586l8.328-4.806z"/>
+    <path d="M18.662 0v14.719h-5.324V9.226L8.325 12.12v18.857l5.013 2.898V19.198h5.324v5.456l5.01-2.892V2.892z"/>
+    <path d="M18.662 33.88 32 26.188V7.705l-5.013-2.893v18.483L18.662 28.1z"/>
+  </g>
+  <defs>
+    <clipPath id="hashicorp-1">
+      <path fill="#fff" d="M0 0h32v34H0z"/>
+    </clipPath>
+  </defs>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "id": "dropdown-panel",
+  "kind": "component",
+  "contractVersion": "1.0.0",
+  "purpose": "Nav mega-dropdown: boxed columns of tiles and leaf links.",
+  "usesPrimitives": [
+    "text-link",
+    "icon",
+    "media-slot"
+  ],
+  "tokens": [
+    "{radius.dd-col}",
+    "{radius.dd-tile}",
+    "{radius.dd-chip}",
+    "{color.dd.by-function}",
+    "{duration.dropdown}",
+    "{easing.snappy}"
+  ],
+  "evidence": [
+    "mv.nav.dropdown"
+  ]
+}

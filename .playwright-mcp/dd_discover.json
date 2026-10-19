@@ -1,0 +1,553 @@
+{
+  "panel": {
+    "box": {
+      "x": 0,
+      "y": 84,
+      "width": 1440,
+      "height": 390.9453125,
+      "top": 84,
+      "right": 1440,
+      "bottom": 474.9453125,
+      "left": 0
+    },
+    "bg": null,
+    "sh": "none",
+    "bf": "none"
+  },
+  "tree": {
+    "t": "div",
+    "c": ".panel",
+    "box": [
+      0,
+      84,
+      1440,
+      391
+    ],
+    "k": [
+      {
+        "t": "div",
+        "c": ".panelInner",
+        "box": [
+          0,
+          84,
+          1440,
+          391
+        ],
+        "pad": "4px 40px 0px",
+        "gap": "3px",
+        "k": [
+          {
+            "t": "div",
+            "c": ".column .stackedColumn .boxed",
+            "box": [
+              40,
+              88,
+              380,
+              375
+            ],
+            "bg": "#ece8fd",
+            "rad": "20px",
+            "pad": "8px",
+            "gap": "2px",
+            "k": [
+              {
+                "t": "div",
+                "c": ".stackedBento",
+                "box": [
+                  49,
+                  97,
+                  362,
+                  357
+                ],
+                "gap": "6px",
+                "k": [
+                  {
+                    "t": "a",
+                    "c": ".blogCard",
+                    "box": [
+                      49,
+                      97,
+                      362,
+                      301
+                    ],
+                    "bg": "#fcf9f5",
+                    "rad": "14px",
+                    "href": "/blog/finance-billing-app/",
+                    "k": [
+                      {
+                        "t": "img",
+                        "c": ".blogCardImage",
+                        "box": [
+                          50,
+                          98,
+                          360,
+                          189
+                        ],
+                        "bg": "#aa94ff",
+                        "src": "https://www.datocms-assets.com/55802/1790081448-tines3b-financeblog-header.png?auto=format%2Ccompress&fit=crop&h=420&q=70&w=800"
+                      },
+                      {
+                        "t": "span",
+                        "c": ".blogCardBody",
+                        "box": [
+                          50,
+                          287,
+                          360,
+                          110
+                        ],
+                        "pad": "14px",
+                        "gap": "4px",
+                        "k": [
+                          {
+                            "t": "span",
+                            "c": ".blogCardTitle",
+                            "box": [
+                              64,
+                              301,
+                              332,
+                              59
+                            ],
+                            "text": "“Better than the tools we were quoted six figures for”: How Tines’ finance team built a custom billing app for <$1,000",
+                            "font": "Roobert 600 18px/19.8px #3f2374"
+                          },
+                          {
+                            "t": "span",
+                            "c": ".blogCardCta",
+                            "box": [
+                              64,
+                              370,
+                              332,
+                              13
+                            ],
+                            "text": "Read article →",
+                            "font": "\"Roobert Mono\" 700 11px/12.65px #3f2374 uppercase ls 0.22px"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "t": "div",
+                    "c": ".stackedLinks",
+                    "box": [
+                      49,
+                      404,
+                      362,
+                      50
+                    ],
+                    "gap": "2px",
+                    "k": [
+                      {
+                        "t": "a",
+                        "c": ".leaf",
+                        "box": [
+                          49,
+                          404,
+                          362,
+                          50
+                        ],
+                        "rad": "12px",
+                        "pad": "8px",
+                        "gap": "8px",
+                        "href": "/blog/",
+                        "k": [
+                          {
+                            "t": "span",
+                            "c": ".leafIcon",
+                            "box": [
+                              57,
+                              412,
+                              34,
+                              34
+                            ],
+                            "bg": "#ded8ff",
+                            "rad": "9px",
+                            "k": [
+                              {
+                                "t": "svg",
+                                "c": "",
+                                "box": [
+                                  65,
+                                  420,
+                                  18,
+                                  18
+                                ],
+                                "svg": "0 0 18 18"
+                              }
+                            ]
+                          },
+                          {
+                            "t": "span",
+                            "c": ".leafText",
+                            "box": [
+                              99,
+                              420,
+                              65,
+                              16
+                            ],
+                            "gap": "2px",
+                            "k": [
+                              {
+                                "t": "span",
+                                "c": ".leafLabel",
+                                "box": [
+                                  99,
+                                  420,
+                                  65,
+                                  16
+                                ],
+                                "text": "Tines Blog",
+                                "font": "Roobert 600 14px/16.1px #3f2374",
+                                "gap": "6px"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "t": "div",
+            "c": ".column .stackedColumn .boxed",
+            "box": [
+              423,
+              88,
+              380,
+              387
+            ],
+            "bg": "#e4eee7",
+            "rad": "20px",
+            "pad": "8px",
+            "gap": "2px",
+            "k": [
+              {
+                "t": "div",
+                "c": ".stackedBento",
+                "box": [
+                  432,
+                  97,
+                  362,
+                  369
+                ],
+                "gap": "6px",
+                "k": [
+                  {
+                    "t": "a",
+                    "c": ".blogCard",
+                    "box": [
+                      432,
+                      97,
+                      362,
+                      261
+                    ],
+                    "bg": "#fcf9f5",
+                    "rad": "14px",
+                    "href": "/events/builder-connect-new-york/",
+                    "k": [
+                      {
+                        "t": "img",
+                        "c": ".blogCardImage",
+                        "box": [
+                          433,
+                          98,
+                          360,
+                          189
+                        ],
+                        "bg": "#aa94ff",
+                        "src": ""
+                      },
+                      {
+                        "t": "span",
+                        "c": ".blogCardBody",
+                        "box": [
+                          433,
+                          287,
+                          360,
+                          70
+                        ],
+                        "pad": "14px",
+                        "gap": "4px",
+                        "k": [
+                          {
+                            "t": "span",
+                            "c": ".blogCardTitle",
+                            "box": [
+                              447,
+                              301,
+                              332,
+                              20
+                            ],
+                            "text": "Builder Connect New York",
+                            "font": "Roobert 600 18px/19.8px #00452a"
+                          },
+                          {
+                            "t": "span",
+                            "c": ".blogCardCta",
+                            "box": [
+                              447,
+                              330,
+                              332,
+                              13
+                            ],
+                            "text": "View event →",
+                            "font": "\"Roobert Mono\" 700 11px/12.65px #00452a uppercase ls 0.22px"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "t": "div",
+                    "c": ".stackedLinks",
+                    "box": [
+                      432,
+                      364,
+                      362,
+                      102
+                    ],
+                    "gap": "2px",
+                    "k": [
+                      {
+                        "t": "a",
+                        "c": ".leaf",
+                        "box": [
+                          432,
+                          364,
+                          362,
+                          50
+                        ],
+                        "rad": "12px",
+                        "pad": "8px",
+                        "gap": "8px",
+                        "href": "/events/",
+                        "k": [
+                          {
+                            "t": "span",
+                            "c": ".leafIcon",
+                            "box": [
+                              440,
+                              372,
+                              34,
+                              34
+                            ],
+                            "bg": "#cae4d4",
+                            "rad": "9px",
+                            "k": [
+                              {
+                                "t": "svg",
+                                "c": "",
+                                "box": [
+                                  448,
+                                  380,
+                                  18,
+                                  18
+                                ],
+                                "svg": "0 0 18 18"
+                              }
+                            ]
+                          },
+                          {
+                            "t": "span",
+                            "c": ".leafText",
+                            "box": [
+                              482,
+                              381,
+                              111,
+                              16
+                            ],
+                            "gap": "2px",
+                            "k": [
+                              {
+                                "t": "span",
+                                "c": ".leafLabel",
+                                "box": [
+                                  482,
+                                  381,
+                                  111,
+                                  16
+                                ],
+                                "text": "Upcoming events",
+                                "font": "Roobert 600 14px/16.1px #00452a",
+                                "gap": "6px"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "t": "a",
+                        "c": ".leaf",
+                        "box": [
+                          432,
+                          416,
+                          362,
+                          50
+                        ],
+                        "rad": "12px",
+                        "pad": "8px",
+                        "gap": "8px",
+                        "href": "/webinars/",
+                        "k": [
+                          {
+                            "t": "span",
+                            "c": ".leafIcon",
+                            "box": [
+                              440,
+                              424,
+                              34,
+                              34
+                            ],
+                            "bg": "#cae4d4",
+                            "rad": "9px",
+                            "k": [
+                              {
+                                "t": "svg",
+                                "c": "",
+                                "box": [
+                                  448,
+                                  432,
+                                  18,
+                                  18
+                                ],
+                                "svg": "0 0 18 18"
+                              }
+                            ]
+                          },
+                          {
+                            "t": "span",
+                            "c": ".leafText",
+                            "box": [
+                              482,
+                              433,
+                              60,
+                              16
+                            ],
+                            "gap": "2px",
+                            "k": [
+                              {
+                                "t": "span",
+                                "c": ".leafLabel",
+                                "box": [
+                                  482,
+                                  433,
+                                  60,
+                                  16
+                                ],
+                                "text": "Webinars",
+                                "font": "Roobert 600 14px/16.1px #00452a",
+                                "gap": "6px"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "t": "div",
+            "c": ".column .soloColumn",
+            "box": [
+              806,
+              88,
+              250,
+              250
+            ],
+            "rad": "20px",
+            "gap": "2px",
+            "k": [
+              {
+                "t": "a",
+                "c": ".primarySquare",
+                "box": [
+                  806,
+                  88,
+                  250,
+                  250
+                ],
+                "bg": "#e26817",
+                "rad": "20px",
+                "pad": "18px",
+                "href": "https://community.tines.com/",
+                "k": [
+                  {
+                    "t": "img",
+                    "c": ".communityIcon",
+                    "box": [
+                      824,
+                      248,
+                      72,
+                      72
+                    ],
+                    "src": "https://www.tines.com/v5-assets/images/community-crystal-ball.svg"
+                  },
+                  {
+                    "t": "span",
+                    "c": ".tileHead",
+                    "box": [
+                      825,
+                      107,
+                      212,
+                      59
+                    ],
+                    "gap": "4px",
+                    "k": [
+                      {
+                        "t": "span",
+                        "c": ".tileLabel",
+                        "box": [
+                          825,
+                          107,
+                          212,
+                          22
+                        ],
+                        "text": "Community",
+                        "font": "Roobert 500 22px/22px #fcf9f5"
+                      },
+                      {
+                        "t": "span",
+                        "c": ".tileDescription",
+                        "box": [
+                          825,
+                          136,
+                          212,
+                          30
+                        ],
+                        "text": "Connect, learn, and share with peers.",
+                        "font": "Roobert 500 13px/14.95px #fcf9f5"
+                      }
+                    ]
+                  },
+                  {
+                    "t": "span",
+                    "c": ".tileArrow",
+                    "box": [
+                      1027,
+                      298,
+                      10,
+                      21
+                    ],
+                    "text": "↗",
+                    "font": "Roobert 500 18px/20.7px #fcf9f5"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "headerBg": "#fcf9f5 a=0.90 (color(srgb 0.988235 0.976471 0.960784 / 0.9))",
+  "headerAttrs": [
+    "id=site-nav",
+    "class=SiteNav26-module-scss-module__OUXeaq__he"
+  ]
+}

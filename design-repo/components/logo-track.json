@@ -1,0 +1,17 @@
+{
+  "id": "logo-track",
+  "kind": "component",
+  "contractVersion": "1.0.0",
+  "purpose": "Duplicated, draggable, edge-masked horizontal logo track.",
+  "usesPrimitives": [
+    "media-slot"
+  ],
+  "tokens": [
+    "{rate.marquee}",
+    "{easing.linear}"
+  ],
+  "evidence": [
+    "mv.motion.marquee",
+    "mv.css.marquee-mask"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "$comment": "One page shape is evidenced: the homepage. Node order mirrors ia.json template.home exactly. 'required:false' marks sections a generated page MAY omit while keeping order; this is an inferred allowance (only one instance exists), not a measured fact.",
+  "templatesVersion": "1.0.0",
+  "templates": {
+    "template.home": {
+      "name": "Homepage",
+      "routes": [
+        "/"
+      ],
+      "evidence": [
+        "mv.ia.template",
+        "mv.app.order"
+      ],
+      "evidenceLevel": "measured: single instance",
+      "nodes": [
+        {
+          "section": "chrome.site-nav",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.intro",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.logo-marquee",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "hero.wordmark-stage",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "hero.product-demo",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "narrative.monitor-banner",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "narrative.solution-panel",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "showcase.use-case-tabs",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "proof.why-tines",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.start-today-cta",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "chrome.site-footer",
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    }
+  }
+}

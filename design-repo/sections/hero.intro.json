@@ -1,0 +1,105 @@
+{
+  "id": "hero.intro",
+  "kind": "section",
+  "category": "HERO",
+  "contractVersion": "1.0.0",
+  "purpose": "State the core proposition and drive demo bookings / sign-ups above the fold.",
+  "implementedBy": "Hero.jsx",
+  "implementedByNote": "Component in the sibling clone project (src/components); same string as ia.json implementedBy.",
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "tag": {
+        "kind": "obj",
+        "required": true,
+        "fields": {
+          "badge": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 1
+          },
+          "label": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 5
+          }
+        }
+      },
+      "headlineLines": {
+        "kind": "tlist",
+        "required": true,
+        "maxWords": 10,
+        "minItems": 1,
+        "maxItems": 2
+      },
+      "byline": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 20
+      },
+      "primaryCta": {
+        "kind": "cta",
+        "required": true,
+        "style": "filled",
+        "intents": [
+          "book-demo"
+        ],
+        "maxWords": 3
+      },
+      "secondaryCta": {
+        "kind": "cta",
+        "required": true,
+        "style": "frosted",
+        "intents": [
+          "sign-up"
+        ],
+        "maxWords": 3
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "static"
+    ],
+    "allowedTriggers": [
+      "none"
+    ],
+    "reducedMotionFallback": "static",
+    "fallbackIsConst": true,
+    "notes": "No entrance animation; buttons hover brightness(1.1)/bg 100ms."
+  },
+  "responsive": [
+    {
+      "minWidth": 0,
+      "changes": [
+        "centred copy",
+        "H1 38px Roobert 500",
+        "byline Roobert 500 18px"
+      ]
+    },
+    {
+      "minWidth": 640,
+      "changes": [
+        "left-aligned",
+        "H1 56px weight 400",
+        "byline Reckless 24px"
+      ]
+    },
+    {
+      "minWidth": 1440,
+      "changes": [
+        "H1 64px"
+      ]
+    }
+  ],
+  "assetRoles": [],
+  "evidence": [
+    "mv.hero.copy",
+    "mv.hero.mobile-roobert"
+  ],
+  "evidenceLevel": "measured (single homepage instance)"
+}

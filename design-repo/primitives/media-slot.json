@@ -1,0 +1,19 @@
+{
+  "id": "media-slot",
+  "kind": "primitive",
+  "contractVersion": "1.0.0",
+  "purpose": "Image / <picture> slot bound to one assetRole; canvas stand-ins are per-breakpoint PNGs.",
+  "props": {
+    "assetRole": "closed enum (assets/asset-roles.json)",
+    "alt": "maxWords 12"
+  },
+  "tokens": [
+    "{radius.frame}",
+    "{radius.hero-frame}"
+  ],
+  "accessibility": "Decorative art alt=''; informative art carries alt.",
+  "evidence": [
+    "mv.hero.wordmark",
+    "mv.assets.manifest"
+  ]
+}

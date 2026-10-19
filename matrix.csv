@@ -1,0 +1,13 @@
+section,category,templates,routes,Homepage
+chrome.site-nav,CHROME,1,1,x
+hero.intro,HERO,1,1,x
+proof.logo-marquee,PROOF,1,1,x
+hero.wordmark-stage,HERO,1,1,x
+hero.product-demo,HERO,1,1,x
+narrative.monitor-banner,NARRATIVE,1,1,x
+narrative.solution-panel,NARRATIVE,1,1,x
+showcase.use-case-tabs,SHOWCASE,1,1,x
+proof.why-tines,PROOF,1,1,x
+conversion.start-today-cta,CONVERSION,1,1,x
+chrome.site-footer,CHROME,1,1,x
+ROUTE COUNT,,,1,1

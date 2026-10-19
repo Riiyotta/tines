@@ -1,0 +1,196 @@
+{
+  "$comment": "Closed asset-role vocabulary. Wired through schema/pagespec.schema.json (definitions.assetRole enum + per-field const), tokens/llm/component-allowlist.json (assetRoles) and schema/example.pagespec.json. verify_all.py checks parity, wiring, and the pinned policies below.",
+  "assetRolesVersion": "1.0.0",
+  "generationPolicyEnum": [
+    "may-generate-new",
+    "reference-context-only",
+    "must-not-fabricate",
+    "must-not-reuse-in-new-pages",
+    "snapshot-not-source-art"
+  ],
+  "generationPolicyMeaning": {
+    "may-generate-new": "A generator may create a new original asset for this slot.",
+    "reference-context-only": "Existing asset may appear only as-is inside this local reference; never altered, imitated, or used elsewhere.",
+    "must-not-fabricate": "Real third-party trademark: never generate, imitate, name or reuse. Operator supplies licensed assets.",
+    "must-not-reuse-in-new-pages": "Proprietary Tines content: slot only; supply operator-owned content.",
+    "snapshot-not-source-art": "Runtime-art screenshot: placeholder only, not source art, not reusable."
+  },
+  "pinnedPolicies": {
+    "brand.tines-logo": "reference-context-only",
+    "customer.logo-trademark": "must-not-fabricate",
+    "partner.assistant-icon": "must-not-fabricate",
+    "product.demo-frame": "must-not-reuse-in-new-pages",
+    "product.screenshot": "must-not-reuse-in-new-pages",
+    "artwork.canvas-standin": "snapshot-not-source-art"
+  },
+  "pinnedPoliciesNote": "Compliance-critical roles whose policy must equal this exact value (a membership-in-enum check alone would accept a different-but-valid value).",
+  "roles": {
+    "brand.tines-logo": {
+      "generationPolicy": "reference-context-only",
+      "allowedSections": [
+        "chrome.site-nav",
+        "chrome.site-footer"
+      ],
+      "description": "Tines logo / wordmark / footer logo icon (Tines trademark).",
+      "sourceFiles": [
+        "tines-logo.svg",
+        "footer-tines-logo-icon_-130.svg"
+      ],
+      "guidance": "Only the existing chrome asset, unmodified, inside this local reference. Never redraw, recolour, imitate or place it in content sections. Any use outside local reference needs Tines' permission.",
+      "evidence": [
+        "mv.assets.manifest",
+        "mv.ia.sections"
+      ]
+    },
+    "customer.logo-trademark": {
+      "generationPolicy": "must-not-fabricate",
+      "allowedSections": [
+        "proof.logo-marquee"
+      ],
+      "description": "Real third-party customer trademarks in the marquee (Canva, Coinbase, Databricks, Dropbox, Intercom, McKesson, MongoDB, Pinterest, Reddit, Snowflake, Sophos).",
+      "sourceFiles": [
+        "logo-*.svg (11 files)"
+      ],
+      "guidance": "Never generate, redraw, name or reuse real logos, and never list real customer names as endorsements in new pages. A generated marquee holds operator-supplied, licensed logos only (logoSource 'operator-supplied-licensed-logos').",
+      "evidence": [
+        "mv.hero.logos"
+      ]
+    },
+    "partner.assistant-icon": {
+      "generationPolicy": "must-not-fabricate",
+      "allowedSections": [
+        "chrome.site-footer"
+      ],
+      "description": "Third-party AI assistant marks in the footer Ask-AI pill (ChatGPT, Claude, Gemini, Perplexity, Grok).",
+      "sourceFiles": [
+        "footer-askAiLink-125..129.svg"
+      ],
+      "guidance": "Third-party trademarks. Do not redraw or invent assistant marks; do not add assistants.",
+      "evidence": [
+        "mv.footer.content"
+      ]
+    },
+    "product.demo-frame": {
+      "generationPolicy": "must-not-reuse-in-new-pages",
+      "allowedSections": [
+        "hero.product-demo"
+      ],
+      "description": "Captured frames of Tines' proprietary scripted product demo (phone/tablet/desktop SVG).",
+      "sourceFiles": [
+        "hero-product-visual-frame*.svg"
+      ],
+      "guidance": "Proprietary product UI. New pages must use the operator's own product imagery in this slot; never reproduce or fabricate Tines product screens or UI copy.",
+      "evidence": [
+        "mv.hero.frame-aspect",
+        "mv.timeline.structure"
+      ]
+    },
+    "product.screenshot": {
+      "generationPolicy": "must-not-reuse-in-new-pages",
+      "allowedSections": [
+        "showcase.use-case-tabs"
+      ],
+      "description": "Tines product screenshots per team tab (workflow / frontend JPGs).",
+      "sourceFiles": [
+        "team-tabs/<team>-<view>.jpg (10 files)"
+      ],
+      "guidance": "Proprietary screenshots. Slot only; supply operator-owned screenshots. Never fabricate Tines UI.",
+      "evidence": [
+        "mv.usecases.content"
+      ]
+    },
+    "illustration.brand-art": {
+      "generationPolicy": "must-not-reuse-in-new-pages",
+      "allowedSections": [
+        "narrative.monitor-banner",
+        "narrative.solution-panel",
+        "proof.why-tines"
+      ],
+      "description": "Tines' proprietary illustrations: ai-tangle, orb mascot, radar + constellation, USP card icons.",
+      "sourceFiles": [
+        "ai-tangle.svg",
+        "solution-orb-112.svg",
+        "usp-radar-119.svg",
+        "usp-constellation-118.svg",
+        "usp/*.svg"
+      ],
+      "guidance": "Do not copy or trace. A generator may describe a NEW original illustration brief for the slot, but must not reproduce these artworks or their characters.",
+      "evidence": [
+        "mv.monitor.content",
+        "mv.solution.content",
+        "mv.why.content"
+      ]
+    },
+    "artwork.canvas-standin": {
+      "generationPolicy": "snapshot-not-source-art",
+      "allowedSections": [
+        "hero.wordmark-stage",
+        "narrative.monitor-banner",
+        "narrative.solution-panel",
+        "conversion.start-today-cta"
+      ],
+      "description": "PNG snapshots of runtime procedural canvases (100x wordmark, monitor wall, solution flower bed, Start-today wordmark).",
+      "sourceFiles": [
+        "canvas/*.png"
+      ],
+      "guidance": "These are screenshots of runtime art, NOT source art: no layers, no licence, not reusable. Treat as a placeholder slot; never present them as editable assets or reuse them in new pages.",
+      "evidence": [
+        "mv.hero.wordmark",
+        "mv.solution.bed",
+        "mv.cta.content"
+      ]
+    },
+    "editorial.promo-image": {
+      "generationPolicy": "must-not-reuse-in-new-pages",
+      "allowedSections": [
+        "chrome.site-nav"
+      ],
+      "description": "Nav Discover dropdown blog / event card images.",
+      "sourceFiles": [
+        "nav-blog-finance-billing.png",
+        "nav-event-builder-connect-nyc.png"
+      ],
+      "guidance": "Real editorial imagery about real events/customers. Slot only; never reuse or invent real events.",
+      "evidence": [
+        "mv.nav.dropdown"
+      ]
+    },
+    "icon.ui-glyph": {
+      "generationPolicy": "may-generate-new",
+      "allowedSections": [
+        "showcase.use-case-tabs"
+      ],
+      "description": "Small functional glyphs (tab icons, chevrons, arrows, hamburger).",
+      "sourceFiles": [
+        "useCases-tabIcon-*.svg",
+        "footer-chevron-120.svg",
+        "nav-hamburger-2.svg"
+      ],
+      "guidance": "Generic UI glyphs: may be newly drawn at the iconSize tokens in color.text.* tokens. Do not copy Tines' exact glyph artwork outside this reference.",
+      "evidence": [
+        "mv.icon.sizes"
+      ]
+    }
+  },
+  "fontPolicy": {
+    "families": [
+      "Roobert",
+      "Roobert Mono",
+      "Reckless"
+    ],
+    "status": "commercial licensed typefaces self-hosted by Tines",
+    "rule": "Generated pages may reference the fontFamily/typography TOKENS only within this local reference context. Production use requires obtaining licences from the foundries. Never redistribute, embed, upload or copy the WOFF2 files; this design-repo ships none.",
+    "evidence": [
+      "mv.css.fontface",
+      "mv.tw.fontFamily"
+    ]
+  },
+  "licensing": {
+    "source": "Clone of a real, live company's site (Tines). Commercially sensitive.",
+    "rules": [
+      "Local reference only; do not publish or make this design-repo public.",
+      "No generating or reproducing real logos, real customer names as endorsements, real employee/customer photos, or Tines proprietary product screenshots/copy beyond short headings.",
+      "All links in the source go to the live tines.com (or are dead root-relative paths in the clone); PageSpecs carry CTA intents, never live URLs."
+    ]
+  }
+}

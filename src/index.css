@@ -1,0 +1,184 @@
+/* ---------- Fonts (CLONE_SPEC §0 Fonts) ---------- */
+@font-face { font-family: 'Roobert'; src: url('/assets/fonts/Roobert-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Roobert'; src: url('/assets/fonts/Roobert-Medium.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Roobert'; src: url('/assets/fonts/Roobert-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Roobert'; src: url('/assets/fonts/Roobert-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Reckless'; src: url('/assets/fonts/Reckless-Light.woff2') format('woff2'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Reckless'; src: url('/assets/fonts/Reckless-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+/* No Reckless 500 face exists on the original; computed 500 renders Regular. */
+@font-face { font-family: 'Reckless'; src: url('/assets/fonts/Reckless-Regular.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Reckless'; src: url('/assets/fonts/Reckless-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Roobert Mono'; src: url('/assets/fonts/RoobertMono-Medium.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Roobert Mono'; src: url('/assets/fonts/RoobertMono-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Roobert Mono'; src: url('/assets/fonts/RoobertMono-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Used by the inline product-visual SVG (its <text> nodes reference these) */
+    --fontSans: theme('fontFamily.sans');
+    --fontSerif: theme('fontFamily.serif');
+    --fontMonospace: theme('fontFamily.mono');
+    /* Stepped spacing scale, mirrored from the live :root (--sm/--md/--lg/--xl/--xxl/--gap,
+       --sectionPadding, --sectionMargin, --widerPageMargin, --pageMargin). These step at
+       640/920/1024/1280/1366/1440 — they are NOT interpolated between 1280 and 1440. */
+    --page-margin: 18px;       /* --widerPageMargin */
+    --page-margin-wide: 18px;  /* --pageMargin */
+    --sp-sm: 16px;
+    --sp-md: 18px;
+    --sp-lg: 24px;
+    --sp-xl: 35px;
+    --sp-xxl: 45px;
+    --sp-gap: 16px;
+    --section-padding: 40px;
+    --section-margin: 96px;
+    --timeline-inset: 18px;
+  }
+  @media (min-width: 640px) { :root { --page-margin: 30px; --page-margin-wide: 70px; --sp-lg: 30px; --sp-gap: 24px; --section-padding: 48px; --section-margin: 120px; --timeline-inset: 24px; } }
+  @media (min-width: 920px) { :root { --page-margin-wide: 85px; --section-padding: 75px; } }
+  @media (min-width: 1024px) { :root { --page-margin: 35px; --page-margin-wide: 125px; --sp-sm: 18px; --sp-md: 24px; --sp-xl: 40px; --sp-xxl: 50px; --section-padding: 80px; --section-margin: 125px; } }
+  @media (min-width: 1280px) { :root { --page-margin: 40px; --page-margin-wide: 156px; --sp-sm: 20px; --sp-md: 27.5px; --sp-lg: 32.5px; --sp-xl: 45px; --sp-xxl: 58px; --section-padding: 90px; --section-margin: 140px; --timeline-inset: 32px; } }
+  @media (min-width: 1366px) { :root { --section-padding: 96px; } }
+  @media (min-width: 1440px) { :root { --sp-sm: 24px; --sp-md: 30px; --sp-lg: 40px; --sp-xl: 55px; --sp-xxl: 64px; --section-margin: 156px; } }
+
+  html {
+    line-height: 1.15;
+    background-color: theme('colors.lightest');
+    color: theme('colors.purple.55');
+    font-family: theme('fontFamily.sans');
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Live sets text-wrap: pretty site-wide (inherited by every text node) */
+    text-wrap: pretty;
+  }
+  a { color: inherit; text-decoration: none; }
+}
+
+@layer components {
+  /* ---------- Hero fold (live ThreeBHero .foldRegion/.stage/.hundredX/.visualWell) ---------- */
+  .hero-fold { display: contents; }
+  .hero-wordmark {
+    --hero-wm-w: calc(min(100vw, 1520px) * 1.01);
+    --hero-wm-h: calc(var(--hero-wm-w) * 264 / 504.96);
+    width: var(--hero-wm-w);
+  }
+  @media (min-width: 1024px) {
+    /* nav 68 + top padding 16.5 = 84.5; heroFoldMinWindow 750px */
+    .hero-fold { display: flex; flex-direction: column; max-height: max(665.5px, calc(100svh - 84.5px)); }
+    .hero-stage { min-height: 0; }
+    .hero-wordmark {
+      width: auto;
+      height: var(--hero-wm-h);
+      min-height: max(calc(var(--hero-wm-h) * .85), calc(var(--hero-wm-h) - max(0px, 855px - 100svh)));
+    }
+    .hero-visual {
+      --hero-wm-h: calc(min(100vw, 1520px) * 1.01 * 264 / 504.96);
+      --hero-fold-fit: calc(420px + var(--hero-wm-h) - min(100vw, 1520px) * .17);
+      margin-top: calc(-1 * (40px + max(0px, min(100svh, var(--hero-fold-fit)) - 900px)));
+    }
+  }
+
+  /* Kicker / eyebrow (§0 Type roles) */
+  .kicker {
+    font-family: theme('fontFamily.mono');
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 0.65px;
+  }
+
+  /* ---------- Buttons (§0 Buttons, §9 Buttons hover) ---------- */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 35.75px;
+    padding: 0 1.25em; /* 16.25px <640 */
+    border-radius: theme('borderRadius.full2');
+    border: 1px solid transparent;
+    white-space: nowrap;
+    font-family: theme('fontFamily.mono');
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 0.26px;
+    cursor: pointer;
+    transition: filter .1s, background-color .1s;
+  }
+  @media (min-width: 640px) { .btn { padding: 0 1.4em; } } /* 18.2px */
+  .btn:active { filter: brightness(.9); }
+  .btn:disabled, .btn[aria-disabled='true'] { opacity: .5; cursor: not-allowed; pointer-events: none; }
+  .btn:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+  .btn-filled { background-color: theme('colors.purple.55'); color: theme('colors.lightest'); }
+  .btn-filled:hover { filter: brightness(1.1); }
+  .btn-frosted {
+    background-color: theme('colors.surface.frosted');
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border-color: theme('colors.purple.55');
+    color: theme('colors.purple.55');
+  }
+  .btn-outlined { background-color: transparent; border-color: theme('colors.purple.55'); color: theme('colors.purple.55'); }
+  /* --unfilledHoverBg from the snapshot CSS: currentColor 10% over page bg, at 85% */
+  .btn-frosted:hover, .btn-outlined:hover {
+    background-color: color-mix(in srgb, color-mix(in srgb, theme('colors.purple.55') 10%, theme('colors.lightest')) 85%, transparent);
+  }
+  .btn-filled-white { background-color: theme('colors.lightest'); color: theme('colors.purple.55'); }
+  .btn-filled-white:hover { background-color: color-mix(in srgb, theme('colors.lightest') 90%, transparent); }
+
+  /* Hover tint used by nav items / text CTAs (§1). The original swaps the tint instantly (transition: all 0s). */
+  @media (hover: hover) {
+    .hover-tint:hover { background-color: color-mix(in srgb, currentColor 10%, transparent); }
+  }
+
+  /* ---------- Nav ---------- */
+  .nav-blur-mask {
+    -webkit-mask-image: linear-gradient(#000 0%, #000 30%, transparent 70%);
+    mask-image: linear-gradient(#000 0%, #000 30%, transparent 70%);
+  }
+  .nav-caret {
+    width: 0; height: 0; opacity: .5;
+    border-top: 4px solid; border-left: 3px solid transparent; border-right: 3px solid transparent;
+  }
+  .mobile-chevron {
+    width: 8px; height: 8px; flex-shrink: 0; opacity: .6; margin-right: 4px;
+    border-right: 2px solid; border-bottom: 2px solid;
+    transform: rotate(45deg); transition: transform .2s;
+  }
+  .mobile-chevron[data-open='true'] { transform: rotate(-135deg); }
+  .accordion { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .25s; }
+  .accordion[data-open='true'] { grid-template-rows: 1fr; }
+  .accordion > * { min-height: 0; overflow: hidden; }
+
+  /* ---------- Logo marquee (§2) ---------- */
+  .marquee-mask {
+    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 60px, #000 calc(100% - 60px), transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0, #000 60px, #000 calc(100% - 60px), transparent 100%);
+  }
+
+  /* Inline SVG wrapper: let the wrapper size the svg */
+  .svg-fill > svg { display: block; width: 100%; height: 100%; }
+
+  /* ---------- Use-case toggle (§5) ---------- */
+  .toggle-track { background-color: color-mix(in srgb, currentColor 12%, transparent); }
+  .toggle-pill {
+    clip-path: inset(0 calc((1 - var(--pos, 0)) * 50%) 0 calc(var(--pos, 0) * 50%) round 999px);
+    transition: clip-path .28s cubic-bezier(.22,1,.36,1);
+  }
+  @media (prefers-reduced-motion: reduce) { .toggle-pill { transition: none; } }
+
+  /* ---------- Footer (§8) ---------- */
+  .footer-divider { border-top: 1px solid color-mix(in srgb, currentColor 12%, transparent); }
+  .footer-accordion { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .2s ease; }
+  .footer-accordion[data-open='true'] { grid-template-rows: 1fr; }
+  .footer-accordion > * { min-height: 0; overflow: hidden; }
+  @media (min-width: 768px) {
+    .footer-accordion { display: block; }
+    .footer-accordion > * { overflow: visible; }
+  }
+}

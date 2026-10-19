@@ -1,0 +1,619 @@
+{
+  "hdr": {
+    "box": "0,0,1440,68",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(113, 75, 208)"
+  },
+  "backdrop": {
+    "box": "22,6,1396,62",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "bg": "rgba(252, 249, 245, 0.9)",
+    "rad": "990px",
+    "bf": "blur(10px)"
+  },
+  "logo": {
+    "box": "40,23,91,28",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(113, 75, 208)"
+  },
+  "nProduct": {
+    "box": "145,21,87.2,32",
+    "font": "Roobert 600 14px/16.1px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "rad": "50px",
+    "ta": "center",
+    "pad": "8px 12px 8px 12px"
+  },
+  "nSolutions": {
+    "box": "232.2,21,95.5,32",
+    "font": "Roobert 600 14px/16.1px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "rad": "50px",
+    "ta": "center",
+    "pad": "8px 12px 8px 12px"
+  },
+  "nCustomers": {
+    "box": "327.7,21,93.9,32",
+    "font": "Roobert 600 14px/16.1px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "rad": "50px",
+    "pad": "8px 12px 8px 12px"
+  },
+  "nDiscover": {
+    "box": "421.6,21,90.7,32",
+    "font": "Roobert 600 14px/16.1px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "rad": "50px",
+    "ta": "center",
+    "pad": "8px 12px 8px 12px"
+  },
+  "nPricing": {
+    "box": "512.4,21,68.6,32",
+    "font": "Roobert 600 14px/16.1px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "rad": "50px",
+    "pad": "8px 12px 8px 12px"
+  },
+  "nLogin": {
+    "box": "1069.7,20.9,66.6,32.1",
+    "font": "Roobert 600 14px/16.1px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "rad": "50px",
+    "pad": "8px 14px 8px 14px"
+  },
+  "nSignup": {
+    "box": "1136.3,20.9,75.6,32.1",
+    "font": "Roobert 600 14px/16.1px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "rad": "50px",
+    "pad": "8px 14px 8px 14px"
+  },
+  "nDemo": {
+    "box": "1223.9,19.5,130.1,35",
+    "font": "Roobert Mono 700 13px/14.95px ls:normal",
+    "color": "rgb(252, 249, 245)",
+    "bg": "rgb(84, 47, 156)",
+    "rad": "990px",
+    "pad": "10px 20px 10px 20px"
+  },
+  "nSearch": {
+    "box": "1362,18,38,38",
+    "font": "Roobert 600 16px/18.4px ls:normal",
+    "color": "rgb(103, 65, 191)",
+    "bg": "rgb(236, 232, 253)",
+    "rad": "9999px",
+    "ta": "center"
+  },
+  "nBurger": null,
+  "tag": {
+    "box": "40,84.5,219.4,30",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "bg": "rgba(252, 249, 245, 0.55)",
+    "rad": "28px",
+    "bord": "1px 1px rgb(113, 75, 208)",
+    "bf": "blur(12px)"
+  },
+  "tagNew": {
+    "box": "41,85.5,48,28",
+    "font": "Roobert Mono 700 11.9px/11.9px ls:0.238px",
+    "color": "rgb(113, 75, 208)",
+    "pad": "2.38px 11.9px 2.38px 11.9px"
+  },
+  "tagText": {
+    "box": "100.6,92.5,131.3,14",
+    "font": "Roobert 600 14px/14px ls:normal",
+    "color": "rgb(113, 75, 208)"
+  },
+  "h1": {
+    "box": "40,138.5,1018.1,134.4",
+    "font": "Roobert 400 64px/67.2px ls:-1.92px",
+    "color": "rgb(113, 75, 208)"
+  },
+  "h1line": {
+    "box": "40,138.5,1018.1,67.2",
+    "font": "Roobert 400 64px/67.2px ls:-1.92px",
+    "color": "rgb(113, 75, 208)"
+  },
+  "byline": {
+    "box": "40,292.1,1003.3,31.2",
+    "font": "Reckless 500 24px/31.2px ls:normal",
+    "color": "rgb(113, 75, 208)"
+  },
+  "hDemo": {
+    "box": "40,347.3,140,35.8",
+    "font": "Roobert Mono 700 13px/13px ls:0.26px",
+    "color": "rgb(252, 249, 245)",
+    "bg": "rgb(113, 75, 208)",
+    "rad": "9990px",
+    "bord": "1px 1px rgba(0, 0, 0, 0)",
+    "pad": "0px 18.2px 0px 18.2px"
+  },
+  "hSignup": {
+    "box": "188,347.3,140,35.8",
+    "font": "Roobert Mono 700 13px/13px ls:0.26px",
+    "color": "rgb(113, 75, 208)",
+    "bg": "rgba(252, 249, 245, 0.65)",
+    "rad": "9990px",
+    "bord": "1px 1px rgb(113, 75, 208)",
+    "bf": "blur(12px)",
+    "pad": "0px 18.2px 0px 18.2px"
+  },
+  "marqBox": {
+    "box": "20.8,423.1,1398.4,37.4",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "pad": "4px 0px 4px 0px"
+  },
+  "logo1": {
+    "box": "20.8,431.2,94.1,21.1",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(113, 75, 208)"
+  },
+  "hundredX": {
+    "box": "-7.2,374.9,1454.4,760.4",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(113, 75, 208)"
+  },
+  "c100": {
+    "box": "-237.8,259.4,1915.6,991.3",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "fit": "fill 50% 50%"
+  },
+  "stage": null,
+  "frame": {
+    "box": "40,860,1360,680",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(113, 75, 208)"
+  },
+  "tlBar": {
+    "box": "72,816,1296,44",
+    "font": "Roobert 400 13px/14.95px ls:normal",
+    "color": "rgb(84, 47, 156)",
+    "rad": "22px 22px 0px 0px",
+    "pad": "8px 8px 8px 8px"
+  },
+  "tlCap": {
+    "box": "140.2,795.1,79.6,20.9",
+    "font": "Roobert 600 12.5px/14.375px ls:-0.125px",
+    "color": "rgb(84, 47, 156)",
+    "bg": "rgba(223, 216, 255, 0.62)",
+    "rad": "8px 8px 0px 0px",
+    "bf": "blur(24px)",
+    "pad": "4.5px 9px 2px 9px"
+  },
+  "tlTime": {
+    "box": "1290,831.1,70,13.8",
+    "font": "Roobert 600 12px/13.8px ls:normal",
+    "color": "rgb(103, 65, 191)"
+  },
+  "monSec": {
+    "box": "0,1636,1440,1015.8",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(113, 75, 208)"
+  },
+  "monCanvas": {
+    "box": "0,1636,1440,1523.7",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "fit": "cover 50% 0%"
+  },
+  "monKicker": {
+    "box": "500,1732,440,13",
+    "font": "Roobert Mono 700 13px/13px ls:0.65px",
+    "color": "rgb(113, 75, 208)",
+    "ta": "center"
+  },
+  "monH2": {
+    "box": "512,1807.4,416,286",
+    "font": "Reckless 400 52px/57.2px ls:-1.56px",
+    "color": "rgb(113, 75, 208)",
+    "ta": "center"
+  },
+  "monStrong": {
+    "box": "512,1921.8,416,171.6",
+    "font": "Reckless 700 52px/57.2px ls:-1.56px",
+    "color": "rgb(113, 75, 208)",
+    "ta": "center"
+  },
+  "monIcon": {
+    "box": "663,2145.4,114,114",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "ta": "center",
+    "fit": "fill 50% 50%"
+  },
+  "monP1": {
+    "box": "500,2295.4,440,123.2",
+    "font": "Reckless 500 22px/30.8px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "ta": "center"
+  },
+  "monP2": {
+    "box": "500,2432.6,440,123.2",
+    "font": "Reckless 500 22px/30.8px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "ta": "center"
+  },
+  "solPanel": {
+    "box": "40,2747.8,1360,819.2",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(252, 249, 245)",
+    "bg": "rgb(113, 75, 208)",
+    "rad": "48px",
+    "pad": "55px 55px 55px 55px"
+  },
+  "solKicker": {
+    "box": "95,2802.8,555.3,13",
+    "font": "Roobert Mono 700 13px/13px ls:0.65px",
+    "color": "rgb(252, 249, 245)"
+  },
+  "solH2": {
+    "box": "95,2847,555.3,176.4",
+    "font": "Roobert 400 56px/58.8px ls:-1.68px",
+    "color": "rgb(252, 249, 245)"
+  },
+  "solH3a": {
+    "box": "789.7,2802.8,257.7,52.8",
+    "font": "Reckless 700 24px/26.4px ls:-0.24px",
+    "color": "rgb(252, 249, 245)"
+  },
+  "solBodyA": {
+    "box": "789.7,2867.6,257.7,96",
+    "font": "Roobert 500 16px/24px ls:normal",
+    "color": "rgb(252, 249, 245)"
+  },
+  "solH3b": {
+    "box": "1087.3,2802.8,257.7,52.8",
+    "font": "Reckless 700 24px/26.4px ls:-0.24px",
+    "color": "rgb(252, 249, 245)"
+  },
+  "solH3c": {
+    "box": "789.7,3018.6,257.7,52.8",
+    "font": "Reckless 700 24px/26.4px ls:-0.24px",
+    "color": "rgb(252, 249, 245)"
+  },
+  "solOrb": {
+    "box": "1087.3,3267.4,48,48",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(252, 249, 245)"
+  },
+  "solFoot": {
+    "box": "1087.3,3345.4,257.7,100.8",
+    "font": "Reckless 400 18px/25.2px ls:normal",
+    "color": "rgb(252, 249, 245)"
+  },
+  "solBtn": {
+    "box": "1087.3,3476.2,198.9,35.8",
+    "font": "Roobert Mono 700 13px/13px ls:0.26px",
+    "color": "rgb(113, 75, 208)",
+    "bg": "rgb(252, 249, 245)",
+    "rad": "9990px",
+    "bord": "1px 1px rgba(0, 0, 0, 0)",
+    "pad": "0px 18.2px 0px 18.2px"
+  },
+  "solFlower": {
+    "box": "0,3299.3,920,307.7",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(252, 249, 245)"
+  },
+  "solFlowerImg": {
+    "box": "-42.7,3256.5,1005.5,393.2",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(252, 249, 245)",
+    "fit": "cover 50% 50%"
+  },
+  "solFlowerTop": null,
+  "ucKicker": {
+    "box": "40,3722.9,832,13",
+    "font": "Roobert Mono 700 13px/13px ls:0.65px",
+    "color": "rgb(113, 75, 208)"
+  },
+  "ucH2": {
+    "box": "40,3759.9,832,117.6",
+    "font": "Roobert 400 56px/58.8px ls:-1.68px",
+    "color": "rgb(113, 75, 208)"
+  },
+  "ucByline": {
+    "box": "40,3901.5,768,60",
+    "font": "Reckless 400 24px/30px ls:-0.24px",
+    "color": "rgb(113, 75, 208)"
+  },
+  "tab0": {
+    "box": "40,4016.5,284.8,171.6",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(252, 249, 245)",
+    "bg": "rgb(0, 127, 74)",
+    "rad": "14px 14px 0px 0px",
+    "pad": "30px 30px 22px 30px"
+  },
+  "tab1": {
+    "box": "308.8,4016.5,284.8,171.6",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(252, 249, 245)",
+    "bg": "rgb(113, 75, 208)",
+    "rad": "14px 14px 0px 0px",
+    "pad": "30px 30px 22px 30px"
+  },
+  "tab2": {
+    "box": "577.6,4016.5,284.8,171.6",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(252, 249, 245)",
+    "bg": "rgb(0, 135, 132)",
+    "rad": "14px 14px 0px 0px",
+    "pad": "30px 30px 22px 30px"
+  },
+  "tab3": {
+    "box": "846.4,4016.5,284.8,171.6",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(252, 249, 245)",
+    "bg": "rgb(192, 81, 0)",
+    "rad": "14px 14px 0px 0px",
+    "pad": "30px 30px 22px 30px"
+  },
+  "tab4": {
+    "box": "1115.2,4016.5,284.8,171.6",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(252, 249, 245)",
+    "bg": "rgb(53, 101, 204)",
+    "rad": "14px 14px 0px 0px",
+    "pad": "30px 30px 22px 30px"
+  },
+  "tab0Title": {
+    "box": "70,4046.5,200.8,27.6",
+    "font": "Reckless 400 24px/27.6px ls:-0.24px",
+    "color": "rgb(252, 249, 245)"
+  },
+  "tab0Body": {
+    "box": "70,4086.1,200.8,80",
+    "font": "Roobert 500 16px/20px ls:normal",
+    "color": "rgb(252, 249, 245)"
+  },
+  "ucPanel": {
+    "box": "40,4188.1,1360,767.8",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(202, 228, 212)",
+    "rad": "0px 0px 48px 48px"
+  },
+  "toggle": {
+    "box": "80,4228.1,218.5,39.8",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(202, 228, 212)",
+    "bg": "color(srgb 0.792157 0.894118 0.831373 / 0.12)",
+    "rad": "999px",
+    "pad": "3px 3px 3px 3px"
+  },
+  "toggleBtn": {
+    "box": "83,4231.1,106.2,33.8",
+    "font": "Roobert Mono 700 12px/13.8px ls:0.72px",
+    "color": "rgb(202, 228, 212)",
+    "rad": "999px",
+    "ta": "center",
+    "pad": "10px 20px 10px 20px"
+  },
+  "frameWF": {
+    "box": "80,4350.7,918.8,565.2",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(202, 228, 212)",
+    "bg": "rgb(202, 228, 212)",
+    "rad": "24px",
+    "bord": "1px 3px rgb(174, 218, 194)",
+    "ta": "center",
+    "pad": "5px 5px 5px 5px"
+  },
+  "frameFE": {
+    "box": "412.8,4275.9,947.2,593.4",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(202, 228, 212)",
+    "bg": "rgb(202, 228, 212)",
+    "rad": "24px",
+    "bord": "1px 3px rgb(174, 218, 194)",
+    "ta": "center",
+    "pad": "5px 5px 5px 5px"
+  },
+  "ucCaption": null,
+  "uspKicker": {
+    "box": "40,5113.7,652.5,13",
+    "font": "Roobert Mono 700 13px/13px ls:0.65px",
+    "color": "rgb(113, 75, 208)"
+  },
+  "uspH2": {
+    "box": "40,5150.7,616,117.6",
+    "font": "Roobert 400 56px/58.8px ls:-1.68px",
+    "color": "rgb(113, 75, 208)"
+  },
+  "uspByline": {
+    "box": "40,5292.3,652.5,90",
+    "font": "Reckless 400 24px/30px ls:-0.24px",
+    "color": "rgb(113, 75, 208)"
+  },
+  "uspIllu": {
+    "box": "1100,5111.9,300,272",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(113, 75, 208)"
+  },
+  "uspRadar": {
+    "box": "1100,5066.9,300,317",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(113, 75, 208)"
+  },
+  "card0": {
+    "box": "40,5439,322,429.3",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(252, 249, 245)",
+    "bg": "rgb(113, 75, 208)",
+    "rad": "14px",
+    "bord": "1px 1px rgba(252, 249, 245, 0.14)",
+    "bf": "blur(12px)",
+    "pad": "24px 24px 24px 24px"
+  },
+  "card1": {
+    "box": "386,5439,322,429.3",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(252, 249, 245)",
+    "bg": "rgb(113, 75, 208)",
+    "rad": "14px",
+    "bord": "1px 1px rgba(252, 249, 245, 0.14)",
+    "bf": "blur(12px)",
+    "pad": "24px 24px 24px 24px"
+  },
+  "card2": {
+    "box": "732,5439,322,429.3",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(252, 249, 245)",
+    "bg": "rgb(113, 75, 208)",
+    "rad": "14px",
+    "bord": "1px 1px rgba(252, 249, 245, 0.14)",
+    "bf": "blur(12px)",
+    "pad": "24px 24px 24px 24px"
+  },
+  "card3": {
+    "box": "1078,5439,322,429.3",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(252, 249, 245)",
+    "bg": "rgb(113, 75, 208)",
+    "rad": "14px",
+    "bord": "1px 1px rgba(252, 249, 245, 0.14)",
+    "bf": "blur(12px)",
+    "pad": "24px 24px 24px 24px"
+  },
+  "cardTitle0": {
+    "box": "65,5464,272,144",
+    "font": "Reckless 400 24px/28.8px ls:-0.24px",
+    "color": "rgb(252, 249, 245)"
+  },
+  "cardIcon0": {
+    "box": "65,5738.3,96,105",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(252, 249, 245)",
+    "fit": "fill 50% 50%"
+  },
+  "ctaWord": {
+    "box": "40,6008.1,1360,298.5",
+    "font": "Roobert 400 16px/18.4px ls:normal",
+    "color": "rgb(113, 75, 208)"
+  },
+  "ctaTag": {
+    "box": "456,6306.6,528,60",
+    "font": "Roobert 500 24px/30px ls:-0.24px",
+    "color": "rgb(113, 75, 208)",
+    "ta": "center"
+  },
+  "ctaB1": {
+    "box": "576,6410.6,140,35.8",
+    "font": "Roobert Mono 700 13px/13px ls:0.26px",
+    "color": "rgb(252, 249, 245)",
+    "bg": "rgb(113, 75, 208)",
+    "rad": "9990px",
+    "bord": "1px 1px rgba(0, 0, 0, 0)",
+    "pad": "0px 18.2px 0px 18.2px"
+  },
+  "ctaB2": {
+    "box": "724,6410.6,140,35.8",
+    "font": "Roobert Mono 700 13px/13px ls:0.26px",
+    "color": "rgb(113, 75, 208)",
+    "rad": "9990px",
+    "bord": "1px 1px rgb(113, 75, 208)",
+    "pad": "0px 18.2px 0px 18.2px"
+  },
+  "footer": {
+    "box": "0,6542.4,1440,854.8",
+    "font": "Roobert 500 14px/16.1px ls:normal",
+    "color": "rgb(113, 75, 208)"
+  },
+  "fSections": {
+    "box": "0,6542.4,1440,754.8",
+    "font": "Roobert 500 14px/16.1px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "pad": "50px 40px 30px 40px"
+  },
+  "fT0": {
+    "box": "40,6592.4,167.9,12.6",
+    "font": "Roobert Mono 600 11px/12.65px ls:0.22px",
+    "color": "rgb(113, 75, 208)"
+  },
+  "fT1": {
+    "box": "372.5,6592.4,190,12.6",
+    "font": "Roobert Mono 600 11px/12.65px ls:0.22px",
+    "color": "rgb(113, 75, 208)"
+  },
+  "fT2": {
+    "box": "727.1,6592.4,107.6,12.6",
+    "font": "Roobert Mono 600 11px/12.65px ls:0.22px",
+    "color": "rgb(113, 75, 208)"
+  },
+  "fT3": {
+    "box": "999.2,6592.4,91.1,12.6",
+    "font": "Roobert Mono 600 11px/12.65px ls:0.22px",
+    "color": "rgb(113, 75, 208)"
+  },
+  "fT4": {
+    "box": "1254.9,6592.4,145.1,12.6",
+    "font": "Roobert Mono 600 11px/12.65px ls:0.22px",
+    "color": "rgb(113, 75, 208)"
+  },
+  "fGroup": {
+    "box": "40,6638,167.9,23.8",
+    "font": "Roobert 700 14px/16.8px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "pad": "3.5px 0px 3.5px 0px"
+  },
+  "fLeaf": {
+    "box": "40,6667.8,167.9,23.8",
+    "font": "Roobert 500 14px/16.8px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "pad": "3.5px 0px 3.5px 0px"
+  },
+  "fLeaf2": {
+    "box": "40,6697.6,167.9,23.8",
+    "font": "Roobert 500 14px/16.8px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "pad": "3.5px 0px 3.5px 0px"
+  },
+  "fExt": {
+    "box": "103,6732.7,6.4,13.2",
+    "font": "Roobert 500 11px/13.2px ls:normal",
+    "color": "rgb(113, 75, 208)"
+  },
+  "fBottom": {
+    "box": "0,7297.1,1440,100",
+    "font": "Roobert 600 14px/16.1px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "pad": "20px 40px 40px 40px"
+  },
+  "askAi": {
+    "box": "557.6,7317.1,324.7,40",
+    "font": "Roobert 600 14px/16.1px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "bg": "rgba(113, 75, 208, 0.05)",
+    "rad": "999px",
+    "pad": "4px 4px 4px 16px"
+  },
+  "askLabel": {
+    "box": "573.6,7329.4,128.7,15.4",
+    "font": "Roobert Mono 700 11px/15.4px ls:0.22px",
+    "color": "rgb(113, 75, 208)"
+  },
+  "askLink": {
+    "box": "710.4,7321.1,32,32",
+    "font": "Roobert 600 14px/16.1px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "rad": "9999px"
+  },
+  "copy": {
+    "box": "40,7329.1,501.6,16.1",
+    "font": "Roobert 600 14px/16.1px ls:normal",
+    "color": "rgb(113, 75, 208)"
+  },
+  "cookie": {
+    "box": "1300.9,7325.6,99.1,23.1",
+    "font": "Roobert 600 14px/16.1px ls:normal",
+    "color": "rgb(113, 75, 208)",
+    "ta": "center",
+    "pad": "3.5px 0px 3.5px 0px"
+  },
+  "fLogo": null,
+  "_doc": "1440 1440x7397"
+}

@@ -1,0 +1,47 @@
+{
+  "$meta": {
+    "description": "No box-shadows exist on static elements; depth comes from backdrop blur and stacking.",
+    "evidence": [
+      "mv.tw.blur",
+      "mv.tw.zIndex",
+      "mv.motion.cursor-css",
+      "mv.spec.no-shadows"
+    ]
+  },
+  "elevation": {
+    "shadow": {
+      "none": {
+        "$type": "shadow",
+        "$value": "none"
+      }
+    },
+    "backdropBlur": {
+      "nav": {
+        "$type": "dimension",
+        "$value": "10px"
+      },
+      "frosted": {
+        "$type": "dimension",
+        "$value": "12px"
+      },
+      "menu": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "timeline": {
+        "$type": "dimension",
+        "$value": "24px"
+      }
+    },
+    "zIndex": {
+      "nav": {
+        "$type": "number",
+        "$value": 1000
+      },
+      "cursor": {
+        "$type": "number",
+        "$value": 2147483001
+      }
+    }
+  }
+}

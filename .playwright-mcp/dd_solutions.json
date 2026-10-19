@@ -1,0 +1,510 @@
+{
+  "panel": {
+    "box": {
+      "x": 0,
+      "y": 84,
+      "width": 1440,
+      "height": 279.3984375,
+      "top": 84,
+      "right": 1440,
+      "bottom": 363.3984375,
+      "left": 0
+    },
+    "bg": null,
+    "sh": "none",
+    "bf": "none"
+  },
+  "tree": {
+    "t": "div",
+    "c": ".panel",
+    "box": [
+      0,
+      84,
+      1440,
+      279
+    ],
+    "k": [
+      {
+        "t": "div",
+        "c": ".panelInner",
+        "box": [
+          0,
+          84,
+          1440,
+          279
+        ],
+        "pad": "4px 40px 0px",
+        "gap": "3px",
+        "k": [
+          {
+            "t": "div",
+            "c": ".column .useCaseColumn .boxed",
+            "box": [
+              40,
+              88,
+              480,
+              275
+            ],
+            "bg": "#b7a4ff",
+            "rad": "20px",
+            "pad": "8px",
+            "gap": "2px",
+            "k": [
+              {
+                "t": "p",
+                "c": ".columnTitle",
+                "box": [
+                  49,
+                  101,
+                  462,
+                  15
+                ],
+                "text": "By function",
+                "font": "\"Roobert Mono\" 600 11px/15.4px #3f2374 uppercase ls 0.22px",
+                "pad": "0px 0px 0px 8px"
+              },
+              {
+                "t": "div",
+                "c": ".squareRow",
+                "box": [
+                  49,
+                  126,
+                  462,
+                  228
+                ],
+                "gap": "6px",
+                "k": [
+                  {
+                    "t": "a",
+                    "c": ".primarySquare",
+                    "box": [
+                      49,
+                      126,
+                      228,
+                      228
+                    ],
+                    "bg": "#008b53",
+                    "rad": "12px",
+                    "pad": "12px",
+                    "href": "/solutions/it/",
+                    "k": [
+                      {
+                        "t": "svg",
+                        "c": ".squareIcon",
+                        "box": [
+                          62,
+                          249,
+                          64,
+                          92
+                        ],
+                        "svg": "0 0 64 92"
+                      },
+                      {
+                        "t": "span",
+                        "c": ".tileHead",
+                        "box": [
+                          62,
+                          139,
+                          202,
+                          67
+                        ],
+                        "pad": "0px 0px 8px",
+                        "gap": "4px",
+                        "k": [
+                          {
+                            "t": "span",
+                            "c": ".tileLabel",
+                            "box": [
+                              62,
+                              139,
+                              202,
+                              22
+                            ],
+                            "text": "IT",
+                            "font": "Roobert 500 22px/22px #fcf9f5"
+                          },
+                          {
+                            "t": "span",
+                            "c": ".tileDescription",
+                            "box": [
+                              62,
+                              169,
+                              202,
+                              30
+                            ],
+                            "text": "Strengthen IT as the foundation for business-wide execution.",
+                            "font": "Roobert 500 13px/14.95px #fcf9f5"
+                          }
+                        ]
+                      },
+                      {
+                        "t": "span",
+                        "c": ".tileArrow",
+                        "box": [
+                          251,
+                          321,
+                          13,
+                          21
+                        ],
+                        "text": "→",
+                        "font": "Roobert 500 18px/20.7px #fcf9f5"
+                      }
+                    ]
+                  },
+                  {
+                    "t": "a",
+                    "c": ".primarySquare",
+                    "box": [
+                      283,
+                      126,
+                      228,
+                      228
+                    ],
+                    "bg": "#7a56e0",
+                    "rad": "12px",
+                    "pad": "12px",
+                    "href": "/solutions/security/",
+                    "k": [
+                      {
+                        "t": "svg",
+                        "c": ".squareIcon .squareIconHelmet",
+                        "box": [
+                          292,
+                          265,
+                          86,
+                          76
+                        ],
+                        "svg": "0 0 86 76"
+                      },
+                      {
+                        "t": "span",
+                        "c": ".tileHead",
+                        "box": [
+                          296,
+                          139,
+                          202,
+                          67
+                        ],
+                        "pad": "0px 0px 8px",
+                        "gap": "4px",
+                        "k": [
+                          {
+                            "t": "span",
+                            "c": ".tileLabel",
+                            "box": [
+                              296,
+                              139,
+                              202,
+                              22
+                            ],
+                            "text": "Security",
+                            "font": "Roobert 500 22px/22px #fcf9f5"
+                          },
+                          {
+                            "t": "span",
+                            "c": ".tileDescription",
+                            "box": [
+                              296,
+                              169,
+                              202,
+                              30
+                            ],
+                            "text": "Build, run, and monitor mission-critical cybersecurity workflows.",
+                            "font": "Roobert 500 13px/14.95px #fcf9f5"
+                          }
+                        ]
+                      },
+                      {
+                        "t": "span",
+                        "c": ".tileArrow",
+                        "box": [
+                          485,
+                          321,
+                          13,
+                          21
+                        ],
+                        "text": "→",
+                        "font": "Roobert 500 18px/20.7px #fcf9f5"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "t": "div",
+            "c": ".column .boxed",
+            "box": [
+              523,
+              88,
+              300,
+              217
+            ],
+            "bg": "#ffe1c4",
+            "rad": "20px",
+            "pad": "8px",
+            "gap": "2px",
+            "k": [
+              {
+                "t": "p",
+                "c": ".columnTitle",
+                "box": [
+                  532,
+                  101,
+                  282,
+                  15
+                ],
+                "text": "By industry",
+                "font": "\"Roobert Mono\" 600 11px/15.4px #622c12 uppercase ls 0.22px",
+                "pad": "0px 0px 0px 8px"
+              },
+              {
+                "t": "a",
+                "c": ".leaf",
+                "box": [
+                  532,
+                  126,
+                  282,
+                  50
+                ],
+                "rad": "12px",
+                "pad": "8px",
+                "gap": "8px",
+                "href": "/public-sector/",
+                "k": [
+                  {
+                    "t": "span",
+                    "c": ".leafIcon",
+                    "box": [
+                      540,
+                      134,
+                      34,
+                      34
+                    ],
+                    "bg": "#ffcea6",
+                    "rad": "9px",
+                    "k": [
+                      {
+                        "t": "svg",
+                        "c": "",
+                        "box": [
+                          548,
+                          142,
+                          18,
+                          18
+                        ],
+                        "svg": "0 0 18 18"
+                      }
+                    ]
+                  },
+                  {
+                    "t": "span",
+                    "c": ".leafText",
+                    "box": [
+                      582,
+                      135,
+                      203,
+                      34
+                    ],
+                    "gap": "2px",
+                    "k": [
+                      {
+                        "t": "span",
+                        "c": ".leafLabel",
+                        "box": [
+                          582,
+                          135,
+                          203,
+                          16
+                        ],
+                        "text": "Public sector",
+                        "font": "Roobert 600 14px/16.1px #622c12",
+                        "gap": "6px"
+                      },
+                      {
+                        "t": "span",
+                        "c": ".leafDescription",
+                        "box": [
+                          582,
+                          153,
+                          203,
+                          16
+                        ],
+                        "text": "Modernize your security approach.",
+                        "font": "Roobert 500 13px/15.6px #622c12"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "t": "a",
+                "c": ".leaf",
+                "box": [
+                  532,
+                  178,
+                  282,
+                  65
+                ],
+                "rad": "12px",
+                "pad": "8px",
+                "gap": "8px",
+                "href": "/financial-services/",
+                "k": [
+                  {
+                    "t": "span",
+                    "c": ".leafIcon",
+                    "box": [
+                      540,
+                      194,
+                      34,
+                      34
+                    ],
+                    "bg": "#ffcea6",
+                    "rad": "9px",
+                    "k": [
+                      {
+                        "t": "svg",
+                        "c": "",
+                        "box": [
+                          548,
+                          202,
+                          18,
+                          18
+                        ],
+                        "svg": "0 0 18 18"
+                      }
+                    ]
+                  },
+                  {
+                    "t": "span",
+                    "c": ".leafText",
+                    "box": [
+                      582,
+                      186,
+                      224,
+                      49
+                    ],
+                    "gap": "2px",
+                    "k": [
+                      {
+                        "t": "span",
+                        "c": ".leafLabel",
+                        "box": [
+                          582,
+                          186,
+                          224,
+                          16
+                        ],
+                        "text": "Financial services",
+                        "font": "Roobert 600 14px/16.1px #622c12",
+                        "gap": "6px"
+                      },
+                      {
+                        "t": "span",
+                        "c": ".leafDescription",
+                        "box": [
+                          582,
+                          204,
+                          224,
+                          31
+                        ],
+                        "text": "Streamline compliance and reduce operational risk.",
+                        "font": "Roobert 500 13px/15.6px #622c12"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "t": "a",
+                "c": ".leaf",
+                "box": [
+                  532,
+                  246,
+                  282,
+                  50
+                ],
+                "rad": "12px",
+                "pad": "8px",
+                "gap": "8px",
+                "href": "/mssps/",
+                "k": [
+                  {
+                    "t": "span",
+                    "c": ".leafIcon",
+                    "box": [
+                      540,
+                      254,
+                      34,
+                      34
+                    ],
+                    "bg": "#ffcea6",
+                    "rad": "9px",
+                    "k": [
+                      {
+                        "t": "svg",
+                        "c": "",
+                        "box": [
+                          548,
+                          262,
+                          18,
+                          18
+                        ],
+                        "svg": "0 0 18 18"
+                      }
+                    ]
+                  },
+                  {
+                    "t": "span",
+                    "c": ".leafText",
+                    "box": [
+                      582,
+                      254,
+                      166,
+                      34
+                    ],
+                    "gap": "2px",
+                    "k": [
+                      {
+                        "t": "span",
+                        "c": ".leafLabel",
+                        "box": [
+                          582,
+                          254,
+                          166,
+                          16
+                        ],
+                        "text": "MSSPs",
+                        "font": "Roobert 600 14px/16.1px #622c12",
+                        "gap": "6px"
+                      },
+                      {
+                        "t": "span",
+                        "c": ".leafDescription",
+                        "box": [
+                          582,
+                          272,
+                          166,
+                          16
+                        ],
+                        "text": "Transform MSSP operations.",
+                        "font": "Roobert 500 13px/15.6px #622c12"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "headerBg": "#fcf9f5 a=0.90 (color(srgb 0.988235 0.976471 0.960784 / 0.9))",
+  "headerAttrs": [
+    "id=site-nav",
+    "class=SiteNav26-module-scss-module__OUXeaq__he"
+  ]
+}

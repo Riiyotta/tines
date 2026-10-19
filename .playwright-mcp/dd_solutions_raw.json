@@ -1,0 +1,30 @@
+{
+  "r": {
+    "panel": {
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "bg": null,
+      "sh": "none",
+      "bf": "none"
+    },
+    "tree": null,
+    "headerBg": "#fcf9f5 a=0.90 (color(srgb 0.988235 0.976471 0.960784 / 0.9))",
+    "headerAttrs": [
+      "id=site-nav",
+      "class=SiteNav26-module-scss-module__OUXeaq__he"
+    ]
+  },
+  "vars": {
+    "from": "",
+    "to": "",
+    "sh": "none"
+  }
+}

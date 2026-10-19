@@ -1,0 +1,19 @@
+{
+  "id": "usp-card",
+  "kind": "component",
+  "contractVersion": "1.0.0",
+  "purpose": "Purple frosted card: bold lead + continuation title with an icon well.",
+  "usesPrimitives": [
+    "media-slot"
+  ],
+  "tokens": [
+    "{color.surface.brand}",
+    "{color.border.card-on-brand}",
+    "{radius.usp}",
+    "{fontSize.usp-title}",
+    "{elevation.backdropBlur.frosted}"
+  ],
+  "evidence": [
+    "mv.why.content"
+  ]
+}

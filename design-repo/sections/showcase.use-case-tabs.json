@@ -1,0 +1,124 @@
+{
+  "id": "showcase.use-case-tabs",
+  "kind": "section",
+  "category": "SHOWCASE",
+  "contractVersion": "1.0.0",
+  "purpose": "Let each team see a workflow and frontend built for them.",
+  "implementedBy": "UseCases.jsx",
+  "implementedByNote": "Component in the sibling clone project (src/components); same string as ia.json implementedBy.",
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "kicker": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 4
+      },
+      "headline": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 12
+      },
+      "byline": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 25
+      },
+      "tabs": {
+        "kind": "olist",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 5,
+        "fields": {
+          "teamId": {
+            "kind": "enum",
+            "required": true,
+            "values": [
+              "it",
+              "security",
+              "finance",
+              "people",
+              "operations"
+            ]
+          },
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 2
+          },
+          "shortTitle": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 1
+          },
+          "body": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 14
+          },
+          "icon": {
+            "kind": "media",
+            "required": true,
+            "assetRole": "icon.ui-glyph"
+          }
+        }
+      },
+      "defaultView": {
+        "kind": "enum",
+        "required": true,
+        "values": [
+          "workflow",
+          "frontend"
+        ]
+      },
+      "screenshots": {
+        "kind": "media",
+        "required": true,
+        "assetRole": "product.screenshot"
+      }
+    }
+  },
+  "constraints": {
+    "maxPerPage": 1
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-tab-wipe"
+    ],
+    "allowedTriggers": [
+      "intersection-and-click"
+    ],
+    "reducedMotionFallback": "instant-switch-no-reveal",
+    "fallbackIsConst": true,
+    "notes": "IO reveal 500ms one-shot; panelWipe 1s; frameFloatIn 400ms (+50ms); tab flex-grow 0.3s gaussian hover; toggle clip-path 0.28s. No autoplay."
+  },
+  "responsive": [
+    {
+      "minWidth": 0,
+      "changes": [
+        "5-col compact tab strip with icons",
+        "inactive frame hidden",
+        "body shown as caption"
+      ]
+    },
+    {
+      "minWidth": 640,
+      "changes": [
+        "overlapping flex tabs with hover grow",
+        "two stacked frames"
+      ]
+    }
+  ],
+  "assetRoles": [
+    "icon.ui-glyph",
+    "product.screenshot"
+  ],
+  "evidence": [
+    "mv.usecases.content",
+    "mv.usecases.grow",
+    "mv.usecases.wipe",
+    "mv.motion.usecases-reveal",
+    "mv.css.toggle-pill"
+  ],
+  "evidenceLevel": "measured (single homepage instance)"
+}

@@ -1,0 +1,1455 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "tines-design-repo/pagespec.schema.json",
+  "title": "Tines homepage design-repo PageSpec",
+  "description": "Machine contract for a generated page composition. 'maxWords' is a custom keyword (ignored by Draft-07, enforced by schema/semantic_validate.py). Cross-node rules live in compatibility/graph.json + semantic_validate.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "pageSpecVersion",
+    "template",
+    "route",
+    "theme",
+    "meta",
+    "nodes"
+  ],
+  "properties": {
+    "pageSpecVersion": {
+      "const": "1.0.0"
+    },
+    "template": {
+      "enum": [
+        "template.home"
+      ]
+    },
+    "route": {
+      "enum": [
+        "/"
+      ]
+    },
+    "theme": {
+      "const": "light"
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "description"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 10
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 30
+        }
+      }
+    },
+    "nodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/node"
+      }
+    }
+  },
+  "definitions": {
+    "assetRole": {
+      "enum": [
+        "brand.tines-logo",
+        "customer.logo-trademark",
+        "partner.assistant-icon",
+        "product.demo-frame",
+        "product.screenshot",
+        "illustration.brand-art",
+        "artwork.canvas-standin",
+        "editorial.promo-image",
+        "icon.ui-glyph"
+      ]
+    },
+    "media": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "assetRole"
+      ],
+      "properties": {
+        "assetRole": {
+          "$ref": "#/definitions/assetRole"
+        },
+        "alt": {
+          "type": "string",
+          "maxWords": 12
+        }
+      }
+    },
+    "node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "content",
+        "motion"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "chrome.site-nav",
+            "hero.intro",
+            "proof.logo-marquee",
+            "hero.wordmark-stage",
+            "hero.product-demo",
+            "narrative.monitor-banner",
+            "narrative.solution-panel",
+            "showcase.use-case-tabs",
+            "proof.why-tines",
+            "conversion.start-today-cta",
+            "chrome.site-footer"
+          ]
+        },
+        "content": {
+          "type": "object"
+        },
+        "motion": {
+          "type": "object",
+          "required": [
+            "reducedMotionFallback"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "chrome.site-nav"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "logo",
+                  "items",
+                  "cta"
+                ],
+                "properties": {
+                  "logo": {
+                    "allOf": [
+                      {
+                        "$ref": "#/definitions/media"
+                      },
+                      {
+                        "properties": {
+                          "assetRole": {
+                            "const": "brand.tines-logo"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "items": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 5,
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "label",
+                        "hasDropdown"
+                      ],
+                      "properties": {
+                        "label": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxWords": 2
+                        },
+                        "hasDropdown": {
+                          "type": "boolean"
+                        }
+                      }
+                    }
+                  },
+                  "utilityLinks": {
+                    "type": "array",
+                    "minItems": 0,
+                    "maxItems": 2,
+                    "items": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxWords": 2
+                    }
+                  },
+                  "cta": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "label",
+                      "style",
+                      "intent"
+                    ],
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxWords": 3
+                      },
+                      "style": {
+                        "const": "nav-pill"
+                      },
+                      "intent": {
+                        "enum": [
+                          "book-demo"
+                        ]
+                      }
+                    }
+                  },
+                  "promoCards": {
+                    "type": "array",
+                    "minItems": 0,
+                    "maxItems": 2,
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "title",
+                        "ctaLabel",
+                        "media"
+                      ],
+                      "properties": {
+                        "title": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxWords": 22
+                        },
+                        "ctaLabel": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxWords": 3
+                        },
+                        "media": {
+                          "allOf": [
+                            {
+                              "$ref": "#/definitions/media"
+                            },
+                            {
+                              "properties": {
+                                "assetRole": {
+                                  "const": "editorial.promo-image"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "motion": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "pattern",
+                  "trigger",
+                  "reducedMotionFallback"
+                ],
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "dropdown-snappy-in"
+                    ]
+                  },
+                  "trigger": {
+                    "enum": [
+                      "hover-or-click"
+                    ]
+                  },
+                  "reducedMotionFallback": {
+                    "const": "instant-open"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "hero.intro"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "tag",
+                  "headlineLines",
+                  "byline",
+                  "primaryCta",
+                  "secondaryCta"
+                ],
+                "properties": {
+                  "tag": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "badge",
+                      "label"
+                    ],
+                    "properties": {
+                      "badge": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxWords": 1
+                      },
+                      "label": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxWords": 5
+                      }
+                    }
+                  },
+                  "headlineLines": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 2,
+                    "items": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxWords": 10
+                    }
+                  },
+                  "byline": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 20
+                  },
+                  "primaryCta": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "label",
+                      "style",
+                      "intent"
+                    ],
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxWords": 3
+                      },
+                      "style": {
+                        "const": "filled"
+                      },
+                      "intent": {
+                        "enum": [
+                          "book-demo"
+                        ]
+                      }
+                    }
+                  },
+                  "secondaryCta": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "label",
+                      "style",
+                      "intent"
+                    ],
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxWords": 3
+                      },
+                      "style": {
+                        "const": "frosted"
+                      },
+                      "intent": {
+                        "enum": [
+                          "sign-up"
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "motion": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "pattern",
+                  "trigger",
+                  "reducedMotionFallback"
+                ],
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "static"
+                    ]
+                  },
+                  "trigger": {
+                    "enum": [
+                      "none"
+                    ]
+                  },
+                  "reducedMotionFallback": {
+                    "const": "static"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "proof.logo-marquee"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "logoSource",
+                  "logoCount",
+                  "logoAsset"
+                ],
+                "properties": {
+                  "logoSource": {
+                    "enum": [
+                      "operator-supplied-licensed-logos"
+                    ]
+                  },
+                  "logoCount": {
+                    "type": "integer",
+                    "minimum": 6,
+                    "maximum": 11
+                  },
+                  "logoAsset": {
+                    "allOf": [
+                      {
+                        "$ref": "#/definitions/media"
+                      },
+                      {
+                        "properties": {
+                          "assetRole": {
+                            "const": "customer.logo-trademark"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "motion": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "pattern",
+                  "trigger",
+                  "reducedMotionFallback"
+                ],
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "marquee-drift"
+                    ]
+                  },
+                  "trigger": {
+                    "enum": [
+                      "continuous"
+                    ]
+                  },
+                  "reducedMotionFallback": {
+                    "const": "static-row-drag-only"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "hero.wordmark-stage"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "media",
+                  "alt"
+                ],
+                "properties": {
+                  "media": {
+                    "allOf": [
+                      {
+                        "$ref": "#/definitions/media"
+                      },
+                      {
+                        "properties": {
+                          "assetRole": {
+                            "const": "artwork.canvas-standin"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "alt": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 10
+                  }
+                }
+              },
+              "motion": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "pattern",
+                  "trigger",
+                  "reducedMotionFallback"
+                ],
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "scroll-sink"
+                    ]
+                  },
+                  "trigger": {
+                    "enum": [
+                      "scroll-root"
+                    ]
+                  },
+                  "reducedMotionFallback": {
+                    "const": "static-no-sink"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "hero.product-demo"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "frame",
+                  "chapters",
+                  "showTimeline"
+                ],
+                "properties": {
+                  "frame": {
+                    "allOf": [
+                      {
+                        "$ref": "#/definitions/media"
+                      },
+                      {
+                        "properties": {
+                          "assetRole": {
+                            "const": "product.demo-frame"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "chapters": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 9,
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "title"
+                      ],
+                      "properties": {
+                        "title": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxWords": 4
+                        }
+                      }
+                    }
+                  },
+                  "showTimeline": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "motion": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "pattern",
+                  "trigger",
+                  "reducedMotionFallback"
+                ],
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "appear-plus-timeline"
+                    ]
+                  },
+                  "trigger": {
+                    "enum": [
+                      "on-mount"
+                    ]
+                  },
+                  "reducedMotionFallback": {
+                    "const": "static-frame-timeline-paused"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "narrative.monitor-banner"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kicker",
+                  "headline",
+                  "icon",
+                  "paragraphs",
+                  "background"
+                ],
+                "properties": {
+                  "kicker": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 7
+                  },
+                  "headline": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "lead",
+                      "emphasis"
+                    ],
+                    "properties": {
+                      "lead": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxWords": 6
+                      },
+                      "emphasis": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxWords": 8
+                      }
+                    }
+                  },
+                  "icon": {
+                    "allOf": [
+                      {
+                        "$ref": "#/definitions/media"
+                      },
+                      {
+                        "properties": {
+                          "assetRole": {
+                            "const": "illustration.brand-art"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "paragraphs": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 2,
+                    "items": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxWords": 32
+                    }
+                  },
+                  "background": {
+                    "allOf": [
+                      {
+                        "$ref": "#/definitions/media"
+                      },
+                      {
+                        "properties": {
+                          "assetRole": {
+                            "const": "artwork.canvas-standin"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "motion": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "pattern",
+                  "trigger",
+                  "reducedMotionFallback"
+                ],
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "static-canvas-standin"
+                    ]
+                  },
+                  "trigger": {
+                    "enum": [
+                      "none"
+                    ]
+                  },
+                  "reducedMotionFallback": {
+                    "const": "static"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "narrative.solution-panel"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kicker",
+                  "headlineLines",
+                  "items",
+                  "mascot",
+                  "footerLead",
+                  "footerText",
+                  "cta",
+                  "flowerBed"
+                ],
+                "properties": {
+                  "kicker": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 4
+                  },
+                  "headlineLines": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 3,
+                    "items": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxWords": 4
+                    }
+                  },
+                  "items": {
+                    "type": "array",
+                    "minItems": 2,
+                    "maxItems": 4,
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "title",
+                        "body"
+                      ],
+                      "properties": {
+                        "title": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxWords": 5
+                        },
+                        "body": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxWords": 25
+                        }
+                      }
+                    }
+                  },
+                  "mascot": {
+                    "allOf": [
+                      {
+                        "$ref": "#/definitions/media"
+                      },
+                      {
+                        "properties": {
+                          "assetRole": {
+                            "const": "illustration.brand-art"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "footerLead": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 3
+                  },
+                  "footerText": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 14
+                  },
+                  "cta": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "label",
+                      "style",
+                      "intent"
+                    ],
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxWords": 3
+                      },
+                      "style": {
+                        "const": "filled-white"
+                      },
+                      "intent": {
+                        "enum": [
+                          "explore-product"
+                        ]
+                      }
+                    }
+                  },
+                  "flowerBed": {
+                    "allOf": [
+                      {
+                        "$ref": "#/definitions/media"
+                      },
+                      {
+                        "properties": {
+                          "assetRole": {
+                            "const": "artwork.canvas-standin"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "motion": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "pattern",
+                  "trigger",
+                  "reducedMotionFallback"
+                ],
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "view-parallax-and-gaze"
+                    ]
+                  },
+                  "trigger": {
+                    "enum": [
+                      "view-timeline"
+                    ]
+                  },
+                  "reducedMotionFallback": {
+                    "const": "static-no-parallax-no-gaze"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "showcase.use-case-tabs"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kicker",
+                  "headline",
+                  "byline",
+                  "tabs",
+                  "defaultView",
+                  "screenshots"
+                ],
+                "properties": {
+                  "kicker": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 4
+                  },
+                  "headline": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 12
+                  },
+                  "byline": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 25
+                  },
+                  "tabs": {
+                    "type": "array",
+                    "minItems": 2,
+                    "maxItems": 5,
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "teamId",
+                        "title",
+                        "shortTitle",
+                        "body",
+                        "icon"
+                      ],
+                      "properties": {
+                        "teamId": {
+                          "enum": [
+                            "it",
+                            "security",
+                            "finance",
+                            "people",
+                            "operations"
+                          ]
+                        },
+                        "title": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxWords": 2
+                        },
+                        "shortTitle": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxWords": 1
+                        },
+                        "body": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxWords": 14
+                        },
+                        "icon": {
+                          "allOf": [
+                            {
+                              "$ref": "#/definitions/media"
+                            },
+                            {
+                              "properties": {
+                                "assetRole": {
+                                  "const": "icon.ui-glyph"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "defaultView": {
+                    "enum": [
+                      "workflow",
+                      "frontend"
+                    ]
+                  },
+                  "screenshots": {
+                    "allOf": [
+                      {
+                        "$ref": "#/definitions/media"
+                      },
+                      {
+                        "properties": {
+                          "assetRole": {
+                            "const": "product.screenshot"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "motion": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "pattern",
+                  "trigger",
+                  "reducedMotionFallback"
+                ],
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "reveal-tab-wipe"
+                    ]
+                  },
+                  "trigger": {
+                    "enum": [
+                      "intersection-and-click"
+                    ]
+                  },
+                  "reducedMotionFallback": {
+                    "const": "instant-switch-no-reveal"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "proof.why-tines"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kicker",
+                  "headline",
+                  "byline",
+                  "illustration",
+                  "cards"
+                ],
+                "properties": {
+                  "kicker": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 3
+                  },
+                  "headline": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 6
+                  },
+                  "byline": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 25
+                  },
+                  "illustration": {
+                    "allOf": [
+                      {
+                        "$ref": "#/definitions/media"
+                      },
+                      {
+                        "properties": {
+                          "assetRole": {
+                            "const": "illustration.brand-art"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "cards": {
+                    "type": "array",
+                    "minItems": 2,
+                    "maxItems": 4,
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "lead",
+                        "rest",
+                        "icon"
+                      ],
+                      "properties": {
+                        "lead": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxWords": 8
+                        },
+                        "rest": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxWords": 12
+                        },
+                        "icon": {
+                          "allOf": [
+                            {
+                              "$ref": "#/definitions/media"
+                            },
+                            {
+                              "properties": {
+                                "assetRole": {
+                                  "const": "illustration.brand-art"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "motion": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "pattern",
+                  "trigger",
+                  "reducedMotionFallback"
+                ],
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "constellation-spin-twinkle"
+                    ]
+                  },
+                  "trigger": {
+                    "enum": [
+                      "continuous"
+                    ]
+                  },
+                  "reducedMotionFallback": {
+                    "const": "static-constellation"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "conversion.start-today-cta"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "wordmark",
+                  "wordmarkAlt",
+                  "tagline",
+                  "primaryCta",
+                  "secondaryCta"
+                ],
+                "properties": {
+                  "wordmark": {
+                    "allOf": [
+                      {
+                        "$ref": "#/definitions/media"
+                      },
+                      {
+                        "properties": {
+                          "assetRole": {
+                            "const": "artwork.canvas-standin"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "wordmarkAlt": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 3
+                  },
+                  "tagline": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 16
+                  },
+                  "primaryCta": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "label",
+                      "style",
+                      "intent"
+                    ],
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxWords": 3
+                      },
+                      "style": {
+                        "const": "filled"
+                      },
+                      "intent": {
+                        "enum": [
+                          "sign-up"
+                        ]
+                      }
+                    }
+                  },
+                  "secondaryCta": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "label",
+                      "style",
+                      "intent"
+                    ],
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxWords": 3
+                      },
+                      "style": {
+                        "const": "outlined"
+                      },
+                      "intent": {
+                        "enum": [
+                          "book-demo"
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "motion": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "pattern",
+                  "trigger",
+                  "reducedMotionFallback"
+                ],
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "tri-cursor"
+                    ]
+                  },
+                  "trigger": {
+                    "enum": [
+                      "pointer-mouse"
+                    ]
+                  },
+                  "reducedMotionFallback": {
+                    "const": "cursor-without-spin"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "chrome.site-footer"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "columns",
+                  "askAi",
+                  "logoMark",
+                  "copyright",
+                  "cookieLabel"
+                ],
+                "properties": {
+                  "columns": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 5,
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "title"
+                      ],
+                      "properties": {
+                        "title": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxWords": 3
+                        }
+                      }
+                    }
+                  },
+                  "askAi": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "label",
+                      "assistantCount",
+                      "assistants"
+                    ],
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxWords": 5
+                      },
+                      "assistantCount": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 5
+                      },
+                      "assistants": {
+                        "allOf": [
+                          {
+                            "$ref": "#/definitions/media"
+                          },
+                          {
+                            "properties": {
+                              "assetRole": {
+                                "const": "partner.assistant-icon"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "logoMark": {
+                    "allOf": [
+                      {
+                        "$ref": "#/definitions/media"
+                      },
+                      {
+                        "properties": {
+                          "assetRole": {
+                            "const": "brand.tines-logo"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "copyright": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 2
+                  },
+                  "cookieLabel": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 2
+                  }
+                }
+              },
+              "motion": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "pattern",
+                  "trigger",
+                  "reducedMotionFallback"
+                ],
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "accordion-grid-rows"
+                    ]
+                  },
+                  "trigger": {
+                    "enum": [
+                      "click"
+                    ]
+                  },
+                  "reducedMotionFallback": {
+                    "const": "instant-expand"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

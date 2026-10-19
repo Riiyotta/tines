@@ -1,0 +1,222 @@
+ANIM
+  .column .heroColumn .boxed => SiteNav26-module-scss-module__OUXeaq__snappyIn 0.4s cubic-bezier(0.22, 1, 0.36, 1) 0s 1
+  .column .soloColumn => SiteNav26-module-scss-module__OUXeaq__snappyIn 0.4s cubic-bezier(0.22, 1, 0.36, 1) 0.05s 1
+  .track .animate => HomeLogoMarquee-module-scss-module__Me-4EG__marqueeDrift 41.625s linear 0s infinite
+  .banner .hundredX => ThreeBHero-module-scss-module___xGqFa__hundredXSink auto linear 0s 1
+  .visual => ThreeBProductVisual-module-scss-module__D3PxTa__threeBVisualAppear 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0s 1
+  .breathe => ThreeBMascot-module-scss-module__Gy_XlW__breathe 3.8s ease-in-out 0s infinite
+  .z => ThreeBMascot-module-scss-module__Gy_XlW__floatZ 3s ease-out 0s infinite
+  .z => ThreeBMascot-module-scss-module__Gy_XlW__floatZ 3s ease-out 0.5s infinite
+  .z => ThreeBMascot-module-scss-module__Gy_XlW__floatZ 3s ease-out 1s infinite
+  .eyes => AvatarFace-module-scss-module__yl3Jdq__blink 4s ease-in-out -2.4s infinite
+  .ring => ThreeBMascot-module-scss-module__Gy_XlW__spin 5s linear 0s infinite
+  .eyes => ThreeBMascot-module-scss-module__Gy_XlW__blink 4s ease-in-out 0s infinite
+  .bar .public .appear => TimelineScrubber-module-scss-module__pwj1na__timelineBarFadeIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.2s 1
+  .transport => TimelineScrubber-module-scss-module__pwj1na__timelineBarIntro 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.2s 1
+  .flowerField => HomeSolutionSection-module-scss-module__ezhbVG__solutionBedParallax auto linear 0s 1
+  .ring => ThreeBMascot-module-scss-module__Gy_XlW__spin 7s linear 0s infinite
+  .eyes => ThreeBMascot-module-scss-module__Gy_XlW__blink 4s ease-in-out 0s infinite
+  .tabbed .visible => HomeUseCasesSection-module-scss-module__MNuTJG__useCasesReveal 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0s 1
+  .spinSlow => StargazingConstellation-module-scss-module__nf8GKa__constellationSpin 75s linear 0s infinite
+  .spin => StargazingConstellation-module-scss-module__nf8GKa__constellationSpin 60s linear 0s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 3.1s ease-in-out 0s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 2.6s ease-in-out 1.4s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 3.6s ease-in-out 0.7s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 2.9s ease-in-out 2.1s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 3.3s ease-in-out 0.3s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 2.4s ease-in-out 1.8s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 3s ease-in-out 2.6s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 2.7s ease-in-out 0.9s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 2.5s ease-in-out 2.3s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 3.2s ease-in-out 0.5s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 2.8s ease-in-out 1.6s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 3.5s ease-in-out 3s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 2.6s ease-in-out 0.2s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 3.1s ease-in-out 1.1s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 2.9s ease-in-out 2.4s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 3.3s ease-in-out 0.6s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 2.5s ease-in-out 1.9s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 3s ease-in-out 2.8s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 2.7s ease-in-out 0.4s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 3.4s ease-in-out 1.5s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 2.6s ease-in-out 2.2s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 3.2s ease-in-out 0.8s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 2.9s ease-in-out 1.7s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 3.3s ease-in-out 2.5s infinite
+  .star => StargazingConstellation-module-scss-module__nf8GKa__twinkle 2.8s ease-in-out 1.3s infinite
+  .spinner => InteractiveCursor-module-scss-module__ny5SWG__interactiveCursorSpin 6s linear 0s infinite
+  .spinner => InteractiveCursor-module-scss-module__ny5SWG__interactiveCursorSpin 6s linear 0s infinite
+MEDIA ['(min-width: 640px)', '(max-width: 919px)', '(min-width: 512px)', '(prefers-color-scheme: dark)', '(min-width: 1024px)', '(min-resolution: 2x)', '(prefers-color-scheme: light)', '(min-width: 1280px)', '(min-width: 1440px)', '(min-width: 920px)', '(min-width: 1366px)', '(min-width: 512px) and (max-width: 919px)', '(min-width: 768px)', '(min-width: 1194px)', '(hover: hover)', '(max-width: 639px)', '(max-width: 767px)', '(max-width: 511px)', '(prefers-reduced-motion: reduce)', '(max-width: 1439px)', '(max-width: 420px)', '(max-width: 919px) and (max-width: 639px)', '(max-width: 1023px)', '(prefers-reduced-motion: no-preference)', '(prefers-reduced-motion: no-preference) and (max-width: 919px)', '(min-width: 920px) and (max-width: 1023px)', '(hover: none)', '(min-width: 640px) and (max-width: 919px)', '(scripting: none)', '(min-width: 1024px) and (hover: hover)', '(prefers-color-scheme: dark) and (hover: hover)', '(max-width: 1023px) and (hover: hover)', '(max-width: 1023px) and (prefers-color-scheme: dark)', '(min-width: 640px) and (max-width: 1023px)', '(min-width: 768px) and (max-width: 1023px)', '(min-width: 768px) and (prefers-color-scheme: dark)', '(min-width: 640px) and (max-width: 1279px)', '(max-width: 919px) and (min-width: 640px)', '(min-width: 920px) and (max-width: 1279px)', '(min-width: 640px) and (max-width: 767px)', '(max-width: 1279px)', 'print']
+TRANS 78
+  ..galleryNavButton {transition:0.1s}
+  ..buttonText {transition:opacity 0.1s}
+  ..buttonInner {transition:filter 0.1s, background-color 0.1s}
+  ..cursor {transition:opacity 0.12s;will-change:transform}
+  ..spinner {animation:6s linear 0s infinite normal none running InteractiveCursor-module-scss-module__ny5SWG__interactiveCursorSpin}
+  @(prefers-reduced-motion: reduce) ..spinner {animation:auto ease 0s 1 normal none running none}
+  ..triangle {transition:transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)}
+  @(prefers-reduced-motion: no-preference) ..heroQuote {}
+  @(prefers-reduced-motion: no-preference) ..wordmarkLayer ..hundredX {}
+  @(prefers-reduced-motion: no-preference) and (max-width: 919px) ..wordmarkLayer ..hundredX, ..heroQuote {animation:auto ease 0s 1 normal none running none}
+  ..drone {animation:ThreeBPincerDrone-module-scss-module__eCbvcG__droneDrift var(--floatSeconds) linear var(--floatDelay) infinite}
+  ..strip {animation:ThreeBPincerDrone-module-scss-module__eCbvcG__droneFlap var(--flapSeconds) steps(var(--frameCount)) infinite}
+  @(prefers-reduced-motion: reduce) ..drone, ..strip {animation:auto ease 0s 1 normal none running none}
+  @(prefers-reduced-motion: no-preference) ..bed {will-change:transform}
+  ..clearButton {transition:opacity 0.15s}
+  ..caseStudyButtonWrap .Button::before {transition:background-color 0.2s}
+  ..bar..public {transition:transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);transform:translateY(-100%)}
+  ..bar..public..appear {animation:0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.2s 1 normal both running TimelineScrubber-module-scss-module__pwj1na__timelineBarFadeIn}
+  ..bar..public..appear ..transport {animation:0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.2s 1 normal both running TimelineScrubber-module-scss-module__pwj1na__timelineBarIntro}
+  ..bar..public ..transport {transition:border-radius 0.25s}
+  ..caption {transition:opacity 0.15s}
+  ..segment {transition:background 0.12s;transform:translateY(-50%)}
+  ..knobDot {transition:transform 0.12s}
+  @(prefers-reduced-motion: reduce) ..bar..public, ..bar..public ..transport {transition:none}
+  @(prefers-reduced-motion: reduce) ..bar..public..appear, ..bar..public..appear ..transport {animation:auto ease 0s 1 normal none running none}
+  @(prefers-reduced-motion: no-preference) ..ring {animation:ThreeBMascot-module-scss-module__Gy_XlW__spin var(--mascotRingSpin,5s) linear infinite}
+  [data-3b-frozen] ..ring {animation:auto ease 0s 1 normal none running none}
+  ..face {transition:transform 0.3s ease-out;will-change:transform}
+  :is([data-3b-frozen] ..face, [data-3b-deterministic] ..face) {transition:none}
+  @(prefers-reduced-motion: no-preference) ..eyes {animation:4s ease-in-out 0s infinite normal none running ThreeBMascot-module-scss-module__Gy_XlW__blink}
+  [data-3b-frozen] ..eyes {animation:auto ease 0s 1 normal none running none}
+  @(prefers-reduced-motion: no-preference) ..breathe {animation:3.8s ease-in-out 0s infinite normal none running ThreeBMascot-module-scss-module__Gy_XlW__breathe}
+  @(prefers-reduced-motion: no-preference) ..z {animation:3s ease-out 0s infinite normal none running ThreeBMascot-module-scss-module__Gy_XlW__floatZ}
+  ..visual {animation:0.6s cubic-bezier(0.22, 1, 0.36, 1) 0s 1 normal both running ThreeBProductVisual-module-scss-module__D3PxTa__threeBVisualAppear}
+  ..radarDial {animation:4s linear 0s infinite normal none running ThreeBProductVisual-module-scss-module__D3PxTa__radarSweep}
+  ..visual[data-3b-deterministic] {animation:auto ease 0s 1 normal none running none}
+  ..visual[data-3b-deterministic] ..monitorCurve, ..visual[data-3b-deterministic] ..statusSegment {transition:none}
+  ..monitorCurve {transition:opacity 0.15s}
+  ..statusSegment {transition:transform 0.12s, filter 0.12s}
+  @(prefers-reduced-motion: reduce) ..visual, ..radarDial {animation:auto ease 0s 1 normal none running none}
+  @(prefers-reduced-motion: reduce) ..monitorCurve, ..statusSegment {transition:none}
+  ..card {transition:opacity 0.45s}
+  ..flow {animation:0.7s linear 0s infinite normal none running ThreeBAccessMapThumb-module-scss-module__JJeMGW__accessMapFlow}
+  @(prefers-reduced-motion: reduce) ..card {transition:none}
+  @(prefers-reduced-motion: reduce) ..flow {animation:auto ease 0s 1 normal none running none}
+  ..edge {animation:3s linear 0s infinite normal none paused ThreeBUpdateMailEdge-module-scss-module__moL1hq__mailEdgeSlide}
+  @(prefers-reduced-motion: reduce) ..edge {animation:auto ease 0s 1 normal none running none}
+  ..node {transition:opacity 0.45s}
+  ..flow {animation:0.7s linear 0s infinite normal none running ThreeBDependencyGraph-module-scss-module__wQDmYW__depGraphFlow}
+  @(prefers-reduced-motion: reduce) ..node {transition:none}
+  @(prefers-reduced-motion: reduce) ..flow {animation:auto ease 0s 1 normal none running none}
+  ..backdrop {transition:opacity 0.2s}
+  ..blur {transition:opacity 0.2s}
+  ..header[data-color-theme] {transition:color 0.4s}
+  @(prefers-reduced-motion: reduce) ..header[data-color-theme] {transition:none}
+  ..logoMenu {animation:0.4s cubic-bezier(0.22, 1, 0.36, 1) 0s 1 normal both running SiteNav26-module-scss-module__OUXeaq__snappyIn}
+  ..panelInner > * {animation:0.4s cubic-bezier(0.22, 1, 0.36, 1) 0s 1 normal both running SiteNav26-module-scss-module__OUXeaq__snappyIn}
+  ..searchBox {animation:0.4s cubic-bezier(0.22, 1, 0.36, 1) 0s 1 normal both running SiteNav26-module-scss-module__OUXeaq__snappyIn}
+  ..mobileMenu {animation:0.35s cubic-bezier(0.22, 1, 0.36, 1) 0s 1 normal both running SiteNav26-module-scss-module__OUXeaq__snappyDown}
+  ..mobileChevron {transition:transform 0.2s;transform:rotate(45deg)}
+  ..mobileAccordionContent {transition:grid-template-rows 0.25s}
+  ..chevron {transition:transform 0.15s}
+  @(max-width: 767px) ..sectionContent {transition:grid-template-rows 0.2s}
+  ..closeButton {transition:background 0.15s}
+  ..closeButton {transition:opacity 0.15s, background 0.15s}
+  @(prefers-reduced-motion: no-preference) ..flowerField {will-change:transform}
+  ..visible {animation:0.5s cubic-bezier(0.22, 1, 0.36, 1) 0s 1 normal both running HomeUseCasesSection-module-scss-module__MNuTJG__useCasesReveal}
+  @(prefers-reduced-motion: reduce) ..visible {animation:auto ease 0s 1 normal none running none}
+  ..tab {transition:background-color 0.18s, color 0.18s, transform 0.18s}
+  @(min-width: 640px) ..tab {transition:flex-grow 0.3s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.18s, color 0.18s}
+  ..wipeLayer {animation:1s cubic-bezier(0.22, 1, 0.36, 1) 0s 1 normal both running HomeUseCasesSection-module-scss-module__MNuTJG__panelWipe}
+  ..togglePill {transition:clip-path 0.28s cubic-bezier(0.22, 1, 0.36, 1)}
+  @(prefers-reduced-motion: reduce) ..togglePill {transition:none}
+  ..stageIn ..frame {animation:0.4s cubic-bezier(0.22, 1, 0.36, 1) 50ms 1 normal both running HomeUseCasesSection-module-scss-module__MNuTJG__frameFloatIn}
+  @(prefers-reduced-motion: reduce) ..stageIn ..frame {animation:auto ease 0s 1 normal none running none}
+  ..frame {transition:transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.25s}
+  ..animate {animation:HomeLogoMarquee-module-scss-module__Me-4EG__marqueeDrift var(--marqueeDuration,30s) linear infinite}
+  @(prefers-reduced-motion: reduce) ..animate {animation:auto ease 0s 1 normal none running none}
+HOVERS 92
+  ..galleryNavButton:hover {border-color: var(--acc40);}
+  ..galleryNavButton:hover::before {opacity: 0.5;}
+  ..galleryNavButton..active {border-color: var(--acc40); box-shadow: 0 0 3px var(--acc40);}
+  ..buttonInner..filled:hover {filter: brightness(1.1);}
+  ..buttonInner..transparent:hover {background-color: var(--unfilledHoverBg);}
+  ..buttonInner..filledWhite:hover {background-color: color-mix(in srgb, var(--lightest) 90%, transparent);}
+  ..buttonInner..frosted:hover {background-color: var(--unfilledHoverBg);}
+  ..buttonInner..outlined:hover {background-color: var(--unfilledHoverBg);}
+  ..buttonInner:active {filter: brightness(0.9);}
+  ..region {user-select: none;}
+  ..hideNativeCursor, ..hideNativeCursor * {cursor: none !important;}
+  ..cursor {z-index: 2147483001; pointer-events: none; opacity: 0; will-change: transform; --interactiveCursorStroke: var(--pageForegroundColor,currentColor); --interactiveCursorFill: var(--pageBg,transparent); --interactiveCursorShadow: color-mix(in srgb, var(--darkest) 45%, transparent); transition: opacity 0}
+  ..visible {opacity: 1;}
+  html[data-cursor-veiled] ..cursor {opacity: 0;}
+  :is(html[data-cursor-veiled] ..hideNativeCursor, html[data-cursor-veiled] ..hideNativeCursor *) {cursor: auto !important;}
+  ..shadow {z-index: -1; --interactiveCursorFill: var(--interactiveCursorShadow); position: absolute; inset: 0px;}
+  ..shadow path {stroke: none;}
+  ..spinner {transform-origin: 19px 20px; width: 38px; height: 40px; animation: 6s linear 0s infinite normal none running InteractiveCursor-module-scss-module__ny5SWG__interactiveCursorSpin; position: relative;}
+  @(prefers-reduced-motion: reduce) ..spinner {animation: auto ease 0s 1 normal none running none;}
+  ..triangle {transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); display: block; position: absolute; inset: 0px;}
+  ..pressed ..top {transform: translateY(5px);}
+  ..pressed ..bottomLeft {transform: translate(4.33px, -2.5px);}
+  ..pressed ..bottomRight {transform: translate(-4.33px, -2.5px);}
+  ..iconButton:hover {color: var(--acc40);}
+  [data-resolved-scheme="dark"] ..iconButton:hover {color: var(--acc25);}
+  @(prefers-color-scheme: dark) [data-color-scheme="auto"]:not([data-resolved-scheme]) ..iconButton:hover {color: var(--acc25);}
+  [data-page-theme-mode="dark"] ..iconButton:hover {color: var(--acc25);}
+  ..deleteButton:hover {opacity: 1; background-color: color-mix(in srgb, currentcolor 10%, transparent 90%);}
+  ..closeButton:hover {opacity: 1;}
+  @(hover: hover) ..loadMoreButton:hover {background-color: color-mix(in srgb, currentcolor 12%, transparent 88%);}
+  ..teaserButton:hover ..teaserPill {background-color: var(--c-purple95);}
+  ..teaserButton:hover ..teaserPill {background-color: color-mix(in srgb, var(--c-purple90) 75%, transparent);}
+  ..closeButton:hover {background-color: color-mix(in srgb, var(--acc50) 30%, transparent);}
+  ..clearButton:hover {opacity: 0.8;}
+  ..caseStudyButtonWrap .Button:hover::before {background-color: var(--quoteButtonBackdropHover,transparent);}
+  ..bar..public ..play:hover {background: var(--barPlayHover);}
+  ..bar..public ..range:focus, ..bar..public ..range:focus-visible {outline: none;}
+  ..play:hover {background: var(--acc40);}
+  ..tick:hover {background: var(--acc30);}
+  ..range:focus-visible ~ ..knob ..knobDot {box-shadow: 0 0 0 .4rem var(--barFocusRing);}
+  ..reactive {cursor: pointer;}
+  [data-paper-card]:hover ..edge {--mailPurple: var(--acc40); animation-play-state: running;}
+  ..pillButton:hover {background-color: var(--areaNavPillBgHover,var(--c-purple10));}
+  :is([data-resolved-scheme="dark"] ..pillButton:hover, [data-page-theme-mode="dark"] ..pillButton:hover) {background-color: var(--areaNavPillBgHover,var(--c-purple80));}
+  @(max-width: 1023px) ..pillButton:hover {background-color: rgba(0, 0, 0, 0);}
+  @(max-width: 1023px) [data-resolved-scheme="dark"] ..pillButton:hover {background-color: rgba(0, 0, 0, 0);}
+  @(max-width: 1023px) [data-page-theme-mode="dark"] ..pillButton:hover {background-color: rgba(0, 0, 0, 0);}
+  ..iconButton:hover {background-color: color-mix(in srgb, currentcolor 10%, transparent 90%);}
+  @(min-width: 1024px) and (hover: hover) html[data-nav-on-dark="true"]:not([data-scrolled="true"]) ..header:not(..headerSolid) ..ctaFilled:hover {background-color: var(--acc15); color: var(--acc80);}
+  @(hover: hover) ..logoMenuItem:hover {background-color: color-mix(in srgb, currentcolor 10%, transparent 90%);}
+  @(hover: hover) ..navItem:hover {background-color: color-mix(in srgb, currentcolor 10%, transparent 90%);}
+  @(hover: hover) ..cta:hover {background-color: color-mix(in srgb, currentcolor 10%, transparent 90%);}
+  @(hover: hover) ..ctaFilled:hover {background-color: var(--acc60); color: var(--lightest);}
+  @(hover: hover) [data-resolved-scheme="dark"] ..ctaFilled:hover {background-color: var(--acc15); color: var(--acc80);}
+  @(prefers-color-scheme: dark) and (hover: hover) [data-color-scheme="auto"]:not([data-resolved-scheme]) ..ctaFilled:hover {background-color: var(--acc15); color: var(--acc80);}
+  @(hover: hover) [data-page-theme-mode="dark"] ..ctaFilled:hover {background-color: var(--acc15); color: var(--acc80);}
+  @(hover: hover) [data-page-theme="matrix"] ..ctaFilled:hover {background-color: var(--c-green35); color: var(--c-green90);}
+  @(max-width: 1023px) and (hover: hover) ..ctaFilled:hover {color: inherit; background-color: rgba(0, 0, 0, 0);}
+  @(hover: hover) ..column ..leaf:hover {background-color: var(--boxHover,var(--boxBg));}
+  @(hover: hover) ..column ..leaf:hover ..leafIcon {background-color: var(--leafIconBgHover,var(--c-purple15));}
+  @(hover: hover) ..primarySquare:hover, ..secondaryWide:hover {background-color: var(--tileHover); --iconFill: var(--tileHover);}
+  @(hover: hover) ..compactLink:hover {color: var(--pageAccent);}
+  @(hover: hover) ..blogCard:hover {border-color: color-mix(in srgb, currentcolor 40%, transparent 60%);}
+  @(hover: hover) ..leafDisabled:hover {background-color: rgba(0, 0, 0, 0);}
+  @(hover: hover) ..mobilePill:hover {background-color: var(--c-purple15);}
+  @(hover: hover) ..mobilePill:hover {background-color: color-mix(in srgb, currentcolor 16%, transparent 84%);}
+  @(hover: hover) ..mobileAuthLink:hover {background-color: var(--c-purple15);}
+  @(hover: hover) ..mobileAuthLink:hover {background-color: color-mix(in srgb, currentcolor 16%, transparent 84%);}
+  @(hover: hover) ..groupTitleLink:hover {color: var(--pageAccent);}
+  @(hover: hover) ..leaf:hover {color: var(--pageAccent);}
+  @(hover: hover) ..leafDisabled:hover {opacity: 0.4;}
+  @(hover: hover) ..askAiLink:hover {color: var(--pageAccent);}
+  @(hover: hover) ..cookieSettings:hover {color: var(--pageAccent);}
+  ..copyButton:hover {background-color: var(--c-pink40);}
+  ..copyButton:active {background-color: var(--c-pink60);}
+  [data-resolved-scheme="dark"] ..closeButton:hover {background: var(--acc80);}
+  @(prefers-color-scheme: dark) [data-color-scheme="auto"]:not([data-resolved-scheme]) ..closeButton:hover {background: var(--acc80);}
+  [data-page-theme-mode="dark"] ..closeButton:hover {background: var(--acc80);}
+  ..closeButton:hover {background: var(--acc20);}
+  ..closeButton:focus-visible {outline: 2px solid var(--acc60); outline-offset: 2px;}
+  ..copyButton:hover {filter: brightness(1.1);}
+  ..copyButton:active {filter: brightness(0.9);}
+  ..closeButton:hover {opacity: 1; background: rgba(255, 255, 255, 0.1);}
+  ..tab:focus-visible {outline-offset: 2px; outline: solid 2px;}
+  ..tab[aria-selected="true"] {color: var(--pageBg);}
+  ..toggle:focus-visible {outline-offset: 2px; outline: solid 2px;}
+  ..stageIn ..frameActive {animation-delay: 0s;}
+  ..frame:focus-visible {outline-offset: 3px; outline: solid 2px;}
+  @(max-width: 639px) ..frame:not(..frameActive) {display: none;}
+  @(min-width: 640px) ..frameActive {z-index: 2;}
+  @(min-width: 640px) ..frame:not(..frameActive) {--restOpacity: .5; opacity: 0.5; transform: scale(0.97);}
+  ..marquee:active {cursor: grabbing;}
+KF ['StoryEmbed-module-scss-module__6SyA_G__spin', 'GrainScanlines-module-scss-module__qRlmHG__grainShimmer', 'GrainScanlines-module-scss-module__qRlmHG__scanlineRoll', 'InteractiveCursor-module-scss-module__ny5SWG__interactiveCursorSpin', 'LoadingIndicator-module-scss-module__vGmDba__loadingIndicatorWrapperEnter', 'LoadingIndicator-module-scss-module__vGmDba__loadingIndicatorSpin', 'LoadingIndicator-module-scss-module__vGmDba__loadingIndicatorRingStretch', 'AreaNav-module-scss-module__oPsmja__areaNavPremeasureReveal', 'AreaNav-module-scss-module__oPsmja__areaDropdownIn', 'WorkbenchPhishingSampleUseCaseSection-module-scss-module__LDIjjG__handBounce', 'ThreeBHero-module-scss-module___xGqFa__heroQuoteSink', 'ThreeBHero-module-scss-module___xGqFa__hundredXSink', 'GlobalSearch-module-scss-module__MeOgXa__snappyIn', 'ThreeBPincerDrone-module-scss-module__eCbvcG__droneFlap', 'ThreeBPincerDrone-module-scss-module__eCbvcG__droneDrift', 'ThreeBHeroFlowerFields-module-scss-module__BeK4XW__heroBedDrift', 'GridCanvas-module-scss-module__JUGC5G__lineEnter', 'VideoPlayer-module-scss-module__3GThRa__labelRise', 'VideoPlayer-module-scss-module__3GThRa__labelDotBreathe', 'VideoPlayer-module-scss-module__3GThRa__veilDip', 'VideoPlayer-module-scss-module__3GThRa__veilLift', 'VideoPlayer-module-scss-module__3GThRa__teaserPlayBlink', 'TimelineScrubber-module-scss-module__pwj1na__timelineBarIntro', 'TimelineScrubber-module-scss-module__pwj1na__timelineBarFadeIn', 'AvatarFace-module-scss-module__yl3Jdq__blink', 'ThreeBMascot-module-scss-module__Gy_XlW__spin', 'ThreeBMascot-module-scss-module__Gy_XlW__blink', 'ThreeBMascot-module-scss-module__Gy_XlW__breathe', 'ThreeBMascot-module-scss-module__Gy_XlW__floatZ', 'ThreeBProductVisual-module-scss-module__D3PxTa__threeBVisualAppear', 'ThreeBProductVisual-module-scss-module__D3PxTa__radarSweep', 'RollingNumber-module-scss-module__GPXwCW__rollUp', 'ThreeBAccessMapThumb-module-scss-module__JJeMGW__accessMapFlow', 'ThreeBUpdateMailEdge-module-scss-module__moL1hq__mailEdgeSlide', 'ThreeBDependencyGraph-module-scss-module__wQDmYW__depGraphFlow', 'FlowerBanner-module-scss-module__KBU2MG__bannerIn', 'SiteNav26-module-scss-module__OUXeaq__snappyIn', 'SiteNav26-module-scss-module__OUXeaq__snappyDown', 'WildcodeGameSection-module-scss-module__BP1IXa__keyPulse', 'LoadingIndicator-module-scss-module__8OelUa__loadingIndicatorWrapperEnter', 'LoadingIndicator-module-scss-module__8OelUa__loadingIndicatorSpin', 'LoadingIndicator-module-scss-module__8OelUa__loadingIndicatorRingStretch', 'ProductRequestModal-module-scss-module__A9SzlW__fadeIn', 'HomeSolutionSection-module-scss-module__ezhbVG__solutionBedParallax', 'HomeUseCasesSection-module-scss-module__MNuTJG__useCasesReveal', 'HomeUseCasesSection-module-scss-module__MNuTJG__panelWipe', 'HomeUseCasesSection-module-scss-module__MNuTJG__frameFloatIn', 'StargazingConstellation-module-scss-module__nf8GKa__constellationSpin', 'StargazingConstellation-module-scss-module__nf8GKa__twinkle', 'HomeLogoMarquee-module-scss-module__Me-4EG__marqueeDrift', 'launcherEnter']

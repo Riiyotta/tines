@@ -1,0 +1,22 @@
+{
+  "id": "text-link",
+  "kind": "primitive",
+  "contractVersion": "1.0.0",
+  "purpose": "Inline / leaf text link with optional external mark.",
+  "props": {
+    "external": "boolean (adds the up-right arrow mark)",
+    "weight": [
+      500,
+      700
+    ]
+  },
+  "tokens": [
+    "{fontSize.footer-link}",
+    "{color.text.primary}",
+    "{color.text.hover-accent}"
+  ],
+  "accessibility": "External links open in new tab with rel=noopener noreferrer.",
+  "evidence": [
+    "mv.footer.content"
+  ]
+}

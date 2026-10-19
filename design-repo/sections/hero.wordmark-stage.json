@@ -1,0 +1,67 @@
+{
+  "id": "hero.wordmark-stage",
+  "kind": "section",
+  "category": "HERO",
+  "contractVersion": "1.0.0",
+  "purpose": "Giant decorative '100x' wordmark that sets the brand tone between copy and product demo.",
+  "implementedBy": "Hero.jsx",
+  "implementedByNote": "Component in the sibling clone project (src/components); same string as ia.json implementedBy.",
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "media": {
+        "kind": "media",
+        "required": true,
+        "assetRole": "artwork.canvas-standin"
+      },
+      "alt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 10
+      }
+    }
+  },
+  "constraints": {
+    "maxPerPage": 1,
+    "mustFollow": "hero.intro"
+  },
+  "motion": {
+    "allowedPatterns": [
+      "scroll-sink"
+    ],
+    "allowedTriggers": [
+      "scroll-root"
+    ],
+    "reducedMotionFallback": "static-no-sink",
+    "fallbackIsConst": true,
+    "notes": "scroll(root) 0->80vh, translateY 0->45px, only >=920px."
+  },
+  "responsive": [
+    {
+      "minWidth": 0,
+      "changes": [
+        "full-width wordmark, no sink"
+      ]
+    },
+    {
+      "minWidth": 920,
+      "changes": [
+        "scroll sink enabled"
+      ]
+    },
+    {
+      "minWidth": 1024,
+      "changes": [
+        "fold capped to viewport height"
+      ]
+    }
+  ],
+  "assetRoles": [
+    "artwork.canvas-standin"
+  ],
+  "evidence": [
+    "mv.hero.wordmark",
+    "mv.motion.hundredx"
+  ],
+  "evidenceLevel": "measured (single homepage instance)"
+}

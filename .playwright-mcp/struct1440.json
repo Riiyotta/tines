@@ -1,0 +1,1292 @@
+{
+  "docH": 7452,
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "bodyFont": "Roobert, -apple-system, \"system-ui\", Arial, Roboto, Ubuntu, \"Helvetica Neue\", sans-serif",
+  "header": {
+    "tag": "header",
+    "cls": "SiteNav26-module-scss-module__OUXeaq__header",
+    "id": "site-nav",
+    "box": [
+      0,
+      48,
+      1440,
+      68
+    ],
+    "disp": "block",
+    "pos": "sticky",
+    "kids": [
+      {
+        "tag": "div",
+        "cls": "SiteNav26-module-scss-module__OUXeaq__blur",
+        "box": [
+          0,
+          48,
+          1440,
+          68
+        ],
+        "bg": "color(srgb 0.988235 0.976471 0.960784 / 0.7)",
+        "disp": "block",
+        "pos": "absolute",
+        "kids": []
+      },
+      {
+        "tag": "div",
+        "cls": "SiteNav26-module-scss-module__OUXeaq__backdrop",
+        "box": [
+          22,
+          54,
+          1396,
+          62
+        ],
+        "bg": "color(srgb 0.988235 0.976471 0.960784 / 0.9)",
+        "disp": "block",
+        "pos": "absolute",
+        "maxw": "1476px",
+        "rad": "990px",
+        "kids": []
+      },
+      {
+        "tag": "div",
+        "cls": "SiteNav26-module-scss-module__OUXeaq__bar",
+        "box": [
+          0,
+          48,
+          1440,
+          68
+        ],
+        "pad": "18px 40px 12px",
+        "disp": "flex",
+        "pos": "relative",
+        "gap": "20px",
+        "maxw": "1520px",
+        "kids": [
+          {
+            "tag": "div",
+            "cls": "SiteNav26-module-scss-module__OUXeaq__left",
+            "box": [
+              40,
+              69,
+              541,
+              32
+            ],
+            "disp": "flex",
+            "gap": "14px",
+            "kids": [
+              {
+                "tag": "div",
+                "cls": "SiteNav26-module-scss-module__OUXeaq__logoWrap",
+                "box": [
+                  40,
+                  71,
+                  91,
+                  28
+                ],
+                "disp": "block",
+                "pos": "relative",
+                "kids": []
+              },
+              {
+                "tag": "nav",
+                "cls": "SiteNav26-module-scss-module__OUXeaq__navList",
+                "box": [
+                  145,
+                  69,
+                  436,
+                  32
+                ],
+                "disp": "flex",
+                "kids": []
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "cls": "SiteNav26-module-scss-module__OUXeaq__right",
+            "box": [
+              1070,
+              66,
+              330,
+              38
+            ],
+            "mar": "0px 0px 0px 468.82px",
+            "disp": "flex",
+            "kids": [
+              {
+                "tag": "a",
+                "cls": "SiteNav26-module-scss-module__OUXeaq__cta",
+                "box": [
+                  1070,
+                  69,
+                  67,
+                  32
+                ],
+                "pad": "8px 14px",
+                "disp": "flex",
+                "rad": "50px",
+                "kids": []
+              },
+              {
+                "tag": "a",
+                "cls": "SiteNav26-module-scss-module__OUXeaq__cta",
+                "box": [
+                  1136,
+                  69,
+                  76,
+                  32
+                ],
+                "pad": "8px 14px",
+                "disp": "flex",
+                "rad": "50px",
+                "kids": []
+              },
+              {
+                "tag": "a",
+                "cls": "SiteNav26-module-scss-module__OUXeaq__cta SiteNav26-module-scss-module__OUXeaq__ctaFilled",
+                "box": [
+                  1224,
+                  68,
+                  130,
+                  35
+                ],
+                "bg": "color(display-p3 0.3082 0.192 0.5906)",
+                "pad": "10px 20px",
+                "mar": "0px 0px 0px 12px",
+                "disp": "flex",
+                "rad": "990px",
+                "kids": []
+              },
+              {
+                "tag": "div",
+                "cls": "SiteNav26-module-scss-module__OUXeaq__searchSlot",
+                "box": [
+                  1354,
+                  66,
+                  46,
+                  38
+                ],
+                "disp": "flex",
+                "kids": []
+              },
+              {
+                "tag": "button",
+                "cls": "SiteNav26-module-scss-module__OUXeaq__hamburger",
+                "box": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "mar": "0px 0px 0px 4px",
+                "disp": "none",
+                "kids": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "cls": "SiteNav26-module-scss-module__OUXeaq__panel",
+        "box": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "disp": "none",
+        "pos": "absolute",
+        "kids": [
+          {
+            "tag": "div",
+            "cls": "SiteNav26-module-scss-module__OUXeaq__panelInner",
+            "box": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "pad": "4px 40px 0px",
+            "mar": "0px auto",
+            "disp": "flex",
+            "gap": "3px",
+            "maxw": "1520px",
+            "kids": [
+              {
+                "tag": "div",
+                "cls": "SiteNav26-module-scss-module__OUXeaq__column SiteNav26-module-scss-module__OUXeaq__heroColumn SiteNa",
+                "box": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "bg": "color(display-p3 0.4583 0.3429 0.848)",
+                "pad": "8px",
+                "disp": "flex",
+                "gap": "2px",
+                "rad": "20px",
+                "kids": []
+              },
+              {
+                "tag": "div",
+                "cls": "SiteNav26-module-scss-module__OUXeaq__column SiteNav26-module-scss-module__OUXeaq__soloColumn",
+                "box": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "disp": "flex",
+                "gap": "2px",
+                "rad": "20px",
+                "kids": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "cls": "SiteNav26-module-scss-module__OUXeaq__panel",
+        "box": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "disp": "none",
+        "pos": "absolute",
+        "kids": []
+      },
+      {
+        "tag": "div",
+        "cls": "SiteNav26-module-scss-module__OUXeaq__panel",
+        "box": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "disp": "none",
+        "pos": "absolute",
+        "kids": []
+      }
+    ]
+  },
+  "mainKids": [
+    {
+      "tag": "script",
+      "cls": "",
+      "box": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "disp": "none",
+      "kids": []
+    },
+    {
+      "tag": "style",
+      "cls": "",
+      "box": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "disp": "none",
+      "kids": []
+    },
+    {
+      "tag": "div",
+      "cls": "HomeContent-module-scss-module__FyCfzG__content",
+      "box": [
+        0,
+        116,
+        1440,
+        6474
+      ],
+      "disp": "block",
+      "pos": "relative",
+      "kids": [
+        {
+          "tag": "section",
+          "cls": "ThreeBHero-module-scss-module___xGqFa__hero HomeContent-module-scss-module__FyCfzG__hero",
+          "box": [
+            0,
+            116,
+            1440,
+            1472
+          ],
+          "pad": "16.5px 0px 0px",
+          "disp": "block",
+          "pos": "relative",
+          "maxw": "1520px",
+          "kids": [
+            {
+              "tag": "div",
+              "cls": "ThreeBHero-module-scss-module___xGqFa__foldRegion",
+              "box": [
+                0,
+                133,
+                1440,
+                816
+              ],
+              "disp": "flex",
+              "pos": "relative",
+              "kids": [
+                {
+                  "tag": "div",
+                  "cls": "ThreeBHero-module-scss-module___xGqFa__heroTop",
+                  "box": [
+                    0,
+                    133,
+                    1440,
+                    299
+                  ],
+                  "pad": "0px 40px",
+                  "disp": "block",
+                  "pos": "relative",
+                  "kids": [
+                    {
+                      "tag": "div",
+                      "cls": "ThreeBHero-module-scss-module___xGqFa__heroCopy",
+                      "box": [
+                        40,
+                        133,
+                        1360,
+                        299
+                      ],
+                      "disp": "flex",
+                      "pos": "relative",
+                      "kids": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "ThreeBHero-module-scss-module___xGqFa__aboveWordmark",
+                  "box": [
+                    0,
+                    471,
+                    1440,
+                    37
+                  ],
+                  "pad": "0px 40px",
+                  "mar": "40px 0px 8px",
+                  "disp": "block",
+                  "pos": "relative",
+                  "kids": [
+                    {
+                      "tag": "div",
+                      "cls": "HomeLogoMarquee-module-scss-module__Me-4EG__marquee HomeLogoMarquee-module-scss-module__Me-4EG__smal",
+                      "box": [
+                        21,
+                        471,
+                        1398,
+                        37
+                      ],
+                      "pad": "4px 0px",
+                      "mar": "0px -20px",
+                      "disp": "block",
+                      "kids": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "ThreeBHero-module-scss-module___xGqFa__stage",
+                  "box": [
+                    0,
+                    516,
+                    1440,
+                    432
+                  ],
+                  "disp": "flex",
+                  "pos": "relative",
+                  "kids": [
+                    {
+                      "tag": "div",
+                      "cls": "ThreeBHero-module-scss-module___xGqFa__wordmarkLayer",
+                      "box": [
+                        0,
+                        516,
+                        1440,
+                        432
+                      ],
+                      "disp": "flex",
+                      "pos": "relative",
+                      "kids": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "cls": "ThreeBHero-module-scss-module___xGqFa__visualWell",
+              "box": [
+                0,
+                908,
+                1440,
+                680
+              ],
+              "pad": "0px 40px",
+              "mar": "-40px 0px 0px",
+              "disp": "block",
+              "pos": "relative",
+              "kids": [
+                {
+                  "tag": "div",
+                  "cls": "ThreeBProductVisual-module-scss-module__D3PxTa__root ThreeBProductVisual-module-scss-module__D3PxTa_",
+                  "box": [
+                    40,
+                    908,
+                    1360,
+                    680
+                  ],
+                  "disp": "block",
+                  "pos": "relative",
+                  "kids": [
+                    {
+                      "tag": "div",
+                      "cls": "ThreeBProductVisual-module-scss-module__D3PxTa__dockSentinel",
+                      "box": [
+                        40,
+                        908,
+                        1,
+                        1
+                      ],
+                      "disp": "block",
+                      "pos": "absolute",
+                      "kids": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "ThreeBProductVisual-module-scss-module__D3PxTa__frame",
+                      "box": [
+                        40,
+                        908,
+                        1360,
+                        680
+                      ],
+                      "disp": "block",
+                      "pos": "relative",
+                      "kids": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "TimelineScrubber-module-scss-module__pwj1na__bar TimelineScrubber-module-scss-module__pwj1na__public",
+                      "box": [
+                        72,
+                        864,
+                        1296,
+                        44
+                      ],
+                      "disp": "flex",
+                      "pos": "absolute",
+                      "gap": "4px",
+                      "kids": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "cls": "HomeMonitorBanner-module-scss-module__z_Gt1G__banner",
+          "box": [
+            0,
+            1684,
+            1440,
+            1016
+          ],
+          "mar": "96px 0px",
+          "disp": "block",
+          "pos": "relative",
+          "maxw": "1520px",
+          "kids": [
+            {
+              "tag": "div",
+              "cls": "HomeMonitorBanner-module-scss-module__z_Gt1G__gardenSlot",
+              "box": [
+                0,
+                1684,
+                1440,
+                0
+              ],
+              "disp": "block",
+              "kids": [
+                {
+                  "tag": "div",
+                  "cls": "HomeMonitorBanner-module-scss-module__z_Gt1G__gardenCore",
+                  "box": [
+                    0,
+                    1684,
+                    1440,
+                    0
+                  ],
+                  "disp": "block",
+                  "kids": [
+                    {
+                      "tag": "canvas",
+                      "cls": "HomeMonitorBanner-module-scss-module__z_Gt1G__canvas",
+                      "box": [
+                        0,
+                        1684,
+                        1440,
+                        1524
+                      ],
+                      "disp": "block",
+                      "pos": "absolute",
+                      "kids": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "cls": "HomeMonitorBanner-module-scss-module__z_Gt1G__overlay",
+              "box": [
+                0,
+                1684,
+                1440,
+                1016
+              ],
+              "pad": "96px 156px",
+              "disp": "flex",
+              "pos": "relative",
+              "kids": [
+                {
+                  "tag": "p",
+                  "cls": "HomeSectionKicker-module-scss-module___9BFaa__kicker HomeAiTangleBanner-module-scss-module__GXmcOq__",
+                  "box": [
+                    500,
+                    1780,
+                    440,
+                    13
+                  ],
+                  "mar": "0px 0px 62.4px",
+                  "disp": "block",
+                  "kids": []
+                },
+                {
+                  "tag": "h2",
+                  "cls": "HomeAiTangleBanner-module-scss-module__GXmcOq__bannerHeading",
+                  "box": [
+                    512,
+                    1855,
+                    416,
+                    286
+                  ],
+                  "disp": "block",
+                  "maxw": "416px",
+                  "kids": [
+                    {
+                      "tag": "span",
+                      "cls": "",
+                      "box": [
+                        512,
+                        1855,
+                        416,
+                        114
+                      ],
+                      "disp": "block",
+                      "kids": []
+                    },
+                    {
+                      "tag": "strong",
+                      "cls": "",
+                      "box": [
+                        512,
+                        1970,
+                        416,
+                        172
+                      ],
+                      "disp": "block",
+                      "kids": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "HomeAiTangleBanner-module-scss-module__GXmcOq__bannerIcon",
+                  "box": [
+                    500,
+                    2193,
+                    440,
+                    114
+                  ],
+                  "mar": "52px 0px 36px",
+                  "disp": "flex",
+                  "kids": [
+                    {
+                      "tag": "img",
+                      "cls": "",
+                      "box": [
+                        663,
+                        2193,
+                        114,
+                        114
+                      ],
+                      "disp": "block",
+                      "maxw": "114px",
+                      "kids": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "HomeAiTangleBanner-module-scss-module__GXmcOq__bannerCopy",
+                  "box": [
+                    500,
+                    2343,
+                    440,
+                    260
+                  ],
+                  "disp": "flex",
+                  "gap": "14px",
+                  "kids": [
+                    {
+                      "tag": "p",
+                      "cls": "",
+                      "box": [
+                        500,
+                        2343,
+                        440,
+                        123
+                      ],
+                      "disp": "block",
+                      "kids": []
+                    },
+                    {
+                      "tag": "p",
+                      "cls": "",
+                      "box": [
+                        500,
+                        2481,
+                        440,
+                        123
+                      ],
+                      "disp": "block",
+                      "kids": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "cls": "HomeContentSections-module-scss-module__rDUf9W__sections",
+          "box": [
+            0,
+            2796,
+            1440,
+            3795
+          ],
+          "disp": "block",
+          "kids": [
+            {
+              "tag": "section",
+              "cls": "HomeSolutionSection-module-scss-module__ezhbVG__section HomeSolutionSection-module-scss-module__ezhb",
+              "box": [
+                0,
+                2796,
+                1440,
+                819
+              ],
+              "pad": "0px 40px",
+              "disp": "block",
+              "pos": "relative",
+              "maxw": "1520px",
+              "kids": [
+                {
+                  "tag": "div",
+                  "cls": "HomeSolutionSection-module-scss-module__ezhbVG__panel",
+                  "box": [
+                    40,
+                    2796,
+                    1360,
+                    819
+                  ],
+                  "bg": "color(display-p3 0.4203 0.3017 0.7863)",
+                  "pad": "55px",
+                  "disp": "grid",
+                  "pos": "relative",
+                  "gap": "40px 139.333px",
+                  "gtc": "555.336px 555.336px",
+                  "rad": "48px",
+                  "kids": [
+                    {
+                      "tag": "div",
+                      "cls": "HomeSolutionSection-module-scss-module__ezhbVG__flowerFieldTop",
+                      "box": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "mar": "-104px auto 30px",
+                      "disp": "none",
+                      "pos": "relative",
+                      "maxw": "500px",
+                      "kids": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "HomeSolutionSection-module-scss-module__ezhbVG__intro",
+                      "box": [
+                        95,
+                        2851,
+                        555,
+                        221
+                      ],
+                      "disp": "block",
+                      "pos": "relative",
+                      "kids": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "HomeSolutionSection-module-scss-module__ezhbVG__flowerField",
+                      "box": [
+                        0,
+                        3449,
+                        920,
+                        308
+                      ],
+                      "mar": "0px 425px -95px -95px",
+                      "disp": "block",
+                      "pos": "relative",
+                      "kids": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "HomeSolutionSection-module-scss-module__ezhbVG__content",
+                      "box": [
+                        790,
+                        2851,
+                        555,
+                        709
+                      ],
+                      "disp": "flex",
+                      "pos": "relative",
+                      "gap": "64px",
+                      "kids": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "section",
+              "cls": "HomeUseCasesSection-module-scss-module__MNuTJG__section HomeUseCasesSection-module-scss-module__MNuT",
+              "box": [
+                0,
+                3771,
+                1440,
+                1233
+              ],
+              "pad": "0px 40px",
+              "mar": "156px 0px 0px",
+              "disp": "block",
+              "maxw": "1520px",
+              "kids": [
+                {
+                  "tag": "div",
+                  "cls": "HomeUseCasesSection-module-scss-module__MNuTJG__intro",
+                  "box": [
+                    40,
+                    3771,
+                    832,
+                    239
+                  ],
+                  "mar": "0px 0px 55px",
+                  "disp": "block",
+                  "maxw": "832px",
+                  "kids": [
+                    {
+                      "tag": "p",
+                      "cls": "HomeSectionKicker-module-scss-module___9BFaa__kicker HomeUseCasesSection-module-scss-module__MNuTJG_",
+                      "box": [
+                        40,
+                        3771,
+                        832,
+                        13
+                      ],
+                      "mar": "0px 0px 24px",
+                      "disp": "block",
+                      "kids": []
+                    },
+                    {
+                      "tag": "h2",
+                      "cls": "HomeSectionHeading-module-scss-module__X1Vk8q__heading HomeUseCasesSection-module-scss-module__MNuTJ",
+                      "box": [
+                        40,
+                        3808,
+                        832,
+                        118
+                      ],
+                      "disp": "block",
+                      "maxw": "1232px",
+                      "kids": []
+                    },
+                    {
+                      "tag": "p",
+                      "cls": "HomeSectionByline-module-scss-module__oCD9Gq__byline HomeUseCasesSection-module-scss-module__MNuTJG_",
+                      "box": [
+                        40,
+                        3949,
+                        768,
+                        60
+                      ],
+                      "mar": "24px 0px 0px",
+                      "disp": "block",
+                      "maxw": "768px",
+                      "kids": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "HomeUseCasesSection-module-scss-module__MNuTJG__tabbed",
+                  "box": [
+                    40,
+                    4064,
+                    1360,
+                    939
+                  ],
+                  "disp": "block",
+                  "kids": [
+                    {
+                      "tag": "div",
+                      "cls": "HomeUseCasesSection-module-scss-module__MNuTJG__tabs",
+                      "box": [
+                        40,
+                        4064,
+                        1360,
+                        172
+                      ],
+                      "disp": "flex",
+                      "gap": "0px",
+                      "gtc": "repeat(5, minmax(0px, 1fr))",
+                      "kids": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "HomeUseCasesSection-module-scss-module__MNuTJG__panel",
+                      "id": "use-case-panel-it",
+                      "box": [
+                        40,
+                        4236,
+                        1360,
+                        768
+                      ],
+                      "disp": "block",
+                      "pos": "relative",
+                      "rad": "0px 0px 48px 48px",
+                      "kids": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "HomeUseCasesSection-module-scss-module__MNuTJG__preload",
+                      "box": [
+                        40,
+                        5004,
+                        0,
+                        0
+                      ],
+                      "disp": "block",
+                      "pos": "absolute",
+                      "kids": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "section",
+              "cls": "HomeUSPSection-module-scss-module__s6dvrq__section HomeUSPSection-module-scss-module__s6dvrq__light",
+              "box": [
+                0,
+                5160,
+                1440,
+                756
+              ],
+              "pad": "0px 40px",
+              "mar": "156px 0px 0px",
+              "disp": "block",
+              "maxw": "1520px",
+              "kids": [
+                {
+                  "tag": "div",
+                  "cls": "HomeUSPSection-module-scss-module__s6dvrq__intro",
+                  "box": [
+                    40,
+                    5160,
+                    1360,
+                    272
+                  ],
+                  "mar": "0px 0px 55px",
+                  "disp": "grid",
+                  "gap": "40px 55px",
+                  "gtc": "652.5px 652.5px",
+                  "kids": [
+                    {
+                      "tag": "div",
+                      "cls": "HomeUSPSection-module-scss-module__s6dvrq__introCopy",
+                      "box": [
+                        40,
+                        5162,
+                        653,
+                        269
+                      ],
+                      "disp": "flex",
+                      "gap": "24px",
+                      "kids": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "HomeUSPSection-module-scss-module__s6dvrq__illustration",
+                      "box": [
+                        1100,
+                        5160,
+                        300,
+                        272
+                      ],
+                      "disp": "block",
+                      "pos": "relative",
+                      "maxw": "100%",
+                      "kids": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "HomeUSPSection-module-scss-module__s6dvrq__grid",
+                  "box": [
+                    40,
+                    5487,
+                    1360,
+                    429
+                  ],
+                  "disp": "grid",
+                  "gap": "24px",
+                  "gtc": "322px 322px 322px 322px",
+                  "kids": [
+                    {
+                      "tag": "figure",
+                      "cls": "HomeUSPSection-module-scss-module__s6dvrq__card",
+                      "box": [
+                        40,
+                        5487,
+                        322,
+                        429
+                      ],
+                      "bg": "color(display-p3 0.4203 0.3017 0.7863)",
+                      "pad": "24px",
+                      "disp": "flex",
+                      "gap": "40px",
+                      "rad": "14px",
+                      "kids": []
+                    },
+                    {
+                      "tag": "figure",
+                      "cls": "HomeUSPSection-module-scss-module__s6dvrq__card",
+                      "box": [
+                        386,
+                        5487,
+                        322,
+                        429
+                      ],
+                      "bg": "color(display-p3 0.4203 0.3017 0.7863)",
+                      "pad": "24px",
+                      "disp": "flex",
+                      "gap": "40px",
+                      "rad": "14px",
+                      "kids": []
+                    },
+                    {
+                      "tag": "figure",
+                      "cls": "HomeUSPSection-module-scss-module__s6dvrq__card",
+                      "box": [
+                        732,
+                        5487,
+                        322,
+                        429
+                      ],
+                      "bg": "color(display-p3 0.4203 0.3017 0.7863)",
+                      "pad": "24px",
+                      "disp": "flex",
+                      "gap": "40px",
+                      "rad": "14px",
+                      "kids": []
+                    },
+                    {
+                      "tag": "figure",
+                      "cls": "HomeUSPSection-module-scss-module__s6dvrq__card",
+                      "box": [
+                        1078,
+                        5487,
+                        322,
+                        429
+                      ],
+                      "bg": "color(display-p3 0.4203 0.3017 0.7863)",
+                      "pad": "24px",
+                      "disp": "flex",
+                      "gap": "40px",
+                      "rad": "14px",
+                      "kids": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "section",
+              "cls": "WildCodeCTASection-module-scss-module__eN7prW__section",
+              "box": [
+                0,
+                6072,
+                1440,
+                518
+              ],
+              "pad": "30px 40px 96px",
+              "mar": "156px 0px 0px",
+              "disp": "flex",
+              "pos": "relative",
+              "maxw": "1520px",
+              "kids": [
+                {
+                  "tag": "div",
+                  "cls": "InteractiveCursor-module-scss-module__ny5SWG__region WildCodeCTASection-module-scss-module__eN7prW__",
+                  "box": [
+                    40,
+                    6056,
+                    1360,
+                    299
+                  ],
+                  "mar": "-46.2344px 0px 0px",
+                  "disp": "block",
+                  "pos": "relative",
+                  "kids": [
+                    {
+                      "tag": "div",
+                      "cls": "WildCodeField-module-scss-module__N5x1Gq__wordmark",
+                      "box": [
+                        40,
+                        6056,
+                        1360,
+                        299
+                      ],
+                      "disp": "block",
+                      "pos": "relative",
+                      "kids": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "cls": "WildCodeCTASection-module-scss-module__eN7prW__text",
+                  "box": [
+                    456,
+                    6355,
+                    528,
+                    140
+                  ],
+                  "disp": "flex",
+                  "pos": "relative",
+                  "gap": "32px",
+                  "kids": [
+                    {
+                      "tag": "p",
+                      "cls": "WildCodeCTASection-module-scss-module__eN7prW__tagline",
+                      "box": [
+                        456,
+                        6355,
+                        528,
+                        60
+                      ],
+                      "mar": "0px 0px 12px",
+                      "disp": "block",
+                      "maxw": "528px",
+                      "kids": []
+                    },
+                    {
+                      "tag": "div",
+                      "cls": "CtaButtons-module-scss-module__okO8Ua__actions",
+                      "box": [
+                        576,
+                        6459,
+                        288,
+                        36
+                      ],
+                      "disp": "grid",
+                      "gap": "8px",
+                      "gtc": "140px 140px",
+                      "kids": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "tag": "footer",
+    "cls": "SiteFooter26-module-scss-module__LzK7FG__footer",
+    "id": "site-footer",
+    "box": [
+      0,
+      6590,
+      1440,
+      862
+    ],
+    "disp": "block",
+    "pos": "relative",
+    "kids": [
+      {
+        "tag": "div",
+        "cls": "SiteFooter26-module-scss-module__LzK7FG__sections",
+        "box": [
+          0,
+          6590,
+          1440,
+          762
+        ],
+        "pad": "50px 40px 30px",
+        "disp": "flex",
+        "gap": "32px 40px",
+        "maxw": "1520px",
+        "kids": [
+          {
+            "tag": "div",
+            "cls": "SiteFooter26-module-scss-module__LzK7FG__section",
+            "box": [
+              40,
+              6640,
+              168,
+              682
+            ],
+            "disp": "flex",
+            "kids": []
+          },
+          {
+            "tag": "div",
+            "cls": "SiteFooter26-module-scss-module__LzK7FG__section",
+            "box": [
+              372,
+              6640,
+              190,
+              675
+            ],
+            "disp": "flex",
+            "kids": []
+          },
+          {
+            "tag": "div",
+            "cls": "SiteFooter26-module-scss-module__LzK7FG__section",
+            "box": [
+              727,
+              6640,
+              108,
+              519
+            ],
+            "disp": "flex",
+            "kids": []
+          },
+          {
+            "tag": "div",
+            "cls": "SiteFooter26-module-scss-module__LzK7FG__stackedColumn",
+            "box": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "disp": "contents",
+            "kids": []
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "cls": "SiteFooter26-module-scss-module__LzK7FG__bottomBar",
+        "box": [
+          0,
+          7352,
+          1440,
+          100
+        ],
+        "pad": "20px 40px 40px",
+        "disp": "grid",
+        "gap": "16px",
+        "gtc": "501.648px 324.703px 501.648px",
+        "maxw": "1520px",
+        "kids": [
+          {
+            "tag": "div",
+            "cls": "SiteFooter26-module-scss-module__LzK7FG__askAi",
+            "box": [
+              558,
+              7372,
+              325,
+              40
+            ],
+            "bg": "color(srgb 0.441758 0.295458 0.814856 / 0.05)",
+            "pad": "4px 4px 4px 16px",
+            "disp": "flex",
+            "gap": "8px",
+            "rad": "999px",
+            "kids": []
+          },
+          {
+            "tag": "span",
+            "cls": "SiteFooter26-module-scss-module__LzK7FG__copyright",
+            "box": [
+              40,
+              7384,
+              502,
+              16
+            ],
+            "disp": "block",
+            "kids": []
+          },
+          {
+            "tag": "a",
+            "cls": "SiteFooter26-module-scss-module__LzK7FG__bottomLogo",
+            "box": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "disp": "none",
+            "kids": []
+          },
+          {
+            "tag": "button",
+            "cls": "SiteFooter26-module-scss-module__LzK7FG__cookieSettings",
+            "box": [
+              1301,
+              7380,
+              99,
+              23
+            ],
+            "pad": "3.5px 0px",
+            "disp": "block",
+            "kids": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,905 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Tines" [ref=e8]:
+            - img "Tines" [ref=e9]
+        - navigation "Primary" [ref=e16]:
+          - button "Product" [ref=e17] [cursor=pointer]
+          - button "Solutions" [ref=e19] [cursor=pointer]
+          - link "Customers" [ref=e21] [cursor=pointer]:
+            - /url: /customers/
+          - button "Discover" [ref=e22] [cursor=pointer]
+          - link "Pricing" [ref=e24] [cursor=pointer]:
+            - /url: /pricing/
+      - generic [ref=e25]:
+        - link "Log in" [ref=e26] [cursor=pointer]:
+          - /url: https://login.tines.com
+        - link "Sign up" [ref=e27] [cursor=pointer]:
+          - /url: https://login.tines.com/saml_idp/signup
+        - link "Book a demo" [ref=e28] [cursor=pointer]:
+          - /url: /book-a-demo/
+        - button "Open search" [ref=e29] [cursor=pointer]
+  - main [ref=e33]:
+    - generic [ref=e34]:
+      - generic [ref=e36]:
+        - link "New Introducing Tines 3B" [ref=e37] [cursor=pointer]:
+          - /url: /blog/introducing-tines-3b/
+          - generic [ref=e38]: New
+          - generic [ref=e39]: Introducing Tines 3B
+        - heading "You told everyone to use AI. Now give them a secure place to do it." [level=1] [ref=e43]:
+          - generic [ref=e44]: You told everyone to use AI.
+          - generic [ref=e45]: Now give them a secure place to do it.
+        - paragraph [ref=e46]: Tines lets every team build. IT and Security maintain complete visibility, governance, and control.
+        - generic [ref=e47]:
+          - link "Book a demo" [ref=e48] [cursor=pointer]:
+            - /url: /book-a-demo/
+          - link "Sign up free" [ref=e49] [cursor=pointer]:
+            - /url: https://login.tines.com/saml_idp/signup
+      - generic [ref=e52]:
+        - img "Coinbase" [ref=e54]
+        - img "Databricks" [ref=e57]
+        - img "Reddit" [ref=e61]
+        - img "Snowflake" [ref=e69]
+        - img "Dropbox" [ref=e83]
+        - img "Pinterest" [ref=e87]
+        - img "MongoDB" [ref=e90]
+        - img "Sophos" [ref=e93]
+        - img "Canva" [ref=e101]
+        - img "McKesson" [ref=e104]
+      - generic [ref=e160]:
+        - img "100× — simpler, faster, easier to adopt"
+      - generic [ref=e162]:
+        - generic [ref=e164]:
+          - button "Pause" [ref=e166] [cursor=pointer]
+          - generic [ref=e171]:
+            - generic [aria-hidden]: Monitoring
+          - generic [ref=e183]: 0:01 / 1:31
+        - img [aria-hidden] [ref=e186]:
+          - generic [ref=e190]:
+            - img [ref=e192]:
+              - generic [ref=e193]: IT Team OS
+              - generic [ref=e195]: "# IT"
+              - generic [ref=e200]: /
+              - generic [ref=e204]:
+                - generic [ref=e209]: z
+                - generic [ref=e210]: z
+                - generic [ref=e211]: z
+              - generic [ref=e213]: E
+            - img [ref=e218]:
+              - generic [ref=e221]: v12
+              - generic [ref=e222]: pushed live today, 2:14 PM
+              - img [ref=e229]:
+                - generic [ref=e231]:
+                  - generic [ref=e232]:
+                    - generic [ref=e233]: All
+                    - generic [ref=e234]: four
+                    - generic [ref=e235]: assistants
+                    - generic [ref=e236]: (Planning,
+                    - generic [ref=e237]: Insights,
+                    - generic [ref=e238]: Project
+                    - generic [ref=e239]: coach,
+                    - generic [ref=e240]: Projects
+                  - generic [ref=e241]:
+                    - generic [ref=e242]: insights)
+                    - generic [ref=e243]: now
+                    - generic [ref=e244]: share
+                    - generic [ref=e245]: a
+                    - generic [ref=e247]: ChatPanel
+                    - generic [ref=e248]: with
+                    - generic [ref=e249]: a
+                    - generic [ref=e250]: header
+                    - generic [ref=e251]: carrying
+                    - generic [ref=e252]: New
+                  - generic [ref=e253]:
+                    - generic [ref=e254]: chat
+                    - generic [ref=e255]: and
+                    - generic [ref=e256]: Past
+                    - generic [ref=e257]: chats
+                    - generic [ref=e258]: ":"
+                  - generic [ref=e259]:
+                    - generic [ref=e260]: New
+                    - generic [ref=e261]: chat
+                    - generic [ref=e262]: archives
+                    - generic [ref=e263]: the
+                    - generic [ref=e264]: current
+                    - generic [ref=e265]: conversation
+                    - generic [ref=e266]: server-side
+                    - generic [ref=e267]: and
+                  - generic [ref=e268]:
+                    - generic [ref=e269]: drops
+                    - generic [ref=e270]: the
+                    - generic [ref=e271]: panel
+                    - generic [ref=e272]: back
+                    - generic [ref=e273]: to
+                    - generic [ref=e274]: its
+                    - generic [ref=e275]: intro
+                    - generic [ref=e276]: +
+                    - generic [ref=e277]: clickable
+                    - generic [ref=e278]: suggestions.
+                  - generic [ref=e279]:
+                    - generic [ref=e280]: Auto-offer
+                    - generic [ref=e281]: "on"
+                    - generic [ref=e282]: "return:"
+                    - generic [ref=e283]: the
+                    - generic [ref=e284]: panel
+                    - generic [ref=e285]: reloads
+                    - generic [ref=e286]: whenever
+                    - generic [ref=e287]: you
+                    - generic [ref=e288]: navigate
+                  - generic [ref=e289]:
+                    - generic [ref=e290]: back
+                    - generic [ref=e291]: to
+                    - generic [ref=e292]: a
+                    - generic [ref=e293]: tab
+                    - generic [ref=e294]: —
+                    - generic [ref=e295]: if
+                    - generic [ref=e296]: the
+                    - generic [ref=e297]: last
+                    - generic [ref=e298]: session
+                    - generic [ref=e299]: looks
+                    - generic [ref=e300]: finished
+                    - generic [ref=e301]: it
+                    - generic [ref=e302]: shows
+                    - generic [ref=e303]: a
+                    - generic [ref=e304]: “You
+                  - generic [ref=e305]:
+                    - generic [ref=e306]: wrapped
+                    - generic [ref=e307]: up
+                    - generic [ref=e308]: your
+                    - generic [ref=e309]: last
+                    - generic [ref=e310]: session
+                    - generic [ref=e311]: —
+                    - generic [ref=e312]: start
+                    - generic [ref=e313]: a
+                    - generic [ref=e314]: new
+                    - generic [ref=e315]: chat
+                    - generic [ref=e316]: /
+                    - generic [ref=e317]: keep
+                    - generic [ref=e318]: going”
+                  - generic [ref=e319]:
+                    - generic [ref=e320]: banner;
+                    - generic [ref=e321]: mid-approval
+                    - generic [ref=e322]: or
+                    - generic [ref=e323]: barely-started
+                    - generic [ref=e324]: sessions
+                    - generic [ref=e325]: resume
+                    - generic [ref=e326]: silently.
+                  - generic [ref=e327]:
+                    - generic [ref=e328]: Past
+                    - generic [ref=e329]: chats
+                    - generic [ref=e330]: opens
+                    - generic [ref=e331]: a
+                    - generic [ref=e332]: read-only,
+                    - generic [ref=e333]: browsable
+                    - generic [ref=e334]: list
+                    - generic [ref=e335]: of
+                    - generic [ref=e336]: archived
+                  - generic [ref=e337]:
+                    - generic [ref=e338]: conversations
+                    - generic [ref=e339]: (title,
+                    - generic [ref=e340]: date,
+                    - generic [ref=e341]: message
+                    - generic [ref=e342]: count),
+                    - generic [ref=e343]: so
+                    - generic [ref=e344]: history
+                    - generic [ref=e345]: is
+                    - generic [ref=e346]: always
+                  - generic [ref=e347]: findable.
+                  - generic [ref=e349]:
+                    - generic [ref=e350]: Server
+                    - generic [ref=e351]: (
+                    - generic [ref=e353]: API
+                    - generic [ref=e354]: Chat
+                    - generic [ref=e355]: "):"
+                    - generic [ref=e356]: added
+                    - generic [ref=e358]: POST
+                    - generic [ref=e359]: (action:'reset')
+                  - generic [ref=e360]:
+                    - generic [ref=e361]: (archives
+                    - generic [ref=e362]: then
+                    - generic [ref=e363]: clears
+                    - generic [ref=e364]: the
+                    - generic [ref=e365]: live
+                    - generic [ref=e366]: thread)
+                    - generic [ref=e367]: and
+                    - generic [ref=e369]: GET
+                    - generic [ref=e370]: "?archived=1"
+                  - generic [ref=e371]:
+                    - generic [ref=e372]: (returns
+                    - generic [ref=e373]: the
+                    - generic [ref=e374]: archive),
+                    - generic [ref=e375]: keyed
+                    - generic [ref=e376]: per-user
+                    - generic [ref=e377]: like
+                    - generic [ref=e378]: the
+                    - generic [ref=e379]: live
+                    - generic [ref=e380]: threads.
+                  - generic [ref=e381]:
+                    - generic [ref=e382]: Verified
+                    - generic [ref=e383]: end-to-end
+                    - generic [ref=e384]: via
+                    - generic [ref=e386]: runStep
+                    - generic [ref=e387]: .
+                    - generic [ref=e388]: The
+                    - generic [ref=e389]: Dashboard
+                    - generic [ref=e390]: bundle
+                  - generic [ref=e391]:
+                    - generic [ref=e392]: rebuilt
+                    - generic [ref=e393]: and
+                    - generic [ref=e394]: rendered
+                    - generic [ref=e395]: cleanly;
+                    - generic [ref=e396]: the
+                    - generic [ref=e397]: README
+                    - generic [ref=e398]: now
+                    - generic [ref=e399]: documents
+                    - generic [ref=e400]: the
+                  - generic [ref=e401]:
+                    - generic [ref=e402]: archive/reset
+                    - generic [ref=e403]: behavior.
+                  - generic [ref=e406]: "Saved: \"Add chat history clearing\""
+                  - generic [ref=e411]: 4 tools used
+                  - generic [ref=e412]:
+                    - generic [ref=e413]: Changed
+                    - generic [ref=e414]: the
+                    - generic [ref=e415]: top-bar
+                    - generic [ref=e416]: title
+                    - generic [ref=e417]: to
+                    - generic [ref=e418]: IT
+                    - generic [ref=e419]: Team
+                    - generic [ref=e420]: OS
+                    - generic [ref=e421]: and
+                    - generic [ref=e422]: re-rendered
+                    - generic [ref=e423]: the
+                  - generic [ref=e424]:
+                    - generic [ref=e425]: Dashboard.
+                    - generic [ref=e426]: Note
+                    - generic [ref=e427]: there’s
+                    - generic [ref=e428]: also
+                    - generic [ref=e429]: a
+                    - generic [ref=e430]: line
+                    - generic [ref=e431]: in
+                    - generic [ref=e432]: the
+                    - generic [ref=e433]: Today
+                    - generic [ref=e434]: tab
+                    - generic [ref=e435]: footer
+                    - generic [ref=e436]: that
+                  - generic [ref=e437]:
+                    - generic [ref=e438]: reads
+                    - generic [ref=e439]: “Personal
+                    - generic [ref=e440]: OS
+                    - generic [ref=e441]: ·
+                    - generic [ref=e442]: drag
+                    - generic [ref=e443]: the
+                    - generic [ref=e444]: grip
+                    - generic [ref=e445]: to
+                    - generic [ref=e446]: move…”
+                    - generic [ref=e447]: —
+                    - generic [ref=e448]: want
+                    - generic [ref=e449]: me
+                    - generic [ref=e450]: to
+                  - generic [ref=e451]:
+                    - generic [ref=e452]: update
+                    - generic [ref=e453]: that
+                    - generic [ref=e454]: too?
+                  - generic [ref=e457]: "Saved: \"Update dashboard header text\""
+                  - generic [ref=e458]: Today
+                  - generic [ref=e461]: Jordan Ellis pushed Chat history persistence live
+              - img [ref=e465]:
+                - generic [ref=e492]: What do you want to do?
+                - generic [ref=e494]: Ask AI to build, or type / for skills and prompts…
+                - generic [ref=e498]: Plan
+            - img [ref=e504]:
+              - generic [ref=e506]:
+                - img [ref=e507]:
+                  - generic [ref=e510]: API Calendar
+                  - generic [ref=e512]: acme.3b.demo/api/calendar
+                  - generic [ref=e518]: Output
+                - img [ref=e539]:
+                  - generic [ref=e541]:
+                    - generic [ref=e544]: README.md
+                    - img [ref=e547]:
+                      - generic [ref=e550]:
+                        - generic [ref=e551]:
+                          - generic [ref=e552]: Returns
+                          - generic [ref=e553]: today’s
+                          - generic [ref=e554]: calendar
+                          - generic [ref=e555]: events,
+                          - generic [ref=e556]: shaped
+                          - generic [ref=e557]: like
+                          - generic [ref=e558]: the
+                        - generic [ref=e559]:
+                          - generic [ref=e560]: Google
+                          - generic [ref=e561]: Calendar
+                          - generic [ref=e562]: API
+                          - generic [ref=e564]: events.list
+                          - generic [ref=e565]: resource
+                          - generic [ref=e566]: (
+                        - generic [ref=e567]:
+                          - generic [ref=e569]: start
+                          - generic [ref=e570]: /
+                          - generic [ref=e572]: end.dateTime
+                          - generic [ref=e573]: ","
+                          - generic [ref=e575]: summary
+                          - generic [ref=e576]: ","
+                          - generic [ref=e578]: location
+                          - generic [ref=e579]: ","
+                        - generic [ref=e580]:
+                          - generic [ref=e582]: attendees
+                          - generic [ref=e583]: ).
+                        - generic [ref=e584]:
+                          - generic [ref=e585]: "Route:"
+                          - generic [ref=e587]: GET
+                          - generic [ref=e588]: /api/calendar
+                          - generic [ref=e589]: (
+                          - generic [ref=e591]: route_type
+                          - generic [ref=e592]: =
+                          - generic [ref=e593]: api
+                          - generic [ref=e594]: ","
+                        - generic [ref=e595]:
+                          - generic [ref=e596]: private).
+                          - generic [ref=e597]: Events
+                          - generic [ref=e598]: are
+                          - generic [ref=e599]: fetched
+                          - generic [ref=e600]: through
+                          - generic [ref=e601]: the
+                          - generic [ref=e603]: Google
+                        - generic [ref=e604]:
+                          - generic [ref=e606]: Calendar
+                          - generic [ref=e607]: connector
+                          - generic [ref=e608]: and
+                          - generic [ref=e609]: normalized
+                          - generic [ref=e610]: in
+                          - generic [ref=e612]: script.ts
+                          - generic [ref=e613]: ;
+                        - generic [ref=e614]:
+                          - generic [ref=e616]: connected
+                          - generic [ref=e617]: reports
+                          - generic [ref=e618]: whether
+                          - generic [ref=e619]: the
+                          - generic [ref=e620]: connector
+                          - generic [ref=e621]: is
+                        - generic [ref=e622]: reachable.
+                - img [ref=e624]:
+                  - generic [ref=e626]:
+                    - generic [ref=e629]: Output
+                    - img [ref=e638]:
+                      - generic [ref=e641]:
+                        - generic [ref=e643]: "200"
+                        - generic [ref=e644]: OK
+                        - generic [ref=e645]: HTTP/1.1
+                        - generic [ref=e646]: "Content-Type: application/json; charset=utf-8"
+                        - generic [ref=e647]:
+                          - generic [ref=e648]: "1"
+                          - generic [ref=e649]: "{"
+                        - generic [ref=e650]:
+                          - generic [ref=e651]: "2"
+                          - generic [ref=e652]: "\"connected\": true,"
+                        - generic [ref=e653]:
+                          - generic [ref=e654]: "3"
+                          - generic [ref=e655]: "\"timeZone\": \"UTC\","
+                        - generic [ref=e656]:
+                          - generic [ref=e657]: "4"
+                          - generic [ref=e658]: "\"events\": ["
+                        - generic [ref=e659]:
+                          - generic [ref=e660]: "5"
+                          - generic [ref=e661]: "{"
+                        - generic [ref=e662]:
+                          - generic [ref=e663]: "6"
+                          - generic [ref=e664]: "\"id\": \"evt_1\","
+                        - generic [ref=e665]:
+                          - generic [ref=e666]: "7"
+                          - generic [ref=e667]: "\"summary\": \"Morning standup\","
+                        - generic [ref=e668]:
+                          - generic [ref=e669]: "8"
+                          - generic [ref=e670]: "\"start\": {"
+                        - generic [ref=e671]:
+                          - generic [ref=e672]: "9"
+                          - generic [ref=e673]: "\"dateTime\": \"2026-07-22T09:30:00.000Z\""
+                        - generic [ref=e674]:
+                          - generic [ref=e675]: "10"
+                          - generic [ref=e676]: "},"
+                        - generic [ref=e677]:
+                          - generic [ref=e678]: "11"
+                          - generic [ref=e679]: "\"end\": {"
+                        - generic [ref=e680]:
+                          - generic [ref=e681]: "12"
+                          - generic [ref=e682]: "\"dateTime\": \"2026-07-22T09:45:00.000Z\""
+                        - generic [ref=e683]:
+                          - generic [ref=e684]: "13"
+                          - generic [ref=e685]: "},"
+                        - generic [ref=e686]:
+                          - generic [ref=e687]: "14"
+                          - generic [ref=e688]: "\"location\": \"Video call\","
+                        - generic [ref=e689]:
+                          - generic [ref=e690]: "15"
+                          - generic [ref=e691]: "\"color\": \"teal\","
+                        - generic [ref=e692]:
+                          - generic [ref=e693]: "16"
+                          - generic [ref=e694]: "\"attendees\": 6,"
+                        - generic [ref=e695]:
+                          - generic [ref=e696]: "17"
+                          - generic [ref=e697]: "\"organizer\": \"Nadia Rahman\","
+                        - generic [ref=e698]:
+                          - generic [ref=e699]: "18"
+                          - generic [ref=e700]: "\"description\": \"Daily team sync. Flagging the notepad focus bug (IT-142) and calendar overflow (IT-129).\","
+                        - generic [ref=e701]:
+                          - generic [ref=e702]: "19"
+                          - generic [ref=e703]: "\"htmlLink\": \"https://calendar.example.com/event?eid=evt_1\""
+                        - generic [ref=e704]:
+                          - generic [ref=e705]: "20"
+                          - generic [ref=e706]: "},"
+                        - generic [ref=e707]:
+                          - generic [ref=e708]: "21"
+                          - generic [ref=e709]: "{"
+                        - generic [ref=e710]:
+                          - generic [ref=e711]: "22"
+                          - generic [ref=e712]: "\"id\": \"evt_2\","
+                        - generic [ref=e713]:
+                          - generic [ref=e714]: "23"
+                          - generic [ref=e715]: "\"summary\": \"Design review — IT Team OS\","
+                        - generic [ref=e716]:
+                          - generic [ref=e717]: "24"
+                          - generic [ref=e718]: "\"start\": {"
+                        - generic [ref=e719]:
+                          - generic [ref=e720]: "25"
+                          - generic [ref=e721]: "\"dateTime\": \"2026-07-22T11:00:00.000Z\""
+                        - generic [ref=e722]:
+                          - generic [ref=e723]: "26"
+                          - generic [ref=e724]: "},"
+                        - generic [ref=e725]:
+                          - generic [ref=e726]: "27"
+                          - generic [ref=e727]: "\"end\": {"
+                        - generic [ref=e728]:
+                          - generic [ref=e729]: "28"
+                          - generic [ref=e730]: "\"dateTime\": \"2026-07-22T12:00:00.000Z\""
+                        - generic [ref=e731]:
+                          - generic [ref=e732]: "29"
+                          - generic [ref=e733]: "},"
+                        - generic [ref=e734]:
+                          - generic [ref=e735]: "30"
+                          - generic [ref=e736]: "\"location\": \"Video call\","
+                        - generic [ref=e737]:
+                          - generic [ref=e738]: "31"
+                          - generic [ref=e739]: "\"color\": \"purple\","
+                        - generic [ref=e740]:
+                          - generic [ref=e741]: "32"
+                          - generic [ref=e742]: "\"attendees\": 4,"
+                        - generic [ref=e743]:
+                          - generic [ref=e744]: "33"
+                          - generic [ref=e745]: "\"organizer\": \"You\","
+                        - generic [ref=e746]:
+                          - generic [ref=e747]: "34"
+                          - generic [ref=e748]: "\"description\": \"Walk through the widget layout and detail-view interactions. Bring the latest design frames.\","
+                        - generic [ref=e749]:
+                          - generic [ref=e750]: "35"
+                          - generic [ref=e751]: "\"htmlLink\": \"https://calendar.example.com/event?eid=evt_2\""
+                        - generic [ref=e752]:
+                          - generic [ref=e753]: "36"
+                          - generic [ref=e754]: "},"
+                        - generic [ref=e755]:
+                          - generic [ref=e756]: "37"
+                          - generic [ref=e757]: "{"
+                        - generic [ref=e758]:
+                          - generic [ref=e759]: "38"
+                          - generic [ref=e760]: "\"id\": \"evt_3\","
+                        - generic [ref=e761]:
+                          - generic [ref=e762]: "39"
+                          - generic [ref=e763]: "\"summary\": \"Focus block — Projects API\","
+                        - generic [ref=e764]:
+                          - generic [ref=e765]: "40"
+                          - generic [ref=e766]: "\"start\": {"
+                        - generic [ref=e767]:
+                          - generic [ref=e768]: "41"
+                          - generic [ref=e769]: "\"dateTime\": \"2026-07-22T14:00:00.000Z\""
+                        - generic [ref=e770]:
+                          - generic [ref=e771]: "42"
+                          - generic [ref=e772]: "},"
+                        - generic [ref=e773]:
+                          - generic [ref=e774]: "43"
+                          - generic [ref=e775]: "\"end\": {"
+                        - generic [ref=e776]:
+                          - generic [ref=e777]: "44"
+                          - generic [ref=e778]: "\"dateTime\": \"2026-07-22T16:00:00.000Z\""
+                        - generic [ref=e779]:
+                          - generic [ref=e780]: "45"
+                          - generic [ref=e781]: "},"
+                        - generic [ref=e782]:
+                          - generic [ref=e783]: "46"
+                          - generic [ref=e784]: "\"location\": \"\","
+                        - generic [ref=e785]:
+                          - generic [ref=e786]: "47"
+                          - generic [ref=e787]: "\"color\": \"sky\","
+                        - generic [ref=e788]:
+                          - generic [ref=e789]: "48"
+                          - generic [ref=e790]: "\"attendees\": 1,"
+                        - generic [ref=e791]:
+                          - generic [ref=e792]: "49"
+                          - generic [ref=e793]: "\"organizer\": \"You\","
+                        - generic [ref=e794]:
+                          - generic [ref=e795]: "50"
+                          - generic [ref=e796]: "\"description\": \"Heads-down on the ProjectDetail RACI matrix.\","
+                        - generic [ref=e797]:
+                          - generic [ref=e798]: "51"
+                          - generic [ref=e799]: "\"htmlLink\": \"https://calendar.example.com/event?eid=evt_3\""
+                        - generic [ref=e800]:
+                          - generic [ref=e801]: "52"
+                          - generic [ref=e802]: "}"
+                        - generic [ref=e803]:
+                          - generic [ref=e804]: "53"
+                          - generic [ref=e805]: "]"
+                        - generic [ref=e806]:
+                          - generic [ref=e807]: "54"
+                          - generic [ref=e808]: "}"
+                - img [ref=e809]:
+                  - generic [ref=e810]:
+                    - img [ref=e811]:
+                      - generic [ref=e814]: Dashboard
+                      - generic [ref=e816]: "36"
+                    - img [ref=e823]:
+                      - generic [ref=e826]: API Calendar
+                      - generic [ref=e828]: "22"
+                    - img [ref=e833]:
+                      - generic [ref=e836]: API Chat
+                      - generic [ref=e838]: "39"
+                    - img [ref=e843]:
+                      - generic [ref=e846]: API Goals
+                      - generic [ref=e848]: "16"
+                    - img [ref=e853]:
+                      - generic [ref=e856]: API Jira
+                      - generic [ref=e858]: "25"
+                    - img [ref=e863]:
+                      - generic [ref=e866]: API Layout
+                      - generic [ref=e868]: "48"
+                    - img [ref=e873]:
+                      - generic [ref=e876]: API Metrics
+                      - generic [ref=e878]: "6"
+                    - img [ref=e883]:
+                      - generic [ref=e886]: API Notes
+                      - generic [ref=e888]: "38"
+                    - img [ref=e893]:
+                      - generic [ref=e896]: API Notifications
+                      - generic [ref=e898]: "15"
+                    - img [ref=e903]:
+                      - generic [ref=e906]: API Overview
+                      - generic [ref=e908]: "23"
+                    - img [ref=e913]:
+                      - generic [ref=e916]: API Projects
+                      - generic [ref=e918]: "39"
+                    - img [ref=e923]:
+                      - generic [ref=e926]: API Summary
+                      - generic [ref=e928]: "6"
+                    - img [ref=e933]:
+                      - generic [ref=e936]: API Team
+                      - generic [ref=e938]: "25"
+                    - img [ref=e943]:
+                      - generic [ref=e946]: API Team Insights
+                      - generic [ref=e948]: "9"
+    - generic [ref=e982]:
+      - img "An interconnected wall of retro monitors with animated screens"
+      - generic:
+        - paragraph [ref=e983]: The new reality for IT and security
+        - heading "AI made everyone a builder. But security and IT got 100× harder." [level=2] [ref=e984]:
+          - generic [ref=e985]: AI made everyone a builder.
+          - strong [ref=e986]: But security and IT got 100× harder.
+        - generic [ref=e988]:
+          - paragraph [ref=e989]: Now, finance is building dashboards in Claude Code. Marketing shipped an app on a personal Vercel account. Someone committed an API key to GitHub last week.
+          - paragraph [ref=e990]: None of it is malicious. They’re doing exactly what you asked. But without visibility and control, innovation creates new risk. It’s time to give every team a secure place to build.
+    - generic [ref=e992]:
+      - generic [ref=e993]:
+        - paragraph [ref=e994]: Our 100× solution
+        - heading "Freedom to build. Complete security. No compromises." [level=2] [ref=e995]:
+          - generic [ref=e996]: Freedom to build.
+          - generic [ref=e997]: Complete security.
+          - generic [ref=e998]: No compromises.
+      - generic [ref=e999]:
+        - generic [ref=e1000]:
+          - generic [ref=e1001]:
+            - heading "Visibility across AI-created work" [level=3] [ref=e1002]: Visibility acrossAI-created work
+            - paragraph [ref=e1003]: Know what exists, who built it, and what it touches. Focus on empowering teams without leaving a mess to untangle.
+          - generic [ref=e1004]:
+            - heading "Control without bottlenecks" [level=3] [ref=e1005]: Control withoutbottlenecks
+            - paragraph [ref=e1006]: Determine where and how access happens so teams can self-serve and freely build. Make the governed path the easy one.
+          - generic [ref=e1007]:
+            - heading "Autonomous fixes, controlled by you" [level=3] [ref=e1008]: Autonomous fixes,controlled by you
+            - paragraph [ref=e1009]: Tines identifies and suggests fixes for anomalies and potential breaks. Your workflows get better the longer they run. You control what goes live.
+          - generic [ref=e1010]:
+            - heading "AI on your terms, always" [level=3] [ref=e1011]: AI on yourterms, always
+            - paragraph [ref=e1012]: Start where you’re already working. Choose where, when, and how your LLMs are used, with freedom to switch as your AI strategy evolves.
+        - generic [ref=e1013]:
+          - paragraph [ref=e1042]:
+            - strong [ref=e1043]: Tines 3B
+            - text: powers faster delivery, safer operations, and AI execution that scales with confidence.
+          - link "Explore the product" [ref=e1044] [cursor=pointer]:
+            - /url: /3b/
+    - generic [ref=e1046]:
+      - generic [ref=e1047]:
+        - paragraph [ref=e1048]: Teams using Tines
+        - heading "Keep important workflows moving for the teams dependent on them." [level=2] [ref=e1049]
+        - paragraph [ref=e1050]: Tines gives these teams the tools to safely leverage AI across the most sensitive systems, data, and processes at the highest level of security.
+      - generic [ref=e1051]:
+        - tablist "Teams using Tines" [ref=e1052]:
+          - tab [selected] [ref=e1053] [cursor=pointer]:
+            - generic [ref=e1054]:
+              - heading "IT" [level=3] [ref=e1055]
+              - paragraph [ref=e1056]: MCP and AI client management with an AI gateway to govern deployments.
+          - tab [ref=e1057] [cursor=pointer]:
+            - generic [ref=e1058]:
+              - heading "Security" [level=3] [ref=e1059]
+              - paragraph [ref=e1060]: "AI SOC: alert intake, triage, and remediation, routing to an analyst when needed."
+          - tab [ref=e1061] [cursor=pointer]:
+            - generic [ref=e1062]:
+              - heading "Finance" [level=3] [ref=e1063]
+              - paragraph [ref=e1064]: Finance requests dashboard with insights from email and tooling.
+          - tab [ref=e1065] [cursor=pointer]:
+            - generic [ref=e1066]:
+              - heading "People" [level=3] [ref=e1067]
+              - paragraph [ref=e1068]: End-to-end job request manager, from finance approvals through to offer.
+          - tab [ref=e1069] [cursor=pointer]:
+            - generic [ref=e1070]:
+              - heading "Operations" [level=3] [ref=e1071]
+              - paragraph [ref=e1072]: "Lead dashboard: tracking, managing, and closing open lifecycle loops."
+        - tabpanel "IT MCP and AI client management with an AI gateway to govern deployments." [ref=e1073]:
+          - generic [ref=e1075]:
+            - generic [ref=e1076]:
+              - button "workflow" [ref=e1077] [cursor=pointer]
+              - button "frontend" [pressed] [ref=e1078] [cursor=pointer]
+              - generic [aria-hidden]:
+                - generic: workflow
+                - generic: frontend
+            - generic [ref=e1080]:
+              - button "Show workflow" [ref=e1081] [cursor=pointer]:
+                - img "IT workflow" [ref=e1082]
+              - button "Show frontend" [ref=e1083] [cursor=pointer]:
+                - img "IT frontend" [ref=e1084]
+    - generic [ref=e1085]:
+      - generic [ref=e1087]:
+        - paragraph [ref=e1088]: Why Tines?
+        - heading "Powerful workflows, proven success." [level=2] [ref=e1089]
+        - paragraph [ref=e1090]: Tines is uniquely positioned — and proven — to be the single, secure environment for every team’s AI-native agents, apps, and automations.
+      - generic [ref=e1234]:
+        - figure [ref=e1235]:
+          - heading [level=3] [ref=e1237]:
+            - strong [ref=e1238]: Born in security, built for the enterprise.
+            - text: Governance, guardrails, and monitoring across every surface.
+        - figure [ref=e1239]:
+          - heading [level=3] [ref=e1241]:
+            - strong [ref=e1242]: Built for your most important workflows.
+            - text: Trusted by the world’s most ambitious organizations.
+        - figure [ref=e1243]:
+          - heading [level=3] [ref=e1245]:
+            - strong [ref=e1246]: Vendor-agnostic.
+            - text: Work across your entire tech stack and within your infrastructure.
+        - figure [ref=e1247]:
+          - heading [level=3] [ref=e1249]:
+            - strong [ref=e1250]: Unmatched time to value.
+            - text: Teams love Tines for speed, power, and ease of use.
+    - generic [ref=e1251]:
+      - generic [ref=e1252]:
+        - img "Start today"
+      - generic:
+        - paragraph: Sign up today to get started or schedule time with our team to learn more.
+        - generic:
+          - link "Sign up free" [ref=e1253] [cursor=pointer]:
+            - /url: https://login.tines.com/saml_idp/signup
+          - link "Book a demo" [ref=e1254] [cursor=pointer]:
+            - /url: /book-a-demo/
+  - contentinfo [ref=e1255]:
+    - generic [ref=e1256]:
+      - generic [ref=e1257]:
+        - heading "Product" [level=2] [ref=e1258]:
+          - button "Product"
+        - generic [ref=e1261]:
+          - generic [ref=e1262]:
+            - link "Tines 3B" [ref=e1263] [cursor=pointer]:
+              - /url: https://www.tines.com/3b/
+            - link "Examples gallery" [ref=e1264] [cursor=pointer]:
+              - /url: https://www.tines.com/3b/examples/
+            - link "Product updates" [ref=e1265] [cursor=pointer]:
+              - /url: https://www.tines.com/3b/product-updates/
+            - link "Academy" [ref=e1266] [cursor=pointer]:
+              - /url: https://academy.tines.com/
+              - text: Academy
+              - generic [aria-hidden] [ref=e1267]: ↗
+            - link "Docs" [ref=e1268] [cursor=pointer]:
+              - /url: https://docs.3b.tines.com/
+              - text: Docs
+              - generic [aria-hidden] [ref=e1269]: ↗
+            - link "Status" [ref=e1270] [cursor=pointer]:
+              - /url: https://status.tines.com/
+              - text: Status
+              - generic [aria-hidden] [ref=e1271]: ↗
+          - generic [ref=e1272]:
+            - link "Tines Stories" [ref=e1273] [cursor=pointer]:
+              - /url: https://www.tines.com/stories/
+            - link "Storyboard" [ref=e1274] [cursor=pointer]:
+              - /url: https://www.tines.com/stories/storyboard/
+            - link "Cases" [ref=e1275] [cursor=pointer]:
+              - /url: https://www.tines.com/stories/cases/
+            - link "Workbench" [ref=e1276] [cursor=pointer]:
+              - /url: https://www.tines.com/stories/workbench/
+            - link "Agents" [ref=e1277] [cursor=pointer]:
+              - /url: https://www.tines.com/stories/agents/
+            - link "Monitoring" [ref=e1278] [cursor=pointer]:
+              - /url: https://www.tines.com/stories/monitoring/
+            - link "Workflow capability matrix" [ref=e1279] [cursor=pointer]:
+              - /url: https://www.tines.com/workflow-capability-matrix/
+            - link "Templates" [ref=e1280] [cursor=pointer]:
+              - /url: https://www.tines.com/stories/templates/
+            - link "Library" [ref=e1281] [cursor=pointer]:
+              - /url: https://www.tines.com/library/
+            - link "Five-minute flows" [ref=e1282] [cursor=pointer]:
+              - /url: https://www.tines.com/stories/five-minute-flows/
+            - link "What’s new" [ref=e1283] [cursor=pointer]:
+              - /url: https://www.tines.com/stories/whats-new/
+            - link "Docs and API" [ref=e1284] [cursor=pointer]:
+              - /url: https://www.tines.com/stories/docs/
+          - link "Pricing" [ref=e1286] [cursor=pointer]:
+            - /url: https://www.tines.com/pricing/
+      - generic [ref=e1287]:
+        - heading "Solutions" [level=2] [ref=e1288]:
+          - button "Solutions"
+        - generic [ref=e1291]:
+          - generic [ref=e1292]:
+            - link "IT" [ref=e1293] [cursor=pointer]:
+              - /url: https://www.tines.com/solutions/it/
+            - link "IT as a business enabler" [ref=e1294] [cursor=pointer]:
+              - /url: https://www.tines.com/solutions/it/it-as-a-business-enabler/
+            - link "Infrastructure management" [ref=e1295] [cursor=pointer]:
+              - /url: https://www.tines.com/solutions/it/infrastructure-management/
+            - link "Networking" [ref=e1296] [cursor=pointer]:
+              - /url: https://www.tines.com/solutions/it/networking/
+            - link "Application management" [ref=e1297] [cursor=pointer]:
+              - /url: https://www.tines.com/solutions/it/application-management/
+            - link "IT service delivery and support" [ref=e1298] [cursor=pointer]:
+              - /url: https://www.tines.com/solutions/it/it-service-delivery-and-support/
+          - generic [ref=e1299]:
+            - link "Security" [ref=e1300] [cursor=pointer]:
+              - /url: https://www.tines.com/solutions/security/
+            - link "AI SOC" [ref=e1301] [cursor=pointer]:
+              - /url: https://www.tines.com/solutions/security/ai-soc/
+            - link "SOAR" [ref=e1302] [cursor=pointer]:
+              - /url: https://www.tines.com/solutions/security/soar/
+            - link "GRC" [ref=e1303] [cursor=pointer]:
+              - /url: https://www.tines.com/solutions/security/governance-risk-and-compliance/
+            - link "Threat intelligence" [ref=e1304] [cursor=pointer]:
+              - /url: https://www.tines.com/solutions/security/threat-intelligence/
+            - link "Vulnerability management" [ref=e1305] [cursor=pointer]:
+              - /url: https://www.tines.com/solutions/security/vulnerability-management/
+            - link "Network security" [ref=e1306] [cursor=pointer]:
+              - /url: https://www.tines.com/solutions/security/network-security/
+          - generic [ref=e1307]:
+            - link "Public sector" [ref=e1308] [cursor=pointer]:
+              - /url: https://www.tines.com/public-sector/
+            - link "Financial services" [ref=e1309] [cursor=pointer]:
+              - /url: https://www.tines.com/financial-services/
+            - link "MSSPs" [ref=e1310] [cursor=pointer]:
+              - /url: https://www.tines.com/mssps/
+          - generic [ref=e1311]:
+            - link "Professional services" [ref=e1312] [cursor=pointer]:
+              - /url: https://www.tines.com/professional-services/
+            - link "AI in Tines" [ref=e1313] [cursor=pointer]:
+              - /url: https://www.tines.com/ai-in-tines/
+            - link "Enterprise" [ref=e1314] [cursor=pointer]:
+              - /url: https://www.tines.com/enterprise/
+      - generic [ref=e1315]:
+        - heading "Discover" [level=2] [ref=e1316]:
+          - button "Discover"
+        - generic [ref=e1319]:
+          - link "Customers" [ref=e1321] [cursor=pointer]:
+            - /url: https://www.tines.com/customers/
+          - generic [ref=e1322]:
+            - link "Blog" [ref=e1323] [cursor=pointer]:
+              - /url: https://www.tines.com/blog/
+            - link "Series" [ref=e1324] [cursor=pointer]:
+              - /url: https://www.tines.com/blog/series/
+            - link "Guides" [ref=e1325] [cursor=pointer]:
+              - /url: https://www.tines.com/blog/guides/
+            - link "Podcast" [ref=e1326] [cursor=pointer]:
+              - /url: https://www.tines.com/podcast/
+          - generic [ref=e1327]:
+            - link "Events" [ref=e1328] [cursor=pointer]:
+              - /url: https://www.tines.com/events/
+            - link "Webinars" [ref=e1329] [cursor=pointer]:
+              - /url: https://www.tines.com/webinars/
+            - link "Bootcamps" [ref=e1330] [cursor=pointer]:
+              - /url: https://www.tines.com/bootcamps/
+            - link "Builder Connect" [ref=e1331] [cursor=pointer]:
+              - /url: https://www.tines.com/events/builder-connect/
+            - link "Workflow.live" [ref=e1332] [cursor=pointer]:
+              - /url: https://www.workflow.live/
+              - text: Workflow.live
+              - generic [aria-hidden] [ref=e1333]: ↗
+          - generic [ref=e1334]:
+            - link "Community" [ref=e1335] [cursor=pointer]:
+              - /url: https://community.tines.com/
+              - text: Community
+              - generic [aria-hidden] [ref=e1336]: ↗
+            - link "YDWWT" [ref=e1337] [cursor=pointer]:
+              - /url: https://www.tines.com/you-did-what-with-tines/
+          - link "Customer center" [ref=e1339] [cursor=pointer]:
+            - /url: https://www.tines.com/customer-center/
+      - generic [ref=e1340]:
+        - generic [ref=e1341]:
+          - heading "Company" [level=2] [ref=e1342]:
+            - button "Company"
+          - generic [ref=e1345]:
+            - generic [ref=e1346]:
+              - link "About us" [ref=e1347] [cursor=pointer]:
+                - /url: https://www.tines.com/about/
+              - link "Careers" [ref=e1348] [cursor=pointer]:
+                - /url: https://www.tines.com/careers/
+              - link "Newsroom" [ref=e1349] [cursor=pointer]:
+                - /url: https://www.tines.com/newsroom/
+              - link "Partners" [ref=e1350] [cursor=pointer]:
+                - /url: https://www.tines.com/partners/
+              - link "Contact" [ref=e1351] [cursor=pointer]:
+                - /url: https://www.tines.com/contact/
+              - link "Store" [ref=e1352] [cursor=pointer]:
+                - /url: https://store.tines.com/
+                - text: Store
+                - generic [aria-hidden] [ref=e1353]: ↗
+              - link "Brand assets" [ref=e1354] [cursor=pointer]:
+                - /url: https://live.standards.site/tines
+                - text: Brand assets
+                - generic [aria-hidden] [ref=e1355]: ↗
+            - generic [ref=e1356]:
+              - link "LinkedIn" [ref=e1357] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/tines-io/
+                - text: LinkedIn
+                - generic [aria-hidden] [ref=e1358]: ↗
+              - link "X" [ref=e1359] [cursor=pointer]:
+                - /url: https://twitter.com/tines_hq
+                - text: X
+                - generic [aria-hidden] [ref=e1360]: ↗
+              - link "YouTube" [ref=e1361] [cursor=pointer]:
+                - /url: https://www.youtube.com/@TinesHQ
+                - text: YouTube
+                - generic [aria-hidden] [ref=e1362]: ↗
+        - generic [ref=e1363]:
+          - heading "Trust and security" [level=2] [ref=e1364]:
+            - button "Trust and security"
+          - generic [ref=e1367]:
+            - generic [ref=e1368]:
+              - link "Security" [ref=e1369] [cursor=pointer]:
+                - /url: https://www.tines.com/security/
+              - link "Security best practices" [ref=e1370] [cursor=pointer]:
+                - /url: https://www.tines.com/tines-security-best-practices/
+              - link "Trust center" [ref=e1371] [cursor=pointer]:
+                - /url: https://trust.tines.com/
+                - text: Trust center
+                - generic [aria-hidden] [ref=e1372]: ↗
+            - generic [ref=e1373]:
+              - link "Legal" [ref=e1374] [cursor=pointer]:
+                - /url: https://www.tines.com/legal/
+              - link "Privacy" [ref=e1375] [cursor=pointer]:
+                - /url: https://www.tines.com/privacy/
+              - link "Terms" [ref=e1376] [cursor=pointer]:
+                - /url: https://www.tines.com/terms/
+              - link "DPA" [ref=e1377] [cursor=pointer]:
+                - /url: https://www.tines.com/dpa/
+              - link "Cookies policy" [ref=e1378] [cursor=pointer]:
+                - /url: https://www.tines.com/cookies-policy/
+    - generic [ref=e1379]:
+      - generic [ref=e1380]:
+        - paragraph [ref=e1381]: Ask AI about Tines
+        - list [ref=e1382]:
+          - listitem [ref=e1383]:
+            - link "Ask ChatGPT about Tines" [ref=e1384] [cursor=pointer]:
+              - /url: https://chatgpt.com/?q=As%20a%20potential%20customer%2C%20I%20want%20to%20understand%20concretely%20what%20I%20would%20get%20with%20Tines%20(tines.com).%0A%0ADetail%20step%20by%20step%3A%20what%20Tines%20is%2C%20how%20it%20lets%20every%20team%20build%20workflows%2C%20apps%2C%20and%20AI%20agents%20while%20IT%20and%20security%20keep%20visibility%2C%20governance%2C%20and%20control%2C%20how%20it%20connects%20to%20the%20tools%20we%20already%20use%2C%20its%20security%20and%20compliance%20features%2C%20and%20how%20it%20helps%20teams%20scale.%0A%0AExplain%20it%20simply%2C%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20using%20Tines.%20Useful%20sources%3A%0A%0A-%20Feature%20highlights%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2F%0A-%20Real%20examples%20of%20what%20teams%20build%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2Fexamples%2F%0A-%20In-depth%20docs%3A%20https%3A%2F%2Fdocs.3b.tines.com%2F%20(markdown%20index%20at%20https%3A%2F%2Fdocs.3b.tines.com%2Fllms.txt)
+          - listitem [ref=e1388]:
+            - link "Ask Claude about Tines" [ref=e1389] [cursor=pointer]:
+              - /url: https://claude.ai/new?q=As%20a%20potential%20customer%2C%20I%20want%20to%20understand%20concretely%20what%20I%20would%20get%20with%20Tines%20(tines.com).%0A%0ADetail%20step%20by%20step%3A%20what%20Tines%20is%2C%20how%20it%20lets%20every%20team%20build%20workflows%2C%20apps%2C%20and%20AI%20agents%20while%20IT%20and%20security%20keep%20visibility%2C%20governance%2C%20and%20control%2C%20how%20it%20connects%20to%20the%20tools%20we%20already%20use%2C%20its%20security%20and%20compliance%20features%2C%20and%20how%20it%20helps%20teams%20scale.%0A%0AExplain%20it%20simply%2C%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20using%20Tines.%20Useful%20sources%3A%0A%0A-%20Feature%20highlights%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2F%0A-%20Real%20examples%20of%20what%20teams%20build%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2Fexamples%2F%0A-%20In-depth%20docs%3A%20https%3A%2F%2Fdocs.3b.tines.com%2F%20(markdown%20index%20at%20https%3A%2F%2Fdocs.3b.tines.com%2Fllms.txt)
+          - listitem [ref=e1393]:
+            - link "Ask Gemini about Tines" [ref=e1394] [cursor=pointer]:
+              - /url: https://www.google.com/search?udm=50&source=searchlabs&q=As%20a%20potential%20customer%2C%20I%20want%20to%20understand%20concretely%20what%20I%20would%20get%20with%20Tines%20(tines.com).%0A%0ADetail%20step%20by%20step%3A%20what%20Tines%20is%2C%20how%20it%20lets%20every%20team%20build%20workflows%2C%20apps%2C%20and%20AI%20agents%20while%20IT%20and%20security%20keep%20visibility%2C%20governance%2C%20and%20control%2C%20how%20it%20connects%20to%20the%20tools%20we%20already%20use%2C%20its%20security%20and%20compliance%20features%2C%20and%20how%20it%20helps%20teams%20scale.%0A%0AExplain%20it%20simply%2C%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20using%20Tines.%20Useful%20sources%3A%0A%0A-%20Feature%20highlights%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2F%0A-%20Real%20examples%20of%20what%20teams%20build%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2Fexamples%2F%0A-%20In-depth%20docs%3A%20https%3A%2F%2Fdocs.3b.tines.com%2F%20(markdown%20index%20at%20https%3A%2F%2Fdocs.3b.tines.com%2Fllms.txt)
+          - listitem [ref=e1398]:
+            - link "Ask Perplexity about Tines" [ref=e1399] [cursor=pointer]:
+              - /url: https://www.perplexity.ai/search?q=As%20a%20potential%20customer%2C%20I%20want%20to%20understand%20concretely%20what%20I%20would%20get%20with%20Tines%20(tines.com).%0A%0ADetail%20step%20by%20step%3A%20what%20Tines%20is%2C%20how%20it%20lets%20every%20team%20build%20workflows%2C%20apps%2C%20and%20AI%20agents%20while%20IT%20and%20security%20keep%20visibility%2C%20governance%2C%20and%20control%2C%20how%20it%20connects%20to%20the%20tools%20we%20already%20use%2C%20its%20security%20and%20compliance%20features%2C%20and%20how%20it%20helps%20teams%20scale.%0A%0AExplain%20it%20simply%2C%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20using%20Tines.%20Useful%20sources%3A%0A%0A-%20Feature%20highlights%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2F%0A-%20Real%20examples%20of%20what%20teams%20build%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2Fexamples%2F%0A-%20In-depth%20docs%3A%20https%3A%2F%2Fdocs.3b.tines.com%2F%20(markdown%20index%20at%20https%3A%2F%2Fdocs.3b.tines.com%2Fllms.txt)
+          - listitem [ref=e1403]:
+            - link "Ask Grok about Tines" [ref=e1404] [cursor=pointer]:
+              - /url: https://grok.com/?q=As%20a%20potential%20customer%2C%20I%20want%20to%20understand%20concretely%20what%20I%20would%20get%20with%20Tines%20(tines.com).%0A%0ADetail%20step%20by%20step%3A%20what%20Tines%20is%2C%20how%20it%20lets%20every%20team%20build%20workflows%2C%20apps%2C%20and%20AI%20agents%20while%20IT%20and%20security%20keep%20visibility%2C%20governance%2C%20and%20control%2C%20how%20it%20connects%20to%20the%20tools%20we%20already%20use%2C%20its%20security%20and%20compliance%20features%2C%20and%20how%20it%20helps%20teams%20scale.%0A%0AExplain%20it%20simply%2C%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20using%20Tines.%20Useful%20sources%3A%0A%0A-%20Feature%20highlights%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2F%0A-%20Real%20examples%20of%20what%20teams%20build%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2Fexamples%2F%0A-%20In-depth%20docs%3A%20https%3A%2F%2Fdocs.3b.tines.com%2F%20(markdown%20index%20at%20https%3A%2F%2Fdocs.3b.tines.com%2Fllms.txt)
+      - paragraph [ref=e1408]: © Tines
+      - button "Cookie settings" [ref=e1409] [cursor=pointer]

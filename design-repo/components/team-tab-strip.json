@@ -1,0 +1,24 @@
+{
+  "id": "team-tab-strip",
+  "kind": "component",
+  "contractVersion": "1.0.0",
+  "purpose": "Colour-coded role=tablist with fisheye hover grow and colour-wipe panel.",
+  "usesPrimitives": [
+    "icon"
+  ],
+  "tokens": [
+    "{usecase-tab.it.bg}",
+    "{usecase-tab.security.bg}",
+    "{usecase-tab.finance.bg}",
+    "{usecase-tab.people.bg}",
+    "{usecase-tab.operations.bg}",
+    "{radius.tab}",
+    "{duration.grow}",
+    "{duration.wipe}"
+  ],
+  "evidence": [
+    "mv.usecases.content",
+    "mv.usecases.grow",
+    "mv.usecases.wipe"
+  ]
+}

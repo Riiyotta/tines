@@ -1,0 +1,558 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "Tines" [ref=e8] [cursor=pointer]:
+            - /url: /
+            - img "Tines" [ref=e9]
+          - navigation "Primary" [ref=e16]:
+            - button "Product" [ref=e17] [cursor=pointer]
+            - button "Solutions" [expanded] [ref=e19] [cursor=pointer]
+            - link "Customers" [ref=e21] [cursor=pointer]:
+              - /url: /customers/
+            - button "Discover" [ref=e22] [cursor=pointer]
+            - link "Pricing" [ref=e24] [cursor=pointer]:
+              - /url: /pricing/
+        - generic [ref=e25]:
+          - link "Log in" [ref=e26] [cursor=pointer]:
+            - /url: https://login.tines.com
+          - link "Sign up" [ref=e27] [cursor=pointer]:
+            - /url: https://login.tines.com/saml_idp/signup
+          - link "Book a demo" [ref=e28] [cursor=pointer]:
+            - /url: /book-a-demo/
+          - button "Open search" [ref=e30] [cursor=pointer]
+      - generic:
+        - generic:
+          - generic [ref=e2359]:
+            - paragraph [ref=e2360]: By function
+            - generic [ref=e2361]:
+              - link "IT Strengthen IT as the foundation for business-wide execution." [ref=e2362] [cursor=pointer]:
+                - /url: /solutions/it/
+                - generic [ref=e2363]:
+                  - generic [ref=e2364]: IT
+                  - generic [ref=e2365]: Strengthen IT as the foundation for business-wide execution.
+                - generic [aria-hidden] [ref=e2366]: →
+              - link "Security Build, run, and monitor mission-critical cybersecurity workflows." [ref=e2367] [cursor=pointer]:
+                - /url: /solutions/security/
+                - generic [ref=e2368]:
+                  - generic [ref=e2369]: Security
+                  - generic [ref=e2370]: Build, run, and monitor mission-critical cybersecurity workflows.
+                - generic [aria-hidden] [ref=e2371]: →
+          - generic [ref=e2372]:
+            - paragraph [ref=e2373]: By industry
+            - link "Public sector Modernize your security approach." [ref=e2374] [cursor=pointer]:
+              - /url: /public-sector/
+              - generic [ref=e2379]:
+                - generic [ref=e2380]: Public sector
+                - generic [ref=e2381]: Modernize your security approach.
+            - link "Financial services Streamline compliance and reduce operational risk." [ref=e2382] [cursor=pointer]:
+              - /url: /financial-services/
+              - generic [ref=e2390]:
+                - generic [ref=e2391]: Financial services
+                - generic [ref=e2392]: Streamline compliance and reduce operational risk.
+            - link "MSSPs Transform MSSP operations." [ref=e2393] [cursor=pointer]:
+              - /url: /mssps/
+              - generic [ref=e2399]:
+                - generic [ref=e2400]: MSSPs
+                - generic [ref=e2401]: Transform MSSP operations.
+    - main [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e38]:
+              - link "Go to /blog/introducing-tines-3b/" [ref=e41] [cursor=pointer]:
+                - /url: /blog/introducing-tines-3b/
+                - generic [ref=e42]: New
+                - generic [ref=e43]: Introducing Tines 3B
+              - heading "You told everyone to use AI. Now give them a secure place to do it." [level=1] [ref=e47]:
+                - generic [ref=e48]: You told everyone to use AI.
+                - generic [ref=e49]: Now give them a secure place to do it.
+              - paragraph [ref=e50]: Tines lets every team build. IT and Security maintain complete visibility, governance, and control.
+              - generic [ref=e51]:
+                - link "Book a demo" [ref=e52] [cursor=pointer]:
+                  - /url: /book-a-demo/
+                - link "Sign up free" [ref=e56] [cursor=pointer]:
+                  - /url: https://login.tines.com/saml_idp/signup
+            - generic "Trusted by teams at leading companies" [ref=e61]:
+              - generic [ref=e62]:
+                - img "Coinbase" [ref=e64]
+                - img "Databricks" [ref=e67]
+                - img "Reddit" [ref=e71]
+                - img "Snowflake" [ref=e79]
+                - img "Dropbox" [ref=e93]
+                - img "Pinterest" [ref=e97]
+                - img "MongoDB" [ref=e100]
+                - img "Sophos" [ref=e103]
+                - img "Canva" [ref=e111]
+                - img "McKesson" [ref=e114]
+            - img "100× — simpler, faster, easier to adopt" [ref=e171]
+          - generic [ref=e174]:
+            - img [aria-hidden] [ref=e176]:
+              - generic [ref=e180]:
+                - img [ref=e1439]:
+                  - generic [ref=e1440]:
+                    - generic [ref=e1441]: Recents
+                    - generic [ref=e1445]: Favorites
+                    - generic [ref=e1449]: Chat
+                    - generic [ref=e1453]: Personal workflows
+                    - generic [ref=e1457]: Monitoring
+                    - generic [ref=e1462]: Links
+                    - generic [ref=e1467]: Connectors
+                    - generic [ref=e1473]: Skills
+                    - generic [ref=e1478]: Spaces
+                    - generic [ref=e1482]: IT
+                    - generic [ref=e1486]: Security
+                    - generic [ref=e1490]: Finance
+                    - generic [ref=e1494]: People
+                    - generic [ref=e1498]: Operations
+                    - generic [ref=e1502]: Design
+                    - generic [ref=e1506]: Engineering
+                    - generic [ref=e1510]: General
+                - generic [ref=e1517]:
+                  - generic [ref=e1522]: z
+                  - generic [ref=e1523]: z
+                  - generic [ref=e1524]: z
+                - generic [ref=e1526]: E
+                - img [ref=e1533]:
+                  - generic [ref=e1534]:
+                    - generic [ref=e1535]: Workflows
+                    - generic [ref=e1540]: Access map
+                    - generic [ref=e1545]: Savings
+                    - generic [ref=e1549]: AI
+                  - img [ref=e2403]:
+                    - generic [ref=e2404]:
+                      - generic [ref=e2405]:
+                        - generic [ref=e2406]: Total
+                        - generic [ref=e2407]: $217,300
+                      - generic [ref=e2408]:
+                        - generic [ref=e2409]: Build
+                        - generic [ref=e2410]: $125
+                      - generic [ref=e2411]:
+                        - generic [ref=e2412]: Run
+                        - generic [ref=e2413]: $217,175
+                      - generic [ref=e2414]:
+                        - generic [ref=e2415]: Workflows
+                        - generic [ref=e2416]: "21"
+                      - generic [ref=e2417]: Space
+                      - generic [ref=e2419]: All spaces
+                      - generic [ref=e2422]: Time range
+                      - generic [ref=e2424]: 30 days
+                      - generic [ref=e2427]: Hourly rate
+                      - generic [ref=e2429]: "100"
+                      - generic [ref=e2437]:
+                        - generic [ref=e2438]: Security
+                        - generic [ref=e2441]: IT
+                        - generic [ref=e2444]: People
+                        - generic [ref=e2447]: Finance
+                        - generic [ref=e2450]: Operations
+                  - img [ref=e2453]:
+                    - generic [ref=e2455]:
+                      - generic [ref=e2456]: Workflow
+                      - generic [ref=e2457]: Build
+                      - generic [ref=e2458]: Run
+                      - generic [ref=e2459]: Total
+                      - generic [ref=e2460]:
+                        - generic [ref=e2484]: Phishing triage & response
+                        - generic [ref=e2485]: Security
+                        - generic [ref=e2486]: $9.50
+                        - generic [ref=e2487]: 8m
+                        - generic [ref=e2488]: $58,200
+                        - generic [ref=e2489]: 6m/run
+                        - generic [ref=e2490]: $58,210
+                      - generic [ref=e2491]:
+                        - generic [ref=e2515]: Endpoint isolation runbook
+                        - generic [ref=e2516]: Security
+                        - generic [ref=e2517]: $7.50
+                        - generic [ref=e2518]: 6m
+                        - generic [ref=e2519]: $41,300
+                        - generic [ref=e2520]: 30m/run
+                        - generic [ref=e2521]: $41,308
+                      - generic [ref=e2522]:
+                        - generic [ref=e2546]: New hire provisioning
+                        - generic [ref=e2547]: People
+                        - generic [ref=e2548]: $6.25
+                        - generic [ref=e2549]: 5m
+                        - generic [ref=e2550]: $22,400
+                        - generic [ref=e2551]: 12m/run
+                        - generic [ref=e2552]: $22,406
+                      - generic [ref=e2553]:
+                        - generic [ref=e2577]: Asset inventory sync
+                        - generic [ref=e2578]: IT
+                        - generic [ref=e2579]: $3.75
+                        - generic [ref=e2580]: 3m
+                        - generic [ref=e2581]: $19,750
+                        - generic [ref=e2582]: 8m/run
+                        - generic [ref=e2583]: $19,754
+                      - generic [ref=e2584]:
+                        - generic [ref=e2608]: Invoice approval router
+                        - generic [ref=e2609]: Finance
+                        - generic [ref=e2610]: $7.50
+                        - generic [ref=e2611]: 6m
+                        - generic [ref=e2612]: $14,600
+                        - generic [ref=e2613]: 45m/run
+                        - generic [ref=e2614]: $14,608
+                      - generic [ref=e2615]:
+                        - generic [ref=e2639]: On-call escalation
+                        - generic [ref=e2640]: Operations
+                        - generic [ref=e2641]: $6.25
+                        - generic [ref=e2642]: 5m
+                        - generic [ref=e2643]: $9,900
+                        - generic [ref=e2644]: 60m/run
+                        - generic [ref=e2645]: $9,906
+                      - generic [ref=e2646]:
+                        - generic [ref=e2670]: Access review reminder
+                        - generic [ref=e2671]: IT
+                        - generic [ref=e2672]: $5.00
+                        - generic [ref=e2673]: 4m
+                        - generic [ref=e2674]: $2,700
+                        - generic [ref=e2675]: 120m/run
+                        - generic [ref=e2676]: $2,705
+                      - generic [ref=e2677]:
+                        - generic [ref=e2678]: Total
+                        - generic [ref=e2679]: $125
+                        - generic [ref=e2680]: $217,175
+                        - generic [ref=e2681]: $217,300
+            - generic [ref=e979]:
+              - button "Pause" [ref=e1876] [cursor=pointer]
+              - generic [ref=e983]:
+                - slider "Timeline position" [ref=e984] [cursor=pointer]: "80.567"
+                - generic [aria-hidden]: Savings reporting
+              - generic [ref=e985]: 1:20 / 1:31
+        - generic [ref=e986]:
+          - img "An interconnected wall of retro monitors with animated screens" [ref=e987]
+          - generic:
+            - paragraph [ref=e988]: The new reality for IT and security
+            - heading "AI made everyone a builder. But security and IT got 100× harder." [level=2] [ref=e989]:
+              - generic [ref=e990]: AI made everyone a builder.
+              - strong [ref=e991]: But security and IT got 100× harder.
+            - generic [ref=e993]:
+              - paragraph [ref=e994]: Now, finance is building dashboards in Claude Code. Marketing shipped an app on a personal Vercel account. Someone committed an API key to GitHub last week.
+              - paragraph [ref=e995]: None of it is malicious. They’re doing exactly what you asked. But without visibility and control, innovation creates new risk. It’s time to give every team a secure place to build.
+        - generic [ref=e996]:
+          - generic [ref=e998]:
+            - generic [ref=e999]:
+              - paragraph [ref=e1000]: Our 100× solution
+              - heading "Freedom to build. Complete security. No compromises." [level=2] [ref=e1001]:
+                - generic [ref=e1002]: Freedom to build.
+                - generic [ref=e1003]: Complete security.
+                - generic [ref=e1004]: No compromises.
+            - generic [ref=e1007]:
+              - generic [ref=e1008]:
+                - generic [ref=e1009]:
+                  - heading "Visibility across AI-created work" [level=3] [ref=e1010]: Visibility acrossAI-created work
+                  - paragraph [ref=e1011]: Know what exists, who built it, and what it touches. Focus on empowering teams without leaving a mess to untangle.
+                - generic [ref=e1012]:
+                  - heading "Control without bottlenecks" [level=3] [ref=e1013]: Control withoutbottlenecks
+                  - paragraph [ref=e1014]: Determine where and how access happens so teams can self-serve and freely build. Make the governed path the easy one.
+                - generic [ref=e1015]:
+                  - heading "Autonomous fixes, controlled by you" [level=3] [ref=e1016]: Autonomous fixes,controlled by you
+                  - paragraph [ref=e1017]: Tines identifies and suggests fixes for anomalies and potential breaks. Your workflows get better the longer they run. You control what goes live.
+                - generic [ref=e1018]:
+                  - heading "AI on your terms, always" [level=3] [ref=e1019]: AI on yourterms, always
+                  - paragraph [ref=e1020]: Start where you’re already working. Choose where, when, and how your LLMs are used, with freedom to switch as your AI strategy evolves.
+              - generic [ref=e1021]:
+                - img [aria-hidden] [ref=e1022]:
+                  - generic [ref=e1023] [cursor=pointer]
+                - paragraph [ref=e1049]:
+                  - strong [ref=e1050]: Tines 3B
+                  - text: powers faster delivery, safer operations, and AI execution that scales with confidence.
+                - link "Explore the product" [ref=e1051] [cursor=pointer]:
+                  - /url: /3b/
+          - generic [ref=e1055]:
+            - generic [ref=e1056]:
+              - paragraph [ref=e1057]: Teams using Tines
+              - heading "Keep important workflows moving for the teams dependent on them." [level=2] [ref=e1058]
+              - paragraph [ref=e1059]: Tines gives these teams the tools to safely leverage AI across the most sensitive systems, data, and processes at the highest level of security.
+            - generic [ref=e1060]:
+              - tablist "Teams using Tines" [ref=e1061]:
+                - tab [selected] [ref=e1062] [cursor=pointer]:
+                  - generic [ref=e1063]:
+                    - heading "IT" [level=3] [ref=e1064]
+                    - paragraph [ref=e1065]: MCP and AI client management with an AI gateway to govern deployments.
+                - tab [ref=e1066] [cursor=pointer]:
+                  - generic [ref=e1067]:
+                    - heading "Security" [level=3] [ref=e1068]
+                    - paragraph [ref=e1069]: "AI SOC: alert intake, triage, and remediation, routing to an analyst when needed."
+                - tab [ref=e1070] [cursor=pointer]:
+                  - generic [ref=e1071]:
+                    - heading "Finance" [level=3] [ref=e1072]
+                    - paragraph [ref=e1073]: Finance requests dashboard with insights from email and tooling.
+                - tab [ref=e1074] [cursor=pointer]:
+                  - generic [ref=e1075]:
+                    - heading "People" [level=3] [ref=e1076]
+                    - paragraph [ref=e1077]: End-to-end job request manager, from finance approvals through to offer.
+                - tab [ref=e1078] [cursor=pointer]:
+                  - generic [ref=e1079]:
+                    - heading "Operations" [level=3] [ref=e1080]
+                    - paragraph [ref=e1081]: "Lead dashboard: tracking, managing, and closing open lifecycle loops."
+              - tabpanel "IT MCP and AI client management with an AI gateway to govern deployments." [ref=e1082]:
+                - generic [ref=e1084]:
+                  - group "Screenshot view" [ref=e1085]:
+                    - button "Workflow" [ref=e1086] [cursor=pointer]
+                    - button "Frontend" [pressed] [ref=e1087] [cursor=pointer]
+                    - generic [aria-hidden]:
+                      - generic: Workflow
+                      - generic: Frontend
+                  - generic [ref=e1090]:
+                    - button [ref=e1091] [cursor=pointer]:
+                      - img "IT workflow screenshot" [ref=e1092]
+                    - button [pressed] [ref=e1093] [cursor=pointer]:
+                      - img "IT frontend screenshot" [ref=e1094]
+          - generic [ref=e1095]:
+            - generic [ref=e1097]:
+              - paragraph [ref=e1098]: Why Tines?
+              - heading "Powerful workflows, proven success." [level=2] [ref=e1099]
+              - paragraph [ref=e1100]: Tines is uniquely positioned — and proven — to be the single, secure environment for every team’s AI-native agents, apps, and automations.
+            - generic [ref=e1242]:
+              - figure [ref=e1243]:
+                - heading [level=3] [ref=e1245]:
+                  - strong [ref=e1246]: Born in security, built for the enterprise.
+                  - text: Governance, guardrails, and monitoring across every surface.
+              - figure [ref=e1247]:
+                - heading [level=3] [ref=e1249]:
+                  - strong [ref=e1250]: Built for your most important workflows.
+                  - text: Trusted by the world’s most ambitious organizations.
+              - figure [ref=e1251]:
+                - heading [level=3] [ref=e1253]:
+                  - strong [ref=e1254]: Vendor-agnostic.
+                  - text: Work across your entire tech stack and within your infrastructure.
+              - figure [ref=e1255]:
+                - heading [level=3] [ref=e1257]:
+                  - strong [ref=e1258]: Unmatched time to value.
+                  - text: Teams love Tines for speed, power, and ease of use.
+          - generic [ref=e1259]:
+            - img "Start today" [ref=e1261]
+            - generic:
+              - paragraph: Sign up today to get started or schedule time with our team to learn more.
+              - generic:
+                - link "Sign up free" [ref=e1263] [cursor=pointer]:
+                  - /url: https://login.tines.com/saml_idp/signup
+                - link "Book a demo" [ref=e1267] [cursor=pointer]:
+                  - /url: /book-a-demo/
+    - contentinfo [ref=e1271]:
+      - generic [ref=e1272]:
+        - generic [ref=e1273]:
+          - button "Product"
+          - generic [ref=e1275]:
+            - generic [ref=e1276]:
+              - link "Tines 3B" [ref=e1277] [cursor=pointer]:
+                - /url: /3b/
+              - link "Examples gallery" [ref=e1278] [cursor=pointer]:
+                - /url: /3b/examples/
+              - link "Product updates" [ref=e1279] [cursor=pointer]:
+                - /url: /3b/product-updates/
+              - link "Academy" [ref=e1280] [cursor=pointer]:
+                - /url: https://academy.tines.com/
+                - text: Academy
+                - generic [aria-hidden] [ref=e1281]: ↗
+              - link "Docs" [ref=e1282] [cursor=pointer]:
+                - /url: https://docs.3b.tines.com/
+                - text: Docs
+                - generic [aria-hidden] [ref=e1283]: ↗
+              - link "Status" [ref=e1284] [cursor=pointer]:
+                - /url: https://status.tines.com/
+                - text: Status
+                - generic [aria-hidden] [ref=e1285]: ↗
+            - generic [ref=e1286]:
+              - link "Tines Stories" [ref=e1287] [cursor=pointer]:
+                - /url: /stories/
+              - link "Storyboard" [ref=e1288] [cursor=pointer]:
+                - /url: /stories/storyboard/
+              - link "Cases" [ref=e1289] [cursor=pointer]:
+                - /url: /stories/cases/
+              - link "Workbench" [ref=e1290] [cursor=pointer]:
+                - /url: /stories/workbench/
+              - link "Agents" [ref=e1291] [cursor=pointer]:
+                - /url: /stories/agents/
+              - link "Monitoring" [ref=e1292] [cursor=pointer]:
+                - /url: /stories/monitoring/
+              - link "Workflow capability matrix" [ref=e1293] [cursor=pointer]:
+                - /url: /workflow-capability-matrix/
+              - link "Templates" [ref=e1294] [cursor=pointer]:
+                - /url: /stories/templates/
+              - link "Library" [ref=e1295] [cursor=pointer]:
+                - /url: /library/
+              - link "Five-minute flows" [ref=e1296] [cursor=pointer]:
+                - /url: /stories/five-minute-flows/
+              - link "What’s new" [ref=e1297] [cursor=pointer]:
+                - /url: /stories/whats-new/
+              - link "Docs and API" [ref=e1298] [cursor=pointer]:
+                - /url: /stories/docs/
+              - link "Status" [ref=e1299] [cursor=pointer]:
+                - /url: https://status.tines.com/
+                - text: Status
+                - generic [aria-hidden] [ref=e1300]: ↗
+            - link "Pricing" [ref=e1302] [cursor=pointer]:
+              - /url: /pricing/
+        - generic [ref=e1303]:
+          - button "Solutions"
+          - generic [ref=e1305]:
+            - generic [ref=e1306]:
+              - link "IT" [ref=e1307] [cursor=pointer]:
+                - /url: /solutions/it/
+              - link "IT as a business enabler" [ref=e1308] [cursor=pointer]:
+                - /url: /solutions/it/it-as-a-business-enabler/
+              - link "Infrastructure management" [ref=e1309] [cursor=pointer]:
+                - /url: /solutions/it/infrastructure-management/
+              - link "Networking" [ref=e1310] [cursor=pointer]:
+                - /url: /solutions/it/networking/
+              - link "Application management" [ref=e1311] [cursor=pointer]:
+                - /url: /solutions/it/application-management/
+              - link "IT service delivery and support" [ref=e1312] [cursor=pointer]:
+                - /url: /solutions/it/it-service-delivery-and-support/
+            - generic [ref=e1313]:
+              - link "Security" [ref=e1314] [cursor=pointer]:
+                - /url: /solutions/security/
+              - link "AI SOC" [ref=e1315] [cursor=pointer]:
+                - /url: /solutions/security/ai-soc/
+              - link "SOAR" [ref=e1316] [cursor=pointer]:
+                - /url: /solutions/security/soar/
+              - link "GRC" [ref=e1317] [cursor=pointer]:
+                - /url: /solutions/security/governance-risk-and-compliance/
+              - link "Threat intelligence" [ref=e1318] [cursor=pointer]:
+                - /url: /solutions/security/threat-intelligence/
+              - link "Vulnerability management" [ref=e1319] [cursor=pointer]:
+                - /url: /solutions/security/vulnerability-management/
+              - link "Network security" [ref=e1320] [cursor=pointer]:
+                - /url: /solutions/security/network-security/
+            - generic [ref=e1321]:
+              - link "Public sector" [ref=e1322] [cursor=pointer]:
+                - /url: /public-sector/
+              - link "Financial services" [ref=e1323] [cursor=pointer]:
+                - /url: /financial-services/
+              - link "MSSPs" [ref=e1324] [cursor=pointer]:
+                - /url: /mssps/
+            - generic [ref=e1325]:
+              - link "Professional services" [ref=e1326] [cursor=pointer]:
+                - /url: /professional-services/
+              - link "AI in Tines" [ref=e1327] [cursor=pointer]:
+                - /url: /ai-in-tines/
+              - link "Enterprise" [ref=e1328] [cursor=pointer]:
+                - /url: /enterprise/
+        - generic [ref=e1329]:
+          - button "Discover"
+          - generic [ref=e1331]:
+            - link "Customers" [ref=e1333] [cursor=pointer]:
+              - /url: /customers/
+            - generic [ref=e1334]:
+              - link "Blog" [ref=e1335] [cursor=pointer]:
+                - /url: /blog/
+              - link "Series" [ref=e1336] [cursor=pointer]:
+                - /url: /blog/series/
+              - link "Guides" [ref=e1337] [cursor=pointer]:
+                - /url: /blog/guides/
+              - link "Podcast" [ref=e1338] [cursor=pointer]:
+                - /url: /podcast/
+            - generic [ref=e1339]:
+              - link "Events" [ref=e1340] [cursor=pointer]:
+                - /url: /events/
+              - link "Webinars" [ref=e1341] [cursor=pointer]:
+                - /url: /webinars/
+              - link "Bootcamps" [ref=e1342] [cursor=pointer]:
+                - /url: /bootcamps/
+              - link "Builder Connect" [ref=e1343] [cursor=pointer]:
+                - /url: /events/builder-connect/
+              - link "Workflow.live" [ref=e1344] [cursor=pointer]:
+                - /url: https://www.workflow.live/
+                - text: Workflow.live
+                - generic [aria-hidden] [ref=e1345]: ↗
+            - generic [ref=e1346]:
+              - link "Community" [ref=e1347] [cursor=pointer]:
+                - /url: https://community.tines.com/
+                - text: Community
+                - generic [aria-hidden] [ref=e1348]: ↗
+              - link "YDWWT" [ref=e1349] [cursor=pointer]:
+                - /url: /you-did-what-with-tines/
+            - link "Customer center" [ref=e1351] [cursor=pointer]:
+              - /url: /customer-center/
+        - generic [ref=e1352]:
+          - generic [ref=e1353]:
+            - button "Company"
+            - generic [ref=e1355]:
+              - generic [ref=e1356]:
+                - link "About us" [ref=e1357] [cursor=pointer]:
+                  - /url: /about/
+                - link "Careers" [ref=e1358] [cursor=pointer]:
+                  - /url: /careers/
+                - link "Newsroom" [ref=e1359] [cursor=pointer]:
+                  - /url: /newsroom/
+                - link "Partners" [ref=e1360] [cursor=pointer]:
+                  - /url: /partners/
+                - link "Contact" [ref=e1361] [cursor=pointer]:
+                  - /url: /contact/
+                - link "Store" [ref=e1362] [cursor=pointer]:
+                  - /url: https://store.tines.com/
+                  - text: Store
+                  - generic [aria-hidden] [ref=e1363]: ↗
+                - link "Brand assets" [ref=e1364] [cursor=pointer]:
+                  - /url: https://live.standards.site/tines
+                  - text: Brand assets
+                  - generic [aria-hidden] [ref=e1365]: ↗
+              - generic [ref=e1366]:
+                - link "LinkedIn" [ref=e1367] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/tines-io/
+                  - text: LinkedIn
+                  - generic [aria-hidden] [ref=e1368]: ↗
+                - link "X" [ref=e1369] [cursor=pointer]:
+                  - /url: https://twitter.com/tines_hq
+                  - text: X
+                  - generic [aria-hidden] [ref=e1370]: ↗
+                - link "YouTube" [ref=e1371] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@TinesHQ
+                  - text: YouTube
+                  - generic [aria-hidden] [ref=e1372]: ↗
+          - generic [ref=e1373]:
+            - button "Trust and security"
+            - generic [ref=e1375]:
+              - generic [ref=e1376]:
+                - link "Security" [ref=e1377] [cursor=pointer]:
+                  - /url: /security/
+                - link "Security best practices" [ref=e1378] [cursor=pointer]:
+                  - /url: /tines-security-best-practices/
+                - link "Trust center" [ref=e1379] [cursor=pointer]:
+                  - /url: https://trust.tines.com/
+                  - text: Trust center
+                  - generic [aria-hidden] [ref=e1380]: ↗
+              - generic [ref=e1381]:
+                - link "Legal" [ref=e1382] [cursor=pointer]:
+                  - /url: /legal/
+                - link "Privacy" [ref=e1383] [cursor=pointer]:
+                  - /url: /privacy/
+                - link "Terms" [ref=e1384] [cursor=pointer]:
+                  - /url: /terms/
+                - link "DPA" [ref=e1385] [cursor=pointer]:
+                  - /url: /dpa/
+                - link "Cookies policy" [ref=e1386] [cursor=pointer]:
+                  - /url: /cookies-policy/
+      - generic [ref=e1387]:
+        - generic [ref=e1388]:
+          - paragraph [ref=e1389]: Ask AI about Tines
+          - list [ref=e1390]:
+            - listitem [ref=e1391]:
+              - link "Ask ChatGPT about Tines" [ref=e1392] [cursor=pointer]:
+                - /url: https://chatgpt.com/?q=As%20a%20potential%20customer%2C%20I%20want%20to%20understand%20concretely%20what%20I%20would%20get%20with%20Tines%20(tines.com).%0A%0ADetail%20step%20by%20step%3A%20what%20Tines%20is%2C%20how%20it%20lets%20every%20team%20build%20workflows%2C%20apps%2C%20and%20AI%20agents%20while%20IT%20and%20security%20keep%20visibility%2C%20governance%2C%20and%20control%2C%20how%20it%20connects%20to%20the%20tools%20we%20already%20use%2C%20its%20security%20and%20compliance%20features%2C%20and%20how%20it%20helps%20teams%20scale.%0A%0AExplain%20it%20simply%2C%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20using%20Tines.%20Useful%20sources%3A%0A%0A-%20Feature%20highlights%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2F%0A-%20Real%20examples%20of%20what%20teams%20build%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2Fexamples%2F%0A-%20In-depth%20docs%3A%20https%3A%2F%2Fdocs.3b.tines.com%2F%20(markdown%20index%20at%20https%3A%2F%2Fdocs.3b.tines.com%2Fllms.txt)
+            - listitem [ref=e1395]:
+              - link "Ask Claude about Tines" [ref=e1396] [cursor=pointer]:
+                - /url: https://claude.ai/new?q=As%20a%20potential%20customer%2C%20I%20want%20to%20understand%20concretely%20what%20I%20would%20get%20with%20Tines%20(tines.com).%0A%0ADetail%20step%20by%20step%3A%20what%20Tines%20is%2C%20how%20it%20lets%20every%20team%20build%20workflows%2C%20apps%2C%20and%20AI%20agents%20while%20IT%20and%20security%20keep%20visibility%2C%20governance%2C%20and%20control%2C%20how%20it%20connects%20to%20the%20tools%20we%20already%20use%2C%20its%20security%20and%20compliance%20features%2C%20and%20how%20it%20helps%20teams%20scale.%0A%0AExplain%20it%20simply%2C%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20using%20Tines.%20Useful%20sources%3A%0A%0A-%20Feature%20highlights%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2F%0A-%20Real%20examples%20of%20what%20teams%20build%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2Fexamples%2F%0A-%20In-depth%20docs%3A%20https%3A%2F%2Fdocs.3b.tines.com%2F%20(markdown%20index%20at%20https%3A%2F%2Fdocs.3b.tines.com%2Fllms.txt)
+            - listitem [ref=e1399]:
+              - link "Ask Gemini about Tines" [ref=e1400] [cursor=pointer]:
+                - /url: https://www.google.com/search?udm=50&source=searchlabs&q=As%20a%20potential%20customer%2C%20I%20want%20to%20understand%20concretely%20what%20I%20would%20get%20with%20Tines%20(tines.com).%0A%0ADetail%20step%20by%20step%3A%20what%20Tines%20is%2C%20how%20it%20lets%20every%20team%20build%20workflows%2C%20apps%2C%20and%20AI%20agents%20while%20IT%20and%20security%20keep%20visibility%2C%20governance%2C%20and%20control%2C%20how%20it%20connects%20to%20the%20tools%20we%20already%20use%2C%20its%20security%20and%20compliance%20features%2C%20and%20how%20it%20helps%20teams%20scale.%0A%0AExplain%20it%20simply%2C%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20using%20Tines.%20Useful%20sources%3A%0A%0A-%20Feature%20highlights%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2F%0A-%20Real%20examples%20of%20what%20teams%20build%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2Fexamples%2F%0A-%20In-depth%20docs%3A%20https%3A%2F%2Fdocs.3b.tines.com%2F%20(markdown%20index%20at%20https%3A%2F%2Fdocs.3b.tines.com%2Fllms.txt)
+            - listitem [ref=e1403]:
+              - link "Ask Perplexity about Tines" [ref=e1404] [cursor=pointer]:
+                - /url: https://www.perplexity.ai/search?q=As%20a%20potential%20customer%2C%20I%20want%20to%20understand%20concretely%20what%20I%20would%20get%20with%20Tines%20(tines.com).%0A%0ADetail%20step%20by%20step%3A%20what%20Tines%20is%2C%20how%20it%20lets%20every%20team%20build%20workflows%2C%20apps%2C%20and%20AI%20agents%20while%20IT%20and%20security%20keep%20visibility%2C%20governance%2C%20and%20control%2C%20how%20it%20connects%20to%20the%20tools%20we%20already%20use%2C%20its%20security%20and%20compliance%20features%2C%20and%20how%20it%20helps%20teams%20scale.%0A%0AExplain%20it%20simply%2C%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20using%20Tines.%20Useful%20sources%3A%0A%0A-%20Feature%20highlights%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2F%0A-%20Real%20examples%20of%20what%20teams%20build%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2Fexamples%2F%0A-%20In-depth%20docs%3A%20https%3A%2F%2Fdocs.3b.tines.com%2F%20(markdown%20index%20at%20https%3A%2F%2Fdocs.3b.tines.com%2Fllms.txt)
+            - listitem [ref=e1407]:
+              - link "Ask Grok about Tines" [ref=e1408] [cursor=pointer]:
+                - /url: https://grok.com/?q=As%20a%20potential%20customer%2C%20I%20want%20to%20understand%20concretely%20what%20I%20would%20get%20with%20Tines%20(tines.com).%0A%0ADetail%20step%20by%20step%3A%20what%20Tines%20is%2C%20how%20it%20lets%20every%20team%20build%20workflows%2C%20apps%2C%20and%20AI%20agents%20while%20IT%20and%20security%20keep%20visibility%2C%20governance%2C%20and%20control%2C%20how%20it%20connects%20to%20the%20tools%20we%20already%20use%2C%20its%20security%20and%20compliance%20features%2C%20and%20how%20it%20helps%20teams%20scale.%0A%0AExplain%20it%20simply%2C%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20using%20Tines.%20Useful%20sources%3A%0A%0A-%20Feature%20highlights%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2F%0A-%20Real%20examples%20of%20what%20teams%20build%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2Fexamples%2F%0A-%20In-depth%20docs%3A%20https%3A%2F%2Fdocs.3b.tines.com%2F%20(markdown%20index%20at%20https%3A%2F%2Fdocs.3b.tines.com%2Fllms.txt)
+        - generic [ref=e1411]: © Tines
+        - button "Cookie settings" [ref=e1412] [cursor=pointer]
+  - alert [ref=e1413]
+  - iframe [aria-hidden] [ref=e1414]
+  - iframe [aria-hidden] [ref=e1415]
+  - iframe [ref=e1880]:
+    - generic [ref=f7e1]:
+      - generic "Intercom":
+        - region "Intercom messenger":
+          - button "Open Intercom Messenger" [ref=f7e2] [cursor=pointer]

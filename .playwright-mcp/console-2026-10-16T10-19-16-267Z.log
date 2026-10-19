@@ -1,0 +1,2 @@
+[     806ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5191/src/index.css?t=1792145948029:0
+[   20119ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5191/node_modules/.vite/deps/chunk-373CG7ZK.js?v=c2330c23:21548

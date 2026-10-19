@@ -1,0 +1,78 @@
+[     790ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5191/node_modules/.vite/deps/chunk-373CG7ZK.js?v=c2330c23:21548
+[ 1482176ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5191/node_modules/.vite/deps/chunk-373CG7ZK.js?v=c2330c23:21548
+[ 2148141ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5191/node_modules/.vite/deps/chunk-373CG7ZK.js?v=c2330c23:21548
+[ 4518031ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5191/node_modules/.vite/deps/chunk-373CG7ZK.js?v=c2330c23:21548
+[ 4736334ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5191/@vite/client:559
+[ 4739456ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5191/node_modules/.vite/deps/chunk-373CG7ZK.js?v=c2330c23:21548
+[ 8092264ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5191/@vite/client:559
+[ 8093514ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5191/node_modules/.vite/deps/chunk-373CG7ZK.js?v=c2330c23:21548
+[13836330ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5191/@vite/client:559
+[13838323ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5191/node_modules/.vite/deps/chunk-373CG7ZK.js?v=c2330c23:21548
+[240534653ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5191/@vite/client:559
+[240536230ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5191/node_modules/.vite/deps/chunk-373CG7ZK.js?v=c2330c23:21548
+[242900605ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5191/node_modules/.vite/deps/chunk-373CG7ZK.js?v=c2330c23:21548
+[242902680ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5191/node_modules/.vite/deps/chunk-373CG7ZK.js?v=c2330c23:21548
+[242909575ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5191/node_modules/.vite/deps/chunk-373CG7ZK.js?v=c2330c23:21548
+[243053781ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:21548
+[243054002ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:21548
+[243054020ms] [ERROR] Warning: %s must not return anything besides a function, which is used for clean-up.%s%s useEffect 
+
+It looks like you wrote useEffect(async () => ...) or returned a Promise. Instead, write the async function inside your effect and call it immediately:
+
+useEffect(() => {
+  async function fetchData() {
+    // You can await here
+    const response = await MyAPI.getData(someId);
+    // ...
+  }
+  fetchData();
+}, [someId]); // Or [] if effect doesn't need props or state
+
+Learn more about data fetching with Hooks: https://reactjs.org/link/hooks-data-fetching 
+    at Layout (http://localhost:5191/src/App.jsx?t=1792389041179:49:24)
+    at RenderedRoute (http://localhost:5191/node_modules/.vite/deps/react-router-dom.js?v=39122d39:4067:5)
+    at Routes (http://localhost:5191/node_modules/.vite/deps/react-router-dom.js?v=39122d39:4537:5)
+    at Router (http://localhost:5191/node_modules/.vite/deps/react-router-dom.js?v=39122d39:4480:15)
+    at BrowserRouter (http://localhost:5191/node_modules/.vite/deps/react-router-dom.js?v=39122d39:5226:5)
+    at App @ http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:518
+[243054020ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5191/node_modules/.vite/deps/react-router-dom.js?v=39122d39:4371
+[243054020ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5191/node_modules/.vite/deps/react-router-dom.js?v=39122d39:4371
+[243075864ms] TypeError: destroy is not a function
+    at safelyCallDestroy (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:16746:13)
+    at commitHookEffectListUnmount (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:16873:19)
+    at commitPassiveUnmountOnFiber (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:18230:17)
+    at commitPassiveUnmountEffects_complete (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:18211:15)
+    at commitPassiveUnmountEffects_begin (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:18202:15)
+    at commitPassiveUnmountEffects (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:18167:11)
+    at flushPassiveEffectsImpl (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:19487:11)
+    at flushPassiveEffects (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:19445:22)
+    at commitRootImpl (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:19414:13)
+    at commitRoot (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:19275:13)
+[243075858ms] [ERROR] The above error occurred in the <Layout> component:
+
+    at Layout (http://localhost:5191/src/App.jsx?t=1792389063602:49:24)
+    at RenderedRoute (http://localhost:5191/node_modules/.vite/deps/react-router-dom.js?v=39122d39:4067:5)
+    at Routes (http://localhost:5191/node_modules/.vite/deps/react-router-dom.js?v=39122d39:4537:5)
+    at Router (http://localhost:5191/node_modules/.vite/deps/react-router-dom.js?v=39122d39:4480:15)
+    at BrowserRouter (http://localhost:5191/node_modules/.vite/deps/react-router-dom.js?v=39122d39:5226:5)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:14029
+[243075864ms] TypeError: destroy is not a function
+    at safelyCallDestroy (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:16746:13)
+    at commitHookEffectListUnmount (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:16873:19)
+    at commitPassiveUnmountOnFiber (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:18230:17)
+    at commitPassiveUnmountEffects_complete (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:18211:15)
+    at commitPassiveUnmountEffects_begin (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:18202:15)
+    at commitPassiveUnmountEffects (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:18167:11)
+    at flushPassiveEffectsImpl (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:19487:11)
+    at flushPassiveEffects (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:19445:22)
+    at commitRootImpl (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:19414:13)
+    at commitRoot (http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:19275:13)
+[243101716ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:21548
+[243101722ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5191/node_modules/.vite/deps/react-router-dom.js?v=39122d39:4371
+[243101723ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5191/node_modules/.vite/deps/react-router-dom.js?v=39122d39:4371
+[243423381ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5191/node_modules/.vite/deps/chunk-XPR23Y44.js?v=39122d39:21548
+[243423390ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5191/node_modules/.vite/deps/react-router-dom.js?v=39122d39:4371
+[243423390ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5191/node_modules/.vite/deps/react-router-dom.js?v=39122d39:4371

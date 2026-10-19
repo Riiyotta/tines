@@ -1,0 +1,84 @@
+{
+  "id": "conversion.start-today-cta",
+  "kind": "section",
+  "category": "CONVERSION",
+  "contractVersion": "1.0.0",
+  "purpose": "Closing conversion ask: sign up or book a demo.",
+  "implementedBy": "CtaStartToday.jsx",
+  "implementedByNote": "Component in the sibling clone project (src/components); same string as ia.json implementedBy.",
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "wordmark": {
+        "kind": "media",
+        "required": true,
+        "assetRole": "artwork.canvas-standin"
+      },
+      "wordmarkAlt": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 3
+      },
+      "tagline": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 16
+      },
+      "primaryCta": {
+        "kind": "cta",
+        "required": true,
+        "style": "filled",
+        "intents": [
+          "sign-up"
+        ],
+        "maxWords": 3
+      },
+      "secondaryCta": {
+        "kind": "cta",
+        "required": true,
+        "style": "outlined",
+        "intents": [
+          "book-demo"
+        ],
+        "maxWords": 3
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustPrecedeFooter": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "tri-cursor"
+    ],
+    "allowedTriggers": [
+      "pointer-mouse"
+    ],
+    "reducedMotionFallback": "cursor-without-spin",
+    "fallbackIsConst": true,
+    "notes": "Custom tri-spinner cursor over the wordmark: spin 6s linear (gated), fade .12s, press spring .3s."
+  },
+  "responsive": [
+    {
+      "minWidth": 0,
+      "changes": [
+        "'Start / today' on two lines (610:480)"
+      ]
+    },
+    {
+      "minWidth": 768,
+      "changes": [
+        "one-line wordmark (1202:264)"
+      ]
+    }
+  ],
+  "assetRoles": [
+    "artwork.canvas-standin"
+  ],
+  "evidence": [
+    "mv.cta.content",
+    "mv.motion.cursor"
+  ],
+  "evidenceLevel": "measured (single homepage instance)"
+}

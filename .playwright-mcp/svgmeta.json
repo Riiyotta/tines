@@ -1,0 +1,317 @@
+[
+ {
+  "name": "nav-TinesLogo-0",
+  "sec": "nav",
+  "label": "",
+  "vb": "0 0 103 32",
+  "w": 91,
+  "h": 28,
+  "bytes": 2970
+ },
+ {
+  "name": "nav-pillButton-1",
+  "sec": "nav",
+  "label": "Open search",
+  "vb": "0 0 18 18",
+  "w": 16,
+  "h": 16,
+  "bytes": 671
+ },
+ {
+  "name": "nav-hamburger-2",
+  "sec": "nav",
+  "label": "Toggle menu",
+  "vb": "0 0 18 18",
+  "w": 0,
+  "h": 0,
+  "bytes": 201
+ },
+ {
+  "name": "nav-storiesIcon-3",
+  "sec": "nav",
+  "label": "",
+  "vb": "0 0 94 88",
+  "w": 0,
+  "h": 0,
+  "bytes": 12563
+ },
+ {
+  "name": "hero-content-4",
+  "sec": "hero",
+  "label": "Go to /blog/introducing-tines-3b/",
+  "vb": "0 0 9 8",
+  "w": 9,
+  "h": 8,
+  "bytes": 251
+ },
+ {
+  "name": "hero-item-5",
+  "sec": "hero",
+  "label": "Trusted by teams at leading companies",
+  "vb": "0 0 98 22",
+  "w": 94,
+  "h": 21,
+  "bytes": 3639
+ },
+ {
+  "name": "hero-item-6",
+  "sec": "hero",
+  "label": "Trusted by teams at leading companies",
+  "vb": "0 0 131 31",
+  "w": 126,
+  "h": 30,
+  "bytes": 5983
+ },
+ {
+  "name": "hero-item-7",
+  "sec": "hero",
+  "label": "Trusted by teams at leading companies",
+  "vb": "0 0 100 34",
+  "w": 77,
+  "h": 26,
+  "bytes": 2458
+ },
+ {
+  "name": "hero-item-8",
+  "sec": "hero",
+  "label": "Trusted by teams at leading companies",
+  "vb": "0 0 131 30",
+  "w": 126,
+  "h": 29,
+  "bytes": 14895
+ },
+ {
+  "name": "hero-item-9",
+  "sec": "hero",
+  "label": "Trusted by teams at leading companies",
+  "vb": "0 0 129 28",
+  "w": 124,
+  "h": 27,
+  "bytes": 6647
+ },
+ {
+  "name": "hero-item-10",
+  "sec": "hero",
+  "label": "Trusted by teams at leading companies",
+  "vb": "0 0 118 24",
+  "w": 113,
+  "h": 23,
+  "bytes": 2991
+ },
+ {
+  "name": "hero-item-11",
+  "sec": "hero",
+  "label": "Trusted by teams at leading companies",
+  "vb": "0 0 123 30",
+  "w": 118,
+  "h": 29,
+  "bytes": 4721
+ },
+ {
+  "name": "hero-item-12",
+  "sec": "hero",
+  "label": "Trusted by teams at leading companies",
+  "vb": "0 0 111 28",
+  "w": 107,
+  "h": 27,
+  "bytes": 11604
+ },
+ {
+  "name": "hero-item-13",
+  "sec": "hero",
+  "label": "Trusted by teams at leading companies",
+  "vb": "0 0 90 16",
+  "w": 86,
+  "h": 15,
+  "bytes": 5857
+ },
+ {
+  "name": "hero-item-14",
+  "sec": "hero",
+  "label": "Trusted by teams at leading companies",
+  "vb": "0 0 56 30",
+  "w": 54,
+  "h": 29,
+  "bytes": 5012
+ },
+ {
+  "name": "hero-item-15",
+  "sec": "hero",
+  "label": "Trusted by teams at leading companies",
+  "vb": "0 0 103 14",
+  "w": 99,
+  "h": 13,
+  "bytes": 3624
+ },
+ {
+  "name": "hero-visual-27",
+  "sec": "hero",
+  "label": "",
+  "vb": "0 0 1360 680",
+  "w": 1360,
+  "h": 680,
+  "bytes": 135568
+ },
+ {
+  "name": "hero-icon-109",
+  "sec": "hero",
+  "label": "Pause",
+  "vb": "0 0 16 16",
+  "w": 14,
+  "h": 14,
+  "bytes": 261
+ },
+ {
+  "name": "hero-filletLeft-110",
+  "sec": "hero",
+  "label": "",
+  "vb": "0 0 8 8",
+  "w": 8,
+  "h": 8,
+  "bytes": 198
+ },
+ {
+  "name": "hero-filletRight-111",
+  "sec": "hero",
+  "label": "",
+  "vb": "0 0 8 8",
+  "w": 8,
+  "h": 8,
+  "bytes": 199
+ },
+ {
+  "name": "solution-orb-112",
+  "sec": "solution",
+  "label": "",
+  "vb": "0 0 100 100",
+  "w": 48,
+  "h": 48,
+  "bytes": 2144
+ },
+ {
+  "name": "useCases-tabIcon-113",
+  "sec": "useCases",
+  "label": "Teams using Tines",
+  "vb": "0 0 18 18",
+  "w": 0,
+  "h": 0,
+  "bytes": 1760
+ },
+ {
+  "name": "useCases-tabIcon-114",
+  "sec": "useCases",
+  "label": "Teams using Tines",
+  "vb": "0 0 18 18",
+  "w": 0,
+  "h": 0,
+  "bytes": 1197
+ },
+ {
+  "name": "useCases-tabIcon-115",
+  "sec": "useCases",
+  "label": "Teams using Tines",
+  "vb": "0 0 18 18",
+  "w": 0,
+  "h": 0,
+  "bytes": 721
+ },
+ {
+  "name": "useCases-tabIcon-116",
+  "sec": "useCases",
+  "label": "Teams using Tines",
+  "vb": "0 0 18 18",
+  "w": 0,
+  "h": 0,
+  "bytes": 4395
+ },
+ {
+  "name": "useCases-tabIcon-117",
+  "sec": "useCases",
+  "label": "Teams using Tines",
+  "vb": "0 0 18 18",
+  "w": 0,
+  "h": 0,
+  "bytes": 1291
+ },
+ {
+  "name": "usp-constellation-118",
+  "sec": "usp",
+  "label": "",
+  "vb": "0 0 120 120",
+  "w": 132,
+  "h": 132,
+  "bytes": 15973
+ },
+ {
+  "name": "usp-radar-119",
+  "sec": "usp",
+  "label": "",
+  "vb": "0 0 264 279",
+  "w": 300,
+  "h": 317,
+  "bytes": 22773
+ },
+ {
+  "name": "footer-chevron-120",
+  "sec": "footer",
+  "label": "",
+  "vb": "0 0 10 7",
+  "w": 0,
+  "h": 0,
+  "bytes": 245
+ },
+ {
+  "name": "footer-askAiLink-125",
+  "sec": "footer",
+  "label": "Ask ChatGPT about Tines",
+  "vb": "0 0 24 24",
+  "w": 18,
+  "h": 18,
+  "bytes": 1606
+ },
+ {
+  "name": "footer-askAiLink-126",
+  "sec": "footer",
+  "label": "Ask Claude about Tines",
+  "vb": "0 0 24 24",
+  "w": 18,
+  "h": 18,
+  "bytes": 1957
+ },
+ {
+  "name": "footer-askAiLink-127",
+  "sec": "footer",
+  "label": "Ask Gemini about Tines",
+  "vb": "0 0 24 24",
+  "w": 18,
+  "h": 18,
+  "bytes": 430
+ },
+ {
+  "name": "footer-askAiLink-128",
+  "sec": "footer",
+  "label": "Ask Perplexity about Tines",
+  "vb": "0 0 24 24",
+  "w": 18,
+  "h": 18,
+  "bytes": 650
+ },
+ {
+  "name": "footer-askAiLink-129",
+  "sec": "footer",
+  "label": "Ask Grok about Tines",
+  "vb": "0 0 24 24",
+  "w": 18,
+  "h": 18,
+  "bytes": 702
+ },
+ {
+  "name": "footer-tines-logo-icon_-130",
+  "sec": "footer",
+  "label": "",
+  "vb": "0 0 48 48",
+  "w": 0,
+  "h": 0,
+  "bytes": 1290
+ }
+]

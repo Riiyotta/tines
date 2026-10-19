@@ -1,0 +1,1515 @@
+{
+  "hundredX": {
+    "cls": ".banner .hundredX",
+    "box": [
+      -7,
+      391,
+      1454,
+      760
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "anim": "ThreeBHero-module-scss-module___xGqFa__hundredXSink | auto | scroll(root) | 0px | 720px",
+    "h": "760.375px",
+    "disp": "block",
+    "z": "0"
+  },
+  "heroQuote": null,
+  "flowerField": {
+    "cls": ".flowerFieldTop",
+    "box": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bg": null,
+    "color": "#fcf9f5",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "h": "auto",
+    "disp": "none",
+    "z": "0"
+  },
+  "heroBed": [],
+  "tagPill": {
+    "cls": ".bar",
+    "box": [
+      40,
+      101,
+      219,
+      30
+    ],
+    "bg": "#fbfaf6 a=0.55 (color(srgb 0.988235 0.976471 0.960784 / 0.55))",
+    "color": "#714bd0",
+    "border": "1px solid #714bd0",
+    "rad": "28px",
+    "pad": "0px",
+    "bf": "blur(12px)",
+    "trans": "all",
+    "gap": "7px",
+    "h": "30px",
+    "disp": "flex"
+  },
+  "tagNew": {
+    "cls": ".tag",
+    "box": [
+      41,
+      102,
+      48,
+      28
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "2.38px 11.9px",
+    "trans": "all",
+    "h": "28px",
+    "disp": "flex"
+  },
+  "heroButtons": [
+    {
+      "cls": "",
+      "box": [
+        40,
+        363,
+        140,
+        36
+      ],
+      "bg": null,
+      "color": "#714bd0",
+      "rad": "0px",
+      "pad": "0px",
+      "trans": "all",
+      "h": "35.75px",
+      "disp": "block"
+    },
+    {
+      "cls": ".buttonInner .filled .mono",
+      "box": [
+        40,
+        363,
+        140,
+        36
+      ],
+      "bg": "#714bd0",
+      "color": "#fcf9f5",
+      "border": "1px solid null",
+      "rad": "9990px",
+      "pad": "0px 18.2px",
+      "trans": "filter 0.1s, background-color 0.1s",
+      "h": "35.75px",
+      "disp": "flex"
+    },
+    {
+      "cls": "",
+      "box": [
+        188,
+        363,
+        140,
+        36
+      ],
+      "bg": null,
+      "color": "#714bd0",
+      "rad": "0px",
+      "pad": "0px",
+      "trans": "all",
+      "h": "35.75px",
+      "disp": "block"
+    },
+    {
+      "cls": ".buttonInner .frosted .mono",
+      "box": [
+        188,
+        363,
+        140,
+        36
+      ],
+      "bg": "#fcf9f4 a=0.65 (color(srgb 0.988235 0.976471 0.960784 / 0.65))",
+      "color": "#714bd0",
+      "border": "1px solid #714bd0",
+      "rad": "9990px",
+      "pad": "0px 18.2px",
+      "bf": "blur(12px)",
+      "trans": "filter 0.1s, background-color 0.1s",
+      "h": "35.75px",
+      "disp": "flex"
+    }
+  ],
+  "heroActions": {
+    "cls": ".actions .heroActions",
+    "box": [
+      40,
+      363,
+      288,
+      36
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "gap": "8px",
+    "h": "35.75px",
+    "disp": "grid"
+  },
+  "btnParents": [
+    {
+      "inner": {
+        "cls": ".buttonInner .filled .mono",
+        "box": [
+          40,
+          363,
+          140,
+          36
+        ],
+        "bg": "#714bd0",
+        "color": "#fcf9f5",
+        "border": "1px solid null",
+        "rad": "9990px",
+        "pad": "0px 18.2px",
+        "trans": "filter 0.1s, background-color 0.1s",
+        "h": "35.75px",
+        "disp": "flex"
+      },
+      "outer": {
+        "cls": ".buttonWrapper .fullWidth",
+        "box": [
+          40,
+          363,
+          140,
+          36
+        ],
+        "bg": null,
+        "color": "#714bd0",
+        "rad": "0px",
+        "pad": "0px",
+        "trans": "all",
+        "h": "35.75px",
+        "disp": "flex"
+      },
+      "outer2": ""
+    },
+    {
+      "inner": {
+        "cls": ".buttonInner .frosted .mono",
+        "box": [
+          188,
+          363,
+          140,
+          36
+        ],
+        "bg": "#fcf9f4 a=0.65 (color(srgb 0.988235 0.976471 0.960784 / 0.65))",
+        "color": "#714bd0",
+        "border": "1px solid #714bd0",
+        "rad": "9990px",
+        "pad": "0px 18.2px",
+        "bf": "blur(12px)",
+        "trans": "filter 0.1s, background-color 0.1s",
+        "h": "35.75px",
+        "disp": "flex"
+      },
+      "outer": {
+        "cls": ".buttonWrapper .fullWidth .secondary",
+        "box": [
+          188,
+          363,
+          140,
+          36
+        ],
+        "bg": null,
+        "color": "#714bd0",
+        "rad": "0px",
+        "pad": "0px",
+        "trans": "all",
+        "h": "35.75px",
+        "disp": "flex"
+      },
+      "outer2": ""
+    },
+    {
+      "inner": {
+        "cls": ".buttonInner .filledWhite .mono",
+        "box": [
+          1087,
+          3492,
+          199,
+          36
+        ],
+        "bg": "#fcf9f5",
+        "color": "#714bd0",
+        "border": "1px solid null",
+        "rad": "9990px",
+        "pad": "0px 18.2px",
+        "trans": "filter 0.1s, background-color 0.1s",
+        "h": "35.75px",
+        "disp": "flex"
+      },
+      "outer": {
+        "cls": ".buttonWrapper",
+        "box": [
+          1087,
+          3492,
+          199,
+          36
+        ],
+        "bg": null,
+        "color": "#fcf9f5",
+        "rad": "0px",
+        "pad": "0px",
+        "trans": "all",
+        "h": "35.75px",
+        "disp": "inline-flex"
+      },
+      "outer2": ""
+    },
+    {
+      "inner": {
+        "cls": ".buttonInner .filled .mono",
+        "box": [
+          576,
+          6427,
+          140,
+          36
+        ],
+        "bg": "#714bd0",
+        "color": "#fcf9f5",
+        "border": "1px solid null",
+        "rad": "9990px",
+        "pad": "0px 18.2px",
+        "trans": "filter 0.1s, background-color 0.1s",
+        "h": "35.75px",
+        "disp": "flex"
+      },
+      "outer": {
+        "cls": ".buttonWrapper .fullWidth",
+        "box": [
+          576,
+          6427,
+          140,
+          36
+        ],
+        "bg": null,
+        "color": "#714bd0",
+        "rad": "0px",
+        "pad": "0px",
+        "trans": "all",
+        "h": "35.75px",
+        "disp": "flex"
+      },
+      "outer2": ""
+    },
+    {
+      "inner": {
+        "cls": ".buttonInner .outlined .mono",
+        "box": [
+          724,
+          6427,
+          140,
+          36
+        ],
+        "bg": null,
+        "color": "#714bd0",
+        "border": "1px solid #714bd0",
+        "rad": "9990px",
+        "pad": "0px 18.2px",
+        "trans": "filter 0.1s, background-color 0.1s",
+        "h": "35.75px",
+        "disp": "flex"
+      },
+      "outer": {
+        "cls": ".buttonWrapper .fullWidth .secondary",
+        "box": [
+          724,
+          6427,
+          140,
+          36
+        ],
+        "bg": null,
+        "color": "#714bd0",
+        "rad": "0px",
+        "pad": "0px",
+        "trans": "all",
+        "h": "35.75px",
+        "disp": "flex"
+      },
+      "outer2": ""
+    }
+  ],
+  "navItem": {
+    "cls": ".navItem",
+    "box": [
+      145,
+      37,
+      87,
+      32
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "50px",
+    "pad": "8px 12px",
+    "trans": "all",
+    "gap": "6px",
+    "h": "32.0938px",
+    "disp": "flex"
+  },
+  "navPill": {
+    "cls": ".pillButton",
+    "box": [
+      1362,
+      34,
+      38,
+      38
+    ],
+    "bg": "#ece8fd",
+    "color": "#6741bf",
+    "rad": "990px",
+    "pad": "0px",
+    "trans": "all",
+    "h": "38px",
+    "disp": "flex"
+  },
+  "navCta": {
+    "cls": ".cta .ctaFilled",
+    "box": [
+      1224,
+      36,
+      130,
+      35
+    ],
+    "bg": "#542f9c",
+    "color": "#fcf9f5",
+    "rad": "990px",
+    "pad": "10px 20px",
+    "trans": "all",
+    "h": "34.9453px",
+    "disp": "flex"
+  },
+  "search": {
+    "cls": ".pillButton",
+    "box": [
+      1362,
+      34,
+      38,
+      38
+    ],
+    "bg": "#ece8fd",
+    "color": "#6741bf",
+    "rad": "990px",
+    "pad": "0px",
+    "trans": "all",
+    "h": "38px",
+    "disp": "flex"
+  },
+  "marquee": {
+    "cls": ".marquee .small",
+    "box": [
+      21,
+      439,
+      1398,
+      37
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "4px 0px",
+    "trans": "all",
+    "h": "38.9893px",
+    "disp": "block",
+    "--marqueeDuration": "",
+    "--marqueePeriod": ""
+  },
+  "track": {
+    "cls": ".track .animate",
+    "box": [
+      -55,
+      443,
+      3153,
+      30
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "anim": "HomeLogoMarquee-module-scss-module__Me-4EG__marqueeDrift | 41.625s | auto | normal | normal",
+    "gap": "45px",
+    "h": "30.9977px",
+    "disp": "flex",
+    "--marqueeDuration": "41.625s",
+    "--marqueePeriod": "1665px"
+  },
+  "marqueeItem": {
+    "cls": ".item",
+    "box": [
+      -55,
+      447,
+      94,
+      21
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "h": "21.9971px",
+    "disp": "flex"
+  },
+  "marqueeItems": [
+    [
+      -55,
+      94,
+      ""
+    ],
+    [
+      82,
+      126,
+      ""
+    ],
+    [
+      251,
+      77,
+      ""
+    ],
+    [
+      371,
+      126,
+      ""
+    ],
+    [
+      540,
+      124,
+      ""
+    ],
+    [
+      707,
+      113,
+      ""
+    ],
+    [
+      864,
+      118,
+      ""
+    ],
+    [
+      1025,
+      107,
+      ""
+    ],
+    [
+      1175,
+      86,
+      ""
+    ],
+    [
+      1304,
+      54,
+      ""
+    ],
+    [
+      1401,
+      99,
+      ""
+    ],
+    [
+      1543,
+      94,
+      ""
+    ]
+  ],
+  "frame": {
+    "cls": ".frame",
+    "box": [
+      40,
+      876,
+      1360,
+      680
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "h": "680px",
+    "disp": "block",
+    "z": "2"
+  },
+  "visual": {
+    "cls": ".visual",
+    "box": [
+      40,
+      876,
+      1360,
+      680
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "anim": "ThreeBProductVisual-module-scss-module__D3PxTa__threeBVisualAppear | 0.6s | auto | normal | normal",
+    "h": "680px",
+    "disp": "block"
+  },
+  "timeline": {
+    "cls": ".bar .public .appear",
+    "box": [
+      72,
+      832,
+      1296,
+      44
+    ],
+    "bg": null,
+    "color": "#542f9c",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "transform 0.5s cubic-bezier(0.22, 1, 0.36, 1)",
+    "anim": "TimelineScrubber-module-scss-module__pwj1na__timelineBarFadeIn | 0.6s | auto | normal | normal",
+    "gap": "4px",
+    "h": "44px",
+    "disp": "flex",
+    "z": "1",
+    "--barPlayHover": "color-mix(in srgb, color(display-p3 .1576 .1093 .2748) 8%, transparent)"
+  },
+  "transport": {
+    "cls": ".transport",
+    "box": [
+      72,
+      832,
+      1296,
+      44
+    ],
+    "bg": null,
+    "color": "#542f9c",
+    "rad": "22px 22px 0px 0px",
+    "pad": "8px",
+    "trans": "border-radius 0s 0.25s",
+    "anim": "TimelineScrubber-module-scss-module__pwj1na__timelineBarIntro | 0.6s | auto | normal | normal",
+    "gap": "8px 12px",
+    "h": "44px",
+    "disp": "flex"
+  },
+  "play": {
+    "cls": ".play",
+    "box": [
+      80,
+      840,
+      28,
+      28
+    ],
+    "bg": null,
+    "color": "#542f9c",
+    "rad": "50%",
+    "pad": "0px",
+    "trans": "all",
+    "h": "28px",
+    "disp": "flex"
+  },
+  "segment": {
+    "cls": ".segment",
+    "box": [
+      121,
+      852,
+      45,
+      4
+    ],
+    "bg": "#7249d1 a=0.22 (color(srgb 0.441758 0.295458 0.814856 / 0.22))",
+    "color": "#542f9c",
+    "rad": "3px",
+    "pad": "0px",
+    "trans": "background 0.12s",
+    "h": "4px",
+    "disp": "block",
+    "z": "1"
+  },
+  "monitorBanner": {
+    "cls": ".banner",
+    "box": [
+      0,
+      1652,
+      1440,
+      1016
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "h": "1015.75px",
+    "disp": "block"
+  },
+  "monitorCanvas": {
+    "cls": ".canvas",
+    "box": [
+      0,
+      1652,
+      1440,
+      1524
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "h": "1523.62px",
+    "disp": "block",
+    "z": "0"
+  },
+  "solPanel": {
+    "cls": ".panel",
+    "box": [
+      40,
+      2764,
+      1360,
+      819
+    ],
+    "bg": "#714bd0",
+    "color": "#fcf9f5",
+    "rad": "48px",
+    "pad": "55px",
+    "trans": "all",
+    "gap": "40px 139.333px",
+    "h": "819.125px",
+    "disp": "grid"
+  },
+  "solContent": {
+    "cls": ".content",
+    "box": [
+      790,
+      2819,
+      555,
+      709
+    ],
+    "bg": null,
+    "color": "#fcf9f5",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "gap": "64px",
+    "h": "709.125px",
+    "disp": "flex",
+    "z": "1"
+  },
+  "solGrid": [
+    {
+      "cls": ".grid",
+      "box": [
+        790,
+        2819,
+        555,
+        401
+      ],
+      "bg": null,
+      "color": "#fcf9f5",
+      "rad": "0px",
+      "pad": "0px",
+      "trans": "all",
+      "gap": "55px 40px",
+      "h": "400.594px",
+      "disp": "grid"
+    },
+    {
+      "cls": ".footer",
+      "box": [
+        1087,
+        3283,
+        258,
+        245
+      ],
+      "bg": null,
+      "color": "#fcf9f5",
+      "rad": "0px",
+      "pad": "0px",
+      "trans": "all",
+      "gap": "30px",
+      "h": "244.531px",
+      "disp": "flex"
+    }
+  ],
+  "solFooter": {
+    "cls": ".footer",
+    "box": [
+      1087,
+      3283,
+      258,
+      245
+    ],
+    "bg": null,
+    "color": "#fcf9f5",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "gap": "30px",
+    "h": "244.531px",
+    "disp": "flex"
+  },
+  "solBtn": {
+    "cls": ".buttonInner .filledWhite .mono",
+    "box": [
+      1087,
+      3492,
+      199,
+      36
+    ],
+    "bg": "#fcf9f5",
+    "color": "#714bd0",
+    "border": "1px solid null",
+    "rad": "9990px",
+    "pad": "0px 18.2px",
+    "trans": "filter 0.1s, background-color 0.1s",
+    "h": "35.75px",
+    "disp": "flex"
+  },
+  "solFieldCanvas": {
+    "cls": ".field",
+    "box": [
+      -43,
+      3374,
+      1005,
+      393
+    ],
+    "bg": null,
+    "color": "#fcf9f5",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "h": "393.211px",
+    "disp": "block"
+  },
+  "tabs": {
+    "cls": ".tabs",
+    "box": [
+      40,
+      4032,
+      1360,
+      172
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "gap": "0px",
+    "h": "171.594px",
+    "disp": "flex"
+  },
+  "tabList": [
+    {
+      "cls": ".tab",
+      "box": [
+        40,
+        4032,
+        285,
+        172
+      ],
+      "bg": "#007f4a",
+      "color": "#fcf9f5",
+      "rad": "14px 14px 0px 0px",
+      "pad": "30px 30px 22px",
+      "trans": "flex-grow 0.3s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.18s, color 0.18s",
+      "h": "171.594px",
+      "disp": "flex",
+      "z": "1",
+      "flex-grow": "1",
+      "aria-selected": ""
+    },
+    {
+      "cls": ".tab",
+      "box": [
+        309,
+        4032,
+        285,
+        172
+      ],
+      "bg": "#714bd0",
+      "color": "#fcf9f5",
+      "rad": "14px 14px 0px 0px",
+      "pad": "30px 30px 22px",
+      "trans": "flex-grow 0.3s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.18s, color 0.18s",
+      "h": "171.594px",
+      "disp": "flex",
+      "z": "2",
+      "flex-grow": "1",
+      "aria-selected": ""
+    },
+    {
+      "cls": ".tab",
+      "box": [
+        578,
+        4032,
+        285,
+        172
+      ],
+      "bg": "#008784",
+      "color": "#fcf9f5",
+      "rad": "14px 14px 0px 0px",
+      "pad": "30px 30px 22px",
+      "trans": "flex-grow 0.3s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.18s, color 0.18s",
+      "h": "171.594px",
+      "disp": "flex",
+      "z": "3",
+      "flex-grow": "1",
+      "aria-selected": ""
+    },
+    {
+      "cls": ".tab",
+      "box": [
+        846,
+        4032,
+        285,
+        172
+      ],
+      "bg": "#c05100",
+      "color": "#fcf9f5",
+      "rad": "14px 14px 0px 0px",
+      "pad": "30px 30px 22px",
+      "trans": "flex-grow 0.3s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.18s, color 0.18s",
+      "h": "171.594px",
+      "disp": "flex",
+      "z": "4",
+      "flex-grow": "1",
+      "aria-selected": ""
+    },
+    {
+      "cls": ".tab",
+      "box": [
+        1115,
+        4032,
+        285,
+        172
+      ],
+      "bg": "#3565cc",
+      "color": "#fcf9f5",
+      "rad": "14px 14px 0px 0px",
+      "pad": "30px 30px 22px",
+      "trans": "flex-grow 0.3s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.18s, color 0.18s",
+      "h": "171.594px",
+      "disp": "flex",
+      "z": "5",
+      "flex-grow": "1",
+      "aria-selected": ""
+    }
+  ],
+  "panel": {
+    "cls": ".panel",
+    "box": [
+      40,
+      4204,
+      1360,
+      768
+    ],
+    "bg": null,
+    "color": "#cae4d4",
+    "rad": "0px 0px 48px 48px",
+    "pad": "0px",
+    "trans": "all",
+    "h": "767.797px",
+    "disp": "block"
+  },
+  "panelKids": [
+    {
+      "cls": ".colorLayer",
+      "box": [
+        40,
+        4204,
+        1360,
+        768
+      ],
+      "bg": "#007f4a",
+      "color": "#cae4d4",
+      "rad": "0px",
+      "pad": "0px",
+      "trans": "all",
+      "h": "767.797px",
+      "disp": "block",
+      "z": "0"
+    },
+    {
+      "cls": ".panelContent",
+      "box": [
+        40,
+        4204,
+        1360,
+        768
+      ],
+      "bg": null,
+      "color": "#cae4d4",
+      "rad": "0px",
+      "pad": "40px",
+      "trans": "all",
+      "gap": "8px",
+      "h": "767.797px",
+      "disp": "grid",
+      "z": "2"
+    },
+    {
+      "cls": ".toolbar",
+      "box": [
+        80,
+        4244,
+        218,
+        40
+      ],
+      "bg": "#cee6d6 a=0.12 (color(srgb 0.792107 0.893876 0.83192 / 0.12))",
+      "color": "#cae4d4",
+      "rad": "999px",
+      "pad": "3px",
+      "trans": "all",
+      "h": "39.7969px",
+      "disp": "grid"
+    },
+    {
+      "cls": ".toggle",
+      "box": [
+        83,
+        4247,
+        106,
+        34
+      ],
+      "bg": null,
+      "color": "#cae4d4",
+      "rad": "999px",
+      "pad": "10px 20px",
+      "trans": "all",
+      "h": "33.7969px",
+      "disp": "block"
+    },
+    {
+      "cls": ".toggle",
+      "box": [
+        189,
+        4247,
+        106,
+        34
+      ],
+      "bg": null,
+      "color": "#cae4d4",
+      "rad": "999px",
+      "pad": "10px 20px",
+      "trans": "all",
+      "h": "33.7969px",
+      "disp": "block"
+    },
+    {
+      "cls": ".togglePill",
+      "box": [
+        83,
+        4247,
+        212,
+        34
+      ],
+      "bg": "#fcf9f5",
+      "color": "#00512f",
+      "rad": "0px",
+      "pad": "0px",
+      "trans": "clip-path 0.28s cubic-bezier(0.22, 1, 0.36, 1)",
+      "h": "33.7969px",
+      "disp": "grid",
+      "clip": "inset(0px 0% 0px 50% round 999px)",
+      "z": "1"
+    },
+    {
+      "cls": ".togglePillLabel",
+      "box": [
+        83,
+        4247,
+        106,
+        34
+      ],
+      "bg": null,
+      "color": "#00512f",
+      "rad": "0px",
+      "pad": "10px 20px",
+      "trans": "all",
+      "h": "33.7969px",
+      "disp": "block"
+    },
+    {
+      "cls": ".togglePillLabel",
+      "box": [
+        189,
+        4247,
+        106,
+        34
+      ],
+      "bg": null,
+      "color": "#00512f",
+      "rad": "0px",
+      "pad": "10px 20px",
+      "trans": "all",
+      "h": "33.7969px",
+      "disp": "block"
+    },
+    {
+      "cls": ".stageWrap",
+      "box": [
+        80,
+        4292,
+        1280,
+        640
+      ],
+      "bg": null,
+      "color": "#cae4d4",
+      "rad": "0px",
+      "pad": "0px",
+      "trans": "all",
+      "h": "640px",
+      "disp": "block"
+    },
+    {
+      "cls": ".stageSlot",
+      "box": [
+        80,
+        4292,
+        1280,
+        640
+      ],
+      "bg": null,
+      "color": "#cae4d4",
+      "rad": "0px",
+      "pad": "0px",
+      "trans": "all",
+      "h": "640px",
+      "disp": "block"
+    },
+    {
+      "cls": ".stage",
+      "box": [
+        80,
+        4292,
+        1280,
+        640
+      ],
+      "bg": null,
+      "color": "#cae4d4",
+      "rad": "0px",
+      "pad": "0px",
+      "trans": "all",
+      "h": "640px",
+      "disp": "grid"
+    },
+    {
+      "cls": ".frame .workflow",
+      "box": [
+        80,
+        4367,
+        919,
+        565
+      ],
+      "bg": "#cae4d4",
+      "color": "#000000",
+      "border": "1px solid #aedac2",
+      "rad": "24px",
+      "pad": "5px",
+      "trans": "transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.25s",
+      "h": "582.672px",
+      "disp": "block",
+      "op": "0.5",
+      "z": "1"
+    }
+  ],
+  "toggleGroup": {
+    "cls": ".toolbar",
+    "box": [
+      80,
+      4244,
+      218,
+      40
+    ],
+    "bg": "#cee6d6 a=0.12 (color(srgb 0.792107 0.893876 0.83192 / 0.12))",
+    "color": "#cae4d4",
+    "rad": "999px",
+    "pad": "3px",
+    "trans": "all",
+    "h": "39.7969px",
+    "disp": "grid"
+  },
+  "togglePill": {
+    "cls": ".togglePill",
+    "box": [
+      83,
+      4247,
+      212,
+      34
+    ],
+    "bg": "#fcf9f5",
+    "color": "#00512f",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "clip-path 0.28s cubic-bezier(0.22, 1, 0.36, 1)",
+    "h": "33.7969px",
+    "disp": "grid",
+    "clip": "inset(0px 0% 0px 50% round 999px)",
+    "z": "1"
+  },
+  "toggle": {
+    "cls": ".toggle",
+    "box": [
+      83,
+      4247,
+      106,
+      34
+    ],
+    "bg": null,
+    "color": "#cae4d4",
+    "rad": "999px",
+    "pad": "10px 20px",
+    "trans": "all",
+    "h": "33.7969px",
+    "disp": "block"
+  },
+  "uspCard": {
+    "cls": ".card",
+    "box": [
+      40,
+      5455,
+      322,
+      429
+    ],
+    "bg": "#714bd0",
+    "color": "#fcf9f5",
+    "border": "1px solid #fff8f8 a=0.14 (color(srgb 0.988235 0.976471 0.960784 / 0.14))",
+    "rad": "14px",
+    "pad": "24px",
+    "bf": "blur(12px)",
+    "trans": "all",
+    "gap": "40px",
+    "h": "429.328px",
+    "disp": "flex"
+  },
+  "uspCardKids": [
+    {
+      "cls": ".cardIconWell",
+      "box": [
+        65,
+        5754,
+        272,
+        105
+      ],
+      "bg": null,
+      "color": "#fcf9f5",
+      "rad": "0px",
+      "pad": "0px",
+      "trans": "all",
+      "h": "105px",
+      "disp": "flex"
+    },
+    {
+      "cls": ".cardTitle",
+      "box": [
+        65,
+        5480,
+        272,
+        144
+      ],
+      "bg": null,
+      "color": "#fcf9f5",
+      "rad": "0px",
+      "pad": "0px",
+      "trans": "all",
+      "h": "143.984px",
+      "disp": "block"
+    }
+  ],
+  "uspIll": {
+    "cls": ".illustration",
+    "box": [
+      1100,
+      5128,
+      300,
+      272
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "h": "272.039px",
+    "disp": "block"
+  },
+  "ctaSection": {
+    "cls": ".section",
+    "box": [
+      0,
+      6040,
+      1440,
+      518
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "30px 40px 96px",
+    "trans": "all",
+    "h": "518.055px",
+    "disp": "flex"
+  },
+  "ctaCanvas": {
+    "cls": ".canvas",
+    "box": [
+      -50,
+      5934,
+      1541,
+      479
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "h": "479.469px",
+    "disp": "block"
+  },
+  "ctaWordmark": {
+    "cls": ".wordmark",
+    "box": [
+      40,
+      6024,
+      1360,
+      299
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "h": "298.539px",
+    "disp": "block"
+  },
+  "ctaBtns": [
+    {
+      "cls": ".buttonInner .filled .mono",
+      "box": [
+        576,
+        6427,
+        140,
+        36
+      ],
+      "bg": "#714bd0",
+      "color": "#fcf9f5",
+      "border": "1px solid null",
+      "rad": "9990px",
+      "pad": "0px 18.2px",
+      "trans": "filter 0.1s, background-color 0.1s",
+      "h": "35.75px",
+      "disp": "flex"
+    },
+    {
+      "cls": ".buttonInner .outlined .mono",
+      "box": [
+        724,
+        6427,
+        140,
+        36
+      ],
+      "bg": null,
+      "color": "#714bd0",
+      "border": "1px solid #714bd0",
+      "rad": "9990px",
+      "pad": "0px 18.2px",
+      "trans": "filter 0.1s, background-color 0.1s",
+      "h": "35.75px",
+      "disp": "flex"
+    }
+  ],
+  "footer": {
+    "cls": ".footer",
+    "box": [
+      0,
+      6558,
+      1440,
+      862
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "h": "861.586px",
+    "disp": "block",
+    "z": "1"
+  },
+  "footerSections": {
+    "cls": ".sections",
+    "box": [
+      0,
+      6558,
+      1440,
+      762
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "50px 40px 30px",
+    "trans": "all",
+    "gap": "32px 40px",
+    "h": "761.586px",
+    "disp": "flex"
+  },
+  "askAi": {
+    "cls": ".askAi",
+    "box": [
+      558,
+      7340,
+      325,
+      40
+    ],
+    "bg": "#764ed8 a=0.05 (color(srgb 0.441758 0.295458 0.814856 / 0.05))",
+    "color": "#714bd0",
+    "rad": "999px",
+    "pad": "4px 4px 4px 16px",
+    "trans": "all",
+    "gap": "8px",
+    "h": "40px",
+    "disp": "flex"
+  },
+  "askAiLinks": [
+    {
+      "cls": ".askAiLink",
+      "box": [
+        710,
+        7344,
+        32,
+        32
+      ],
+      "bg": null,
+      "color": "#714bd0",
+      "rad": "50%",
+      "pad": "0px",
+      "trans": "all",
+      "h": "32px",
+      "disp": "flex",
+      "label": "Ask ChatGPT about Tines",
+      "href": "https://chatgpt.com/?q=As%20a%20potential%20customer%2C%20I%20want%20to%20understand%20concretely%20what%20I%20would%20get%20with%20Tines%20(tines.com).%0A%0ADetail%20step%20by%20step%3A%20what%20Tines%20is%2C%20how%20it%20lets%20every%20team%20build%20workflows%2C%20apps%2C%20and%20AI%20agents%20while%20IT%20and%20security%20keep%20visibility%2C%20governance%2C%20and%20control%2C%20how%20it%20connects%20to%20the%20tools%20we%20already%20use%2C%20its%20security%20and%20compliance%20features%2C%20and%20how%20it%20helps%20teams%20scale.%0A%0AExplain%20it%20simply%2C%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20using%20Tines.%20Useful%20sources%3A%0A%0A-%20Feature%20highlights%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2F%0A-%20Real%20examples%20of%20what%20teams%20build%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2Fexamples%2F%0A-%20In-depth%20docs%3A%20https%3A%2F%2Fdocs.3b.tines.com%2F%20(markdown%20index%20at%20https%3A%2F%2Fdocs.3b.tines.com%2Fllms.txt)"
+    },
+    {
+      "cls": ".askAiLink",
+      "box": [
+        744,
+        7344,
+        32,
+        32
+      ],
+      "bg": null,
+      "color": "#714bd0",
+      "rad": "50%",
+      "pad": "0px",
+      "trans": "all",
+      "h": "32px",
+      "disp": "flex",
+      "label": "Ask Claude about Tines",
+      "href": "https://claude.ai/new?q=As%20a%20potential%20customer%2C%20I%20want%20to%20understand%20concretely%20what%20I%20would%20get%20with%20Tines%20(tines.com).%0A%0ADetail%20step%20by%20step%3A%20what%20Tines%20is%2C%20how%20it%20lets%20every%20team%20build%20workflows%2C%20apps%2C%20and%20AI%20agents%20while%20IT%20and%20security%20keep%20visibility%2C%20governance%2C%20and%20control%2C%20how%20it%20connects%20to%20the%20tools%20we%20already%20use%2C%20its%20security%20and%20compliance%20features%2C%20and%20how%20it%20helps%20teams%20scale.%0A%0AExplain%20it%20simply%2C%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20using%20Tines.%20Useful%20sources%3A%0A%0A-%20Feature%20highlights%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2F%0A-%20Real%20examples%20of%20what%20teams%20build%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2Fexamples%2F%0A-%20In-depth%20docs%3A%20https%3A%2F%2Fdocs.3b.tines.com%2F%20(markdown%20index%20at%20https%3A%2F%2Fdocs.3b.tines.com%2Fllms.txt)"
+    },
+    {
+      "cls": ".askAiLink",
+      "box": [
+        778,
+        7344,
+        32,
+        32
+      ],
+      "bg": null,
+      "color": "#714bd0",
+      "rad": "50%",
+      "pad": "0px",
+      "trans": "all",
+      "h": "32px",
+      "disp": "flex",
+      "label": "Ask Gemini about Tines",
+      "href": "https://www.google.com/search?udm=50&source=searchlabs&q=As%20a%20potential%20customer%2C%20I%20want%20to%20understand%20concretely%20what%20I%20would%20get%20with%20Tines%20(tines.com).%0A%0ADetail%20step%20by%20step%3A%20what%20Tines%20is%2C%20how%20it%20lets%20every%20team%20build%20workflows%2C%20apps%2C%20and%20AI%20agents%20while%20IT%20and%20security%20keep%20visibility%2C%20governance%2C%20and%20control%2C%20how%20it%20connects%20to%20the%20tools%20we%20already%20use%2C%20its%20security%20and%20compliance%20features%2C%20and%20how%20it%20helps%20teams%20scale.%0A%0AExplain%20it%20simply%2C%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20using%20Tines.%20Useful%20sources%3A%0A%0A-%20Feature%20highlights%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2F%0A-%20Real%20examples%20of%20what%20teams%20build%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2Fexamples%2F%0A-%20In-depth%20docs%3A%20https%3A%2F%2Fdocs.3b.tines.com%2F%20(markdown%20index%20at%20https%3A%2F%2Fdocs.3b.tines.com%2Fllms.txt)"
+    },
+    {
+      "cls": ".askAiLink",
+      "box": [
+        812,
+        7344,
+        32,
+        32
+      ],
+      "bg": null,
+      "color": "#714bd0",
+      "rad": "50%",
+      "pad": "0px",
+      "trans": "all",
+      "h": "32px",
+      "disp": "flex",
+      "label": "Ask Perplexity about Tines",
+      "href": "https://www.perplexity.ai/search?q=As%20a%20potential%20customer%2C%20I%20want%20to%20understand%20concretely%20what%20I%20would%20get%20with%20Tines%20(tines.com).%0A%0ADetail%20step%20by%20step%3A%20what%20Tines%20is%2C%20how%20it%20lets%20every%20team%20build%20workflows%2C%20apps%2C%20and%20AI%20agents%20while%20IT%20and%20security%20keep%20visibility%2C%20governance%2C%20and%20control%2C%20how%20it%20connects%20to%20the%20tools%20we%20already%20use%2C%20its%20security%20and%20compliance%20features%2C%20and%20how%20it%20helps%20teams%20scale.%0A%0AExplain%20it%20simply%2C%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20using%20Tines.%20Useful%20sources%3A%0A%0A-%20Feature%20highlights%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2F%0A-%20Real%20examples%20of%20what%20teams%20build%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2Fexamples%2F%0A-%20In-depth%20docs%3A%20https%3A%2F%2Fdocs.3b.tines.com%2F%20(markdown%20index%20at%20https%3A%2F%2Fdocs.3b.tines.com%2Fllms.txt)"
+    },
+    {
+      "cls": ".askAiLink",
+      "box": [
+        846,
+        7344,
+        32,
+        32
+      ],
+      "bg": null,
+      "color": "#714bd0",
+      "rad": "50%",
+      "pad": "0px",
+      "trans": "all",
+      "h": "32px",
+      "disp": "flex",
+      "label": "Ask Grok about Tines",
+      "href": "https://grok.com/?q=As%20a%20potential%20customer%2C%20I%20want%20to%20understand%20concretely%20what%20I%20would%20get%20with%20Tines%20(tines.com).%0A%0ADetail%20step%20by%20step%3A%20what%20Tines%20is%2C%20how%20it%20lets%20every%20team%20build%20workflows%2C%20apps%2C%20and%20AI%20agents%20while%20IT%20and%20security%20keep%20visibility%2C%20governance%2C%20and%20control%2C%20how%20it%20connects%20to%20the%20tools%20we%20already%20use%2C%20its%20security%20and%20compliance%20features%2C%20and%20how%20it%20helps%20teams%20scale.%0A%0AExplain%20it%20simply%2C%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20using%20Tines.%20Useful%20sources%3A%0A%0A-%20Feature%20highlights%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2F%0A-%20Real%20examples%20of%20what%20teams%20build%3A%20https%3A%2F%2Fwww.tines.com%2F3b%2Fexamples%2F%0A-%20In-depth%20docs%3A%20https%3A%2F%2Fdocs.3b.tines.com%2F%20(markdown%20index%20at%20https%3A%2F%2Fdocs.3b.tines.com%2Fllms.txt)"
+    }
+  ],
+  "pageShell": {
+    "cls": ".pageShell",
+    "box": [
+      0,
+      16,
+      1440,
+      7404
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "h": "7403.87px",
+    "disp": "block"
+  },
+  "slot": {
+    "cls": ".slot",
+    "box": [
+      0,
+      16,
+      1440,
+      7404
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "all",
+    "h": "7403.87px",
+    "disp": "block",
+    "z": "-1"
+  },
+  "cursor": {
+    "cls": ".cursor",
+    "box": [
+      0,
+      0,
+      38,
+      40
+    ],
+    "bg": null,
+    "color": "#714bd0",
+    "rad": "0px",
+    "pad": "0px",
+    "trans": "opacity 0.12s",
+    "h": "40px",
+    "disp": "block",
+    "op": "0",
+    "z": "2147483001"
+  },
+  "region": [
+    ".region .wordmark"
+  ]
+}

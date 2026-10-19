@@ -1,0 +1,90 @@
+{
+  "id": "hero.product-demo",
+  "kind": "section",
+  "category": "HERO",
+  "contractVersion": "1.0.0",
+  "purpose": "Show the product in motion with a chaptered, scrubbable timeline.",
+  "implementedBy": "Hero.jsx > TimelineBar",
+  "implementedByNote": "Component in the sibling clone project (src/components); same string as ia.json implementedBy.",
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "frame": {
+        "kind": "media",
+        "required": true,
+        "assetRole": "product.demo-frame"
+      },
+      "chapters": {
+        "kind": "olist",
+        "required": true,
+        "minItems": 1,
+        "maxItems": 9,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 4
+          }
+        }
+      },
+      "showTimeline": {
+        "kind": "bool",
+        "required": true
+      }
+    }
+  },
+  "constraints": {
+    "maxPerPage": 1,
+    "mustFollow": "hero.intro"
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-plus-timeline"
+    ],
+    "allowedTriggers": [
+      "on-mount"
+    ],
+    "reducedMotionFallback": "static-frame-timeline-paused",
+    "fallbackIsConst": true,
+    "notes": "Inner SVG appear 600ms; bar 600ms delay 200ms; 91.6315s loop holding at 0:01 until >=65% in view."
+  },
+  "responsive": [
+    {
+      "minWidth": 0,
+      "changes": [
+        "3:4 phone frame, full-bleed, radius 18",
+        "frame sits +45px (sp-xxl) below the stage"
+      ]
+    },
+    {
+      "minWidth": 640,
+      "changes": [
+        "4:3 tablet frame",
+        "frame pulled up -130px (sp-xxl - 175px)"
+      ]
+    },
+    {
+      "minWidth": 1024,
+      "changes": [
+        "frame pulled up -40px over the stage, growing only when the viewport is taller than ~900px"
+      ]
+    },
+    {
+      "minWidth": 1280,
+      "changes": [
+        "2:1 desktop frame"
+      ]
+    }
+  ],
+  "assetRoles": [
+    "product.demo-frame"
+  ],
+  "evidence": [
+    "mv.hero.frame-aspect",
+    "mv.hero.frame-offset",
+    "mv.timeline.structure",
+    "mv.timeline.behaviour",
+    "mv.motion.product-visual"
+  ],
+  "evidenceLevel": "measured (single homepage instance)"
+}

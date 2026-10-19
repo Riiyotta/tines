@@ -1,0 +1,156 @@
+/* =====================================================================
+   Motion layer. Values measured on https://www.tines.com/ (live CSSOM +
+   getAnimations(), Oct 2026). Original class names noted per block.
+   Everything is gated on prefers-reduced-motion: no-preference, the same
+   way the original gates it.
+   ===================================================================== */
+
+/* ---------- Keyframes (copied from the original's compiled CSS) ---------- */
+@keyframes snappyIn { 0% { opacity: 0; transform: translateY(12px); } .1% { opacity: 1; transform: translateY(12px); } 100% { opacity: 1; transform: translateY(0); } }
+@keyframes snappyDown { 0% { opacity: 0; transform: translateY(-12px); } .1% { opacity: 1; transform: translateY(-12px); } 100% { opacity: 1; transform: translateY(0); } }
+@keyframes marqueeDrift { 0% { transform: translate(0, 0); } 100% { transform: translate3d(calc(-1 * var(--marqueePeriod, 0px)), 0, 0); } }
+/* 4.5rem on the original (10px root) = 45px */
+@keyframes hundredXSink { 0% { transform: translateY(0); } 100% { transform: translateY(45px); } }
+@keyframes threeBVisualAppear { 0% { opacity: 0; transform: translateY(16px); } .1% { opacity: 1; transform: translateY(16px); } 100% { opacity: 1; transform: translateY(0); } }
+@keyframes timelineBarIntro { 0% { transform: translateY(16px); } 100% { transform: translateY(0); } }
+@keyframes timelineBarFadeIn { 0% { visibility: hidden; } .1% { visibility: visible; } 100% { visibility: visible; } }
+@keyframes mascotSpin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+@keyframes mascotBlink { 0%, 90%, 100% { transform: scaleY(1); } 95% { transform: scaleY(.05); } }
+@keyframes mascotBreathe { 0%, 100% { transform: translateY(var(--breatheY, .8px)); } 50% { transform: translateY(calc(var(--breatheY, .8px) * -1)); } }
+@keyframes mascotFloatZ { 0% { opacity: 0; transform: translate(0); } 20% { opacity: 1; } 100% { opacity: 0; transform: translate(var(--zDx, 2px), var(--zRise, -9px)); } }
+@keyframes solutionBedParallax { 0% { transform: translateY(33%); } 100% { transform: translateY(12%); } }
+@keyframes useCasesReveal { 0% { opacity: 0; transform: translateY(16px); } .1% { opacity: 1; } 100% { opacity: 1; transform: translateY(0); } }
+@keyframes panelWipe { 0% { clip-path: inset(0 0 100%); } 100% { clip-path: inset(0); } }
+@keyframes frameFloatIn { 0% { opacity: 0; translate: 0 12px; } 100% { opacity: var(--restOpacity, 1); translate: 0; } }
+@keyframes constellationSpin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+@keyframes twinkle {
+  0%, 18%, 32%, 66%, 100% { opacity: 1; transform: scale(1); }
+  25% { opacity: .35; transform: scale(.82); }
+  73% { opacity: .5; transform: scale(.88); }
+}
+@keyframes interactiveCursorSpin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+/* ---------- Static (non-animated) geometry the animations rely on ---------- */
+.ThreeBMascot-module-scss-module__Gy_XlW__ring,
+.ThreeBMascot-module-scss-module__Gy_XlW__eyes,
+.ThreeBMascot-module-scss-module__Gy_XlW__body,
+.AvatarFace-module-scss-module__yl3Jdq__eyes { transform-box: fill-box; transform-origin: 50%; }
+.ThreeBMascot-module-scss-module__Gy_XlW__z { opacity: 0; }
+.ThreeBMascotOrb-module-scss-module__-vU4cq__orb { --mascotRingSpin: 7s; }
+.StargazingConstellation-module-scss-module__nf8GKa__spin,
+.StargazingConstellation-module-scss-module__nf8GKa__spinSlow { transform-origin: 60px 60px; }
+.StargazingConstellation-module-scss-module__nf8GKa__star { transform-box: fill-box; transform-origin: 50%; will-change: opacity, transform; }
+
+/* Use-case block is hidden until the IntersectionObserver reveals it (live .tabbed { opacity: 0 }) */
+[data-motion~='usecases-reveal'] { opacity: 0; }
+@media (min-width: 640px) {
+  [data-motion~='usecase-frame']:not([data-active]) { --restOpacity: .5; }
+}
+
+/* CTA tri-spinner cursor (live InteractiveCursor) */
+.tri-cursor {
+  position: fixed; top: 0; left: 0; z-index: 2147483001; pointer-events: none; opacity: 0; will-change: transform;
+  --interactiveCursorStroke: #714bd0; --interactiveCursorFill: #fcf9f5;
+  --interactiveCursorShadow: color-mix(in srgb, #16131e 45%, transparent);
+  transition: opacity .12s;
+}
+.tri-cursor.is-visible { opacity: 1; }
+.tri-cursor__shadow { position: absolute; inset: 0; z-index: -1; --interactiveCursorFill: var(--interactiveCursorShadow); }
+.tri-cursor__shadow path { stroke: none; }
+.tri-cursor__spinner { position: relative; width: 38px; height: 40px; transform-origin: 19px 20px; }
+.tri-cursor__tri { position: absolute; inset: 0; display: block; transition: transform .3s cubic-bezier(.34, 1.56, .64, 1); }
+.tri-cursor.is-pressed .tri-cursor__tri--top { transform: translateY(5px); }
+.tri-cursor.is-pressed .tri-cursor__tri--br { transform: translate(-4.33px, -2.5px); }
+.tri-cursor.is-pressed .tri-cursor__tri--bl { transform: translate(4.33px, -2.5px); }
+.hide-native-cursor, .hide-native-cursor * { cursor: none !important; }
+
+/* ---------- Timeline data-dock (TimelineScrubber .public[data-dock], ThreeBProductVisual .dockSentinel) ----------
+   The bar sits above the frame (translateY(-100%)) and flips to the frame's bottom edge
+   (translateY(--frameH)) once the sentinel at the frame top passes 120px from the viewport top. */
+[data-motion~='timeline-bar'][data-dock='bottom'] { transform: translateY(var(--frameH, 0px)); }
+[data-motion~='timeline-bar'][data-dock='bottom'] > div { border-radius: 0 0 22px 22px; }
+[data-motion~='timeline-bar'][data-dock='bottom'] [data-motion~='timeline-caption'] { bottom: auto; border-radius: 0 0 8px 8px; padding: 2px 9px 4.5px; }
+[data-motion~='timeline-bar'][data-dock='bottom'] [data-motion~='timeline-caption'] > span { top: 0; bottom: auto; transform: none; }
+[data-motion~='timeline-caption'] { transition: opacity .15s; }
+[data-motion~='timeline-bar'][data-docking] [data-motion~='timeline-caption'] { opacity: 0; }
+
+/* Mascot faces ease toward the gaze offset */
+.ThreeBMascot-module-scss-module__Gy_XlW__face,
+.AvatarFace-module-scss-module__yl3Jdq__face { will-change: transform; transition: transform .3s ease-out; }
+
+@media (prefers-reduced-motion: no-preference) {
+  /* ---------- Nav (SiteNav26 .panelInner > *, .mobileMenu) ---------- */
+  [data-motion~='nav-dropdown-columns'] > * { animation: snappyIn .4s cubic-bezier(.22, 1, .36, 1) both; }
+  [data-motion~='nav-dropdown-columns'] > :nth-child(2) { animation-delay: 50ms; }
+  [data-motion~='nav-dropdown-columns'] > :nth-child(3) { animation-delay: .1s; }
+  [data-motion~='nav-dropdown-columns'] > :nth-child(4) { animation-delay: .15s; }
+  [data-motion~='nav-dropdown-columns'] > :nth-child(5) { animation-delay: .2s; }
+  [data-motion~='mobile-menu'] { animation: snappyDown .35s cubic-bezier(.22, 1, .36, 1) both; }
+
+  /* ---------- Logo marquee (HomeLogoMarquee .animate): period/40 s, linear, infinite ---------- */
+  [data-motion~='logo-marquee-track'] { will-change: transform; }
+  [data-motion~='logo-marquee-track'].is-animating { animation: marqueeDrift var(--marqueeDuration, 30s) linear infinite; }
+
+  /* ---------- Product visual + timeline bar (ThreeBProductVisual .visual, TimelineScrubber .appear) ---------- */
+  /* animates the inner svg (.ThreeBProductVisual__visual), not the frame wrapper */
+  [data-motion~='product-visual'] > span > svg { animation: threeBVisualAppear .6s cubic-bezier(.22, 1, .36, 1) both; }
+  [data-motion~='timeline-bar'] { animation: timelineBarFadeIn .6s cubic-bezier(.22, 1, .36, 1) .2s both; }
+  [data-motion~='timeline-bar'] > div { animation: timelineBarIntro .6s cubic-bezier(.22, 1, .36, 1) .2s both; }
+  [data-motion~='timeline-segment'] { transition: background .12s; }
+  [data-motion~='timeline-bar'] { transition: transform .5s cubic-bezier(.22, 1, .36, 1); }
+  /* radius flips mid-slide (live .transport: transition border-radius 0s .25s) */
+  [data-motion~='timeline-bar'] > div { transition: border-radius 0s .25s; }
+
+  /* ---------- Mascots inside the inlined SVGs (ThreeBMascot / AvatarFace) ---------- */
+  .ThreeBMascot-module-scss-module__Gy_XlW__ring { animation: mascotSpin var(--mascotRingSpin, 5s) linear infinite; }
+  .ThreeBMascot-module-scss-module__Gy_XlW__eyes,
+  .AvatarFace-module-scss-module__yl3Jdq__eyes { animation: mascotBlink 4s ease-in-out infinite; }
+  .ThreeBMascot-module-scss-module__Gy_XlW__breathe { animation: mascotBreathe 3.8s ease-in-out infinite; }
+  .ThreeBMascot-module-scss-module__Gy_XlW__z { animation: mascotFloatZ 3s ease-out infinite; }
+
+  /* ---------- USP constellation (StargazingConstellation) ---------- */
+  .StargazingConstellation-module-scss-module__nf8GKa__spin { animation: constellationSpin 60s linear infinite; }
+  .StargazingConstellation-module-scss-module__nf8GKa__spinSlow { animation: constellationSpin 75s linear infinite reverse; }
+  .StargazingConstellation-module-scss-module__nf8GKa__star {
+    animation: twinkle var(--twinkleDuration, 3s) ease-in-out infinite;
+    animation-delay: var(--twinkleDelay, 0s);
+  }
+
+  /* ---------- Use cases (HomeUseCasesSection .visible / .wipeLayer / .stageIn .frame) ---------- */
+  [data-motion~='usecases-reveal'].is-visible { animation: useCasesReveal .5s cubic-bezier(.22, 1, .36, 1) both; }
+  .motion-wipe { animation: panelWipe 1s cubic-bezier(.22, 1, .36, 1) both; }
+  .motion-stage-in [data-motion~='usecase-frame'] { animation: frameFloatIn .4s cubic-bezier(.22, 1, .36, 1) 50ms both; }
+  .motion-stage-in [data-motion~='usecase-frame'][data-active] { animation-delay: 0s; }
+
+  /* ---------- CTA cursor spinner: 6s linear infinite ---------- */
+  .tri-cursor__spinner { animation: interactiveCursorSpin 6s linear infinite; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-motion~='usecases-reveal'] { opacity: 1; }
+  .ThreeBMascot-module-scss-module__Gy_XlW__z { opacity: 0; }
+}
+
+/* ---------- Scroll-driven (native CSS scroll / view timelines) ---------- */
+@supports (animation-timeline: scroll()) {
+  /* ThreeBHero .wordmarkLayer .hundredX: scroll(root), range 0 → 80vh, linear; disabled < 920px */
+  @media (prefers-reduced-motion: no-preference) and (min-width: 920px) {
+    [data-motion~='hundredx-sink'] {
+      will-change: transform;
+      animation: hundredXSink linear both;
+      animation-timeline: scroll(root);
+      animation-range: 0px 80vh;
+    }
+  }
+}
+@supports (animation-timeline: view()) {
+  /* HomeSolutionSection .panel { view-timeline-name } + .flowerField: 33% → 12% over the panel's cover range */
+  @media (prefers-reduced-motion: no-preference) {
+    [data-motion~='solution-panel'] { view-timeline-name: --solutionPanelView; }
+    [data-motion~='solution-flower-bed-wrap'] {
+      will-change: transform;
+      animation: solutionBedParallax linear both;
+      animation-timeline: --solutionPanelView;
+    }
+  }
+}

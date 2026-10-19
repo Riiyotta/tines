@@ -1,0 +1,2504 @@
+{
+  "nav": [
+    {
+      "tag": "button",
+      "cls": "navItem",
+      "text": "Product",
+      "ff": "Roobert",
+      "fw": "600",
+      "fs": "14px",
+      "lh": "16.1px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        145,
+        69,
+        87,
+        32
+      ]
+    },
+    {
+      "tag": "button",
+      "cls": "navItem",
+      "text": "Solutions",
+      "ff": "Roobert",
+      "fw": "600",
+      "fs": "14px",
+      "lh": "16.1px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        232,
+        69,
+        96,
+        32
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "navItem",
+      "text": "Customers",
+      "ff": "Roobert",
+      "fw": "600",
+      "fs": "14px",
+      "lh": "16.1px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        328,
+        69,
+        94,
+        32
+      ]
+    },
+    {
+      "tag": "button",
+      "cls": "navItem",
+      "text": "Discover",
+      "ff": "Roobert",
+      "fw": "600",
+      "fs": "14px",
+      "lh": "16.1px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        422,
+        69,
+        91,
+        32
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "navItem",
+      "text": "Pricing",
+      "ff": "Roobert",
+      "fw": "600",
+      "fs": "14px",
+      "lh": "16.1px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        512,
+        69,
+        69,
+        32
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "cta",
+      "text": "Log in",
+      "ff": "Roobert",
+      "fw": "600",
+      "fs": "14px",
+      "lh": "16.1px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        1070,
+        69,
+        67,
+        32
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "cta",
+      "text": "Sign up",
+      "ff": "Roobert",
+      "fw": "600",
+      "fs": "14px",
+      "lh": "16.1px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        1136,
+        69,
+        76,
+        32
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "cta ctaFilled",
+      "text": "Book a demo",
+      "ff": "\"Roobert Mono\"",
+      "fw": "700",
+      "fs": "13px",
+      "lh": "14.95px",
+      "ls": "normal",
+      "tt": "uppercase",
+      "color": "#fcf9f5",
+      "box": [
+        1224,
+        68,
+        130,
+        35
+      ]
+    }
+  ],
+  "hero": [
+    {
+      "tag": "span",
+      "cls": "tag",
+      "text": "New",
+      "ff": "\"Roobert Mono\"",
+      "fw": "700",
+      "fs": "11.9px",
+      "lh": "11.9px",
+      "ls": "0.238px",
+      "tt": "uppercase",
+      "color": "#714bd0",
+      "box": [
+        41,
+        134,
+        48,
+        28
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "",
+      "text": "Introducing Tines 3B",
+      "ff": "Roobert",
+      "fw": "600",
+      "fs": "14px",
+      "lh": "14px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        101,
+        141,
+        131,
+        14
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "headingLine",
+      "text": "You told everyone to use AI.",
+      "ff": "Roobert",
+      "fw": "400",
+      "fs": "64px",
+      "lh": "67.2px",
+      "ls": "-1.92px",
+      "color": "#714bd0",
+      "box": [
+        40,
+        187,
+        1018,
+        67
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "headingLine",
+      "text": "Now give them a secure place to do it.",
+      "ff": "Roobert",
+      "fw": "400",
+      "fs": "64px",
+      "lh": "67.2px",
+      "ls": "-1.92px",
+      "color": "#714bd0",
+      "box": [
+        40,
+        254,
+        1018,
+        67
+      ]
+    },
+    {
+      "tag": "p",
+      "cls": "byline",
+      "text": "Tines lets every team build. IT and Security maintain complete visibility, governance, and control.",
+      "ff": "Reckless",
+      "fw": "500",
+      "fs": "24px",
+      "lh": "31.2px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        340,
+        1003,
+        31
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "buttonText",
+      "text": "Book a demo",
+      "ff": "\"Roobert Mono\"",
+      "fw": "700",
+      "fs": "13px",
+      "lh": "13px",
+      "ls": "0.26px",
+      "tt": "uppercase",
+      "color": "#fcf9f5",
+      "box": [
+        64,
+        407,
+        93,
+        13
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "buttonText",
+      "text": "Sign up free",
+      "ff": "\"Roobert Mono\"",
+      "fw": "700",
+      "fs": "13px",
+      "lh": "13px",
+      "ls": "0.26px",
+      "tt": "uppercase",
+      "color": "#714bd0",
+      "box": [
+        207,
+        407,
+        101,
+        13
+      ]
+    },
+    {
+      "tag": "div",
+      "cls": "caption",
+      "text": "Configure connectors",
+      "ff": "Roobert",
+      "fw": "600",
+      "fs": "12.5px",
+      "lh": "14.375px",
+      "ls": "-0.125px",
+      "color": "#542f9c",
+      "box": [
+        502,
+        1631,
+        141,
+        21
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "time",
+      "text": "0:35 / 1:31",
+      "ff": "Roobert",
+      "fw": "600",
+      "fs": "12px",
+      "lh": "13.8px",
+      "ls": "normal",
+      "color": "#6741bf",
+      "box": [
+        1290,
+        1603,
+        70,
+        14
+      ]
+    }
+  ],
+  "monitor": [
+    {
+      "tag": "p",
+      "cls": "kicker bannerKicker",
+      "text": "The new reality for IT and security",
+      "ff": "\"Roobert Mono\"",
+      "fw": "700",
+      "fs": "13px",
+      "lh": "13px",
+      "ls": "0.65px",
+      "tt": "uppercase",
+      "color": "#714bd0",
+      "box": [
+        500,
+        1780,
+        440,
+        13
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "",
+      "text": "AI made everyone a builder.",
+      "ff": "Reckless",
+      "fw": "400",
+      "fs": "52px",
+      "lh": "57.2px",
+      "ls": "-1.56px",
+      "color": "#714bd0",
+      "box": [
+        512,
+        1855,
+        416,
+        114
+      ]
+    },
+    {
+      "tag": "strong",
+      "cls": "",
+      "text": "But security and IT got 100× harder.",
+      "ff": "Reckless",
+      "fw": "700",
+      "fs": "52px",
+      "lh": "57.2px",
+      "ls": "-1.56px",
+      "color": "#714bd0",
+      "box": [
+        512,
+        1970,
+        416,
+        172
+      ]
+    },
+    {
+      "tag": "p",
+      "cls": "",
+      "text": "Now, finance is building dashboards in Claude Code. Marketing shipped an app on a personal Vercel account. Someone committed an API key to GitHub last week.",
+      "ff": "Reckless",
+      "fw": "500",
+      "fs": "22px",
+      "lh": "30.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        500,
+        2343,
+        440,
+        123
+      ]
+    },
+    {
+      "tag": "p",
+      "cls": "",
+      "text": "None of it is malicious. They’re doing exactly what you asked. But without visibility and control, innovation creates new risk. It’s time to give every team a s",
+      "ff": "Reckless",
+      "fw": "500",
+      "fs": "22px",
+      "lh": "30.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        500,
+        2481,
+        440,
+        123
+      ]
+    }
+  ],
+  "solution": [
+    {
+      "tag": "p",
+      "cls": "kicker kicker",
+      "text": "Our 100× solution",
+      "ff": "\"Roobert Mono\"",
+      "fw": "700",
+      "fs": "13px",
+      "lh": "13px",
+      "ls": "0.65px",
+      "tt": "uppercase",
+      "color": "#fcf9f5",
+      "box": [
+        95,
+        2851,
+        555,
+        13
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "",
+      "text": "Freedom to build.",
+      "ff": "Roobert",
+      "fw": "400",
+      "fs": "56px",
+      "lh": "58.8px",
+      "ls": "-1.68px",
+      "color": "#fcf9f5",
+      "box": [
+        95,
+        2895,
+        555,
+        59
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "",
+      "text": "Complete security.",
+      "ff": "Roobert",
+      "fw": "400",
+      "fs": "56px",
+      "lh": "58.8px",
+      "ls": "-1.68px",
+      "color": "#fcf9f5",
+      "box": [
+        95,
+        2954,
+        555,
+        59
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "",
+      "text": "No compromises.",
+      "ff": "Roobert",
+      "fw": "400",
+      "fs": "56px",
+      "lh": "58.8px",
+      "ls": "-1.68px",
+      "color": "#fcf9f5",
+      "box": [
+        95,
+        3013,
+        555,
+        59
+      ]
+    },
+    {
+      "tag": "h3",
+      "cls": "itemTitle",
+      "text": "Visibility across AI-created work",
+      "ff": "Reckless",
+      "fw": "700",
+      "fs": "24px",
+      "lh": "26.4px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        790,
+        2851,
+        258,
+        53
+      ]
+    },
+    {
+      "tag": "p",
+      "cls": "body",
+      "text": "Know what exists, who built it, and what it touches. Focus on empowering teams without leaving a mess to untangle.",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "16px",
+      "lh": "24px",
+      "ls": "normal",
+      "color": "#fcf9f5",
+      "box": [
+        790,
+        2916,
+        258,
+        96
+      ]
+    },
+    {
+      "tag": "h3",
+      "cls": "itemTitle",
+      "text": "Control without bottlenecks",
+      "ff": "Reckless",
+      "fw": "700",
+      "fs": "24px",
+      "lh": "26.4px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        1087,
+        2851,
+        258,
+        53
+      ]
+    },
+    {
+      "tag": "p",
+      "cls": "body",
+      "text": "Determine where and how access happens so teams can self-serve and freely build. Make the governed path the easy one.",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "16px",
+      "lh": "24px",
+      "ls": "normal",
+      "color": "#fcf9f5",
+      "box": [
+        1087,
+        2916,
+        258,
+        96
+      ]
+    },
+    {
+      "tag": "h3",
+      "cls": "itemTitle",
+      "text": "Autonomous fixes, controlled by you",
+      "ff": "Reckless",
+      "fw": "700",
+      "fs": "24px",
+      "lh": "26.4px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        790,
+        3067,
+        258,
+        53
+      ]
+    },
+    {
+      "tag": "p",
+      "cls": "body",
+      "text": "Tines identifies and suggests fixes for anomalies and potential breaks. Your workflows get better the longer they run. You control what goes live.",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "16px",
+      "lh": "24px",
+      "ls": "normal",
+      "color": "#fcf9f5",
+      "box": [
+        790,
+        3131,
+        258,
+        120
+      ]
+    },
+    {
+      "tag": "h3",
+      "cls": "itemTitle",
+      "text": "AI on your terms, always",
+      "ff": "Reckless",
+      "fw": "700",
+      "fs": "24px",
+      "lh": "26.4px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        1087,
+        3067,
+        258,
+        53
+      ]
+    },
+    {
+      "tag": "p",
+      "cls": "body",
+      "text": "Start where you’re already working. Choose where, when, and how your LLMs are used, with freedom to switch as your AI strategy evolves.",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "16px",
+      "lh": "24px",
+      "ls": "normal",
+      "color": "#fcf9f5",
+      "box": [
+        1087,
+        3131,
+        258,
+        96
+      ]
+    },
+    {
+      "tag": "p",
+      "cls": "footerText",
+      "text": "powers faster delivery, safer operations, and AI execution that scales with confidence.",
+      "ff": "Reckless",
+      "fw": "400",
+      "fs": "18px",
+      "lh": "25.2px",
+      "ls": "normal",
+      "color": "#fcf9f5",
+      "box": [
+        1087,
+        3393,
+        258,
+        101
+      ]
+    },
+    {
+      "tag": "strong",
+      "cls": "",
+      "text": "Tines 3B",
+      "ff": "Reckless",
+      "fw": "700",
+      "fs": "18px",
+      "lh": "25.2px",
+      "ls": "normal",
+      "color": "#fcf9f5",
+      "box": [
+        1087,
+        3396,
+        72,
+        20
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "buttonText",
+      "text": "Explore the product",
+      "ff": "\"Roobert Mono\"",
+      "fw": "700",
+      "fs": "13px",
+      "lh": "13px",
+      "ls": "0.26px",
+      "tt": "uppercase",
+      "color": "#714bd0",
+      "box": [
+        1107,
+        3536,
+        161,
+        13
+      ]
+    }
+  ],
+  "useCases": [
+    {
+      "tag": "p",
+      "cls": "kicker kicker",
+      "text": "Teams using Tines",
+      "ff": "\"Roobert Mono\"",
+      "fw": "700",
+      "fs": "13px",
+      "lh": "13px",
+      "ls": "0.65px",
+      "tt": "uppercase",
+      "color": "#714bd0",
+      "box": [
+        40,
+        3771,
+        832,
+        13
+      ]
+    },
+    {
+      "tag": "h2",
+      "cls": "heading heading",
+      "text": "Keep important workflows moving for the teams dependent on them.",
+      "ff": "Roobert",
+      "fw": "400",
+      "fs": "56px",
+      "lh": "58.8px",
+      "ls": "-1.68px",
+      "color": "#714bd0",
+      "box": [
+        40,
+        3808,
+        832,
+        118
+      ]
+    },
+    {
+      "tag": "p",
+      "cls": "byline desc",
+      "text": "Tines gives these teams the tools to safely leverage AI across the most sensitive systems, data, and processes at the highest level of security.",
+      "ff": "Reckless",
+      "fw": "400",
+      "fs": "24px",
+      "lh": "30px",
+      "ls": "-0.24px",
+      "color": "#714bd0",
+      "box": [
+        40,
+        3949,
+        768,
+        60
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "",
+      "text": "IT",
+      "ff": "Reckless",
+      "fw": "400",
+      "fs": "24px",
+      "lh": "27.6px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        70,
+        4095,
+        22,
+        26
+      ]
+    },
+    {
+      "tag": "p",
+      "cls": "tabBody",
+      "text": "MCP and AI client management with an AI gateway to govern deployments.",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "16px",
+      "lh": "20px",
+      "ls": "normal",
+      "color": "#fcf9f5",
+      "box": [
+        70,
+        4134,
+        201,
+        80
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "",
+      "text": "Security",
+      "ff": "Reckless",
+      "fw": "400",
+      "fs": "24px",
+      "lh": "27.6px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        339,
+        4095,
+        85,
+        26
+      ]
+    },
+    {
+      "tag": "p",
+      "cls": "tabBody",
+      "text": "AI SOC: alert intake, triage, and remediation, routing to an analyst when needed.",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "16px",
+      "lh": "20px",
+      "ls": "normal",
+      "color": "#fcf9f5",
+      "box": [
+        339,
+        4134,
+        201,
+        60
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "",
+      "text": "Finance",
+      "ff": "Reckless",
+      "fw": "400",
+      "fs": "24px",
+      "lh": "27.6px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        608,
+        4095,
+        82,
+        26
+      ]
+    },
+    {
+      "tag": "p",
+      "cls": "tabBody",
+      "text": "Finance requests dashboard with insights from email and tooling.",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "16px",
+      "lh": "20px",
+      "ls": "normal",
+      "color": "#fcf9f5",
+      "box": [
+        608,
+        4134,
+        201,
+        60
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "",
+      "text": "People",
+      "ff": "Reckless",
+      "fw": "400",
+      "fs": "24px",
+      "lh": "27.6px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        876,
+        4095,
+        68,
+        26
+      ]
+    },
+    {
+      "tag": "p",
+      "cls": "tabBody",
+      "text": "End-to-end job request manager, from finance approvals through to offer.",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "16px",
+      "lh": "20px",
+      "ls": "normal",
+      "color": "#fcf9f5",
+      "box": [
+        876,
+        4134,
+        201,
+        60
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "tabTitleFull",
+      "text": "Operations",
+      "ff": "Reckless",
+      "fw": "400",
+      "fs": "24px",
+      "lh": "27.6px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        1145,
+        4095,
+        113,
+        26
+      ]
+    },
+    {
+      "tag": "p",
+      "cls": "tabBody",
+      "text": "Lead dashboard: tracking, managing, and closing open lifecycle loops.",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "16px",
+      "lh": "20px",
+      "ls": "normal",
+      "color": "#fcf9f5",
+      "box": [
+        1145,
+        4134,
+        201,
+        60
+      ]
+    },
+    {
+      "tag": "button",
+      "cls": "toggle",
+      "text": "Workflow",
+      "ff": "\"Roobert Mono\"",
+      "fw": "700",
+      "fs": "12px",
+      "lh": "13.8px",
+      "ls": "0.72px",
+      "tt": "uppercase",
+      "color": "#cae4d4",
+      "box": [
+        83,
+        4279,
+        106,
+        34
+      ]
+    },
+    {
+      "tag": "button",
+      "cls": "toggle",
+      "text": "Frontend",
+      "ff": "\"Roobert Mono\"",
+      "fw": "700",
+      "fs": "12px",
+      "lh": "13.8px",
+      "ls": "0.72px",
+      "tt": "uppercase",
+      "color": "#cae4d4",
+      "box": [
+        189,
+        4279,
+        106,
+        34
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "togglePillLabel",
+      "text": "Workflow",
+      "ff": "\"Roobert Mono\"",
+      "fw": "700",
+      "fs": "12px",
+      "lh": "13.8px",
+      "ls": "0.72px",
+      "tt": "uppercase",
+      "color": "#00512f",
+      "box": [
+        83,
+        4279,
+        106,
+        34
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "togglePillLabel",
+      "text": "Frontend",
+      "ff": "\"Roobert Mono\"",
+      "fw": "700",
+      "fs": "12px",
+      "lh": "13.8px",
+      "ls": "0.72px",
+      "tt": "uppercase",
+      "color": "#00512f",
+      "box": [
+        189,
+        4279,
+        106,
+        34
+      ]
+    }
+  ],
+  "usp": [
+    {
+      "tag": "p",
+      "cls": "kicker kicker",
+      "text": "Why Tines?",
+      "ff": "\"Roobert Mono\"",
+      "fw": "700",
+      "fs": "13px",
+      "lh": "13px",
+      "ls": "0.65px",
+      "tt": "uppercase",
+      "color": "#714bd0",
+      "box": [
+        40,
+        5162,
+        653,
+        13
+      ]
+    },
+    {
+      "tag": "h2",
+      "cls": "heading heading",
+      "text": "Powerful workflows, proven success.",
+      "ff": "Roobert",
+      "fw": "400",
+      "fs": "56px",
+      "lh": "58.8px",
+      "ls": "-1.68px",
+      "color": "#714bd0",
+      "box": [
+        40,
+        5199,
+        616,
+        118
+      ]
+    },
+    {
+      "tag": "p",
+      "cls": "byline desc",
+      "text": "Tines is uniquely positioned — and proven — to be the single, secure environment for every team’s AI-native agents, apps, and automations.",
+      "ff": "Reckless",
+      "fw": "400",
+      "fs": "24px",
+      "lh": "30px",
+      "ls": "-0.24px",
+      "color": "#714bd0",
+      "box": [
+        40,
+        5340,
+        653,
+        90
+      ]
+    },
+    {
+      "tag": "h3",
+      "cls": "cardTitle",
+      "text": "Governance, guardrails, and monitoring across every surface.",
+      "ff": "Reckless",
+      "fw": "400",
+      "fs": "24px",
+      "lh": "28.8px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        65,
+        5512,
+        272,
+        144
+      ]
+    },
+    {
+      "tag": "strong",
+      "cls": "",
+      "text": "Born in security, built for the enterprise.",
+      "ff": "Reckless",
+      "fw": "700",
+      "fs": "24px",
+      "lh": "28.8px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        65,
+        5513,
+        237,
+        55
+      ]
+    },
+    {
+      "tag": "h3",
+      "cls": "cardTitle",
+      "text": "Trusted by the world’s most ambitious organizations.",
+      "ff": "Reckless",
+      "fw": "400",
+      "fs": "24px",
+      "lh": "28.8px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        411,
+        5512,
+        272,
+        144
+      ]
+    },
+    {
+      "tag": "strong",
+      "cls": "",
+      "text": "Built for your most important workflows.",
+      "ff": "Reckless",
+      "fw": "700",
+      "fs": "24px",
+      "lh": "28.8px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        411,
+        5513,
+        246,
+        55
+      ]
+    },
+    {
+      "tag": "h3",
+      "cls": "cardTitle",
+      "text": "Work across your entire tech stack and within your infrastructure.",
+      "ff": "Reckless",
+      "fw": "400",
+      "fs": "24px",
+      "lh": "28.8px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        757,
+        5512,
+        272,
+        115
+      ]
+    },
+    {
+      "tag": "strong",
+      "cls": "",
+      "text": "Vendor-agnostic.",
+      "ff": "Reckless",
+      "fw": "700",
+      "fs": "24px",
+      "lh": "28.8px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        757,
+        5513,
+        190,
+        26
+      ]
+    },
+    {
+      "tag": "h3",
+      "cls": "cardTitle",
+      "text": "Teams love Tines for speed, power, and ease of use.",
+      "ff": "Reckless",
+      "fw": "400",
+      "fs": "24px",
+      "lh": "28.8px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        1103,
+        5512,
+        272,
+        115
+      ]
+    },
+    {
+      "tag": "strong",
+      "cls": "",
+      "text": "Unmatched time to value.",
+      "ff": "Reckless",
+      "fw": "700",
+      "fs": "24px",
+      "lh": "28.8px",
+      "ls": "-0.24px",
+      "color": "#fcf9f5",
+      "box": [
+        1103,
+        5513,
+        213,
+        55
+      ]
+    }
+  ],
+  "cta": [
+    {
+      "tag": "p",
+      "cls": "tagline",
+      "text": "Sign up today to get started or schedule time with our team to learn more.",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "24px",
+      "lh": "30px",
+      "ls": "-0.24px",
+      "color": "#714bd0",
+      "box": [
+        456,
+        6355,
+        528,
+        60
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "buttonText",
+      "text": "Sign up free",
+      "ff": "\"Roobert Mono\"",
+      "fw": "700",
+      "fs": "13px",
+      "lh": "13px",
+      "ls": "0.26px",
+      "tt": "uppercase",
+      "color": "#fcf9f5",
+      "box": [
+        595,
+        6470,
+        101,
+        13
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "buttonText",
+      "text": "Book a demo",
+      "ff": "\"Roobert Mono\"",
+      "fw": "700",
+      "fs": "13px",
+      "lh": "13px",
+      "ls": "0.26px",
+      "tt": "uppercase",
+      "color": "#714bd0",
+      "box": [
+        748,
+        6470,
+        93,
+        13
+      ]
+    }
+  ],
+  "footer": [
+    {
+      "tag": "span",
+      "cls": "sectionTitle",
+      "text": "Product",
+      "ff": "\"Roobert Mono\"",
+      "fw": "600",
+      "fs": "11px",
+      "lh": "12.65px",
+      "ls": "0.22px",
+      "tt": "uppercase",
+      "color": "#714bd0",
+      "box": [
+        40,
+        6640,
+        50,
+        13
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "groupTitleLink",
+      "text": "Tines 3B",
+      "ff": "Roobert",
+      "fw": "700",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        6686,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Examples gallery",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        6716,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Product updates",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        6746,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Academy",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        6775,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "externalMark",
+      "text": "↗",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "11px",
+      "lh": "13.2px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        103,
+        6781,
+        6,
+        13
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Docs",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        6805,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Status",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        6835,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "groupTitleLink",
+      "text": "Tines Stories",
+      "ff": "Roobert",
+      "fw": "700",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        6888,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Storyboard",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        6918,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Cases",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        6947,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Workbench",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        6977,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Agents",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        7007,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Monitoring",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        7037,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Workflow capability matrix",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        7066,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Templates",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        7096,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Library",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        7126,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Five-minute flows",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        7156,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "What’s new",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        7186,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Docs and API",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        7215,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Pricing",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        7298,
+        168,
+        24
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "sectionTitle",
+      "text": "Solutions",
+      "ff": "\"Roobert Mono\"",
+      "fw": "600",
+      "fs": "11px",
+      "lh": "12.65px",
+      "ls": "0.22px",
+      "tt": "uppercase",
+      "color": "#714bd0",
+      "box": [
+        372,
+        6640,
+        64,
+        13
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "groupTitleLink",
+      "text": "IT",
+      "ff": "Roobert",
+      "fw": "700",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        6686,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "IT as a business enabler",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        6716,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Infrastructure management",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        6746,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Networking",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        6775,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Application management",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        6805,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "IT service delivery and support",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        6835,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "groupTitleLink",
+      "text": "Security",
+      "ff": "Roobert",
+      "fw": "700",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        6888,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "AI SOC",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        6918,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "SOAR",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        6947,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "GRC",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        6977,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Threat intelligence",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        7007,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Vulnerability management",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        7037,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Network security",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        7066,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf leafBold",
+      "text": "Public sector",
+      "ff": "Roobert",
+      "fw": "700",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        7119,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf leafBold",
+      "text": "Financial services",
+      "ff": "Roobert",
+      "fw": "700",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        7149,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf leafBold",
+      "text": "MSSPs",
+      "ff": "Roobert",
+      "fw": "700",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        7179,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Professional services",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        7232,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "AI in Tines",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        7261,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Enterprise",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        372,
+        7291,
+        190,
+        24
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "sectionTitle",
+      "text": "Discover",
+      "ff": "\"Roobert Mono\"",
+      "fw": "600",
+      "fs": "11px",
+      "lh": "12.65px",
+      "ls": "0.22px",
+      "tt": "uppercase",
+      "color": "#714bd0",
+      "box": [
+        727,
+        6640,
+        57,
+        13
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "groupTitleLink",
+      "text": "Customers",
+      "ff": "Roobert",
+      "fw": "700",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        727,
+        6686,
+        108,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "groupTitleLink",
+      "text": "Blog",
+      "ff": "Roobert",
+      "fw": "700",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        727,
+        6739,
+        108,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Series",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        727,
+        6769,
+        108,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Guides",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        727,
+        6798,
+        108,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Podcast",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        727,
+        6828,
+        108,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "groupTitleLink",
+      "text": "Events",
+      "ff": "Roobert",
+      "fw": "700",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        727,
+        6881,
+        108,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Webinars",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        727,
+        6911,
+        108,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Bootcamps",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        727,
+        6941,
+        108,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Builder Connect",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        727,
+        6970,
+        108,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Workflow.live",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        727,
+        7000,
+        108,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Community",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        727,
+        7053,
+        108,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "YDWWT",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        727,
+        7083,
+        108,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Customer center",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        727,
+        7135,
+        108,
+        24
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "sectionTitle",
+      "text": "Company",
+      "ff": "\"Roobert Mono\"",
+      "fw": "600",
+      "fs": "11px",
+      "lh": "12.65px",
+      "ls": "0.22px",
+      "tt": "uppercase",
+      "color": "#714bd0",
+      "box": [
+        999,
+        6640,
+        50,
+        13
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "About us",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        999,
+        6686,
+        91,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Careers",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        999,
+        6716,
+        91,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Newsroom",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        999,
+        6746,
+        91,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Partners",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        999,
+        6775,
+        91,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Contact",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        999,
+        6805,
+        91,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Store",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        999,
+        6835,
+        91,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Brand assets",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        999,
+        6865,
+        91,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "LinkedIn",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        999,
+        6918,
+        91,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "X",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        999,
+        6947,
+        91,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "YouTube",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        999,
+        6977,
+        91,
+        24
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "sectionTitle",
+      "text": "Trust and security",
+      "ff": "\"Roobert Mono\"",
+      "fw": "600",
+      "fs": "11px",
+      "lh": "12.65px",
+      "ls": "0.22px",
+      "tt": "uppercase",
+      "color": "#714bd0",
+      "box": [
+        1255,
+        6640,
+        129,
+        13
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Security best practices",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        1255,
+        6716,
+        145,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Trust center",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        1255,
+        6746,
+        145,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "groupTitleLink",
+      "text": "Legal",
+      "ff": "Roobert",
+      "fw": "700",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        1255,
+        6798,
+        145,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Privacy",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        1255,
+        6828,
+        145,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Terms",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        1255,
+        6858,
+        145,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "DPA",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        1255,
+        6888,
+        145,
+        24
+      ]
+    },
+    {
+      "tag": "a",
+      "cls": "leaf",
+      "text": "Cookies policy",
+      "ff": "Roobert",
+      "fw": "500",
+      "fs": "14px",
+      "lh": "16.8px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        1255,
+        6918,
+        145,
+        24
+      ]
+    },
+    {
+      "tag": "p",
+      "cls": "askAiLabel",
+      "text": "Ask AI about Tines",
+      "ff": "\"Roobert Mono\"",
+      "fw": "700",
+      "fs": "11px",
+      "lh": "15.4px",
+      "ls": "0.22px",
+      "tt": "uppercase",
+      "color": "#714bd0",
+      "box": [
+        574,
+        7384,
+        129,
+        15
+      ]
+    },
+    {
+      "tag": "span",
+      "cls": "copyright",
+      "text": "© Tines",
+      "ff": "Roobert",
+      "fw": "600",
+      "fs": "14px",
+      "lh": "16.1px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        40,
+        7384,
+        502,
+        16
+      ]
+    },
+    {
+      "tag": "button",
+      "cls": "cookieSettings",
+      "text": "Cookie settings",
+      "ff": "Roobert",
+      "fw": "600",
+      "fs": "14px",
+      "lh": "16.1px",
+      "ls": "normal",
+      "color": "#714bd0",
+      "box": [
+        1301,
+        7380,
+        99,
+        23
+      ]
+    }
+  ]
+}

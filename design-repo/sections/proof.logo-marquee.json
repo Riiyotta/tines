@@ -1,0 +1,76 @@
+{
+  "id": "proof.logo-marquee",
+  "kind": "section",
+  "category": "PROOF",
+  "contractVersion": "1.0.0",
+  "purpose": "Social proof strip of customer logos directly under the hero copy.",
+  "implementedBy": "Hero.jsx > LogoSet",
+  "implementedByNote": "Component in the sibling clone project (src/components); same string as ia.json implementedBy.",
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "logoSource": {
+        "kind": "enum",
+        "required": true,
+        "values": [
+          "operator-supplied-licensed-logos"
+        ]
+      },
+      "logoCount": {
+        "kind": "int",
+        "required": true,
+        "minimum": 6,
+        "maximum": 11
+      },
+      "logoAsset": {
+        "kind": "media",
+        "required": true,
+        "assetRole": "customer.logo-trademark"
+      }
+    }
+  },
+  "constraints": {
+    "maxPerPage": 1,
+    "mustFollow": "hero.intro"
+  },
+  "motion": {
+    "allowedPatterns": [
+      "marquee-drift"
+    ],
+    "allowedTriggers": [
+      "continuous"
+    ],
+    "reducedMotionFallback": "static-row-drag-only",
+    "fallbackIsConst": true,
+    "notes": "40px/s linear infinite (duration = period/40), set duplicated, pointer-draggable, 60px edge mask."
+  },
+  "responsive": [
+    {
+      "minWidth": 0,
+      "changes": [
+        "gap 20px, zoom .96"
+      ]
+    },
+    {
+      "minWidth": 640,
+      "changes": [
+        "gap 30px, zoom .8"
+      ]
+    },
+    {
+      "minWidth": 1024,
+      "changes": [
+        "gap 45px, zoom .96"
+      ]
+    }
+  ],
+  "assetRoles": [
+    "customer.logo-trademark"
+  ],
+  "evidence": [
+    "mv.hero.logos",
+    "mv.motion.marquee",
+    "mv.css.marquee-mask"
+  ],
+  "evidenceLevel": "measured (single homepage instance)"
+}

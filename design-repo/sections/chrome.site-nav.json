@@ -1,0 +1,125 @@
+{
+  "id": "chrome.site-nav",
+  "kind": "section",
+  "category": "CHROME",
+  "contractVersion": "1.0.0",
+  "purpose": "Persistent site chrome: brand, primary navigation with mega-dropdowns, demo conversion pill.",
+  "implementedBy": "Navbar.jsx",
+  "implementedByNote": "Component in the sibling clone project (src/components); same string as ia.json implementedBy.",
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "logo": {
+        "kind": "media",
+        "required": true,
+        "assetRole": "brand.tines-logo"
+      },
+      "items": {
+        "kind": "olist",
+        "required": true,
+        "minItems": 1,
+        "maxItems": 5,
+        "fields": {
+          "label": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 2
+          },
+          "hasDropdown": {
+            "kind": "bool",
+            "required": true
+          }
+        }
+      },
+      "utilityLinks": {
+        "kind": "tlist",
+        "required": false,
+        "maxWords": 2,
+        "minItems": 0,
+        "maxItems": 2
+      },
+      "cta": {
+        "kind": "cta",
+        "required": true,
+        "style": "nav-pill",
+        "intents": [
+          "book-demo"
+        ],
+        "maxWords": 3
+      },
+      "promoCards": {
+        "kind": "olist",
+        "required": false,
+        "minItems": 0,
+        "maxItems": 2,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 22
+          },
+          "ctaLabel": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 3
+          },
+          "media": {
+            "kind": "media",
+            "required": true,
+            "assetRole": "editorial.promo-image"
+          }
+        }
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirst": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "dropdown-snappy-in"
+    ],
+    "allowedTriggers": [
+      "hover-or-click"
+    ],
+    "reducedMotionFallback": "instant-open",
+    "fallbackIsConst": true,
+    "notes": "Dropdown columns snappyIn 400ms staggered 50ms; mobile menu snappyDown 350ms; blur/backdrop layers fade 0.2s only when scrolled >10px or a menu is open. Accordion transition is not reduced-motion-gated in the clone (known gap)."
+  },
+  "responsive": [
+    {
+      "minWidth": 0,
+      "changes": [
+        "62px pill bar inset 8px",
+        "hamburger menu with accordion panels",
+        "dropdown promo cards dropped"
+      ]
+    },
+    {
+      "minWidth": 640,
+      "changes": [
+        "68px full-width bar"
+      ]
+    },
+    {
+      "minWidth": 1024,
+      "changes": [
+        "inline nav items + Log in / Sign up",
+        "Book a demo becomes Mono pill",
+        "hover/click mega-dropdowns"
+      ]
+    }
+  ],
+  "assetRoles": [
+    "brand.tines-logo",
+    "editorial.promo-image"
+  ],
+  "evidence": [
+    "mv.ia.sections",
+    "mv.nav.layers",
+    "mv.nav.dropdown",
+    "mv.nav.links"
+  ],
+  "evidenceLevel": "measured (single homepage instance)"
+}

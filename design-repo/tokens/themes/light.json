@@ -1,0 +1,103 @@
+{
+  "$meta": {
+    "description": "The only theme evidenced (the site has no dark mode). Resolves every semantic colour token to its foundation value.",
+    "evidence": [
+      "mv.tw.colors.core"
+    ]
+  },
+  "themeId": "light",
+  "resolved": {
+    "color.text.primary": {
+      "ref": "{color.purple.55}",
+      "value": "#714bd0"
+    },
+    "color.text.inverse": {
+      "ref": "{color.lightest}",
+      "value": "#fcf9f5"
+    },
+    "color.text.hover-accent": {
+      "ref": "{color.accent}",
+      "value": "#8d75e6"
+    },
+    "color.text.on-dark-tile": {
+      "ref": "{color.purple.75}",
+      "value": "#4a288a"
+    },
+    "color.text.timeline": {
+      "ref": "{color.purple.70}",
+      "value": "#542f9c"
+    },
+    "color.text.timeline-time": {
+      "ref": "{color.purple.60}",
+      "value": "#6741bf"
+    },
+    "color.surface.page": {
+      "ref": "{color.lightest}",
+      "value": "#fcf9f5"
+    },
+    "color.surface.brand": {
+      "ref": "{color.purple.55}",
+      "value": "#714bd0"
+    },
+    "color.surface.brand-strong": {
+      "ref": "{color.purple.70}",
+      "value": "#542f9c"
+    },
+    "color.surface.brand-hover": {
+      "ref": "{color.purple.60}",
+      "value": "#6741bf"
+    },
+    "color.surface.subtle": {
+      "ref": "{color.purple.5}",
+      "value": "#ece8fd"
+    },
+    "color.surface.subtle-hover": {
+      "ref": "{color.purple.10}",
+      "value": "#ded8ff"
+    },
+    "color.surface.frosted": {
+      "ref": "{color.alpha.frosted}",
+      "value": "rgba(252,249,245,0.65)"
+    },
+    "color.surface.tag": {
+      "ref": "{color.alpha.tag}",
+      "value": "rgba(252,249,245,0.55)"
+    },
+    "color.surface.nav-blur": {
+      "ref": "{color.alpha.nav-blur}",
+      "value": "rgba(252,249,245,0.7)"
+    },
+    "color.surface.nav-backdrop": {
+      "ref": "{color.alpha.nav-backdrop}",
+      "value": "rgba(252,249,245,0.9)"
+    },
+    "color.surface.mobile-menu": {
+      "ref": "{color.alpha.mobile-menu}",
+      "value": "rgba(252,249,245,0.8)"
+    },
+    "color.surface.ask-ai": {
+      "ref": "{color.alpha.ask-ai}",
+      "value": "rgba(113,75,208,0.05)"
+    },
+    "color.surface.timeline-bar": {
+      "ref": "{color.alpha.timeline-bar}",
+      "value": "rgba(223,216,255,0.62)"
+    },
+    "color.surface.timeline-track": {
+      "ref": "{color.alpha.timeline-track}",
+      "value": "rgba(113,75,208,0.22)"
+    },
+    "color.border.default": {
+      "ref": "{color.purple.55}",
+      "value": "#714bd0"
+    },
+    "color.border.on-brand": {
+      "ref": "{color.purple.40}",
+      "value": "#9274f4"
+    },
+    "color.border.card-on-brand": {
+      "ref": "{color.alpha.card-border}",
+      "value": "rgba(252,249,245,0.14)"
+    }
+  }
+}

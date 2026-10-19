@@ -1,0 +1,241 @@
+{
+  "$meta": {
+    "description": "Component-scoped tokens (approved application of semantic/foundation tokens).",
+    "evidence": [
+      "mv.css.buttons",
+      "mv.nav.layers",
+      "mv.tw.colors.tab",
+      "mv.tw.colors.panel",
+      "mv.timeline.structure",
+      "mv.css.footer-divider"
+    ]
+  },
+  "button": {
+    "height": {
+      "$type": "dimension",
+      "$value": "35.75px"
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": "{radius.full2}"
+    },
+    "paddingX": {
+      "$type": "dimension",
+      "$value": "1.4em",
+      "mobile": "1.25em"
+    },
+    "typography": {
+      "$type": "typographyRole",
+      "$value": "{typography.label}"
+    },
+    "filled": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.surface.brand}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.text.inverse}"
+      },
+      "hover": {
+        "$type": "other",
+        "$value": "filter: brightness(1.1)"
+      }
+    },
+    "frosted": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.surface.frosted}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.border.default}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.text.primary}"
+      },
+      "blur": {
+        "$type": "dimension",
+        "$value": "{elevation.backdropBlur.frosted}"
+      }
+    },
+    "outlined": {
+      "bg": {
+        "$type": "color",
+        "$value": "transparent"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.border.default}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.text.primary}"
+      }
+    },
+    "filled-white": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.surface.page}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.text.primary}"
+      }
+    },
+    "active": {
+      "$type": "other",
+      "$value": "filter: brightness(.9)"
+    },
+    "transition": {
+      "$type": "transition",
+      "$value": "filter {duration.instant}, background-color {duration.instant}"
+    }
+  },
+  "nav": {
+    "height": {
+      "$type": "dimension",
+      "$value": "68px",
+      "mobile": "62px"
+    },
+    "demo-pill": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.surface.brand-strong}"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "{color.surface.brand-hover}"
+      }
+    },
+    "layers": {
+      "$type": "other",
+      "$value": "blur+backdrop opacity 0 -> 1 over {duration.nav-layer} ease, only when scrollY > 10 or a menu is open"
+    }
+  },
+  "usecase-tab": {
+    "it": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.tab.it}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.panel.it-text}"
+      },
+      "edge": {
+        "$type": "color",
+        "$value": "{color.panel.it-edge}"
+      },
+      "pill": {
+        "$type": "color",
+        "$value": "{color.panel.it-pill}"
+      }
+    },
+    "security": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.tab.security}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.panel.security-text}"
+      },
+      "edge": {
+        "$type": "color",
+        "$value": "{color.panel.security-edge}"
+      },
+      "pill": {
+        "$type": "color",
+        "$value": "{color.panel.security-pill}"
+      }
+    },
+    "finance": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.tab.finance}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.panel.finance-text}"
+      },
+      "edge": {
+        "$type": "color",
+        "$value": "{color.panel.finance-edge}"
+      },
+      "pill": {
+        "$type": "color",
+        "$value": "{color.panel.finance-pill}"
+      }
+    },
+    "people": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.tab.people}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.panel.people-text}"
+      },
+      "edge": {
+        "$type": "color",
+        "$value": "{color.panel.people-edge}"
+      },
+      "pill": {
+        "$type": "color",
+        "$value": "{color.panel.people-pill}"
+      }
+    },
+    "operations": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.tab.operations}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.panel.operations-text}"
+      },
+      "edge": {
+        "$type": "color",
+        "$value": "{color.panel.operations-edge}"
+      },
+      "pill": {
+        "$type": "color",
+        "$value": "{color.panel.operations-pill}"
+      }
+    }
+  },
+  "timeline": {
+    "bar-bg": {
+      "$type": "color",
+      "$value": "{color.surface.timeline-bar}"
+    },
+    "track-bg": {
+      "$type": "color",
+      "$value": "{color.surface.timeline-track}"
+    },
+    "fill": {
+      "$type": "color",
+      "$value": "{color.purple.55}"
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": "{radius.transport}"
+    },
+    "chapters": {
+      "$type": "number",
+      "$value": 9
+    }
+  },
+  "footer": {
+    "divider": {
+      "$type": "other",
+      "$value": "1px solid color-mix(in srgb, currentColor 12%, transparent)"
+    },
+    "link-hover": {
+      "$type": "color",
+      "$value": "{color.text.hover-accent}"
+    }
+  }
+}

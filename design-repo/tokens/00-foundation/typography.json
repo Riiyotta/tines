@@ -1,0 +1,481 @@
+{
+  "$meta": {
+    "description": "Font families, available weights (only faces actually self-hosted) and the ~50 measured type roles. Roobert, Roobert Mono and Reckless are COMMERCIAL LICENSED typefaces: reference these tokens only inside this local reference context; production use requires licences from the foundries; never redistribute the WOFF2 files.",
+    "evidence": [
+      "mv.tw.fontFamily",
+      "mv.css.fontface",
+      "mv.tw.fontSize",
+      "mv.css.text-wrap"
+    ]
+  },
+  "fontFamily": {
+    "sans": {
+      "$type": "fontFamily",
+      "$value": [
+        "Roobert",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Arial",
+        "Roboto",
+        "Ubuntu",
+        "\"Helvetica Neue\"",
+        "sans-serif"
+      ],
+      "license": "commercial-licensed (Roobert)"
+    },
+    "serif": {
+      "$type": "fontFamily",
+      "$value": [
+        "Reckless",
+        "Georgia",
+        "serif"
+      ],
+      "license": "commercial-licensed (Reckless)"
+    },
+    "mono": {
+      "$type": "fontFamily",
+      "$value": [
+        "\"Roobert Mono\"",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Arial",
+        "Roboto",
+        "Ubuntu",
+        "\"Helvetica Neue\"",
+        "sans-serif"
+      ],
+      "license": "commercial-licensed (Roobert Mono)"
+    }
+  },
+  "fontWeight": {
+    "sans": {
+      "400": {
+        "$type": "fontWeight",
+        "$value": 400
+      },
+      "500": {
+        "$type": "fontWeight",
+        "$value": 500
+      },
+      "600": {
+        "$type": "fontWeight",
+        "$value": 600
+      },
+      "700": {
+        "$type": "fontWeight",
+        "$value": 700
+      }
+    },
+    "serif": {
+      "300": {
+        "$type": "fontWeight",
+        "$value": 300
+      },
+      "400": {
+        "$type": "fontWeight",
+        "$value": 400
+      },
+      "700": {
+        "$type": "fontWeight",
+        "$value": 700
+      }
+    },
+    "mono": {
+      "500": {
+        "$type": "fontWeight",
+        "$value": 500
+      },
+      "600": {
+        "$type": "fontWeight",
+        "$value": 600
+      },
+      "700": {
+        "$type": "fontWeight",
+        "$value": 700
+      }
+    },
+    "$note": "Reckless has no 500 face; computed 500 renders Regular (400). index.css maps 500 -> Reckless-Regular."
+  },
+  "fontSize": {
+    "h1-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "38px",
+        "lineHeight": "42.56px",
+        "letterSpacing": "-0.03em"
+      }
+    },
+    "h1-md": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "56px",
+        "lineHeight": "58.8px",
+        "letterSpacing": "-0.03em"
+      }
+    },
+    "h1-lg": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "64px",
+        "lineHeight": "67.2px",
+        "letterSpacing": "-0.03em"
+      }
+    },
+    "hero-byline-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "18px",
+        "lineHeight": "23.4px"
+      }
+    },
+    "hero-byline": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "24px",
+        "lineHeight": "31.2px"
+      }
+    },
+    "h2-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "36px",
+        "lineHeight": "39.6px",
+        "letterSpacing": "-0.03em"
+      }
+    },
+    "h2-md": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "42px",
+        "lineHeight": "44.1px",
+        "letterSpacing": "-0.03em"
+      }
+    },
+    "h2-solution-md": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "38px",
+        "lineHeight": "39.9px",
+        "letterSpacing": "-0.03em"
+      }
+    },
+    "h2": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "56px",
+        "lineHeight": "58.8px",
+        "letterSpacing": "-0.03em"
+      }
+    },
+    "monitor-h2-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "38px",
+        "lineHeight": "41.8px",
+        "letterSpacing": "-0.76px"
+      }
+    },
+    "monitor-h2-md": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "32px",
+        "lineHeight": "35.2px",
+        "letterSpacing": "-0.64px"
+      }
+    },
+    "monitor-h2": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "52px",
+        "lineHeight": "57.2px",
+        "letterSpacing": "-1.56px"
+      }
+    },
+    "kicker": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "13px",
+        "lineHeight": "13px",
+        "letterSpacing": "0.65px"
+      }
+    },
+    "byline-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "18px",
+        "lineHeight": "22.5px"
+      }
+    },
+    "byline": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "-0.24px"
+      }
+    },
+    "monitor-body-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "20px",
+        "lineHeight": "28px"
+      }
+    },
+    "monitor-body": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "22px",
+        "lineHeight": "30.8px"
+      }
+    },
+    "solution-h3-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "18px",
+        "lineHeight": "25.2px",
+        "letterSpacing": "-0.18px"
+      }
+    },
+    "solution-h3": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "24px",
+        "lineHeight": "26.4px",
+        "letterSpacing": "-0.24px"
+      }
+    },
+    "solution-body-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "16px",
+        "lineHeight": "22.4px"
+      }
+    },
+    "solution-body": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "16px",
+        "lineHeight": "24px"
+      }
+    },
+    "solution-footer": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "18px",
+        "lineHeight": "25.2px"
+      }
+    },
+    "tab-title-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "clamp(12px, 3.4vw, 16px)",
+        "lineHeight": "1.15"
+      }
+    },
+    "tab-title": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "24px",
+        "lineHeight": "27.6px",
+        "letterSpacing": "-0.24px"
+      }
+    },
+    "tab-body-md": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "14px",
+        "lineHeight": "17.5px"
+      }
+    },
+    "tab-body": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "16px",
+        "lineHeight": "20px"
+      }
+    },
+    "usecase-caption": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "16px",
+        "lineHeight": "22.4px"
+      }
+    },
+    "usp-title-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "18px",
+        "lineHeight": "21.6px"
+      }
+    },
+    "usp-title": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "24px",
+        "lineHeight": "28.8px",
+        "letterSpacing": "-0.24px"
+      }
+    },
+    "tagline": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "-0.24px"
+      }
+    },
+    "button": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "13px",
+        "lineHeight": "13px",
+        "letterSpacing": "0.26px"
+      }
+    },
+    "nav": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "14px",
+        "lineHeight": "16.1px"
+      }
+    },
+    "nav-demo": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "13px",
+        "lineHeight": "14.95px"
+      }
+    },
+    "tag-new": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "11.9px",
+        "lineHeight": "11.9px",
+        "letterSpacing": "0.238px"
+      }
+    },
+    "tag": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "14px",
+        "lineHeight": "14px"
+      }
+    },
+    "footer-title": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "11px",
+        "lineHeight": "12.65px",
+        "letterSpacing": "0.22px"
+      }
+    },
+    "footer-link": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "14px",
+        "lineHeight": "16.8px"
+      }
+    },
+    "footer-mark": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "11px",
+        "lineHeight": "13.2px"
+      }
+    },
+    "footer-bottom": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "14px",
+        "lineHeight": "16.1px"
+      }
+    },
+    "ask-ai": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "11px",
+        "lineHeight": "15.4px",
+        "letterSpacing": "0.22px"
+      }
+    },
+    "toggle": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "12px",
+        "lineHeight": "13.8px",
+        "letterSpacing": "0.72px"
+      }
+    },
+    "timeline-caption": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "12.5px",
+        "lineHeight": "14.375px",
+        "letterSpacing": "-0.125px"
+      }
+    },
+    "timeline-time": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "12px",
+        "lineHeight": "13.8px"
+      }
+    },
+    "dd-hero-label": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "22px",
+        "lineHeight": "22px"
+      }
+    },
+    "dd-desc": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "13px",
+        "lineHeight": "14.95px"
+      }
+    },
+    "dd-tile-title": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "16px",
+        "lineHeight": "16px"
+      }
+    },
+    "dd-col-title": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "11px",
+        "lineHeight": "15.4px",
+        "letterSpacing": "0.22px"
+      }
+    },
+    "dd-leaf-desc": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "13px",
+        "lineHeight": "15.6px"
+      }
+    },
+    "dd-blog-title": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "18px",
+        "lineHeight": "19.8px"
+      }
+    },
+    "dd-cta": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "11px",
+        "lineHeight": "12.65px",
+        "letterSpacing": "0.22px"
+      }
+    }
+  },
+  "textWrap": {
+    "$type": "other",
+    "$value": "pretty",
+    "description": "Set globally on html; inherited by every text node."
+  }
+}

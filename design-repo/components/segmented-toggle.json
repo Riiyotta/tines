@@ -1,0 +1,16 @@
+{
+  "id": "segmented-toggle",
+  "kind": "component",
+  "contractVersion": "1.0.0",
+  "purpose": "Two-option toggle with clip-path sliding pill.",
+  "usesPrimitives": [],
+  "tokens": [
+    "{color.lightest}",
+    "{fontSize.toggle}",
+    "{duration.toggle}",
+    "{easing.snappy}"
+  ],
+  "evidence": [
+    "mv.css.toggle-pill"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "$comment": "Derived from the local clone's src/App.jsx section order and src/components/*.jsx, cross-checked against CLONE_SPEC.md and headless QA measurements of the live site. Only the homepage was cloned (deliberate scope); other tines.com routes are linked (mostly as root-relative paths that don't resolve in the clone, a few as absolute tines.com URLs) and are NOT documented here.",
+  "meta": {
+    "source": "https://www.tines.com/ (homepage only), as rebuilt in this React + Vite clone",
+    "status": "measured-from-clone",
+    "totalRoutes": 1,
+    "totalTemplates": 1
+  },
+  "categories": {
+    "CHROME": "Site-wide navigation and footer frame wrapped around page content.",
+    "HERO": "Top-of-page introduction: headline, primary CTAs and the hero visuals beneath them.",
+    "PROOF": "Credibility blocks: customer logos and reasons-to-believe cards.",
+    "NARRATIVE": "Problem/solution storytelling bands that explain the product's positioning.",
+    "SHOWCASE": "Interactive product showcase that lets the visitor switch between team-specific views.",
+    "CONVERSION": "Closing call-to-action band that asks for sign-up or a demo."
+  },
+  "sections": {
+    "chrome.site-nav": {
+      "category": "CHROME",
+      "description": "Sticky 68px frosted-pill navbar: Tines logo, Product / Solutions / Discover mega-dropdowns (staggered column entrance), Customers and Pricing links, search, Log in, Book a demo and Sign up. Collapses to a hamburger menu with accordion panels below 1024px. Blur/backdrop layer fades in only when scrolled or a menu is open.",
+      "scope": "Present on the homepage, the only route in this clone.",
+      "implementedBy": "Navbar.jsx"
+    },
+    "hero.intro": {
+      "category": "HERO",
+      "description": "Hero copy block: 'NEW / Introducing Tines 3B' tag pill linking to the launch, the page H1, a serif byline, and the Book a demo (filled) + Sign up free (frosted) button pair.",
+      "scope": "Homepage only; the first block inside main.",
+      "implementedBy": "Hero.jsx"
+    },
+    "proof.logo-marquee": {
+      "category": "PROOF",
+      "description": "Horizontally scrolling customer-logo marquee (logo set duplicated, linear at 40px/s, draggable, edge-masked). Contains real third-party trademarks.",
+      "scope": "Homepage only, directly under the hero copy.",
+      "implementedBy": "Hero.jsx > LogoSet"
+    },
+    "hero.wordmark-stage": {
+      "category": "HERO",
+      "description": "Large '100x' flower wordmark stage that sinks with page scroll on wide screens. On the original it is a runtime canvas with drifting drone banners; the clone uses static PNG stand-ins per breakpoint.",
+      "scope": "Homepage only, behind and below the logo marquee.",
+      "implementedBy": "Hero.jsx"
+    },
+    "hero.product-demo": {
+      "category": "HERO",
+      "description": "Framed product-demo visual (phone / tablet / desktop SVG frames by breakpoint) with a chaptered timeline bar: play/pause, segmented scrubber, caption and elapsed/total time. The original's scripted demo animation is a static frame in the clone; the timeline itself plays.",
+      "scope": "Homepage only; closes the hero region.",
+      "implementedBy": "Hero.jsx > TimelineBar"
+    },
+    "narrative.monitor-banner": {
+      "category": "NARRATIVE",
+      "description": "Problem statement band: serif H2 about AI making everyone a builder, set over a retro monitor-wall illustration (runtime canvas on the original, PNG stand-ins in the clone).",
+      "scope": "Homepage only, after the hero.",
+      "implementedBy": "MonitorBanner.jsx"
+    },
+    "narrative.solution-panel": {
+      "category": "NARRATIVE",
+      "description": "Large rounded purple panel answering the problem band: H2, a two-by-two grid of solution items with an orb mascot whose face follows the pointer, a Tines 3B footer with an Explore the product button, and a flower-bed illustration with scroll parallax.",
+      "scope": "Homepage only, after the monitor banner.",
+      "implementedBy": "SolutionPanel.jsx"
+    },
+    "showcase.use-case-tabs": {
+      "category": "SHOWCASE",
+      "description": "Team use-case showcase: H2, five colour-coded team tabs (IT, Security, Finance, People, Operations) with hover grow and a colour wipe on change, and a Workflow / Frontend toggle swapping between two screenshot frames. Fades up once on scroll into view.",
+      "scope": "Homepage only, after the solution panel.",
+      "implementedBy": "UseCases.jsx"
+    },
+    "proof.why-tines": {
+      "category": "PROOF",
+      "description": "'Why Tines' reasons-to-believe block: H2 beside a slowly spinning constellation/radar illustration with twinkling stars, followed by four purple cards each with an icon, serif title and short body.",
+      "scope": "Homepage only, after the use-case showcase.",
+      "implementedBy": "WhyTines.jsx"
+    },
+    "conversion.start-today-cta": {
+      "category": "CONVERSION",
+      "description": "Closing CTA: giant 'Start today' wordmark (runtime canvas on the original, PNG stand-ins in the clone) that hosts a custom spinning-triangle cursor, a tagline, and Sign up free + Book a demo buttons.",
+      "scope": "Homepage only; the last block inside main.",
+      "implementedBy": "CtaStartToday.jsx"
+    },
+    "chrome.site-footer": {
+      "category": "CHROME",
+      "description": "Site footer: five link columns (Product, Solutions, Discover, Company, Trust and security) with thin dividers, an 'Ask AI about Tines' pill with assistant links, copyright and Cookie settings. Becomes a multi-open accordion below 768px.",
+      "scope": "Present on the homepage, the only route in this clone.",
+      "implementedBy": "Footer.jsx"
+    }
+  },
+  "templates": [
+    {
+      "id": "template.home",
+      "name": "Homepage",
+      "routeCount": 1,
+      "routes": ["/"],
+      "routePattern": null,
+      "chrome": "full",
+      "sections": [
+        "chrome.site-nav",
+        "hero.intro",
+        "proof.logo-marquee",
+        "hero.wordmark-stage",
+        "hero.product-demo",
+        "narrative.monitor-banner",
+        "narrative.solution-panel",
+        "showcase.use-case-tabs",
+        "proof.why-tines",
+        "conversion.start-today-cta",
+        "chrome.site-footer"
+      ]
+    }
+  ]
+}

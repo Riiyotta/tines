@@ -1,0 +1,17 @@
+/* Classes used inside the recorded hero demo scenes (values from the original's compiled CSS:
+   RollingNumber .group, ThreeBProductVisual .radarDial / .monitorCurve / .statusSegment). The mascot /
+   avatar classes (ring, eyes, breathe, z, face) live in src/motion.css. */
+@keyframes heroDemoRollUp { 0% { transform: translateY(0); } 100% { transform: translateY(calc(-1 * var(--rollDist))); } }
+@keyframes heroDemoRadarSweep { 100% { transform: rotate(360deg); } }
+
+.RollingNumber-module-scss-module__GPXwCW__group { transform-box: fill-box; animation: heroDemoRollUp .5s cubic-bezier(.22, 1, .36, 1) both; }
+.ThreeBProductVisual-module-scss-module__D3PxTa__radarDial { transform-box: fill-box; transform-origin: 50%; animation: heroDemoRadarSweep 4s linear infinite; }
+.ThreeBProductVisual-module-scss-module__D3PxTa__monitorCurve { transition: opacity .15s; }
+.ThreeBProductVisual-module-scss-module__D3PxTa__statusSegment { transform-box: fill-box; transform-origin: 50%; transition: transform .12s, filter .12s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .RollingNumber-module-scss-module__GPXwCW__group { transform: translateY(calc(-1 * var(--rollDist))); animation: none; }
+  .ThreeBProductVisual-module-scss-module__D3PxTa__radarDial { animation: none; }
+  .ThreeBProductVisual-module-scss-module__D3PxTa__monitorCurve,
+  .ThreeBProductVisual-module-scss-module__D3PxTa__statusSegment { transition: none; }
+}

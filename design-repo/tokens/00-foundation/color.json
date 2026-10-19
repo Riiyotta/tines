@@ -1,0 +1,350 @@
+{
+  "$meta": {
+    "description": "Foundation colour palette. sRGB hex as converted from the original's display-p3 declarations (tailwind.config.cjs is the source of truth).",
+    "evidence": [
+      "mv.tw.colors.core",
+      "mv.tw.colors.purple",
+      "mv.tw.colors.green",
+      "mv.tw.colors.legacy",
+      "mv.tw.colors.tab",
+      "mv.tw.colors.panel",
+      "mv.tw.colors.dd",
+      "mv.tw.colors.surface"
+    ]
+  },
+  "color": {
+    "lightest": {
+      "$type": "color",
+      "$value": "#fcf9f5"
+    },
+    "darkest": {
+      "$type": "color",
+      "$value": "#16131e"
+    },
+    "accent": {
+      "$type": "color",
+      "$value": "#8d75e6",
+      "description": "--pageAccent on the homepage (footer hover). Spec's #71c79d was wrong."
+    },
+    "purple": {
+      "1": {
+        "$type": "color",
+        "$value": "#f8f6fa"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "#f5f2fb"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "#ece8fd"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "#ded8ff"
+      },
+      "15": {
+        "$type": "color",
+        "$value": "#d0c8ff"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "#c3b7ff"
+      },
+      "25": {
+        "$type": "color",
+        "$value": "#b6a7ff"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "#aa95ff"
+      },
+      "35": {
+        "$type": "color",
+        "$value": "#9e84fd"
+      },
+      "40": {
+        "$type": "color",
+        "$value": "#9274f4"
+      },
+      "45": {
+        "$type": "color",
+        "$value": "#8665eb"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "#7a56e0"
+      },
+      "55": {
+        "$type": "color",
+        "$value": "#714bd0"
+      },
+      "60": {
+        "$type": "color",
+        "$value": "#6741bf"
+      },
+      "65": {
+        "$type": "color",
+        "$value": "#5d38ae"
+      },
+      "70": {
+        "$type": "color",
+        "$value": "#542f9c"
+      },
+      "75": {
+        "$type": "color",
+        "$value": "#4a288a"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "#3f2374"
+      },
+      "85": {
+        "$type": "color",
+        "$value": "#351f5e"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "#2a1b49"
+      },
+      "95": {
+        "$type": "color",
+        "$value": "#211735"
+      },
+      "97": {
+        "$type": "color",
+        "$value": "#1d142d"
+      },
+      "99": {
+        "$type": "color",
+        "$value": "#191226"
+      }
+    },
+    "green": {
+      "1": {
+        "$type": "color",
+        "$value": "#f5f7f4"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "#f1f5f1"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "#e4eee7"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "#cae4d4"
+      },
+      "15": {
+        "$type": "color",
+        "$value": "#aedac2"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "#91d1af"
+      },
+      "25": {
+        "$type": "color",
+        "$value": "#71c79d"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "#50bc8c"
+      },
+      "35": {
+        "$type": "color",
+        "$value": "#29b07d"
+      }
+    },
+    "light": {
+      "100": {
+        "$type": "color",
+        "$value": "#f8f4f0"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#dcd7d0"
+      }
+    },
+    "dark": {
+      "500": {
+        "$type": "color",
+        "$value": "#32313b"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#222027"
+      }
+    },
+    "tab": {
+      "it": {
+        "$type": "color",
+        "$value": "#007f4a"
+      },
+      "security": {
+        "$type": "color",
+        "$value": "#714bd0"
+      },
+      "finance": {
+        "$type": "color",
+        "$value": "#008784"
+      },
+      "people": {
+        "$type": "color",
+        "$value": "#c05100"
+      },
+      "operations": {
+        "$type": "color",
+        "$value": "#3565cc"
+      }
+    },
+    "panel": {
+      "it-text": {
+        "$type": "color",
+        "$value": "#cae4d4"
+      },
+      "it-edge": {
+        "$type": "color",
+        "$value": "#aedac2"
+      },
+      "it-pill": {
+        "$type": "color",
+        "$value": "#00512f"
+      },
+      "security-text": {
+        "$type": "color",
+        "$value": "#ded8ff"
+      },
+      "security-edge": {
+        "$type": "color",
+        "$value": "#d0c8ff"
+      },
+      "security-pill": {
+        "$type": "color",
+        "$value": "#4a288a"
+      },
+      "finance-text": {
+        "$type": "color",
+        "$value": "#bee9e4"
+      },
+      "finance-edge": {
+        "$type": "color",
+        "$value": "#9ee1da"
+      },
+      "finance-pill": {
+        "$type": "color",
+        "$value": "#005050"
+      },
+      "people-text": {
+        "$type": "color",
+        "$value": "#ffd9c6"
+      },
+      "people-edge": {
+        "$type": "color",
+        "$value": "#ffc9ae"
+      },
+      "people-pill": {
+        "$type": "color",
+        "$value": "#75320d"
+      },
+      "operations-text": {
+        "$type": "color",
+        "$value": "#d4dff3"
+      },
+      "operations-edge": {
+        "$type": "color",
+        "$value": "#c0d1f3"
+      },
+      "operations-pill": {
+        "$type": "color",
+        "$value": "#1c3890"
+      }
+    },
+    "dd": {
+      "it-tile": {
+        "$type": "color",
+        "$value": "#008b53"
+      },
+      "by-function": {
+        "$type": "color",
+        "$value": "#b7a4ff"
+      },
+      "by-industry": {
+        "$type": "color",
+        "$value": "#ffe1c4"
+      },
+      "by-industry-text": {
+        "$type": "color",
+        "$value": "#622c12"
+      },
+      "industry-chip": {
+        "$type": "color",
+        "$value": "#ffcea6"
+      },
+      "by-industry-hover": {
+        "$type": "color",
+        "$value": "#ffd9c6"
+      },
+      "events-text": {
+        "$type": "color",
+        "$value": "#00452a"
+      },
+      "community": {
+        "$type": "color",
+        "$value": "#e26817"
+      }
+    },
+    "alpha": {
+      "nav-blur": {
+        "$type": "color",
+        "$value": "rgba(252,249,245,0.7)"
+      },
+      "nav-backdrop": {
+        "$type": "color",
+        "$value": "rgba(252,249,245,0.9)"
+      },
+      "mobile-menu": {
+        "$type": "color",
+        "$value": "rgba(252,249,245,0.8)"
+      },
+      "mobile-pill": {
+        "$type": "color",
+        "$value": "rgba(113,75,208,0.10)"
+      },
+      "mobile-pill-open": {
+        "$type": "color",
+        "$value": "rgba(113,75,208,0.16)"
+      },
+      "frosted": {
+        "$type": "color",
+        "$value": "rgba(252,249,245,0.65)"
+      },
+      "tag": {
+        "$type": "color",
+        "$value": "rgba(252,249,245,0.55)"
+      },
+      "card-border": {
+        "$type": "color",
+        "$value": "rgba(252,249,245,0.14)"
+      },
+      "timeline-bar": {
+        "$type": "color",
+        "$value": "rgba(223,216,255,0.62)"
+      },
+      "timeline-track": {
+        "$type": "color",
+        "$value": "rgba(113,75,208,0.22)"
+      },
+      "ask-ai": {
+        "$type": "color",
+        "$value": "rgba(113,75,208,0.05)"
+      },
+      "toggle-it": {
+        "$type": "color",
+        "$value": "rgba(206,230,214,0.12)"
+      }
+    }
+  }
+}

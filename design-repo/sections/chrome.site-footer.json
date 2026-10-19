@@ -1,0 +1,109 @@
+{
+  "id": "chrome.site-footer",
+  "kind": "section",
+  "category": "CHROME",
+  "contractVersion": "1.0.0",
+  "purpose": "Site-wide link directory and legal/utility row.",
+  "implementedBy": "Footer.jsx",
+  "implementedByNote": "Component in the sibling clone project (src/components); same string as ia.json implementedBy.",
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "columns": {
+        "kind": "olist",
+        "required": true,
+        "minItems": 1,
+        "maxItems": 5,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 3
+          }
+        }
+      },
+      "askAi": {
+        "kind": "obj",
+        "required": true,
+        "fields": {
+          "label": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 5
+          },
+          "assistantCount": {
+            "kind": "int",
+            "required": true,
+            "minimum": 1,
+            "maximum": 5
+          },
+          "assistants": {
+            "kind": "media",
+            "required": true,
+            "assetRole": "partner.assistant-icon"
+          }
+        }
+      },
+      "logoMark": {
+        "kind": "media",
+        "required": true,
+        "assetRole": "brand.tines-logo"
+      },
+      "copyright": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 2
+      },
+      "cookieLabel": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 2
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeLast": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "accordion-grid-rows"
+    ],
+    "allowedTriggers": [
+      "click"
+    ],
+    "reducedMotionFallback": "instant-expand",
+    "fallbackIsConst": true,
+    "notes": "Multi-open accordion <768: grid-template-rows 200ms ease, chevron 150ms. Clone does not gate it on reduced motion (known gap)."
+  },
+  "responsive": [
+    {
+      "minWidth": 0,
+      "changes": [
+        "multi-open accordion with 1px 12% dividers",
+        "centred logo icon"
+      ]
+    },
+    {
+      "minWidth": 768,
+      "changes": [
+        "4-col grid, columns 4+5 stacked"
+      ]
+    },
+    {
+      "minWidth": 1024,
+      "changes": [
+        "flex row of 5 columns"
+      ]
+    }
+  ],
+  "assetRoles": [
+    "brand.tines-logo",
+    "partner.assistant-icon"
+  ],
+  "evidence": [
+    "mv.footer.content",
+    "mv.css.footer-divider"
+  ],
+  "evidenceLevel": "measured (single homepage instance)"
+}

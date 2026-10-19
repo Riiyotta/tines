@@ -1,0 +1,2196 @@
+[
+ {
+  "url": "https://www.datocms-assets.com/55802/1788825912-2026-09-we-gave-employees-3b-header.png?auto=format%2Ccompress&fit=max&q=90&w=2400",
+  "localPath": "public/assets/pages/blog/featured-1-tines-3b-first-90.jpg",
+  "page": "/blog/",
+  "section": "featured-article",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 189790
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1784196106-blog-header-2x.png?auto=format%2Ccompress&fit=max&q=90&w=1600",
+  "localPath": "public/assets/pages/blog/featured-2-building-ai-agents-getting-started.jpg",
+  "page": "/blog/",
+  "section": "featured-article",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 91721
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1791546387-blog-header-2x-34.png?auto=format%2Ccompress&fit=max&q=90&w=1600",
+  "localPath": "public/assets/pages/blog/cover-it-onboarding-automation-building-a-provisioning-agent.jpg",
+  "page": "/blog/",
+  "section": "latest-articles-grid",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 107014
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1790173757-taming-wild-code-header.png?auto=format%2Ccompress&fit=max&q=90&w=1600",
+  "localPath": "public/assets/pages/blog/cover-headspace-taming-wild-code-with-tines-3b.jpg",
+  "page": "/blog/",
+  "section": "latest-articles-grid",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 165760
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1790081448-tines3b-financeblog-header.png?auto=format%2Ccompress&fit=max&q=90&w=1600",
+  "localPath": "public/assets/pages/blog/cover-finance-billing-app.jpg",
+  "page": "/blog/",
+  "section": "latest-articles-grid",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 82303
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1789588469-blog-header-2x-1.png?auto=format%2Ccompress&fit=max&q=90&w=1600",
+  "localPath": "public/assets/pages/blog/cover-build-your-own-ai-soc.jpg",
+  "page": "/blog/",
+  "section": "latest-articles-grid",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 97166
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1790007258-blog-header-2x-27.png?auto=format%2Ccompress&fit=max&q=90&w=1600",
+  "localPath": "public/assets/pages/blog/cover-ai-governance-monitoring-how-to-prove-your-program-is-.jpg",
+  "page": "/blog/",
+  "section": "latest-articles-grid",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 73299
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1789516508-blog-header.png?auto=format%2Ccompress&fit=max&q=90&w=1600",
+  "localPath": "public/assets/pages/blog/cover-thomas-kinsella-technovation.jpg",
+  "page": "/blog/",
+  "section": "latest-articles-grid",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 130487
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1788890623-blog-what-snew-08-aug.png?auto=format%2Ccompress&fit=max&q=90&w=1600",
+  "localPath": "public/assets/pages/blog/cover-whats-new-in-tines-august-2026-edition.jpg",
+  "page": "/blog/",
+  "section": "latest-articles-grid",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 37640
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1788441905-blog-header-2x.png?auto=format%2Ccompress&fit=max&q=90&w=1600",
+  "localPath": "public/assets/pages/blog/cover-tines-achieves-tx-ramp-level-2-certification.jpg",
+  "page": "/blog/",
+  "section": "latest-articles-grid",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 55465
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1779978655-screenshot-2026-05-28-at-10-30-47-am.png",
+  "localPath": "public/assets/pages/blog/guide-cover-the-ultimate-guide-to-network-operations-managem.png",
+  "page": "/blog/",
+  "section": "guides-grid",
+  "type": "image",
+  "format": "png",
+  "dimensions": "1192x1544",
+  "bytes": 345763
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1775575154-screenshot-2026-04-07-at-11-18-51-am.png",
+  "localPath": "public/assets/pages/blog/guide-cover-the-it-and-security-field-guide-to-ai-adoption.png",
+  "page": "/blog/",
+  "section": "guides-grid",
+  "type": "image",
+  "format": "png",
+  "dimensions": "757x982",
+  "bytes": 502846
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1763394252-screenshot-2025-11-17-at-10-44-03-am.png",
+  "localPath": "public/assets/pages/blog/guide-cover-the-security-leader-s-playbook-to-grc-orchestrat.png",
+  "page": "/blog/",
+  "section": "guides-grid",
+  "type": "image",
+  "format": "png",
+  "dimensions": "970x1254",
+  "bytes": 160586
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1767630477-future-of-it-web-cover.png",
+  "localPath": "public/assets/pages/blog/guide-cover-the-future-of-it-infrastructure.png",
+  "page": "/blog/",
+  "section": "guides-grid",
+  "type": "image",
+  "format": "png",
+  "dimensions": "1077x1393",
+  "bytes": 90094
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1784196106-blog-header-2x.png?auto=format%2Ccompress&fit=max&q=90&w=2400",
+  "localPath": "public/assets/pages/blog/article-cover-building-ai-agents-getting-started.jpg",
+  "page": "/blog/building-ai-agents-getting-started/",
+  "section": "article-cover",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 140387
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1764192896-bazaart_3ca77048-ec5d-4cd7-b836-690ca53a92fd.jpg?auto=format%2Ccompress&fit=max&q=80&w=128",
+  "localPath": "public/assets/pages/blog/author-building-ai-agents-getting-started-1.jpg",
+  "page": "/blog/building-ai-agents-getting-started/",
+  "section": "article-header-authors",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 5573
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1773824000-m_tolan_headshot.jpg?auto=format%2Ccompress&fit=max&q=80&w=128",
+  "localPath": "public/assets/pages/blog/author-building-ai-agents-getting-started-2.jpg",
+  "page": "/blog/building-ai-agents-getting-started/",
+  "section": "article-header-authors",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 4425
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1773837602-2026-03-wcm_blog-image.png?auto=format%2Ccompress&fit=max&q=90&w=2400",
+  "localPath": "public/assets/pages/blog/article-cover-introducing-the-workflow-capability-matrix.jpg",
+  "page": "/blog/introducing-the-workflow-capability-matrix/",
+  "section": "article-cover",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 128145
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1725029817-headshot.jpg?auto=format%2Ccompress&fit=max&q=80&w=128",
+  "localPath": "public/assets/pages/blog/author-introducing-the-workflow-capability-matrix-1.jpg",
+  "page": "/blog/introducing-the-workflow-capability-matrix/",
+  "section": "article-header-authors",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 5338
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1779986931-series-cover-migrating-to-tines-cases.png",
+  "localPath": "public/assets/pages/blog/series-cover-migrating-to-tines-cases.png",
+  "page": "/blog/migrating-to-tines-cases/",
+  "section": "series-header",
+  "type": "image",
+  "format": "png",
+  "dimensions": "1700x2200",
+  "bytes": 223893
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/stories/product-icon-storyboard.svg",
+  "localPath": "public/assets/pages/stories/product-icon-storyboard.svg",
+  "page": "/stories/",
+  "section": "product-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 10338
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/stories/product-icon-workbench.svg",
+  "localPath": "public/assets/pages/stories/product-icon-workbench.svg",
+  "page": "/stories/",
+  "section": "product-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 11051
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/stories/product-icon-cases.svg",
+  "localPath": "public/assets/pages/stories/product-icon-cases.svg",
+  "page": "/stories/",
+  "section": "product-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 11971
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/stories/feature-icon-agents.svg",
+  "localPath": "public/assets/pages/stories/feature-icon-agents.svg",
+  "page": "/stories/",
+  "section": "feature-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 12622
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/stories/feature-icon-ai.svg",
+  "localPath": "public/assets/pages/stories/feature-icon-ai-in-tines.svg",
+  "page": "/stories/",
+  "section": "feature-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 19352
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/stories/feature-icon-monitoring.svg",
+  "localPath": "public/assets/pages/stories/feature-icon-monitoring.svg",
+  "page": "/stories/",
+  "section": "feature-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 6952
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/stories/hero-illustration.svg",
+  "localPath": "public/assets/pages/stories/hero-illustration.svg",
+  "page": "/stories/",
+  "section": "hero",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 26776
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731496175-spot-icon-monitor.svg",
+  "localPath": "public/assets/pages/stories/whatsnew-icon-spot-icon-monitor.svg",
+  "page": "/stories/whats-new/",
+  "section": "whats-new-feed",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 7526
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1750935920-spot-icon-agents.svg",
+  "localPath": "public/assets/pages/stories/whatsnew-icon-spot-icon-agents.svg",
+  "page": "/stories/whats-new/",
+  "section": "whats-new-feed",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 11439
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1771945064-spot-icon-radar-self-hosted.svg",
+  "localPath": "public/assets/pages/stories/whatsnew-icon-spot-icon-radar-self-hosted.svg",
+  "page": "/stories/whats-new/",
+  "section": "whats-new-feed",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 6171
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1752075667-credentials-key.svg",
+  "localPath": "public/assets/pages/stories/whatsnew-icon-credentials-key.svg",
+  "page": "/stories/whats-new/",
+  "section": "whats-new-feed",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 8549
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1749752043-spot-icon-cases.svg",
+  "localPath": "public/assets/pages/stories/whatsnew-icon-spot-icon-cases.svg",
+  "page": "/stories/whats-new/",
+  "section": "whats-new-feed",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 19825
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1770325839-54245587057_7e7d81c64d_k-copy.jpg?auto=format%2Ccompress&fit=max&q=80&w=128",
+  "localPath": "public/assets/pages/stories/whatsnew-contributor-1.jpg",
+  "page": "/stories/whats-new/",
+  "section": "whats-new-feed",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 4249
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1792148592-datosquare.png?auto=format%2Ccompress&fit=max&q=80&w=128",
+  "localPath": "public/assets/pages/stories/whatsnew-contributor-2.jpg",
+  "page": "/stories/whats-new/",
+  "section": "whats-new-feed",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 8803
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1755182042-profile-pic.jpeg?auto=format%2Ccompress&fit=max&q=80&w=128",
+  "localPath": "public/assets/pages/stories/whatsnew-contributor-3.jpg",
+  "page": "/stories/whats-new/",
+  "section": "whats-new-feed",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 7827
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1785434968-img_0096.png?auto=format%2Ccompress&fit=max&q=80&w=128",
+  "localPath": "public/assets/pages/stories/whatsnew-contributor-4.jpg",
+  "page": "/stories/whats-new/",
+  "section": "whats-new-feed",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 5207
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1777399525-img_1689-square.jpeg?auto=format%2Ccompress&fit=max&q=80&w=128",
+  "localPath": "public/assets/pages/stories/whatsnew-contributor-5.jpg",
+  "page": "/stories/whats-new/",
+  "section": "whats-new-feed",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 5916
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1781793233-square-image.jpg?auto=format%2Ccompress&fit=max&q=80&w=128",
+  "localPath": "public/assets/pages/stories/whatsnew-contributor-6.jpg",
+  "page": "/stories/whats-new/",
+  "section": "whats-new-feed",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 5418
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1739895338-1000042788.jpg?auto=format%2Ccompress&fit=max&q=80&w=128",
+  "localPath": "public/assets/pages/stories/whatsnew-contributor-7.jpg",
+  "page": "/stories/whats-new/",
+  "section": "whats-new-feed",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 4966
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1746091318-profile-photo.png?auto=format%2Ccompress&fit=max&q=80&w=128",
+  "localPath": "public/assets/pages/stories/whatsnew-contributor-8.jpg",
+  "page": "/stories/whats-new/",
+  "section": "whats-new-feed",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 5392
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1670437274-david.jpeg?auto=format%2Ccompress&fit=max&q=80&w=128",
+  "localPath": "public/assets/pages/stories/whatsnew-contributor-9.jpg",
+  "page": "/stories/whats-new/",
+  "section": "whats-new-feed",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 7042
+ },
+ {
+  "url": "https://stream.mux.com/9kLHBWURU02KMv42UH7Le01ygtg7wyhAVn/high.mp4",
+  "localPath": "public/assets/pages/stories/whatsnew-personal-tool-controls-video.mp4",
+  "page": "/stories/whats-new/personal-tool-controls-in-workbench/",
+  "section": "article-video",
+  "type": "video",
+  "format": "mp4",
+  "bytes": 4846390
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1715348437-slack.svg",
+  "localPath": "public/assets/pages/stories/product-logo-slack.svg",
+  "page": "/stories/templates/",
+  "section": "top-products-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 1229
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1715348409-virustotal.svg",
+  "localPath": "public/assets/pages/stories/product-logo-virustotal.svg",
+  "page": "/stories/templates/",
+  "section": "top-products-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 245
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1715692729-jira.svg",
+  "localPath": "public/assets/pages/stories/product-logo-jira-software.svg",
+  "page": "/stories/templates/",
+  "section": "top-products-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 14970
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1715688887-urlscan.svg",
+  "localPath": "public/assets/pages/stories/product-logo-urlscan-io.svg",
+  "page": "/stories/templates/",
+  "section": "top-products-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 1011
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1715692712-microsoft-graph.png",
+  "localPath": "public/assets/pages/stories/product-logo-microsoft-graph.png",
+  "page": "/stories/templates/",
+  "section": "top-products-grid",
+  "type": "logo",
+  "format": "png",
+  "dimensions": "256x222",
+  "bytes": 4723
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1718370617-pulsedive.svg",
+  "localPath": "public/assets/pages/stories/product-logo-pulsedive.svg",
+  "page": "/stories/templates/",
+  "section": "top-products-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 3675
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1718370617-gmail.svg",
+  "localPath": "public/assets/pages/stories/product-logo-gmail.svg",
+  "page": "/stories/templates/",
+  "section": "top-products-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 2448
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1715348919-crowdstrike.svg",
+  "localPath": "public/assets/pages/stories/product-logo-crowdstrike.svg",
+  "page": "/stories/templates/",
+  "section": "top-products-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 1779
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1718370737-google-calendar.svg",
+  "localPath": "public/assets/pages/stories/product-logo-google-calendar.svg",
+  "page": "/stories/templates/",
+  "section": "top-products-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 5349
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1715687437-abuseipdb.svg",
+  "localPath": "public/assets/pages/stories/product-logo-abuseipdb.svg",
+  "page": "/stories/templates/",
+  "section": "top-products-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 2784
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1715348087-github.svg",
+  "localPath": "public/assets/pages/stories/product-logo-github.svg",
+  "page": "/stories/templates/",
+  "section": "top-products-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 829
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1715692749-emailrep.png",
+  "localPath": "public/assets/pages/stories/product-logo-emailrep.png",
+  "page": "/stories/templates/",
+  "section": "top-products-grid",
+  "type": "logo",
+  "format": "png",
+  "dimensions": "250x250",
+  "bytes": 68605
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1719492711-logo-aws.svg",
+  "localPath": "public/assets/pages/stories/family-logo-aws.svg",
+  "page": "/stories/templates/",
+  "section": "by-vendor-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 5996
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1719492684-logo-cisco.svg",
+  "localPath": "public/assets/pages/stories/family-logo-cisco.svg",
+  "page": "/stories/templates/",
+  "section": "by-vendor-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 8958
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1719492668-logo-google.svg",
+  "localPath": "public/assets/pages/stories/family-logo-google.svg",
+  "page": "/stories/templates/",
+  "section": "by-vendor-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 1393
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1719492652-logo-microsoft.svg",
+  "localPath": "public/assets/pages/stories/family-logo-microsoft.svg",
+  "page": "/stories/templates/",
+  "section": "by-vendor-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 429
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1719492630-logo-atlassian.svg",
+  "localPath": "public/assets/pages/stories/family-logo-atlassian.svg",
+  "page": "/stories/templates/",
+  "section": "by-vendor-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 1779
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1719492619-logo-pan.svg",
+  "localPath": "public/assets/pages/stories/family-logo-palo-alto-networks.svg",
+  "page": "/stories/templates/",
+  "section": "by-vendor-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 526
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1719492597-logo-splunk.svg",
+  "localPath": "public/assets/pages/stories/family-logo-splunk.svg",
+  "page": "/stories/templates/",
+  "section": "by-vendor-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 270
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1719492572-logo-proofpoint.svg",
+  "localPath": "public/assets/pages/stories/family-logo-proofpoint.svg",
+  "page": "/stories/templates/",
+  "section": "by-vendor-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 611
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1719834947-hashicorp.svg",
+  "localPath": "public/assets/pages/stories/family-logo-hashicorp.svg",
+  "page": "/stories/templates/",
+  "section": "by-vendor-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 572
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1761916535-1password-logo.svg",
+  "localPath": "public/assets/pages/stories/template-hero-1password.svg",
+  "page": "/stories/templates/1password/",
+  "section": "template-header-icon-bubble",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 2047
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/explosion-cta/explosion-cta-backdrop-layer-light-speed-1.svg",
+  "localPath": "public/assets/pages/stories/explosion-cta-layer-1.svg",
+  "page": "/stories/ (+ all Tines Stories area pages, university, webinars)",
+  "section": "explosion-cta",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 26297
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/explosion-cta/explosion-cta-backdrop-layer-light-speed-2.svg",
+  "localPath": "public/assets/pages/stories/explosion-cta-layer-2.svg",
+  "page": "/stories/ (+ all Tines Stories area pages, university, webinars)",
+  "section": "explosion-cta",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 18537
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/explosion-cta/explosion-cta-backdrop-layer-light-speed-3.svg",
+  "localPath": "public/assets/pages/stories/explosion-cta-layer-3.svg",
+  "page": "/stories/ (+ all Tines Stories area pages, university, webinars)",
+  "section": "explosion-cta",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 15193
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/explosion-cta/explosion-cta-backdrop-layer-light-speed-4.svg",
+  "localPath": "public/assets/pages/stories/explosion-cta-layer-4.svg",
+  "page": "/stories/ (+ all Tines Stories area pages, university, webinars)",
+  "section": "explosion-cta",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 9863
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/explosion-cta/top-left-block-light.svg",
+  "localPath": "public/assets/pages/stories/explosion-cta-top-left-block-light.svg",
+  "page": "/stories/",
+  "section": "explosion-cta",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 744
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/explosion-cta/coffee-mug-light.svg",
+  "localPath": "public/assets/pages/stories/explosion-cta-coffee-mug-light.svg",
+  "page": "/stories/",
+  "section": "explosion-cta",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 2813
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/explosion-cta/bottom-right-pentagon-light.svg",
+  "localPath": "public/assets/pages/stories/explosion-cta-bottom-right-pentagon-light.svg",
+  "page": "/stories/",
+  "section": "explosion-cta",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 513
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1719915622-tines-library.svg",
+  "localPath": "public/assets/pages/library/directory-hero-illustration.svg",
+  "page": "/library/",
+  "section": "library-hero",
+  "type": "image",
+  "format": "svg",
+  "bytes": 22775
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1788791093-library-security-collection-spot.svg",
+  "localPath": "public/assets/pages/library/team-security.svg",
+  "page": "/library/",
+  "section": "teams-grid",
+  "type": "image",
+  "format": "svg",
+  "bytes": 10055
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1788793154-library-it-collection-spot.svg",
+  "localPath": "public/assets/pages/library/team-it-operations.svg",
+  "page": "/library/",
+  "section": "teams-grid",
+  "type": "image",
+  "format": "svg",
+  "bytes": 7831
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1788791664-library-engineering-collection-spot.svg",
+  "localPath": "public/assets/pages/library/team-engineering.svg",
+  "page": "/library/",
+  "section": "teams-grid",
+  "type": "image",
+  "format": "svg",
+  "bytes": 7039
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1788791973-library-product-collection-spot.svg",
+  "localPath": "public/assets/pages/library/team-product.svg",
+  "page": "/library/",
+  "section": "teams-grid",
+  "type": "image",
+  "format": "svg",
+  "bytes": 9367
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1788792745-library-infrastructure-collection-spot.svg",
+  "localPath": "public/assets/pages/library/team-infrastructure.svg",
+  "page": "/library/",
+  "section": "teams-grid",
+  "type": "image",
+  "format": "svg",
+  "bytes": 12279
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1719311272-asset-management.svg",
+  "localPath": "public/assets/pages/library/usecase-asset-and-app-management.svg",
+  "page": "/library/",
+  "section": "use-cases-grid",
+  "type": "image",
+  "format": "svg",
+  "bytes": 34679
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1719311985-employee-onboarding-and-offboarding.svg",
+  "localPath": "public/assets/pages/library/usecase-employee-lifecycle-management.svg",
+  "page": "/library/",
+  "section": "use-cases-grid",
+  "type": "image",
+  "format": "svg",
+  "bytes": 23735
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1719312046-incidents-and-alerts.svg",
+  "localPath": "public/assets/pages/library/usecase-incidents-and-alerts.svg",
+  "page": "/library/",
+  "section": "use-cases-grid",
+  "type": "image",
+  "format": "svg",
+  "bytes": 29759
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731506655-tines-illo-chatops-framed.svg",
+  "localPath": "public/assets/pages/library/usecase-communication.svg",
+  "page": "/library/",
+  "section": "use-cases-grid",
+  "type": "image",
+  "format": "svg",
+  "bytes": 33696
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731506662-tines-illo-ticket-syncronization-framed.svg",
+  "localPath": "public/assets/pages/library/usecase-ticket-synchronization.svg",
+  "page": "/library/",
+  "section": "use-cases-grid",
+  "type": "image",
+  "format": "svg",
+  "bytes": 19914
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1719313332-tines-core-capabilities.svg",
+  "localPath": "public/assets/pages/library/usecase-core-capabilities.svg",
+  "page": "/library/",
+  "section": "use-cases-grid",
+  "type": "image",
+  "format": "svg",
+  "bytes": 26049
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684500742-logo-aws.svg",
+  "localPath": "public/assets/pages/library/tool-aws.svg",
+  "page": "/library/",
+  "section": "partners-tools-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 5816
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684501569-logo-code42.svg",
+  "localPath": "public/assets/pages/library/tool-code42.svg",
+  "page": "/library/",
+  "section": "partners-tools-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 1971
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684501881-logo-crowdstrike.svg",
+  "localPath": "public/assets/pages/library/tool-crowdstrike.svg",
+  "page": "/library/",
+  "section": "partners-tools-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 2888
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684502269-logo-elastic.svg",
+  "localPath": "public/assets/pages/library/tool-elastic.svg",
+  "page": "/library/",
+  "section": "partners-tools-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 3231
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1749073042-drata-icon-square-1.svg",
+  "localPath": "public/assets/pages/library/tool-drata.svg",
+  "page": "/library/",
+  "section": "partners-tools-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 790
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684502773-logo-hashicorp.svg",
+  "localPath": "public/assets/pages/library/tool-hashicorp.svg",
+  "page": "/library/",
+  "section": "partners-tools-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 659
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684503421-logo-lacework.svg",
+  "localPath": "public/assets/pages/library/tool-lacework.svg",
+  "page": "/library/",
+  "section": "partners-tools-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 1832
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684521569-logo-material-security.svg",
+  "localPath": "public/assets/pages/library/tool-material-security.svg",
+  "page": "/library/",
+  "section": "partners-tools-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 1073
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522382-logo-panther.svg",
+  "localPath": "public/assets/pages/library/tool-panther.svg",
+  "page": "/library/",
+  "section": "partners-tools-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 2359
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522672-logo-recorded-future.svg",
+  "localPath": "public/assets/pages/library/tool-recorded-future.svg",
+  "page": "/library/",
+  "section": "partners-tools-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 2267
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522939-logo-snowflake.svg",
+  "localPath": "public/assets/pages/library/tool-snowflake.svg",
+  "page": "/library/",
+  "section": "partners-tools-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 3550
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684523432-logo-wiz.svg",
+  "localPath": "public/assets/pages/library/tool-wiz.svg",
+  "page": "/library/",
+  "section": "partners-tools-grid",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 3532
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.1.2/img/apple/64/1f511.png",
+  "localPath": "public/assets/pages/library/story-icon-1f511.png",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "png",
+  "dimensions": "64x64",
+  "bytes": 4752
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.1.2/img/apple/64/26a0-fe0f.png",
+  "localPath": "public/assets/pages/library/story-icon-26a0-fe0f.png",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "png",
+  "dimensions": "64x64",
+  "bytes": 2568
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.1.2/img/apple/64/1f6a8.png",
+  "localPath": "public/assets/pages/library/story-icon-1f6a8.png",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "png",
+  "dimensions": "64x64",
+  "bytes": 6452
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.1.2/img/apple/64/1f4be.png",
+  "localPath": "public/assets/pages/library/story-icon-1f4be.png",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "png",
+  "dimensions": "64x64",
+  "bytes": 2393
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.1.2/img/apple/64/1f4eb.png",
+  "localPath": "public/assets/pages/library/story-icon-1f4eb.png",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "png",
+  "dimensions": "64x64",
+  "bytes": 4309
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684503328-logo-jira.svg",
+  "localPath": "public/assets/pages/library/story-icon-logo-jira.svg",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "svg",
+  "bytes": 1342
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.1.2/img/apple/64/1f512.png",
+  "localPath": "public/assets/pages/library/story-icon-1f512.png",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "png",
+  "dimensions": "64x64",
+  "bytes": 3988
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522920-logo-slack.svg",
+  "localPath": "public/assets/pages/library/story-icon-logo-slack.svg",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "svg",
+  "bytes": 1875
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.1.2/img/apple/64/1f4e2.png",
+  "localPath": "public/assets/pages/library/story-icon-1f4e2.png",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "png",
+  "dimensions": "64x64",
+  "bytes": 5243
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.1.2/img/apple/64/2705.png",
+  "localPath": "public/assets/pages/library/story-icon-2705.png",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "png",
+  "dimensions": "64x64",
+  "bytes": 2870
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684523203-logo-tines.svg",
+  "localPath": "public/assets/pages/library/story-icon-logo-tines.svg",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "svg",
+  "bytes": 1312
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.1.2/img/apple/64/1f517.png",
+  "localPath": "public/assets/pages/library/story-icon-1f517.png",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "png",
+  "dimensions": "64x64",
+  "bytes": 6818
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.1.2/img/apple/64/1f928.png",
+  "localPath": "public/assets/pages/library/story-icon-1f928.png",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "png",
+  "dimensions": "64x64",
+  "bytes": 5979
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684523360-logo-virustotal.svg",
+  "localPath": "public/assets/pages/library/story-icon-logo-virustotal.svg",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "svg",
+  "bytes": 275
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.1.2/img/apple/64/1f6e1-fe0f.png",
+  "localPath": "public/assets/pages/library/story-icon-1f6e1-fe0f.png",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "png",
+  "dimensions": "64x64",
+  "bytes": 5040
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.1.2/img/apple/64/2699-fe0f.png",
+  "localPath": "public/assets/pages/library/story-icon-fe0f.png",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "png",
+  "dimensions": "64x64",
+  "bytes": 8068
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1700080424-emailrep.png",
+  "localPath": "public/assets/pages/library/story-icon-emailrep.png",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "png",
+  "dimensions": "240x240",
+  "bytes": 9945
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.1.2/img/apple/64/1f3ae.png",
+  "localPath": "public/assets/pages/library/story-icon-1f3ae.png",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "png",
+  "dimensions": "64x64",
+  "bytes": 6360
+ },
+ {
+  "url": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.1.2/img/apple/64/1f4fa.png",
+  "localPath": "public/assets/pages/library/story-icon-1f4fa.png",
+  "page": "/library/",
+  "section": "story-card-icons",
+  "type": "icon",
+  "format": "png",
+  "dimensions": "64x64",
+  "bytes": 7256
+ },
+ {
+  "url": "https://www.tines.com/static/tines-uni-icon-light-bf50836baa0d8a46a32f75cf8ff2d351.svg",
+  "localPath": "public/assets/pages/university/university-hero-icon.svg",
+  "page": "/university/",
+  "section": "hero",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 18361
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765832169-tines-foundations-icon.svg",
+  "localPath": "public/assets/pages/university/course-icon-tines-stories-foundations.svg",
+  "page": "/university/",
+  "section": "learning-paths-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 37574
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1771862725-tines-platform-administrator-icon.svg",
+  "localPath": "public/assets/pages/university/course-icon-platform-administrator.svg",
+  "page": "/university/",
+  "section": "learning-paths-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 8472
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765832158-tines-builder-core-icon.svg",
+  "localPath": "public/assets/pages/university/course-icon-builder-core.svg",
+  "page": "/university/",
+  "section": "learning-paths-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 8385
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765832150-tines-builder-intermediate-icon.svg",
+  "localPath": "public/assets/pages/university/course-icon-builder-intermediate.svg",
+  "page": "/university/",
+  "section": "learning-paths-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 9742
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765832143-tines-builder-expert-icon.svg",
+  "localPath": "public/assets/pages/university/course-icon-builder-expert.svg",
+  "page": "/university/",
+  "section": "learning-paths-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 12258
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1771863429-tines-builer-ai-icon.svg",
+  "localPath": "public/assets/pages/university/course-icon-builder-ai.svg",
+  "page": "/university/",
+  "section": "learning-paths-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 17126
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765832712-tines-specialist-cases-icon.svg",
+  "localPath": "public/assets/pages/university/course-icon-specialist-cases.svg",
+  "page": "/university/",
+  "section": "learning-paths-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 10583
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1771863867-tines-specialist-records-icon.svg",
+  "localPath": "public/assets/pages/university/course-icon-specialist-records.svg",
+  "page": "/university/",
+  "section": "learning-paths-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 12190
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1771864630-tines-specialist-workbench-icon.svg",
+  "localPath": "public/assets/pages/university/course-icon-specialist-workbench.svg",
+  "page": "/university/",
+  "section": "learning-paths-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 14298
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1783684441-tines-specialist-apps-icon.svg",
+  "localPath": "public/assets/pages/university/course-icon-specialist-apps.svg",
+  "page": "/university/",
+  "section": "learning-paths-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 11763
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765876109-intro-to-tines-small.svg",
+  "localPath": "public/assets/pages/university/module-small-intro-to-tines-small.svg",
+  "page": "/university/",
+  "section": "learning-path-card-module-dots",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 2107
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765531600-core-ui-module-small.svg",
+  "localPath": "public/assets/pages/university/module-small-core-ui-module-small.svg",
+  "page": "/university/",
+  "section": "learning-path-card-module-dots",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 930
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765531736-stories-module-small.svg",
+  "localPath": "public/assets/pages/university/module-small-stories-module-small.svg",
+  "page": "/university/",
+  "section": "learning-path-card-module-dots",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 1664
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765799476-tines-foundations-scene.svg",
+  "localPath": "public/assets/pages/university/scene-tines-stories-foundations.svg",
+  "page": "/university/tines-stories-foundations/",
+  "section": "course-hero",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 72785
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765876125-intro-to-tines-module-large.svg",
+  "localPath": "public/assets/pages/university/module-large-introduction-to-tines-stories.svg",
+  "page": "/university/tines-stories-foundations/",
+  "section": "module-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 2134
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765531589-core-ui-module-large.svg",
+  "localPath": "public/assets/pages/university/module-large-core-ui-navigation.svg",
+  "page": "/university/tines-stories-foundations/",
+  "section": "module-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 2324
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765531722-stories-module-large.svg",
+  "localPath": "public/assets/pages/university/module-large-stories.svg",
+  "page": "/university/tines-stories-foundations/",
+  "section": "module-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 3130
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765531826-actions-module-large.svg",
+  "localPath": "public/assets/pages/university/module-large-actions.svg",
+  "page": "/university/tines-stories-foundations/",
+  "section": "module-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 2175
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765531886-json-apis-module-large.svg",
+  "localPath": "public/assets/pages/university/module-large-json-and-api.svg",
+  "page": "/university/tines-stories-foundations/",
+  "section": "module-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 2281
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765531987-events-module-large.svg",
+  "localPath": "public/assets/pages/university/module-large-events.svg",
+  "page": "/university/tines-stories-foundations/",
+  "section": "module-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 2325
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765804464-builder-core-scene.svg",
+  "localPath": "public/assets/pages/university/scene-builder-core.svg",
+  "page": "/university/builder-core/",
+  "section": "course-hero",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 8367
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765532063-story-design-module-large.svg",
+  "localPath": "public/assets/pages/university/module-large-story-design.svg",
+  "page": "/university/builder-core/",
+  "section": "module-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 4482
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765532145-resources-module-large.svg",
+  "localPath": "public/assets/pages/university/module-large-resources.svg",
+  "page": "/university/builder-core/",
+  "section": "module-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 2090
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765532320-credentials-module-large.svg",
+  "localPath": "public/assets/pages/university/module-large-credentials.svg",
+  "page": "/university/builder-core/",
+  "section": "module-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 1602
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765533919-function-foundations-module-large.svg",
+  "localPath": "public/assets/pages/university/module-large-introduction-to-functions.svg",
+  "page": "/university/builder-core/",
+  "section": "module-grid",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 2117
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765835486-tines-foundations-scene-tinted.svg",
+  "localPath": "public/assets/pages/university/lesson-sidebar-scene-foundations.svg",
+  "page": "/university/tines-stories-foundations/introduction-to-tines-stories/what-are-intelligent-workflows/",
+  "section": "lesson-sidebar",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 72618
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1790084881-event-dato-2x-2.png",
+  "localPath": "public/assets/pages/events/event-chicago-bears-tailgate.png",
+  "page": "/events/",
+  "section": "events-directory-grid",
+  "type": "image",
+  "format": "png",
+  "dimensions": "2400x1260",
+  "bytes": 124290
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1778850396-tines-gartner-it-symposium.png",
+  "localPath": "public/assets/pages/events/event-meet-tines-at-gartner-it-symposium.png",
+  "page": "/events/",
+  "section": "events-directory-grid",
+  "type": "image",
+  "format": "png",
+  "dimensions": "1200x630",
+  "bytes": 36777
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1791222939-dato-asset_partner-event_thawk_cribl.png",
+  "localPath": "public/assets/pages/events/event-its-a-wrap-after-hours-at-the-lake-with-tines.png",
+  "page": "/events/",
+  "section": "events-directory-grid",
+  "type": "image",
+  "format": "png",
+  "dimensions": "1200x630",
+  "bytes": 228403
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1784018071-dato-asset_techex-europe.png",
+  "localPath": "public/assets/pages/events/event-techex-europe.png",
+  "page": "/events/",
+  "section": "events-directory-grid",
+  "type": "image",
+  "format": "png",
+  "dimensions": "1200x630",
+  "bytes": 34994
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1790061716-aws-gameday-sydney-dato.png",
+  "localPath": "public/assets/pages/events/event-aws-gameday-sydney-2026.png",
+  "page": "/events/",
+  "section": "events-directory-grid",
+  "type": "image",
+  "format": "png",
+  "dimensions": "2400x1260",
+  "bytes": 93358
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1784018431-dato-asset_it-sa-germany.png",
+  "localPath": "public/assets/pages/events/event-it-sa-germany.png",
+  "page": "/events/",
+  "section": "events-directory-grid",
+  "type": "image",
+  "format": "png",
+  "dimensions": "1200x630",
+  "bytes": 25937
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1791907251-event-dato-2x.png",
+  "localPath": "public/assets/pages/events/event-cribl-connect-netherlands.png",
+  "page": "/events/",
+  "section": "events-directory-grid",
+  "type": "image",
+  "format": "png",
+  "dimensions": "2400x1260",
+  "bytes": 92807
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1780000684-builder-connect-nyc-dato.png",
+  "localPath": "public/assets/pages/events/event-builder-connect-new-york.png",
+  "page": "/events/",
+  "section": "events-directory-grid",
+  "type": "image",
+  "format": "png",
+  "dimensions": "2400x1260",
+  "bytes": 75639
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1792159746-event-dato-2x.png",
+  "localPath": "public/assets/pages/events/event-falcon-eu-2026.png",
+  "page": "/events/",
+  "section": "events-directory-grid",
+  "type": "image",
+  "format": "png",
+  "dimensions": "2400x1260",
+  "bytes": 59843
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1791967436-event-dato-2x-4.png",
+  "localPath": "public/assets/pages/events/cover-cribl-connect-munich.png",
+  "page": "/events/cribl-connect-munich/",
+  "section": "event-cover",
+  "type": "image",
+  "format": "png",
+  "dimensions": "2400x1260",
+  "bytes": 101436
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1784018647-dato-asset_black-hat-eu.png",
+  "localPath": "public/assets/pages/events/cover-black-hat-eu-2026.png",
+  "page": "/events/black-hat-eu-2026/",
+  "section": "event-cover",
+  "type": "image",
+  "format": "png",
+  "dimensions": "1200x630",
+  "bytes": 33337
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1789588108-1657288209299.jpg?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-tim-bandos.jpg",
+  "page": "/webinars/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 5134
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1784654330-screenshot-2026-07-21-at-12-18-40-pm.png?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-colin-bentley.jpg",
+  "page": "/webinars/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 5536
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1789067974-screenshot-2026-09-10-at-2-19-13-pm.png?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-mark-moccia.jpg",
+  "page": "/webinars/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 5085
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692608736-stephen-creedon.jpeg?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-stephen-creedon.jpg",
+  "page": "/webinars/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 4313
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1776260761-nh_square.png?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-niall-heffernan.jpg",
+  "page": "/webinars/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 8206
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1787310924-ayoub-fandi.png?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-ayoub-fandi.png",
+  "page": "/webinars/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "png",
+  "dimensions": "144x144",
+  "bytes": 10355
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1785511546-corey-noles_ta.webp?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-corey-noles.jpg",
+  "page": "/webinars/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 6169
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1746024919-66d4bcc3-a7ca-4409-9ffc-de603fe59886.jpg?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-rosie-ellison.jpg",
+  "page": "/webinars/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 6296
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1785180807-image-21.png?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-chris-oh.jpg",
+  "page": "/webinars/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 5110
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1732109161-sif-baksh.jpg?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-sif-baksh.jpg",
+  "page": "/webinars/ | /webinars/the-50k-per-hour-network-downtime-dilemma/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 5602
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1781102944-image-11.png?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-gary-jenkins.png",
+  "page": "/webinars/ | /webinars/the-50k-per-hour-network-downtime-dilemma/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "png",
+  "dimensions": "144x144",
+  "bytes": 11800
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1781102879-robert-butler.jpeg?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-robert-butler.jpg",
+  "page": "/webinars/ | /webinars/the-50k-per-hour-network-downtime-dilemma/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 5292
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1779997136-kaylietorres-1141-highres-1-1.png?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-kaylie-torres.png",
+  "page": "/webinars/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "png",
+  "dimensions": "144x144",
+  "bytes": 10826
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1779984079-phinehas.jpeg?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-phinehas-bynum.jpg",
+  "page": "/webinars/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 6408
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1780504333-andrewsteele-1.png?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-andrew-steele.png",
+  "page": "/webinars/ | /webinars/secure-ai-for-the-real-world/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "png",
+  "dimensions": "131x131",
+  "bytes": 9937
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1780504399-indusajeev.png?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-indu-sajeev.png",
+  "page": "/webinars/ | /webinars/secure-ai-for-the-real-world/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "png",
+  "dimensions": "131x131",
+  "bytes": 11319
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1780504433-mario-jamf-1.png?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-mario-villatoro.png",
+  "page": "/webinars/ | /webinars/secure-ai-for-the-real-world/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "png",
+  "dimensions": "131x131",
+  "bytes": 9954
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1780504533-matt_datadog-1.png?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-matt-muller.png",
+  "page": "/webinars/ | /webinars/secure-ai-for-the-real-world/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "png",
+  "dimensions": "127x123",
+  "bytes": 8885
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1773939129-erika.jpeg?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-erika-mendoza.jpg",
+  "page": "/webinars/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 7255
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1773939045-matt-housten.jpeg?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-matt-houston.jpg",
+  "page": "/webinars/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 8312
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1773939099-scott-ponte.jpeg?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-scott-ponte.jpg",
+  "page": "/webinars/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 6614
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1727184309-screenshot-2024-09-24-at-9-24-58-am.png?auto=%20compress%2Cformat&fit=max&q=80&w=144",
+  "localPath": "public/assets/pages/webinars/speaker-hanna-gower.jpg",
+  "page": "/webinars/",
+  "section": "webinar-card-speakers",
+  "type": "image",
+  "format": "jpg",
+  "dimensions": "72x72",
+  "bytes": 4837
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1761831573-notion-dark.svg",
+  "localPath": "public/assets/pages/case-studies/logo-notion.svg",
+  "page": "/case-studies/notion/",
+  "section": "hero-logo-cell",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 3662
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1769772705-vimeo-logo-dark.svg",
+  "localPath": "public/assets/pages/case-studies/logo-vimeo.svg",
+  "page": "/case-studies/vimeo/",
+  "section": "hero-logo-cell",
+  "type": "logo",
+  "format": "svg",
+  "bytes": 9672
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/stories/card-backdrop-storyboard.svg",
+  "localPath": "public/assets/pages/stories/card-backdrop-storyboard.svg",
+  "page": "/stories/",
+  "section": "product-grid (card ::before backdrop)",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 35102
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/stories/card-backdrop-workbench.svg",
+  "localPath": "public/assets/pages/stories/card-backdrop-workbench.svg",
+  "page": "/stories/",
+  "section": "product-grid (card ::before backdrop)",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 72247
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/stories/card-backdrop-cases.svg",
+  "localPath": "public/assets/pages/stories/card-backdrop-cases.svg",
+  "page": "/stories/",
+  "section": "product-grid (card ::before backdrop)",
+  "type": "svg",
+  "format": "svg",
+  "bytes": 90912
+ },
+ {
+  "url": "https://www.tines.com/blog/ (inline <svg>)",
+  "localPath": "reference/svg/pages/blog-excerpt-quote-mark.svg",
+  "page": "/blog/",
+  "section": "blog-excerpt-quote-mark",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 465
+ },
+ {
+  "url": "https://www.tines.com/blog/ (inline <svg>)",
+  "localPath": "reference/svg/pages/blog-newsletter-illustration.svg",
+  "page": "/blog/",
+  "section": "blog-newsletter-illustration",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 35295
+ },
+ {
+  "url": "https://www.tines.com/blog/building-ai-agents-getting-started/ (inline <svg>)",
+  "localPath": "reference/svg/pages/blog-heading-anchor-link.svg",
+  "page": "/blog/building-ai-agents-getting-started/",
+  "section": "blog-heading-anchor-link",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 996
+ },
+ {
+  "url": "https://www.tines.com/blog/migrating-to-tines-cases/ (inline <svg>)",
+  "localPath": "reference/svg/pages/blog-series-list-chevron.svg",
+  "page": "/blog/migrating-to-tines-cases/",
+  "section": "blog-series-list-chevron",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 163
+ },
+ {
+  "url": "https://www.tines.com/stories/ (inline <svg>)",
+  "localPath": "reference/svg/pages/stories-explosion-cta-tines-logo.svg",
+  "page": "/stories/",
+  "section": "stories-explosion-cta-tines-logo",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 1290
+ },
+ {
+  "url": "https://www.tines.com/stories/templates/ (inline <svg>)",
+  "localPath": "reference/svg/pages/stories-explorer-header-graphic.svg",
+  "page": "/stories/templates/",
+  "section": "stories-explorer-header-graphic",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 8306
+ },
+ {
+  "url": "https://www.tines.com/stories/templates/ (inline <svg>)",
+  "localPath": "reference/svg/pages/stories-search-icon.svg",
+  "page": "/stories/templates/",
+  "section": "stories-search-icon",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 345
+ },
+ {
+  "url": "https://www.tines.com/stories/templates/ (inline <svg>)",
+  "localPath": "reference/svg/pages/stories-top-products-icon.svg",
+  "page": "/stories/templates/",
+  "section": "stories-top-products-icon",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 6162
+ },
+ {
+  "url": "https://www.tines.com/stories/templates/1password/ (inline <svg>)",
+  "localPath": "reference/svg/pages/stories-curl-arrow.svg",
+  "page": "/stories/templates/1password/",
+  "section": "stories-curl-arrow",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 305
+ },
+ {
+  "url": "https://www.tines.com/stories/templates/1password/ (inline <svg>)",
+  "localPath": "reference/svg/pages/stories-copy-icon.svg",
+  "page": "/stories/templates/1password/",
+  "section": "stories-copy-icon",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 303
+ },
+ {
+  "url": "https://www.tines.com/stories/templates/1password/ (inline <svg>)",
+  "localPath": "reference/svg/pages/stories-action-card.svg",
+  "page": "/stories/templates/1password/",
+  "section": "stories-action-card",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 1579
+ },
+ {
+  "url": "https://www.tines.com/stories/whats-new/ (inline <svg>)",
+  "localPath": "reference/svg/pages/stories-whatsnew-search-icon.svg",
+  "page": "/stories/whats-new/",
+  "section": "stories-whatsnew-search-icon",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 1098
+ },
+ {
+  "url": "https://www.tines.com/stories/whats-new/ (inline <svg>)",
+  "localPath": "reference/svg/pages/stories-whatsnew-chevron.svg",
+  "page": "/stories/whats-new/",
+  "section": "stories-whatsnew-chevron",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 306
+ },
+ {
+  "url": "https://www.tines.com/stories/whats-new/ (inline <svg>)",
+  "localPath": "reference/svg/pages/stories-rss-icon.svg",
+  "page": "/stories/whats-new/",
+  "section": "stories-rss-icon",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 394
+ },
+ {
+  "url": "https://www.tines.com/stories/whats-new/ (inline <svg>)",
+  "localPath": "reference/svg/pages/stories-theme-sun.svg",
+  "page": "/stories/whats-new/",
+  "section": "stories-theme-sun",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 1872
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-sidebar-icons-1.svg",
+  "page": "/library/",
+  "section": "library-sidebar-icons-1",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 890
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-sidebar-icons-2.svg",
+  "page": "/library/",
+  "section": "library-sidebar-icons-2",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 1296
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-sidebar-icons-3.svg",
+  "page": "/library/",
+  "section": "library-sidebar-icons-3",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 2331
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-sidebar-icons-4.svg",
+  "page": "/library/",
+  "section": "library-sidebar-icons-4",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 8814
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-sidebar-icons-5.svg",
+  "page": "/library/",
+  "section": "library-sidebar-icons-5",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 1931
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-sidebar-icons-6.svg",
+  "page": "/library/",
+  "section": "library-sidebar-icons-6",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 414
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-sidebar-chevron.svg",
+  "page": "/library/",
+  "section": "library-sidebar-chevron",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 227
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-search-icon.svg",
+  "page": "/library/",
+  "section": "library-search-icon",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 359
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-close-icon.svg",
+  "page": "/library/",
+  "section": "library-close-icon",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 153
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-hero-tab-icons-1.svg",
+  "page": "/library/",
+  "section": "library-hero-tab-icons-1",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 808
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-hero-tab-icons-2.svg",
+  "page": "/library/",
+  "section": "library-hero-tab-icons-2",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 248
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-hero-tab-icons-3.svg",
+  "page": "/library/",
+  "section": "library-hero-tab-icons-3",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 249
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-hero-tab-icons-4.svg",
+  "page": "/library/",
+  "section": "library-hero-tab-icons-4",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 919
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-hero-tab-corner.svg",
+  "page": "/library/",
+  "section": "library-hero-tab-corner",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 248
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-howitworks-steps-1.svg",
+  "page": "/library/",
+  "section": "library-howitworks-steps-1",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 3024
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-howitworks-steps-2.svg",
+  "page": "/library/",
+  "section": "library-howitworks-steps-2",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 6442
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-howitworks-steps-3.svg",
+  "page": "/library/",
+  "section": "library-howitworks-steps-3",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 5810
+ },
+ {
+  "url": "https://www.tines.com/library/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-submit-story-icon.svg",
+  "page": "/library/",
+  "section": "library-submit-story-icon",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 10593
+ },
+ {
+  "url": "https://www.tines.com/library/stories/1354837/contain-or-release-hosts-in-crowdstrike-from-jira/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-vote-icons-1.svg",
+  "page": "/library/stories/1354837/contain-or-release-hosts-in-crowdstrike-from-jira/",
+  "section": "library-vote-icons-1",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 1577
+ },
+ {
+  "url": "https://www.tines.com/library/stories/1354837/contain-or-release-hosts-in-crowdstrike-from-jira/ (inline <svg>)",
+  "localPath": "reference/svg/pages/library-vote-icons-2.svg",
+  "page": "/library/stories/1354837/contain-or-release-hosts-in-crowdstrike-from-jira/",
+  "section": "library-vote-icons-2",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 1615
+ },
+ {
+  "url": "https://www.tines.com/events/ (inline <svg>)",
+  "localPath": "reference/svg/pages/events-location-icon.svg",
+  "page": "/events/",
+  "section": "events-location-icon",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 1061
+ },
+ {
+  "url": "https://www.tines.com/events/ (inline <svg>)",
+  "localPath": "reference/svg/pages/events-search-icon.svg",
+  "page": "/events/",
+  "section": "events-search-icon",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 1033
+ },
+ {
+  "url": "https://www.tines.com/events/black-hat-eu-2026/ (inline <svg>)",
+  "localPath": "reference/svg/pages/events-angular-gradient-border.svg",
+  "page": "/events/black-hat-eu-2026/",
+  "section": "events-angular-gradient-border",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 2123
+ },
+ {
+  "url": "https://www.tines.com/events/black-hat-eu-2026/ (inline <svg>)",
+  "localPath": "reference/svg/pages/events-date-arrow.svg",
+  "page": "/events/black-hat-eu-2026/",
+  "section": "events-date-arrow",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 244
+ },
+ {
+  "url": "https://www.tines.com/case-studies/all/ (inline <svg>)",
+  "localPath": "reference/svg/pages/case-studies-bookmark.svg",
+  "page": "/case-studies/all/",
+  "section": "case-studies-bookmark",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 463
+ },
+ {
+  "url": "https://www.tines.com/case-studies/notion/ (inline <svg>)",
+  "localPath": "reference/svg/pages/case-studies-plus-sign.svg",
+  "page": "/case-studies/notion/",
+  "section": "case-studies-plus-sign",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 1071
+ },
+ {
+  "url": "https://www.tines.com/case-studies/notion/ (inline <svg>)",
+  "localPath": "reference/svg/pages/case-studies-tines-logo-cell.svg",
+  "page": "/case-studies/notion/",
+  "section": "case-studies-tines-logo-cell",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 1293
+ },
+ {
+  "url": "https://www.tines.com/case-studies/notion/ (inline <svg>)",
+  "localPath": "reference/svg/pages/case-studies-pullquote-mark.svg",
+  "page": "/case-studies/notion/",
+  "section": "case-studies-pullquote-mark",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 492
+ },
+ {
+  "url": "https://www.tines.com/university/ (inline <svg>)",
+  "localPath": "reference/svg/pages/university-card-arrow.svg",
+  "page": "/university/",
+  "section": "university-card-arrow",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 219
+ },
+ {
+  "url": "https://www.tines.com/university/ (inline <svg>)",
+  "localPath": "reference/svg/pages/university-resource-link-arrow.svg",
+  "page": "/university/",
+  "section": "university-resource-link-arrow",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 237
+ },
+ {
+  "url": "https://www.tines.com/webinars/secure-ai-for-the-real-world/ (inline <svg>)",
+  "localPath": "reference/svg/pages/webinars-access-form-icon.svg",
+  "page": "/webinars/secure-ai-for-the-real-world/",
+  "section": "webinars-access-form-icon",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 5809
+ },
+ {
+  "url": "https://www.tines.com/case-studies/all/ (inline <svg> rendered by CurrentColorRemoteSvg, fill=currentColor)",
+  "localPath": "reference/svg/pages/case-studies-logo-omada-health.svg",
+  "page": "/case-studies/all/",
+  "section": "case-study-book-card logo",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 4867
+ },
+ {
+  "url": "https://www.tines.com/case-studies/all/ (inline <svg> rendered by CurrentColorRemoteSvg, fill=currentColor)",
+  "localPath": "reference/svg/pages/case-studies-logo-intezer.svg",
+  "page": "/case-studies/all/",
+  "section": "case-study-book-card logo",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 3058
+ },
+ {
+  "url": "https://www.tines.com/case-studies/all/ (inline <svg> rendered by CurrentColorRemoteSvg, fill=currentColor)",
+  "localPath": "reference/svg/pages/case-studies-logo-hawx.svg",
+  "page": "/case-studies/all/",
+  "section": "case-study-book-card logo",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 1706
+ },
+ {
+  "url": "https://www.tines.com/case-studies/all/ (inline <svg> rendered by CurrentColorRemoteSvg, fill=currentColor)",
+  "localPath": "reference/svg/pages/case-studies-logo-personio.svg",
+  "page": "/case-studies/all/",
+  "section": "case-study-book-card logo",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 5056
+ },
+ {
+  "url": "https://www.tines.com/case-studies/all/ (inline <svg> rendered by CurrentColorRemoteSvg, fill=currentColor)",
+  "localPath": "reference/svg/pages/case-studies-logo-brex.svg",
+  "page": "/case-studies/all/",
+  "section": "case-study-book-card logo",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 2071
+ },
+ {
+  "url": "https://www.tines.com/case-studies/all/ (inline <svg> rendered by CurrentColorRemoteSvg, fill=currentColor)",
+  "localPath": "reference/svg/pages/case-studies-logo-vimeo.svg",
+  "page": "/case-studies/all/",
+  "section": "case-study-book-card logo",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 9644
+ },
+ {
+  "url": "https://www.tines.com/case-studies/all/ (inline <svg> rendered by CurrentColorRemoteSvg, fill=currentColor)",
+  "localPath": "reference/svg/pages/case-studies-logo-netskope.svg",
+  "page": "/case-studies/all/",
+  "section": "case-study-book-card logo",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 8622
+ },
+ {
+  "url": "https://www.tines.com/case-studies/all/ (inline <svg> rendered by CurrentColorRemoteSvg, fill=currentColor)",
+  "localPath": "reference/svg/pages/case-studies-logo-ip-performance.svg",
+  "page": "/case-studies/all/",
+  "section": "case-study-book-card logo",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 6267
+ },
+ {
+  "url": "https://www.tines.com/case-studies/all/ (inline <svg> rendered by CurrentColorRemoteSvg, fill=currentColor)",
+  "localPath": "reference/svg/pages/case-studies-logo-notion.svg",
+  "page": "/case-studies/all/",
+  "section": "case-study-book-card logo",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 3651
+ },
+ {
+  "url": "https://www.tines.com/university/tines-stories-foundations/ (img src data:image/svg+xml;base64)",
+  "localPath": "reference/svg/pages/university-exam-icon.svg",
+  "page": "/university/<course>/",
+  "section": "module-grid exam tile",
+  "type": "inline-svg",
+  "format": "svg",
+  "bytes": 1123
+ }
+]

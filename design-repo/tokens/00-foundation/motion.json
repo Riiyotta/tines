@@ -1,0 +1,182 @@
+{
+  "$meta": {
+    "description": "Durations, easings and keyframe names. Every animation is gated on prefers-reduced-motion: no-preference (0 running animations measured under reduce on both sites).",
+    "evidence": [
+      "mv.tw.easing",
+      "mv.motion.keyframes",
+      "mv.motion.gating",
+      "mv.qa.motion"
+    ]
+  },
+  "easing": {
+    "snappy": {
+      "$type": "cubicBezier",
+      "$value": "cubic-bezier(.22,1,.36,1)",
+      "description": "main ease, measured cubic-bezier(.22,1,.36,1)"
+    },
+    "spring": {
+      "$type": "cubicBezier",
+      "$value": "cubic-bezier(.34,1.56,.64,1)",
+      "description": "CTA cursor press"
+    },
+    "ease": {
+      "$type": "cubicBezier",
+      "$value": "ease"
+    },
+    "linear": {
+      "$type": "cubicBezier",
+      "$value": "linear"
+    },
+    "ease-out": {
+      "$type": "cubicBezier",
+      "$value": "ease-out"
+    },
+    "ease-in-out": {
+      "$type": "cubicBezier",
+      "$value": "ease-in-out"
+    }
+  },
+  "duration": {
+    "instant": {
+      "$type": "duration",
+      "$value": "100ms",
+      "usage": "button filter/background hover"
+    },
+    "fast": {
+      "$type": "duration",
+      "$value": "120ms",
+      "usage": "cursor fade, timeline segment bg"
+    },
+    "chevron": {
+      "$type": "duration",
+      "$value": "150ms",
+      "usage": "footer chevron rotate"
+    },
+    "tab-colour": {
+      "$type": "duration",
+      "$value": "180ms",
+      "usage": "tab background/colour"
+    },
+    "nav-layer": {
+      "$type": "duration",
+      "$value": "200ms",
+      "usage": "nav blur/backdrop fade, footer accordion"
+    },
+    "frame": {
+      "$type": "duration",
+      "$value": "250ms",
+      "usage": "use-case frame transform/opacity, nav accordion"
+    },
+    "toggle": {
+      "$type": "duration",
+      "$value": "280ms",
+      "usage": "Workflow/Frontend pill clip-path"
+    },
+    "grow": {
+      "$type": "duration",
+      "$value": "300ms",
+      "usage": "tab flex-grow, cursor press spring"
+    },
+    "menu": {
+      "$type": "duration",
+      "$value": "350ms",
+      "usage": "mobile menu snappyDown"
+    },
+    "dropdown": {
+      "$type": "duration",
+      "$value": "400ms",
+      "usage": "nav dropdown snappyIn, frameFloatIn"
+    },
+    "reveal": {
+      "$type": "duration",
+      "$value": "500ms",
+      "usage": "use-cases IO reveal"
+    },
+    "appear": {
+      "$type": "duration",
+      "$value": "600ms",
+      "usage": "product-visual appear, timeline bar"
+    },
+    "wipe": {
+      "$type": "duration",
+      "$value": "1000ms",
+      "usage": "use-case panelWipe"
+    }
+  },
+  "delay": {
+    "stagger": {
+      "$type": "duration",
+      "$value": "50ms",
+      "usage": "dropdown columns, inactive frame"
+    },
+    "timeline": {
+      "$type": "duration",
+      "$value": "200ms",
+      "usage": "timeline bar intro"
+    }
+  },
+  "loop": {
+    "breathe": {
+      "$type": "duration",
+      "$value": "3.8s"
+    },
+    "blink": {
+      "$type": "duration",
+      "$value": "4s"
+    },
+    "floatZ": {
+      "$type": "duration",
+      "$value": "3s"
+    },
+    "cursorSpin": {
+      "$type": "duration",
+      "$value": "6s"
+    },
+    "constellationSpin": {
+      "$type": "duration",
+      "$value": "60s"
+    },
+    "constellationSpinSlow": {
+      "$type": "duration",
+      "$value": "75s"
+    },
+    "twinkleRange": {
+      "$type": "other",
+      "$value": "2.4s-3.6s"
+    },
+    "productDemo": {
+      "$type": "duration",
+      "$value": "91.6315s"
+    }
+  },
+  "rate": {
+    "marquee": {
+      "$type": "other",
+      "$value": "40px/s",
+      "description": "duration = period / 40 (41.625s @1440, 34.75s @390)"
+    }
+  },
+  "keyframes": {
+    "$type": "other",
+    "$value": [
+      "snappyIn",
+      "snappyDown",
+      "marqueeDrift",
+      "hundredXSink",
+      "threeBVisualAppear",
+      "timelineBarIntro",
+      "timelineBarFadeIn",
+      "mascotSpin",
+      "mascotBlink",
+      "mascotBreathe",
+      "mascotFloatZ",
+      "solutionBedParallax",
+      "useCasesReveal",
+      "panelWipe",
+      "frameFloatIn",
+      "constellationSpin",
+      "twinkle",
+      "interactiveCursorSpin"
+    ]
+  }
+}

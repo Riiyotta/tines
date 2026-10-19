@@ -1,0 +1,133 @@
+{
+  "$meta": {
+    "description": "Stepped spacing scale (CSS custom properties mirrored from the live :root). Values STEP at the listed min-widths; they are NOT interpolated between 1280 and 1440 (CLONE_SPEC claimed fluid interpolation; the source code steps).",
+    "evidence": [
+      "mv.css.spacing-steps",
+      "mv.tw.spacing"
+    ]
+  },
+  "spacing": {
+    "page-margin": {
+      "$type": "dimension",
+      "$value": "18px",
+      "steps": {
+        "0": "18px",
+        "640": "30px",
+        "1024": "35px",
+        "1280": "40px"
+      },
+      "cssVar": "--page-margin"
+    },
+    "page-margin-wide": {
+      "$type": "dimension",
+      "$value": "18px",
+      "steps": {
+        "0": "18px",
+        "640": "70px",
+        "920": "85px",
+        "1024": "125px",
+        "1280": "156px"
+      },
+      "cssVar": "--page-margin-wide"
+    },
+    "sp-sm": {
+      "$type": "dimension",
+      "$value": "16px",
+      "steps": {
+        "0": "16px",
+        "1024": "18px",
+        "1280": "20px",
+        "1440": "24px"
+      },
+      "cssVar": "--sp-sm"
+    },
+    "sp-md": {
+      "$type": "dimension",
+      "$value": "18px",
+      "steps": {
+        "0": "18px",
+        "1024": "24px",
+        "1280": "27.5px",
+        "1440": "30px"
+      },
+      "cssVar": "--sp-md"
+    },
+    "sp-lg": {
+      "$type": "dimension",
+      "$value": "24px",
+      "steps": {
+        "0": "24px",
+        "640": "30px",
+        "1280": "32.5px",
+        "1440": "40px"
+      },
+      "cssVar": "--sp-lg"
+    },
+    "sp-xl": {
+      "$type": "dimension",
+      "$value": "35px",
+      "steps": {
+        "0": "35px",
+        "1024": "40px",
+        "1280": "45px",
+        "1440": "55px"
+      },
+      "cssVar": "--sp-xl"
+    },
+    "sp-xxl": {
+      "$type": "dimension",
+      "$value": "45px",
+      "steps": {
+        "0": "45px",
+        "1024": "50px",
+        "1280": "58px",
+        "1440": "64px"
+      },
+      "cssVar": "--sp-xxl"
+    },
+    "sp-gap": {
+      "$type": "dimension",
+      "$value": "16px",
+      "steps": {
+        "0": "16px",
+        "640": "24px"
+      },
+      "cssVar": "--sp-gap"
+    },
+    "section-padding": {
+      "$type": "dimension",
+      "$value": "40px",
+      "steps": {
+        "0": "40px",
+        "640": "48px",
+        "920": "75px",
+        "1024": "80px",
+        "1280": "90px",
+        "1366": "96px"
+      },
+      "cssVar": "--section-padding"
+    },
+    "section-margin": {
+      "$type": "dimension",
+      "$value": "96px",
+      "steps": {
+        "0": "96px",
+        "640": "120px",
+        "1024": "125px",
+        "1280": "140px",
+        "1440": "156px"
+      },
+      "cssVar": "--section-margin"
+    },
+    "timeline-inset": {
+      "$type": "dimension",
+      "$value": "18px",
+      "steps": {
+        "0": "18px",
+        "640": "24px",
+        "1280": "32px"
+      },
+      "cssVar": "--timeline-inset"
+    }
+  }
+}

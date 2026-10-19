@@ -1,0 +1,13 @@
+{
+  "$comment": "Exactly one route exists in the clone (deliberate homepage-only scope). Other tines.com pages were never cloned and must not be invented.",
+  "routes": [
+    {
+      "path": "/",
+      "template": "template.home",
+      "evidence": [
+        "mv.app.order",
+        "mv.ia.template"
+      ]
+    }
+  ]
+}

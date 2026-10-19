@@ -1,0 +1,95 @@
+{
+  "id": "narrative.monitor-banner",
+  "kind": "section",
+  "category": "NARRATIVE",
+  "contractVersion": "1.0.0",
+  "purpose": "Frame the problem the product solves before the solution is presented.",
+  "implementedBy": "MonitorBanner.jsx",
+  "implementedByNote": "Component in the sibling clone project (src/components); same string as ia.json implementedBy.",
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "kicker": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 7
+      },
+      "headline": {
+        "kind": "obj",
+        "required": true,
+        "fields": {
+          "lead": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 6
+          },
+          "emphasis": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 8
+          }
+        }
+      },
+      "icon": {
+        "kind": "media",
+        "required": true,
+        "assetRole": "illustration.brand-art"
+      },
+      "paragraphs": {
+        "kind": "tlist",
+        "required": true,
+        "maxWords": 32,
+        "minItems": 1,
+        "maxItems": 2
+      },
+      "background": {
+        "kind": "media",
+        "required": true,
+        "assetRole": "artwork.canvas-standin"
+      }
+    }
+  },
+  "constraints": {
+    "maxPerPage": 1
+  },
+  "motion": {
+    "allowedPatterns": [
+      "static-canvas-standin"
+    ],
+    "allowedTriggers": [
+      "none"
+    ],
+    "reducedMotionFallback": "static",
+    "fallbackIsConst": true,
+    "notes": "Original animates the monitor wall on canvas; the clone is a static PNG (known gap)."
+  },
+  "responsive": [
+    {
+      "minWidth": 0,
+      "changes": [
+        "canvas above copy in 1.935:1 slot",
+        "text centred"
+      ]
+    },
+    {
+      "minWidth": 640,
+      "changes": [
+        "canvas behind copy, full viewport width"
+      ]
+    },
+    {
+      "minWidth": 1024,
+      "changes": [
+        "H2 52px"
+      ]
+    }
+  ],
+  "assetRoles": [
+    "artwork.canvas-standin",
+    "illustration.brand-art"
+  ],
+  "evidence": [
+    "mv.monitor.content"
+  ],
+  "evidenceLevel": "measured (single homepage instance)"
+}

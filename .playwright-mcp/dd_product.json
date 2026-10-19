@@ -1,0 +1,406 @@
+{
+  "panel": {
+    "box": {
+      "x": 0,
+      "y": 84,
+      "width": 1440,
+      "height": 310,
+      "top": 84,
+      "right": 1440,
+      "bottom": 394,
+      "left": 0
+    },
+    "bg": null,
+    "sh": "none",
+    "bf": "none"
+  },
+  "tree": {
+    "t": "div",
+    "c": ".panel",
+    "box": [
+      0,
+      84,
+      1440,
+      310
+    ],
+    "k": [
+      {
+        "t": "div",
+        "c": ".panelInner",
+        "box": [
+          0,
+          84,
+          1440,
+          310
+        ],
+        "pad": "4px 40px 0px",
+        "gap": "3px",
+        "k": [
+          {
+            "t": "div",
+            "c": ".column .heroColumn .boxed",
+            "box": [
+              40,
+              88,
+              600,
+              306
+            ],
+            "bg": "#7a56e0",
+            "rad": "20px",
+            "pad": "8px",
+            "gap": "2px",
+            "k": [
+              {
+                "t": "div",
+                "c": ".heroBody",
+                "box": [
+                  49,
+                  97,
+                  582,
+                  288
+                ],
+                "gap": "6px",
+                "k": [
+                  {
+                    "t": "a",
+                    "c": ".primarySquare",
+                    "box": [
+                      49,
+                      97,
+                      384,
+                      288
+                    ],
+                    "bg": "#6741bf",
+                    "rad": "12px",
+                    "pad": "12px",
+                    "href": "/3b/",
+                    "k": [
+                      {
+                        "t": "span",
+                        "c": ".heroFlowers",
+                        "box": [
+                          50,
+                          290,
+                          382,
+                          94
+                        ],
+                        "k": [
+                          {
+                            "t": "canvas",
+                            "c": ".field",
+                            "box": [
+                              -39,
+                              224,
+                              560,
+                              227
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "t": "img",
+                        "c": ".heroPc",
+                        "box": [
+                          161,
+                          191,
+                          160,
+                          133
+                        ],
+                        "src": "https://www.tines.com/v5-assets/images/3b-flower-pc.svg"
+                      },
+                      {
+                        "t": "span",
+                        "c": ".heroFlowers .heroFlowersFront",
+                        "box": [
+                          50,
+                          290,
+                          382,
+                          94
+                        ],
+                        "k": [
+                          {
+                            "t": "canvas",
+                            "c": ".field",
+                            "box": [
+                              -39,
+                              224,
+                              560,
+                              227
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "t": "span",
+                        "c": ".tileHead",
+                        "box": [
+                          62,
+                          110,
+                          358,
+                          59
+                        ],
+                        "gap": "4px",
+                        "k": [
+                          {
+                            "t": "span",
+                            "c": ".tileLabel",
+                            "box": [
+                              62,
+                              110,
+                              358,
+                              22
+                            ],
+                            "text": "Tines 3B",
+                            "font": "Roobert 500 22px/22px #fcf9f5"
+                          },
+                          {
+                            "t": "span",
+                            "c": ".tileDescription",
+                            "box": [
+                              62,
+                              139,
+                              234,
+                              30
+                            ],
+                            "text": "One environment to deliver AI agents, apps, and automation.",
+                            "font": "Roobert 500 13px/14.95px #fcf9f5"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "t": "div",
+                    "c": ".heroTiles",
+                    "box": [
+                      439,
+                      97,
+                      192,
+                      288
+                    ],
+                    "gap": "6px",
+                    "k": [
+                      {
+                        "t": "a",
+                        "c": ".primarySquare",
+                        "box": [
+                          439,
+                          97,
+                          192,
+                          141
+                        ],
+                        "bg": "#6741bf",
+                        "rad": "12px",
+                        "pad": "12px",
+                        "href": "/3b/examples/",
+                        "k": [
+                          {
+                            "t": "span",
+                            "c": ".tileHead",
+                            "box": [
+                              452,
+                              110,
+                              166,
+                              53
+                            ],
+                            "gap": "4px",
+                            "k": [
+                              {
+                                "t": "span",
+                                "c": ".tileLabel",
+                                "box": [
+                                  452,
+                                  110,
+                                  166,
+                                  16
+                                ],
+                                "text": "Examples gallery",
+                                "font": "Roobert 700 16px/16px #fcf9f5"
+                              },
+                              {
+                                "t": "span",
+                                "c": ".tileDescription",
+                                "box": [
+                                  452,
+                                  133,
+                                  166,
+                                  30
+                                ],
+                                "text": "Real-world examples of Tines 3B at work.",
+                                "font": "Roobert 500 13px/14.95px #fcf9f5"
+                              }
+                            ]
+                          },
+                          {
+                            "t": "span",
+                            "c": ".tileArrow",
+                            "box": [
+                              605,
+                              204,
+                              13,
+                              21
+                            ],
+                            "text": "→",
+                            "font": "Roobert 500 18px/20.7px #fcf9f5"
+                          }
+                        ]
+                      },
+                      {
+                        "t": "a",
+                        "c": ".primarySquare",
+                        "box": [
+                          439,
+                          244,
+                          192,
+                          141
+                        ],
+                        "bg": "#6741bf",
+                        "rad": "12px",
+                        "pad": "12px",
+                        "href": "https://docs.3b.tines.com/",
+                        "k": [
+                          {
+                            "t": "span",
+                            "c": ".tileHead",
+                            "box": [
+                              452,
+                              257,
+                              166,
+                              16
+                            ],
+                            "gap": "4px",
+                            "k": [
+                              {
+                                "t": "span",
+                                "c": ".tileLabel",
+                                "box": [
+                                  452,
+                                  257,
+                                  166,
+                                  16
+                                ],
+                                "text": "Docs",
+                                "font": "Roobert 700 16px/16px #fcf9f5"
+                              }
+                            ]
+                          },
+                          {
+                            "t": "span",
+                            "c": ".tileArrow",
+                            "box": [
+                              608,
+                              351,
+                              10,
+                              21
+                            ],
+                            "text": "↗",
+                            "font": "Roobert 500 18px/20.7px #fcf9f5"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "t": "div",
+            "c": ".column .soloColumn",
+            "box": [
+              643,
+              88,
+              275,
+              275
+            ],
+            "rad": "20px",
+            "gap": "2px",
+            "k": [
+              {
+                "t": "a",
+                "c": ".primarySquare",
+                "box": [
+                  643,
+                  88,
+                  275,
+                  275
+                ],
+                "bg": "#ece8fd",
+                "rad": "20px",
+                "pad": "18px",
+                "href": "/stories/",
+                "k": [
+                  {
+                    "t": "svg",
+                    "c": ".storiesIcon",
+                    "box": [
+                      662,
+                      256,
+                      94,
+                      88
+                    ],
+                    "svg": "0 0 94 88"
+                  },
+                  {
+                    "t": "span",
+                    "c": ".tileHead",
+                    "box": [
+                      662,
+                      107,
+                      237,
+                      44
+                    ],
+                    "gap": "4px",
+                    "k": [
+                      {
+                        "t": "span",
+                        "c": ".tileLabel",
+                        "box": [
+                          662,
+                          107,
+                          237,
+                          22
+                        ],
+                        "text": "Tines Stories",
+                        "font": "Roobert 500 22px/22px #4a288a"
+                      },
+                      {
+                        "t": "span",
+                        "c": ".tileDescription",
+                        "box": [
+                          662,
+                          136,
+                          234,
+                          15
+                        ],
+                        "text": "The intelligent workflow platform.",
+                        "font": "Roobert 500 13px/14.95px #4a288a"
+                      }
+                    ]
+                  },
+                  {
+                    "t": "span",
+                    "c": ".tileArrow",
+                    "box": [
+                      886,
+                      323,
+                      13,
+                      21
+                    ],
+                    "text": "→",
+                    "font": "Roobert 500 18px/20.7px #4a288a"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "headerBg": "#fcf9f5 a=0.90 (color(srgb 0.988235 0.976471 0.960784 / 0.9))",
+  "headerAttrs": [
+    "id=site-nav",
+    "class=SiteNav26-module-scss-module__OUXeaq__he"
+  ]
+}

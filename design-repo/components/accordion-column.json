@@ -1,0 +1,21 @@
+{
+  "id": "accordion-column",
+  "kind": "component",
+  "contractVersion": "1.0.0",
+  "purpose": "Footer link column that becomes a multi-open accordion below 768px.",
+  "usesPrimitives": [
+    "text-link",
+    "icon"
+  ],
+  "tokens": [
+    "{footer.divider}",
+    "{fontSize.footer-title}",
+    "{fontSize.footer-link}",
+    "{duration.nav-layer}",
+    "{duration.chevron}"
+  ],
+  "evidence": [
+    "mv.css.footer-divider",
+    "mv.footer.content"
+  ]
+}

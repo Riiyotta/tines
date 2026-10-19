@@ -1,0 +1,22 @@
+{
+  "id": "timeline-transport",
+  "kind": "component",
+  "contractVersion": "1.0.0",
+  "purpose": "Play/pause + segmented chapter track + caption + time readout docked on top of a media frame.",
+  "usesPrimitives": [
+    "icon"
+  ],
+  "tokens": [
+    "{timeline.bar-bg}",
+    "{timeline.track-bg}",
+    "{timeline.fill}",
+    "{timeline.radius}",
+    "{fontSize.timeline-caption}",
+    "{fontSize.timeline-time}",
+    "{elevation.backdropBlur.timeline}"
+  ],
+  "evidence": [
+    "mv.timeline.structure",
+    "mv.timeline.behaviour"
+  ]
+}

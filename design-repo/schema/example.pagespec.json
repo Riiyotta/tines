@@ -1,0 +1,399 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "template": "template.home",
+  "route": "/",
+  "theme": "light",
+  "meta": {
+    "title": "Tines | The secure environment for AI agents",
+    "description": "Homepage composition reproduced from the local reference clone using short real headings only."
+  },
+  "nodes": [
+    {
+      "type": "chrome.site-nav",
+      "content": {
+        "logo": {
+          "assetRole": "brand.tines-logo",
+          "alt": "Tines"
+        },
+        "items": [
+          {
+            "label": "Product",
+            "hasDropdown": true
+          },
+          {
+            "label": "Solutions",
+            "hasDropdown": true
+          },
+          {
+            "label": "Customers",
+            "hasDropdown": false
+          },
+          {
+            "label": "Discover",
+            "hasDropdown": true
+          },
+          {
+            "label": "Pricing",
+            "hasDropdown": false
+          }
+        ],
+        "utilityLinks": [
+          "Log in",
+          "Sign up"
+        ],
+        "cta": {
+          "label": "Book a demo",
+          "style": "nav-pill",
+          "intent": "book-demo"
+        },
+        "promoCards": [
+          {
+            "title": "Builder Connect New York",
+            "ctaLabel": "View event",
+            "media": {
+              "assetRole": "editorial.promo-image"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "dropdown-snappy-in",
+        "trigger": "hover-or-click",
+        "reducedMotionFallback": "instant-open"
+      }
+    },
+    {
+      "type": "hero.intro",
+      "content": {
+        "tag": {
+          "badge": "New",
+          "label": "Introducing Tines 3B"
+        },
+        "headlineLines": [
+          "You told everyone to use AI.",
+          "Now give them a secure place to do it."
+        ],
+        "byline": "Tines lets every team build. IT and Security maintain complete visibility, governance, and control.",
+        "primaryCta": {
+          "label": "Book a demo",
+          "style": "filled",
+          "intent": "book-demo"
+        },
+        "secondaryCta": {
+          "label": "Sign up free",
+          "style": "frosted",
+          "intent": "sign-up"
+        }
+      },
+      "motion": {
+        "pattern": "static",
+        "trigger": "none",
+        "reducedMotionFallback": "static"
+      }
+    },
+    {
+      "type": "proof.logo-marquee",
+      "content": {
+        "logoSource": "operator-supplied-licensed-logos",
+        "logoCount": 11,
+        "logoAsset": {
+          "assetRole": "customer.logo-trademark"
+        }
+      },
+      "motion": {
+        "pattern": "marquee-drift",
+        "trigger": "continuous",
+        "reducedMotionFallback": "static-row-drag-only"
+      }
+    },
+    {
+      "type": "hero.wordmark-stage",
+      "content": {
+        "media": {
+          "assetRole": "artwork.canvas-standin",
+          "alt": "100× — simpler, faster, easier to adopt"
+        },
+        "alt": "100× — simpler, faster, easier to adopt"
+      },
+      "motion": {
+        "pattern": "scroll-sink",
+        "trigger": "scroll-root",
+        "reducedMotionFallback": "static-no-sink"
+      }
+    },
+    {
+      "type": "hero.product-demo",
+      "content": {
+        "frame": {
+          "assetRole": "product.demo-frame"
+        },
+        "chapters": [
+          {
+            "title": "Your workspace"
+          },
+          {
+            "title": "Open the IT space"
+          },
+          {
+            "title": "Monitoring"
+          }
+        ],
+        "showTimeline": true
+      },
+      "motion": {
+        "pattern": "appear-plus-timeline",
+        "trigger": "on-mount",
+        "reducedMotionFallback": "static-frame-timeline-paused"
+      }
+    },
+    {
+      "type": "narrative.monitor-banner",
+      "content": {
+        "kicker": "The new reality for IT and security",
+        "headline": {
+          "lead": "AI made everyone a builder.",
+          "emphasis": "But security and IT got 100× harder."
+        },
+        "icon": {
+          "assetRole": "illustration.brand-art"
+        },
+        "paragraphs": [
+          "None of it is malicious.",
+          "It’s time to give every team a secure place to build."
+        ],
+        "background": {
+          "assetRole": "artwork.canvas-standin",
+          "alt": "A wall of retro monitors"
+        }
+      },
+      "motion": {
+        "pattern": "static-canvas-standin",
+        "trigger": "none",
+        "reducedMotionFallback": "static"
+      }
+    },
+    {
+      "type": "narrative.solution-panel",
+      "content": {
+        "kicker": "Our 100× solution",
+        "headlineLines": [
+          "Freedom to build.",
+          "Complete security.",
+          "No compromises."
+        ],
+        "items": [
+          {
+            "title": "Visibility across AI-created work",
+            "body": "Know what exists, who built it, and what it touches."
+          },
+          {
+            "title": "Control without bottlenecks",
+            "body": "Make the governed path the easy one."
+          },
+          {
+            "title": "Autonomous fixes, controlled by you",
+            "body": "You control what goes live."
+          },
+          {
+            "title": "AI on your terms, always",
+            "body": "Start where you’re already working."
+          }
+        ],
+        "mascot": {
+          "assetRole": "illustration.brand-art"
+        },
+        "footerLead": "Tines 3B",
+        "footerText": "powers faster delivery, safer operations, and AI execution.",
+        "cta": {
+          "label": "Explore the product",
+          "style": "filled-white",
+          "intent": "explore-product"
+        },
+        "flowerBed": {
+          "assetRole": "artwork.canvas-standin"
+        }
+      },
+      "motion": {
+        "pattern": "view-parallax-and-gaze",
+        "trigger": "view-timeline",
+        "reducedMotionFallback": "static-no-parallax-no-gaze"
+      }
+    },
+    {
+      "type": "showcase.use-case-tabs",
+      "content": {
+        "kicker": "Teams using Tines",
+        "headline": "Keep important workflows moving for the teams dependent on them.",
+        "byline": "Tines gives these teams the tools to safely leverage AI.",
+        "tabs": [
+          {
+            "teamId": "it",
+            "title": "IT",
+            "shortTitle": "IT",
+            "body": "MCP and AI client management.",
+            "icon": {
+              "assetRole": "icon.ui-glyph"
+            }
+          },
+          {
+            "teamId": "security",
+            "title": "Security",
+            "shortTitle": "Security",
+            "body": "AI SOC: alert intake, triage, and remediation.",
+            "icon": {
+              "assetRole": "icon.ui-glyph"
+            }
+          },
+          {
+            "teamId": "finance",
+            "title": "Finance",
+            "shortTitle": "Finance",
+            "body": "Finance requests dashboard.",
+            "icon": {
+              "assetRole": "icon.ui-glyph"
+            }
+          },
+          {
+            "teamId": "people",
+            "title": "People",
+            "shortTitle": "People",
+            "body": "End-to-end job request manager.",
+            "icon": {
+              "assetRole": "icon.ui-glyph"
+            }
+          },
+          {
+            "teamId": "operations",
+            "title": "Operations",
+            "shortTitle": "Ops",
+            "body": "Lead dashboard.",
+            "icon": {
+              "assetRole": "icon.ui-glyph"
+            }
+          }
+        ],
+        "defaultView": "frontend",
+        "screenshots": {
+          "assetRole": "product.screenshot"
+        }
+      },
+      "motion": {
+        "pattern": "reveal-tab-wipe",
+        "trigger": "intersection-and-click",
+        "reducedMotionFallback": "instant-switch-no-reveal"
+      }
+    },
+    {
+      "type": "proof.why-tines",
+      "content": {
+        "kicker": "Why Tines?",
+        "headline": "Powerful workflows, proven success.",
+        "byline": "The single, secure environment for every team’s AI-native agents, apps, and automations.",
+        "illustration": {
+          "assetRole": "illustration.brand-art"
+        },
+        "cards": [
+          {
+            "lead": "Born in security, built for the enterprise.",
+            "rest": "Governance, guardrails, and monitoring across every surface.",
+            "icon": {
+              "assetRole": "illustration.brand-art"
+            }
+          },
+          {
+            "lead": "Built for your most important workflows.",
+            "rest": "Trusted by ambitious organizations.",
+            "icon": {
+              "assetRole": "illustration.brand-art"
+            }
+          },
+          {
+            "lead": "Vendor-agnostic.",
+            "rest": "Work across your entire tech stack.",
+            "icon": {
+              "assetRole": "illustration.brand-art"
+            }
+          },
+          {
+            "lead": "Unmatched time to value.",
+            "rest": "Speed, power, and ease of use.",
+            "icon": {
+              "assetRole": "illustration.brand-art"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "constellation-spin-twinkle",
+        "trigger": "continuous",
+        "reducedMotionFallback": "static-constellation"
+      }
+    },
+    {
+      "type": "conversion.start-today-cta",
+      "content": {
+        "wordmark": {
+          "assetRole": "artwork.canvas-standin",
+          "alt": "Start today"
+        },
+        "wordmarkAlt": "Start today",
+        "tagline": "Sign up today to get started or schedule time with our team to learn more.",
+        "primaryCta": {
+          "label": "Sign up free",
+          "style": "filled",
+          "intent": "sign-up"
+        },
+        "secondaryCta": {
+          "label": "Book a demo",
+          "style": "outlined",
+          "intent": "book-demo"
+        }
+      },
+      "motion": {
+        "pattern": "tri-cursor",
+        "trigger": "pointer-mouse",
+        "reducedMotionFallback": "cursor-without-spin"
+      }
+    },
+    {
+      "type": "chrome.site-footer",
+      "content": {
+        "columns": [
+          {
+            "title": "Product"
+          },
+          {
+            "title": "Solutions"
+          },
+          {
+            "title": "Discover"
+          },
+          {
+            "title": "Company"
+          },
+          {
+            "title": "Trust and security"
+          }
+        ],
+        "askAi": {
+          "label": "Ask AI about Tines",
+          "assistantCount": 5,
+          "assistants": {
+            "assetRole": "partner.assistant-icon"
+          }
+        },
+        "logoMark": {
+          "assetRole": "brand.tines-logo",
+          "alt": "Tines"
+        },
+        "copyright": "© Tines",
+        "cookieLabel": "Cookie settings"
+      },
+      "motion": {
+        "pattern": "accordion-grid-rows",
+        "trigger": "click",
+        "reducedMotionFallback": "instant-expand"
+      }
+    }
+  ]
+}

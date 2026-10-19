@@ -1,0 +1,504 @@
+[
+  {
+    "url": "https://www.tines.com/fonts/Roobert-Regular.woff2",
+    "localPath": "public/assets/fonts/Roobert-Regular.woff2",
+    "section": "global",
+    "type": "font",
+    "note": "Roobert 400"
+  },
+  {
+    "url": "https://www.tines.com/fonts/Roobert-Medium.woff2",
+    "localPath": "public/assets/fonts/Roobert-Medium.woff2",
+    "section": "global",
+    "type": "font",
+    "note": "Roobert 500"
+  },
+  {
+    "url": "https://www.tines.com/fonts/Roobert-SemiBold.woff2",
+    "localPath": "public/assets/fonts/Roobert-SemiBold.woff2",
+    "section": "global",
+    "type": "font",
+    "note": "Roobert 600"
+  },
+  {
+    "url": "https://www.tines.com/fonts/Roobert-Bold.woff2",
+    "localPath": "public/assets/fonts/Roobert-Bold.woff2",
+    "section": "global",
+    "type": "font",
+    "note": "Roobert 700"
+  },
+  {
+    "url": "https://www.tines.com/fonts/Reckless-Light.woff2",
+    "localPath": "public/assets/fonts/Reckless-Light.woff2",
+    "section": "global",
+    "type": "font",
+    "note": "Reckless 300"
+  },
+  {
+    "url": "https://www.tines.com/fonts/Reckless-Regular.woff2",
+    "localPath": "public/assets/fonts/Reckless-Regular.woff2",
+    "section": "global",
+    "type": "font",
+    "note": "Reckless 400 (also used for computed weight 500 - no 500 face exists)"
+  },
+  {
+    "url": "https://www.tines.com/fonts/Reckless-Bold.woff2",
+    "localPath": "public/assets/fonts/Reckless-Bold.woff2",
+    "section": "global",
+    "type": "font",
+    "note": "Reckless 700"
+  },
+  {
+    "url": "https://www.tines.com/v5-assets/fonts/RoobertMono-Medium.woff2",
+    "localPath": "public/assets/fonts/RoobertMono-Medium.woff2",
+    "section": "global",
+    "type": "font",
+    "note": "Roobert Mono 500"
+  },
+  {
+    "url": "https://www.tines.com/v5-assets/fonts/RoobertMono-SemiBold.woff2",
+    "localPath": "public/assets/fonts/RoobertMono-SemiBold.woff2",
+    "section": "global",
+    "type": "font",
+    "note": "Roobert Mono 600"
+  },
+  {
+    "url": "https://www.tines.com/v5-assets/fonts/RoobertMono-Bold.woff2",
+    "localPath": "public/assets/fonts/RoobertMono-Bold.woff2",
+    "section": "global",
+    "type": "font",
+    "note": "Roobert Mono 700"
+  },
+  {
+    "url": "https://www.tines.com/v5-assets/favicon.png",
+    "localPath": "public/assets/favicon.png",
+    "section": "global",
+    "type": "image/png"
+  },
+  {
+    "url": "https://www.tines.com/v5-assets/images/3b-flower-pc.svg",
+    "localPath": "public/assets/images/3b-flower-pc.svg",
+    "section": "nav (Product dropdown, Tines 3B tile)",
+    "type": "image/svg",
+    "dims": "158x131 natural, rendered 160x133"
+  },
+  {
+    "url": "https://www.tines.com/v5-assets/images/community-crystal-ball.svg",
+    "localPath": "public/assets/images/community-crystal-ball.svg",
+    "section": "nav (Discover dropdown, Community tile)",
+    "type": "image/svg",
+    "dims": "72x72 rendered"
+  },
+  {
+    "url": "https://www.datocms-assets.com/55802/1790081448-tines3b-financeblog-header.png?auto=format%2Ccompress&fit=crop&h=420&q=70&w=800",
+    "localPath": "public/assets/images/nav-blog-finance-billing.png",
+    "section": "nav (Discover dropdown, blog card)",
+    "type": "image/png",
+    "dims": "800x420 source, rendered 360x189"
+  },
+  {
+    "url": "https://www.datocms-assets.com/55802/1780000684-builder-connect-nyc-dato.png?auto=format%2Ccompress&fit=crop&h=420&q=70&w=800",
+    "localPath": "public/assets/images/nav-event-builder-connect-nyc.png",
+    "section": "nav (Discover dropdown, event card)",
+    "type": "image/png",
+    "dims": "800x420 source, rendered 360x189"
+  },
+  {
+    "url": "https://www.tines.com/v5-assets/images/home/ai-tangle.svg",
+    "localPath": "public/assets/images/ai-tangle.svg",
+    "section": "monitor (AI tangle banner icon)",
+    "type": "image/svg",
+    "dims": "114x114"
+  },
+  {
+    "url": "https://www.tines.com/_next/image/?url=%2Fv5-assets%2Fimages%2Fhome%2Fteam-tabs%2Fit-workflow.jpg&w=1920&q=75&dpl=dpl_5U5wU9i4fqY1sEGdesBbCKxwSZK9",
+    "localPath": "public/assets/images/team-tabs/it-workflow.jpg",
+    "section": "useCases (tab panel, Workflow frame)",
+    "type": "image/jpeg",
+    "dims": "original 3170-3434 x 1925; rendered ~907x552 @1440",
+    "original": "https://www.tines.com/v5-assets/images/home/team-tabs/it-workflow.jpg"
+  },
+  {
+    "url": "https://www.tines.com/_next/image/?url=%2Fv5-assets%2Fimages%2Fhome%2Fteam-tabs%2Fit-frontend.jpg&w=1920&q=75&dpl=dpl_5U5wU9i4fqY1sEGdesBbCKxwSZK9",
+    "localPath": "public/assets/images/team-tabs/it-frontend.jpg",
+    "section": "useCases (tab panel, Frontend frame)",
+    "type": "image/jpeg",
+    "dims": "rendered ~935x579 @1440",
+    "original": "https://www.tines.com/v5-assets/images/home/team-tabs/it-frontend.jpg"
+  },
+  {
+    "url": "https://www.tines.com/_next/image/?url=%2Fv5-assets%2Fimages%2Fhome%2Fteam-tabs%2Fsecurity-workflow.jpg&w=1920&q=75&dpl=dpl_5U5wU9i4fqY1sEGdesBbCKxwSZK9",
+    "localPath": "public/assets/images/team-tabs/security-workflow.jpg",
+    "section": "useCases (tab panel, Workflow frame)",
+    "type": "image/jpeg",
+    "dims": "original 3170-3434 x 1925; rendered ~907x552 @1440",
+    "original": "https://www.tines.com/v5-assets/images/home/team-tabs/security-workflow.jpg"
+  },
+  {
+    "url": "https://www.tines.com/_next/image/?url=%2Fv5-assets%2Fimages%2Fhome%2Fteam-tabs%2Fsecurity-frontend.jpg&w=1920&q=75&dpl=dpl_5U5wU9i4fqY1sEGdesBbCKxwSZK9",
+    "localPath": "public/assets/images/team-tabs/security-frontend.jpg",
+    "section": "useCases (tab panel, Frontend frame)",
+    "type": "image/jpeg",
+    "dims": "rendered ~935x579 @1440",
+    "original": "https://www.tines.com/v5-assets/images/home/team-tabs/security-frontend.jpg"
+  },
+  {
+    "url": "https://www.tines.com/_next/image/?url=%2Fv5-assets%2Fimages%2Fhome%2Fteam-tabs%2Ffinance-workflow.jpg&w=1920&q=75&dpl=dpl_5U5wU9i4fqY1sEGdesBbCKxwSZK9",
+    "localPath": "public/assets/images/team-tabs/finance-workflow.jpg",
+    "section": "useCases (tab panel, Workflow frame)",
+    "type": "image/jpeg",
+    "dims": "original 3170-3434 x 1925; rendered ~907x552 @1440",
+    "original": "https://www.tines.com/v5-assets/images/home/team-tabs/finance-workflow.jpg"
+  },
+  {
+    "url": "https://www.tines.com/_next/image/?url=%2Fv5-assets%2Fimages%2Fhome%2Fteam-tabs%2Ffinance-frontend.jpg&w=1920&q=75&dpl=dpl_5U5wU9i4fqY1sEGdesBbCKxwSZK9",
+    "localPath": "public/assets/images/team-tabs/finance-frontend.jpg",
+    "section": "useCases (tab panel, Frontend frame)",
+    "type": "image/jpeg",
+    "dims": "rendered ~935x579 @1440",
+    "original": "https://www.tines.com/v5-assets/images/home/team-tabs/finance-frontend.jpg"
+  },
+  {
+    "url": "https://www.tines.com/_next/image/?url=%2Fv5-assets%2Fimages%2Fhome%2Fteam-tabs%2Fpeople-workflow.jpg&w=1920&q=75&dpl=dpl_5U5wU9i4fqY1sEGdesBbCKxwSZK9",
+    "localPath": "public/assets/images/team-tabs/people-workflow.jpg",
+    "section": "useCases (tab panel, Workflow frame)",
+    "type": "image/jpeg",
+    "dims": "original 3170-3434 x 1925; rendered ~907x552 @1440",
+    "original": "https://www.tines.com/v5-assets/images/home/team-tabs/people-workflow.jpg"
+  },
+  {
+    "url": "https://www.tines.com/_next/image/?url=%2Fv5-assets%2Fimages%2Fhome%2Fteam-tabs%2Fpeople-frontend.jpg&w=1920&q=75&dpl=dpl_5U5wU9i4fqY1sEGdesBbCKxwSZK9",
+    "localPath": "public/assets/images/team-tabs/people-frontend.jpg",
+    "section": "useCases (tab panel, Frontend frame)",
+    "type": "image/jpeg",
+    "dims": "rendered ~935x579 @1440",
+    "original": "https://www.tines.com/v5-assets/images/home/team-tabs/people-frontend.jpg"
+  },
+  {
+    "url": "https://www.tines.com/_next/image/?url=%2Fv5-assets%2Fimages%2Fhome%2Fteam-tabs%2Foperations-workflow.jpg&w=1920&q=75&dpl=dpl_5U5wU9i4fqY1sEGdesBbCKxwSZK9",
+    "localPath": "public/assets/images/team-tabs/operations-workflow.jpg",
+    "section": "useCases (tab panel, Workflow frame)",
+    "type": "image/jpeg",
+    "dims": "original 3170-3434 x 1925; rendered ~907x552 @1440",
+    "original": "https://www.tines.com/v5-assets/images/home/team-tabs/operations-workflow.jpg"
+  },
+  {
+    "url": "https://www.tines.com/_next/image/?url=%2Fv5-assets%2Fimages%2Fhome%2Fteam-tabs%2Foperations-frontend.jpg&w=1920&q=75&dpl=dpl_5U5wU9i4fqY1sEGdesBbCKxwSZK9",
+    "localPath": "public/assets/images/team-tabs/operations-frontend.jpg",
+    "section": "useCases (tab panel, Frontend frame)",
+    "type": "image/jpeg",
+    "dims": "rendered ~935x579 @1440",
+    "original": "https://www.tines.com/v5-assets/images/home/team-tabs/operations-frontend.jpg"
+  },
+  {
+    "url": "https://www.tines.com/v5-assets/images/usp/cosmic-tulip.svg",
+    "localPath": "public/assets/images/usp/cosmic-tulip.svg",
+    "section": "usp (card icon)",
+    "type": "image/svg",
+    "dims": "96x105"
+  },
+  {
+    "url": "https://www.tines.com/v5-assets/images/usp/kaleidoscope-monitor.svg",
+    "localPath": "public/assets/images/usp/kaleidoscope-monitor.svg",
+    "section": "usp (card icon)",
+    "type": "image/svg",
+    "dims": "61x136"
+  },
+  {
+    "url": "https://www.tines.com/v5-assets/images/usp/pruning-thorns.svg",
+    "localPath": "public/assets/images/usp/pruning-thorns.svg",
+    "section": "usp (card icon)",
+    "type": "image/svg",
+    "dims": "105x136"
+  },
+  {
+    "url": "https://www.tines.com/v5-assets/images/usp/blossoming-transformation.svg",
+    "localPath": "public/assets/images/usp/blossoming-transformation.svg",
+    "section": "usp (card icon)",
+    "type": "image/svg",
+    "dims": "112x126"
+  },
+  {
+    "url": "https://www.tines.com/v5-assets/wildcode/vines.svg",
+    "localPath": "public/assets/images/wildcode-vines.svg",
+    "section": "cta (source art drawn into \"Start today\" canvas)",
+    "type": "image/svg"
+  },
+  {
+    "url": "canvas-snapshot:reference/canvas/hero-field-0.png",
+    "localPath": "public/assets/canvas/hero-field-0.png",
+    "section": "hero (\"100x\" flower wordmark canvas)",
+    "type": "image/png (canvas export @1440, DPR1)",
+    "dims": "1915x991 css px (canvas extends past viewport; element box 1454x760 @1440)",
+    "source": "/Users/riyaghosh/V3/tines/reference/canvas/hero-field-0.png"
+  },
+  {
+    "url": "canvas-snapshot:reference/canvas/monitor-canvas-1.png",
+    "localPath": "public/assets/canvas/monitor-canvas-1.png",
+    "section": "monitor (retro monitor wall canvas, transparent bg)",
+    "type": "image/png (canvas export @1440, DPR1)",
+    "dims": "1440x1524",
+    "source": "/Users/riyaghosh/V3/tines/reference/canvas/monitor-canvas-1.png"
+  },
+  {
+    "url": "canvas-snapshot:reference/canvas/solution-field-2.png",
+    "localPath": "public/assets/canvas/solution-field-2.png",
+    "section": "solution (flower bed canvas at bottom-left of purple panel)",
+    "type": "image/png (canvas export @1440, DPR1)",
+    "dims": "1005x393",
+    "source": "/Users/riyaghosh/V3/tines/reference/canvas/solution-field-2.png"
+  },
+  {
+    "url": "canvas-snapshot:reference/canvas/cta-canvas-3.png",
+    "localPath": "public/assets/canvas/cta-canvas-3.png",
+    "section": "cta (\"Start today\" wordmark canvas)",
+    "type": "image/png (canvas export @1440, DPR1)",
+    "dims": "1541x479",
+    "source": "/Users/riyaghosh/V3/tines/reference/canvas/cta-canvas-3.png"
+  },
+  {
+    "url": "inline-svg:reference/svg/footer-askAiLink-125.svg",
+    "localPath": "public/assets/svg/footer-askAiLink-125.svg",
+    "section": "footer",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/footer-askAiLink-125.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/footer-askAiLink-126.svg",
+    "localPath": "public/assets/svg/footer-askAiLink-126.svg",
+    "section": "footer",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/footer-askAiLink-126.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/footer-askAiLink-127.svg",
+    "localPath": "public/assets/svg/footer-askAiLink-127.svg",
+    "section": "footer",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/footer-askAiLink-127.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/footer-askAiLink-128.svg",
+    "localPath": "public/assets/svg/footer-askAiLink-128.svg",
+    "section": "footer",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/footer-askAiLink-128.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/footer-askAiLink-129.svg",
+    "localPath": "public/assets/svg/footer-askAiLink-129.svg",
+    "section": "footer",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/footer-askAiLink-129.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/footer-chevron-120.svg",
+    "localPath": "public/assets/svg/footer-chevron-120.svg",
+    "section": "footer",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/footer-chevron-120.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/footer-tines-logo-icon_-130.svg",
+    "localPath": "public/assets/svg/footer-tines-logo-icon_-130.svg",
+    "section": "footer",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/footer-tines-logo-icon_-130.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/hero-content-4.svg",
+    "localPath": "public/assets/svg/hero-content-4.svg",
+    "section": "hero",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/hero-content-4.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/hero-filletLeft-110.svg",
+    "localPath": "public/assets/svg/hero-filletLeft-110.svg",
+    "section": "hero",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/hero-filletLeft-110.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/hero-filletRight-111.svg",
+    "localPath": "public/assets/svg/hero-filletRight-111.svg",
+    "section": "hero",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/hero-filletRight-111.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/hero-icon-109.svg",
+    "localPath": "public/assets/svg/hero-icon-109.svg",
+    "section": "hero",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/hero-icon-109.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/hero-product-visual-frame.svg",
+    "localPath": "public/assets/svg/hero-product-visual-frame.svg",
+    "section": "hero (product visual: single frame of the scripted 1360x680 SVG demo)",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/hero-product-visual-frame.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/logo-canva.svg",
+    "localPath": "public/assets/svg/logo-canva.svg",
+    "section": "hero (logo marquee)",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/logo-canva.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/logo-coinbase.svg",
+    "localPath": "public/assets/svg/logo-coinbase.svg",
+    "section": "hero (logo marquee)",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/logo-coinbase.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/logo-databricks.svg",
+    "localPath": "public/assets/svg/logo-databricks.svg",
+    "section": "hero (logo marquee)",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/logo-databricks.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/logo-dropbox.svg",
+    "localPath": "public/assets/svg/logo-dropbox.svg",
+    "section": "hero (logo marquee)",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/logo-dropbox.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/logo-intercom.svg",
+    "localPath": "public/assets/svg/logo-intercom.svg",
+    "section": "hero (logo marquee)",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/logo-intercom.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/logo-mckesson.svg",
+    "localPath": "public/assets/svg/logo-mckesson.svg",
+    "section": "hero (logo marquee)",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/logo-mckesson.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/logo-mongodb.svg",
+    "localPath": "public/assets/svg/logo-mongodb.svg",
+    "section": "hero (logo marquee)",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/logo-mongodb.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/logo-pinterest.svg",
+    "localPath": "public/assets/svg/logo-pinterest.svg",
+    "section": "hero (logo marquee)",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/logo-pinterest.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/logo-reddit.svg",
+    "localPath": "public/assets/svg/logo-reddit.svg",
+    "section": "hero (logo marquee)",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/logo-reddit.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/logo-snowflake.svg",
+    "localPath": "public/assets/svg/logo-snowflake.svg",
+    "section": "hero (logo marquee)",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/logo-snowflake.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/logo-sophos.svg",
+    "localPath": "public/assets/svg/logo-sophos.svg",
+    "section": "hero (logo marquee)",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/logo-sophos.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/nav-hamburger-2.svg",
+    "localPath": "public/assets/svg/nav-hamburger-2.svg",
+    "section": "nav",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/nav-hamburger-2.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/nav-pillButton-1.svg",
+    "localPath": "public/assets/svg/nav-pillButton-1.svg",
+    "section": "nav",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/nav-pillButton-1.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/nav-storiesIcon-3.svg",
+    "localPath": "public/assets/svg/nav-storiesIcon-3.svg",
+    "section": "nav",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/nav-storiesIcon-3.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/solution-orb-112.svg",
+    "localPath": "public/assets/svg/solution-orb-112.svg",
+    "section": "solution",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/solution-orb-112.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/tines-logo.svg",
+    "localPath": "public/assets/svg/tines-logo.svg",
+    "section": "nav (logo 91x28 rendered, viewBox 0 0 103 32)",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/tines-logo.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/useCases-tabIcon-113.svg",
+    "localPath": "public/assets/svg/useCases-tabIcon-113.svg",
+    "section": "useCases",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/useCases-tabIcon-113.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/useCases-tabIcon-114.svg",
+    "localPath": "public/assets/svg/useCases-tabIcon-114.svg",
+    "section": "useCases",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/useCases-tabIcon-114.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/useCases-tabIcon-115.svg",
+    "localPath": "public/assets/svg/useCases-tabIcon-115.svg",
+    "section": "useCases",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/useCases-tabIcon-115.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/useCases-tabIcon-116.svg",
+    "localPath": "public/assets/svg/useCases-tabIcon-116.svg",
+    "section": "useCases",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/useCases-tabIcon-116.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/useCases-tabIcon-117.svg",
+    "localPath": "public/assets/svg/useCases-tabIcon-117.svg",
+    "section": "useCases",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/useCases-tabIcon-117.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/usp-constellation-118.svg",
+    "localPath": "public/assets/svg/usp-constellation-118.svg",
+    "section": "usp",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/usp-constellation-118.svg"
+  },
+  {
+    "url": "inline-svg:reference/svg/usp-radar-119.svg",
+    "localPath": "public/assets/svg/usp-radar-119.svg",
+    "section": "usp",
+    "type": "image/svg (inline in DOM)",
+    "source": "/Users/riyaghosh/V3/tines/reference/svg/usp-radar-119.svg"
+  }
+]

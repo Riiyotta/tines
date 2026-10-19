@@ -1,0 +1,107 @@
+{
+  "id": "proof.why-tines",
+  "kind": "section",
+  "category": "PROOF",
+  "contractVersion": "1.0.0",
+  "purpose": "Reasons-to-believe cards that justify choosing the product.",
+  "implementedBy": "WhyTines.jsx",
+  "implementedByNote": "Component in the sibling clone project (src/components); same string as ia.json implementedBy.",
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "kicker": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 3
+      },
+      "headline": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 6
+      },
+      "byline": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 25
+      },
+      "illustration": {
+        "kind": "media",
+        "required": true,
+        "assetRole": "illustration.brand-art"
+      },
+      "cards": {
+        "kind": "olist",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 4,
+        "fields": {
+          "lead": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 8
+          },
+          "rest": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 12
+          },
+          "icon": {
+            "kind": "media",
+            "required": true,
+            "assetRole": "illustration.brand-art"
+          }
+        }
+      }
+    }
+  },
+  "constraints": {
+    "maxPerPage": 1
+  },
+  "motion": {
+    "allowedPatterns": [
+      "constellation-spin-twinkle"
+    ],
+    "allowedTriggers": [
+      "continuous"
+    ],
+    "reducedMotionFallback": "static-constellation",
+    "fallbackIsConst": true,
+    "notes": "Constellation spin 60s / 75s reverse; 25 stars twinkle 2.4-3.6s."
+  },
+  "responsive": [
+    {
+      "minWidth": 0,
+      "changes": [
+        "illustration first",
+        "cards as one rounded stacked list"
+      ]
+    },
+    {
+      "minWidth": 640,
+      "changes": [
+        "2-col cards"
+      ]
+    },
+    {
+      "minWidth": 768,
+      "changes": [
+        "intro grid 1.4fr 1fr"
+      ]
+    },
+    {
+      "minWidth": 1280,
+      "changes": [
+        "4-col 3:4 cards"
+      ]
+    }
+  ],
+  "assetRoles": [
+    "illustration.brand-art"
+  ],
+  "evidence": [
+    "mv.why.content",
+    "mv.motion.constellation",
+    "mv.layout.grids"
+  ],
+  "evidenceLevel": "measured (single homepage instance)"
+}

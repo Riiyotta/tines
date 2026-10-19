@@ -1,0 +1,121 @@
+{
+  "id": "narrative.solution-panel",
+  "kind": "section",
+  "category": "NARRATIVE",
+  "contractVersion": "1.0.0",
+  "purpose": "Answer the problem with the product's pillars and push to the product page.",
+  "implementedBy": "SolutionPanel.jsx",
+  "implementedByNote": "Component in the sibling clone project (src/components); same string as ia.json implementedBy.",
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "kicker": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 4
+      },
+      "headlineLines": {
+        "kind": "tlist",
+        "required": true,
+        "maxWords": 4,
+        "minItems": 1,
+        "maxItems": 3
+      },
+      "items": {
+        "kind": "olist",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 4,
+        "fields": {
+          "title": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 5
+          },
+          "body": {
+            "kind": "text",
+            "required": true,
+            "maxWords": 25
+          }
+        }
+      },
+      "mascot": {
+        "kind": "media",
+        "required": true,
+        "assetRole": "illustration.brand-art"
+      },
+      "footerLead": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 3
+      },
+      "footerText": {
+        "kind": "text",
+        "required": true,
+        "maxWords": 14
+      },
+      "cta": {
+        "kind": "cta",
+        "required": true,
+        "style": "filled-white",
+        "intents": [
+          "explore-product"
+        ],
+        "maxWords": 3
+      },
+      "flowerBed": {
+        "kind": "media",
+        "required": true,
+        "assetRole": "artwork.canvas-standin"
+      }
+    }
+  },
+  "constraints": {
+    "maxPerPage": 1
+  },
+  "motion": {
+    "allowedPatterns": [
+      "view-parallax-and-gaze"
+    ],
+    "allowedTriggers": [
+      "view-timeline"
+    ],
+    "reducedMotionFallback": "static-no-parallax-no-gaze",
+    "fallbackIsConst": true,
+    "notes": "Flower bed translateY 33%->12% on the panel's view timeline; orb face follows the pointer."
+  },
+  "responsive": [
+    {
+      "minWidth": 0,
+      "changes": [
+        "full-bleed single column, radius 24",
+        "flower strip above kicker",
+        "H3 Roobert 700"
+      ]
+    },
+    {
+      "minWidth": 920,
+      "changes": [
+        "grid 1fr 2fr, radius 32",
+        "H3 Reckless"
+      ]
+    },
+    {
+      "minWidth": 1280,
+      "changes": [
+        "grid 1fr 1fr, radius 48"
+      ]
+    }
+  ],
+  "assetRoles": [
+    "artwork.canvas-standin",
+    "illustration.brand-art"
+  ],
+  "evidence": [
+    "mv.solution.content",
+    "mv.solution.bed",
+    "mv.motion.solution",
+    "mv.layout.grids"
+  ],
+  "evidenceLevel": "measured (single homepage instance)"
+}

@@ -1,0 +1,86 @@
+{
+  "$meta": {
+    "description": "Border radii, from tailwind borderRadius (pill/full2 are the original's 990px/9990px pill values).",
+    "evidence": [
+      "mv.tw.radius"
+    ]
+  },
+  "radius": {
+    "pill": {
+      "$type": "dimension",
+      "$value": "990px"
+    },
+    "full2": {
+      "$type": "dimension",
+      "$value": "9990px"
+    },
+    "dd-col": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "dd-tile": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "dd-chip": {
+      "$type": "dimension",
+      "$value": "9px"
+    },
+    "panel": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "panel-sm": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "panel-md": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "usp": {
+      "$type": "dimension",
+      "$value": "14px"
+    },
+    "tab": {
+      "$type": "dimension",
+      "$value": "14px"
+    },
+    "frame": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "frame-img": {
+      "$type": "dimension",
+      "$value": "19px"
+    },
+    "frame-sm": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "frame-img-sm": {
+      "$type": "dimension",
+      "$value": "11px"
+    },
+    "tabbed-sm": {
+      "$type": "dimension",
+      "$value": "18px"
+    },
+    "hero-frame": {
+      "$type": "dimension",
+      "$value": "18px"
+    },
+    "transport": {
+      "$type": "dimension",
+      "$value": "22px"
+    },
+    "tag": {
+      "$type": "dimension",
+      "$value": "28px"
+    },
+    "nav-item": {
+      "$type": "dimension",
+      "$value": "50px"
+    }
+  }
+}

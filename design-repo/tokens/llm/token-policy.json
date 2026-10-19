@@ -1,0 +1,27 @@
+{
+  "policyVersion": "1.0.0",
+  "resolutionOrder": [
+    "00-foundation",
+    "themes/light",
+    "10-semantic",
+    "20-component",
+    "30-layout responsive steps"
+  ],
+  "rawValueRestrictions": {
+    "color": "forbidden: reference color.text.* / color.surface.* / color.border.* or component tokens, never hex/rgba",
+    "fontSize": "forbidden: use a fontSize role or typography.* role",
+    "fontFamily": "forbidden: use fontFamily.* tokens only, local reference context only (commercial licensed faces)",
+    "radius": "forbidden: use radius.*",
+    "spacing": "forbidden: use spacing.* (stepped, not fluid)",
+    "duration": "forbidden: use duration.* / delay.* / loop.*",
+    "easing": "forbidden: use easing.*"
+  },
+  "enforced": [
+    "PageSpec has no style field, so raw values cannot enter through a PageSpec (schema additionalProperties:false)",
+    "primitive/component token references must resolve (verify_all token-refs check)"
+  ],
+  "convention": [
+    "rawValueRestrictions apply to code generated FROM a PageSpec; they are not machine-checked on generated code by this repo"
+  ],
+  "overrides": "None. PageSpecs carry no per-instance token-override mechanism; styling is owned by section/component contracts."
+}

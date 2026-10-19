@@ -1,0 +1,21 @@
+{
+  "id": "tag-pill",
+  "kind": "primitive",
+  "contractVersion": "1.0.0",
+  "purpose": "'NEW' badge + label announcement pill.",
+  "props": {
+    "badge": "maxWords 1",
+    "label": "maxWords 5"
+  },
+  "tokens": [
+    "{radius.tag}",
+    "{color.surface.tag}",
+    "{elevation.backdropBlur.frosted}",
+    "{fontSize.tag-new}",
+    "{fontSize.tag}"
+  ],
+  "accessibility": "Single link.",
+  "evidence": [
+    "mv.hero.copy"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "allowlistVersion": "1.0.0",
+  "$comment": "Closed set a generator may instantiate. verify_all.py checks parity with sections/, primitives/, components/, assets/asset-roles.json and the schema's node properties.",
+  "sections": [
+    "chrome.site-nav",
+    "hero.intro",
+    "proof.logo-marquee",
+    "hero.wordmark-stage",
+    "hero.product-demo",
+    "narrative.monitor-banner",
+    "narrative.solution-panel",
+    "showcase.use-case-tabs",
+    "proof.why-tines",
+    "conversion.start-today-cta",
+    "chrome.site-footer"
+  ],
+  "primitives": [
+    "button",
+    "text-link",
+    "kicker",
+    "tag-pill",
+    "icon",
+    "media-slot"
+  ],
+  "components": [
+    "dropdown-panel",
+    "timeline-transport",
+    "team-tab-strip",
+    "segmented-toggle",
+    "usp-card",
+    "accordion-column",
+    "logo-track"
+  ],
+  "templates": [
+    "template.home"
+  ],
+  "assetRoles": [
+    "brand.tines-logo",
+    "customer.logo-trademark",
+    "partner.assistant-icon",
+    "product.demo-frame",
+    "product.screenshot",
+    "illustration.brand-art",
+    "artwork.canvas-standin",
+    "editorial.promo-image",
+    "icon.ui-glyph"
+  ],
+  "nodeSettableProperties": [
+    "type",
+    "content",
+    "motion"
+  ],
+  "pageSettableProperties": [
+    "pageSpecVersion",
+    "template",
+    "route",
+    "theme",
+    "meta",
+    "nodes"
+  ],
+  "notAllowed": [
+    "per-instance token/style overrides (no such PageSpec field exists)",
+    "section variants (none evidenced)",
+    "raw URLs (CTAs carry an intent enum)"
+  ]
+}

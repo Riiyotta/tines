@@ -1,0 +1,1304 @@
+{
+  "$comment": "Every referenceable token path, grouped by top-level category key exactly as it appears in the token files. Generated pages reference these as {path}.",
+  "catalogVersion": "1.0.0",
+  "categories": {
+    "breakpoint": [
+      {
+        "path": "breakpoint.sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "breakpoint.md",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "breakpoint.lg",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "breakpoint.xl",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "breakpoint.2xl",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "breakpoint.3xl",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "breakpoint.base",
+        "layer": "00-foundation"
+      }
+    ],
+    "color": [
+      {
+        "path": "color.lightest",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.darkest",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.accent",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.1",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.2",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.5",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.10",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.15",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.20",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.25",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.30",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.35",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.40",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.45",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.50",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.55",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.60",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.65",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.70",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.75",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.80",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.85",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.90",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.95",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.97",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.purple.99",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.green.1",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.green.2",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.green.5",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.green.10",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.green.15",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.green.20",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.green.25",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.green.30",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.green.35",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.light.100",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.light.500",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.dark.500",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.dark.900",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.tab.it",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.tab.security",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.tab.finance",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.tab.people",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.tab.operations",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.panel.it-text",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.panel.it-edge",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.panel.it-pill",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.panel.security-text",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.panel.security-edge",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.panel.security-pill",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.panel.finance-text",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.panel.finance-edge",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.panel.finance-pill",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.panel.people-text",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.panel.people-edge",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.panel.people-pill",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.panel.operations-text",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.panel.operations-edge",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.panel.operations-pill",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.dd.it-tile",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.dd.by-function",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.dd.by-industry",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.dd.by-industry-text",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.dd.industry-chip",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.dd.by-industry-hover",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.dd.events-text",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.dd.community",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.alpha.nav-blur",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.alpha.nav-backdrop",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.alpha.mobile-menu",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.alpha.mobile-pill",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.alpha.mobile-pill-open",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.alpha.frosted",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.alpha.tag",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.alpha.card-border",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.alpha.timeline-bar",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.alpha.timeline-track",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.alpha.ask-ai",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.alpha.toggle-it",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "color.text.primary",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.text.inverse",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.text.hover-accent",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.text.on-dark-tile",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.text.timeline",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.text.timeline-time",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.surface.page",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.surface.brand",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.surface.brand-strong",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.surface.brand-hover",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.surface.subtle",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.surface.subtle-hover",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.surface.frosted",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.surface.tag",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.surface.nav-blur",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.surface.nav-backdrop",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.surface.mobile-menu",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.surface.ask-ai",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.surface.timeline-bar",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.surface.timeline-track",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.border.default",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.border.on-brand",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "color.border.card-on-brand",
+        "layer": "10-semantic"
+      }
+    ],
+    "elevation": [
+      {
+        "path": "elevation.shadow.none",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "elevation.backdropBlur.nav",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "elevation.backdropBlur.frosted",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "elevation.backdropBlur.menu",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "elevation.backdropBlur.timeline",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "elevation.zIndex.nav",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "elevation.zIndex.cursor",
+        "layer": "00-foundation"
+      }
+    ],
+    "iconSize": [
+      {
+        "path": "iconSize.xs",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "iconSize.sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "iconSize.md",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "iconSize.lg",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "iconSize.xl",
+        "layer": "00-foundation"
+      }
+    ],
+    "easing": [
+      {
+        "path": "easing.snappy",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "easing.spring",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "easing.ease",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "easing.linear",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "easing.ease-out",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "easing.ease-in-out",
+        "layer": "00-foundation"
+      }
+    ],
+    "duration": [
+      {
+        "path": "duration.instant",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "duration.fast",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "duration.chevron",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "duration.tab-colour",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "duration.nav-layer",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "duration.frame",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "duration.toggle",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "duration.grow",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "duration.menu",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "duration.dropdown",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "duration.reveal",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "duration.appear",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "duration.wipe",
+        "layer": "00-foundation"
+      }
+    ],
+    "delay": [
+      {
+        "path": "delay.stagger",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "delay.timeline",
+        "layer": "00-foundation"
+      }
+    ],
+    "loop": [
+      {
+        "path": "loop.breathe",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "loop.blink",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "loop.floatZ",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "loop.cursorSpin",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "loop.constellationSpin",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "loop.constellationSpinSlow",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "loop.twinkleRange",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "loop.productDemo",
+        "layer": "00-foundation"
+      }
+    ],
+    "rate": [
+      {
+        "path": "rate.marquee",
+        "layer": "00-foundation"
+      }
+    ],
+    "keyframes": [
+      {
+        "path": "keyframes",
+        "layer": "00-foundation"
+      }
+    ],
+    "radius": [
+      {
+        "path": "radius.pill",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.full2",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.dd-col",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.dd-tile",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.dd-chip",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.panel",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.panel-sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.panel-md",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.usp",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.tab",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.frame",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.frame-img",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.frame-sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.frame-img-sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.tabbed-sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.hero-frame",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.transport",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.tag",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "radius.nav-item",
+        "layer": "00-foundation"
+      }
+    ],
+    "spacing": [
+      {
+        "path": "spacing.page-margin",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "spacing.page-margin-wide",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "spacing.sp-sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "spacing.sp-md",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "spacing.sp-lg",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "spacing.sp-xl",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "spacing.sp-xxl",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "spacing.sp-gap",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "spacing.section-padding",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "spacing.section-margin",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "spacing.timeline-inset",
+        "layer": "00-foundation"
+      }
+    ],
+    "fontFamily": [
+      {
+        "path": "fontFamily.sans",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontFamily.serif",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontFamily.mono",
+        "layer": "00-foundation"
+      }
+    ],
+    "fontWeight": [
+      {
+        "path": "fontWeight.sans.400",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontWeight.sans.500",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontWeight.sans.600",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontWeight.sans.700",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontWeight.serif.300",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontWeight.serif.400",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontWeight.serif.700",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontWeight.mono.500",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontWeight.mono.600",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontWeight.mono.700",
+        "layer": "00-foundation"
+      }
+    ],
+    "fontSize": [
+      {
+        "path": "fontSize.h1-sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.h1-md",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.h1-lg",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.hero-byline-sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.hero-byline",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.h2-sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.h2-md",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.h2-solution-md",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.h2",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.monitor-h2-sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.monitor-h2-md",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.monitor-h2",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.kicker",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.byline-sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.byline",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.monitor-body-sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.monitor-body",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.solution-h3-sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.solution-h3",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.solution-body-sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.solution-body",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.solution-footer",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.tab-title-sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.tab-title",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.tab-body-md",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.tab-body",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.usecase-caption",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.usp-title-sm",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.usp-title",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.tagline",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.button",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.nav",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.nav-demo",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.tag-new",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.tag",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.footer-title",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.footer-link",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.footer-mark",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.footer-bottom",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.ask-ai",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.toggle",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.timeline-caption",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.timeline-time",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.dd-hero-label",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.dd-desc",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.dd-tile-title",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.dd-col-title",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.dd-leaf-desc",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.dd-blog-title",
+        "layer": "00-foundation"
+      },
+      {
+        "path": "fontSize.dd-cta",
+        "layer": "00-foundation"
+      }
+    ],
+    "textWrap": [
+      {
+        "path": "textWrap",
+        "layer": "00-foundation"
+      }
+    ],
+    "typography": [
+      {
+        "path": "typography.display",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "typography.heading",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "typography.heading-serif",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "typography.byline",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "typography.kicker",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "typography.label",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "typography.nav",
+        "layer": "10-semantic"
+      },
+      {
+        "path": "typography.body",
+        "layer": "10-semantic"
+      }
+    ],
+    "button": [
+      {
+        "path": "button.height",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.radius",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.paddingX",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.typography",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.filled.bg",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.filled.text",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.filled.hover",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.frosted.bg",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.frosted.border",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.frosted.text",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.frosted.blur",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.outlined.bg",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.outlined.border",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.outlined.text",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.filled-white.bg",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.filled-white.text",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.active",
+        "layer": "20-component"
+      },
+      {
+        "path": "button.transition",
+        "layer": "20-component"
+      }
+    ],
+    "nav": [
+      {
+        "path": "nav.height",
+        "layer": "20-component"
+      },
+      {
+        "path": "nav.demo-pill.bg",
+        "layer": "20-component"
+      },
+      {
+        "path": "nav.demo-pill.hover",
+        "layer": "20-component"
+      },
+      {
+        "path": "nav.layers",
+        "layer": "20-component"
+      }
+    ],
+    "usecase-tab": [
+      {
+        "path": "usecase-tab.it.bg",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.it.text",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.it.edge",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.it.pill",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.security.bg",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.security.text",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.security.edge",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.security.pill",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.finance.bg",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.finance.text",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.finance.edge",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.finance.pill",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.people.bg",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.people.text",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.people.edge",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.people.pill",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.operations.bg",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.operations.text",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.operations.edge",
+        "layer": "20-component"
+      },
+      {
+        "path": "usecase-tab.operations.pill",
+        "layer": "20-component"
+      }
+    ],
+    "timeline": [
+      {
+        "path": "timeline.bar-bg",
+        "layer": "20-component"
+      },
+      {
+        "path": "timeline.track-bg",
+        "layer": "20-component"
+      },
+      {
+        "path": "timeline.fill",
+        "layer": "20-component"
+      },
+      {
+        "path": "timeline.radius",
+        "layer": "20-component"
+      },
+      {
+        "path": "timeline.chapters",
+        "layer": "20-component"
+      }
+    ],
+    "footer": [
+      {
+        "path": "footer.divider",
+        "layer": "20-component"
+      },
+      {
+        "path": "footer.link-hover",
+        "layer": "20-component"
+      }
+    ],
+    "layout": [
+      {
+        "path": "layout.container.maxWidth",
+        "layer": "30-layout"
+      },
+      {
+        "path": "layout.container.margin",
+        "layer": "30-layout"
+      },
+      {
+        "path": "layout.gutter",
+        "layer": "30-layout"
+      },
+      {
+        "path": "layout.gutter-wide",
+        "layer": "30-layout"
+      },
+      {
+        "path": "layout.section-gap",
+        "layer": "30-layout"
+      },
+      {
+        "path": "layout.grid.solution-panel",
+        "layer": "30-layout"
+      },
+      {
+        "path": "layout.grid.usp-cards",
+        "layer": "30-layout"
+      },
+      {
+        "path": "layout.grid.footer",
+        "layer": "30-layout"
+      },
+      {
+        "path": "layout.grid.use-case-tabs",
+        "layer": "30-layout"
+      }
+    ]
+  },
+  "preferredLayers": [
+    "10-semantic",
+    "20-component"
+  ]
+}

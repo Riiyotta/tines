@@ -1,0 +1,68 @@
+() => {
+window.__clean = () => { document.querySelectorAll('iframe[name*=intercom], #intercom-container, .intercom-lightweight-app, #intercom-frame, #CybotCookiebotDialog, #CybotCookiebotDialogBodyUnderlay, [id^=Cookiebot], .intercom-app').forEach(e=>e.remove()); document.body.style.marginTop='0px'; document.documentElement.style.setProperty('--intercomBannerHeight','0px'); };
+const M = (mod, part) => `[class*="${mod}-module"][class*="__${part}"]`;
+window.__P = [
+ ['hdr', q=>q('header#site-nav')], ['backdrop', q=>q(M('SiteNav26','backdrop'))||q('header > div:nth-child(2)')],
+ ['logo', q=>q('header a[title=Tines] svg')],
+ ['nProduct','Product',0,'button,a'],['nSolutions','Solutions',0,'button,a'],['nCustomers','Customers',0,'a'],['nDiscover','Discover',0,'button,a'],['nPricing','Pricing',0,'a'],
+ ['nLogin','Log in',0,'a'],['nSignup', (q,f)=>{const e=f('Sign up',0); return e&&e.textContent.trim()==='Sign up'?e.closest('a'):null}],['nDemo','Book a demo',0,'a'],
+ ['nSearch', q=>q(M('NavSearch','pillButton'))||q('header button[aria-label="Open search"]')],['nBurger', q=>q(M('SiteNav26','hamburger'))||q('header button[aria-label="Toggle menu"]')],
+ ['tag', q=>q(M('AnnouncementBar','bar'))||q('a[href="/blog/introducing-tines-3b/"]')], ['tagNew', q=>q(M('AnnouncementBar','tag'))||q('a[href="/blog/introducing-tines-3b/"] > span')],
+ ['tagText','Introducing Tines 3B'], ['h1','You told everyone',0,'h1'], ['h1line','You told everyone'], ['byline','Tines lets every team build'],
+ ['hDemo','Book a demo',1,'a'], ['hSignup','Sign up free',0,'a'],
+ ['marqBox', q=>q(M('ThreeBHero','aboveWordmark')+' [style*=mask], '+M('ThreeBHero','aboveWordmark')+' > div')||q('[data-motion=logo-marquee]')],
+ ['logo1', q=>q(M('ThreeBHero','aboveWordmark')+' svg')||q('[data-motion=logo-marquee-track] svg')],
+ ['hundredX', q=>q(M('ThreeBHero','hundredX'))||q('[data-motion=hundredx-sink]')], ['c100', q=>q(M('ThreeBHero','hundredX')+' canvas')||q('[data-motion=hero-canvas-100x]')],
+ ['stage', q=>q(M('ThreeBHero','stage'))],
+ ['frame', q=>q(M('ThreeBProductVisual','frame'))||q('[data-motion=product-visual]')],
+ ['tlBar', q=>q(M('TimelineScrubber','transport'))||q('[data-motion=timeline-bar] > div')], ['tlCap', q=>q(M('TimelineScrubber','caption'))||q('[data-motion=timeline-caption]')], ['tlTime', q=>q(M('TimelineScrubber','time'))||q('[data-motion=timeline-time]')],
+ ['monSec', q=>q(M('HomeMonitorBanner','banner'))||q('main > section:nth-child(2)')], ['monCanvas', q=>q(M('HomeMonitorBanner','canvas'))||q('[data-motion=monitor-canvas]')],
+ ['monKicker','The new reality'], ['monH2','AI made everyone',0,'h2'], ['monStrong','But security and IT'], ['monIcon', q=>q('img[src*=ai-tangle]')||q(M('HomeAiTangleBanner','bannerIcon'))],
+ ['monP1','Now, finance is building'], ['monP2','None of it is malicious'],
+ ['solPanel', q=>q(M('HomeSolutionSection','panel'))||q('main > section:nth-child(3) > div')], ['solKicker','Our 100'], ['solH2','Freedom to build',0,'h2'],
+ ['solH3a','Visibility across',0,'h3'], ['solBodyA','Know what exists'], ['solH3b','Control without',0,'h3'], ['solH3c','Autonomous fixes',0,'h3'],
+ ['solOrb', q=>q(M('HomeSolutionSection','footer')+' svg')||q('[data-motion=solution-orb]')], ['solFoot','powers faster delivery'], ['solBtn','Explore the product',0,'a'],
+ ['solFlower', q=>q(M('HomeSolutionSection','flowerField')+':not([class*=flowerFieldTop])')||q('[data-motion=solution-flower-bed]')?.parentElement], ['solFlowerImg', q=>q(M('HomeSolutionSection','flowerField')+':not([class*=flowerFieldTop]) canvas')||q('[data-motion=solution-flower-bed]')],
+ ['solFlowerTop', q=>q(M('HomeSolutionSection','flowerFieldTop'))||q('[data-motion=solution-flower-top]')?.parentElement],
+ ['ucKicker','Teams using Tines'], ['ucH2','Keep important workflows',0,'h2'], ['ucByline','Tines gives these teams'],
+ ...[0,1,2,3,4].map(i=>['tab'+i, (q,f,qa)=>qa('[role=tab]')[i]]), ['tab0Title', (q,f,qa)=>qa('[role=tab] h3, [role=tab] [class*=__tabTitle]')[0]], ['tab0Body', 'MCP and AI client'],
+ ['ucPanel', q=>q('[role=tabpanel]')], ['toggle', q=>q(M('HomeUseCasesSection','toggle'))||q('.toggle-track')], ['toggleBtn','Workflow',0,'button'],
+ ['frameWF', q=>q(M('HomeUseCasesSection','workflow'))||document.querySelectorAll('[data-motion=usecase-frame]')[0]], ['frameFE', q=>q(M('HomeUseCasesSection','frontend'))||document.querySelectorAll('[data-motion=usecase-frame]')[1]],
+ ['ucCaption', q=>q(M('HomeUseCasesSection','caption'))||q('[role=tabpanel] p')],
+ ['uspKicker','Why Tines'], ['uspH2','Powerful workflows',0,'h2'], ['uspByline','Tines is uniquely'],
+ ['uspIllu', q=>q(M('HomeUSPSection','illustration'))||q('[data-motion=usp-constellation]')?.parentElement], ['uspRadar', q=>q(M('HomeUSPSection','radar'))||q('[data-motion=usp-constellation]')?.previousElementSibling],
+ ...[0,1,2,3].map(i=>['card'+i, (q,f,qa)=>qa('figure')[i]]), ['cardTitle0','Born in security',0,'h3'], ['cardIcon0', (q,f,qa)=>qa('figure img')[0]],
+ ['ctaWord', q=>q(M('WildCodeCTASection','wordmark'))||q('[data-motion~=cta-wordmark]')], ['ctaTag','Sign up today to get started'], ['ctaB1','Sign up free',1,'a'], ['ctaB2', (q,f)=>f('Book a demo',2)?.closest('a')],
+ ['footer', q=>q('footer')], ['fSections', q=>q(M('SiteFooter26','sections'))||q('footer > div')],
+ ...[0,1,2,3,4].map(i=>['fT'+i, (q,f,qa)=>qa('footer [class*=__sectionTitle], footer h2')[i]]),
+ ['fGroup', q=>q(M('SiteFooter26','groupTitleLink'))||q('footer a.font-bold')], ['fLeaf','Examples gallery',0,'a'], ['fLeaf2','Product updates',0,'a'], ['fExt','↗'],
+ ['fBottom', q=>q(M('SiteFooter26','bottomBar'))||q('footer > div:nth-child(2)')], ['askAi', q=>q(M('SiteFooter26','askAi'))||q('.bg-surface-ask-ai')], ['askLabel','Ask AI about'],
+ ['askLink', q=>q(M('SiteFooter26','askAiLink'))||q('footer a[aria-label^="Ask"]')], ['copy','© Tines'], ['cookie','Cookie settings'], ['fLogo', q=>q(M('SiteFooter26','bottomLogo'))||q('footer a[aria-label=Tines]')],
+];
+window.__m = (keys) => {
+  __clean();
+  const vis = el => { const r = el.getBoundingClientRect(); const cs = getComputedStyle(el); return r.width>0 && r.height>0 && cs.visibility!=='hidden'; };
+  const texts = [];
+  const tw = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+  let n; while ((n = tw.nextNode())) { const t = n.data.replace(/\s+/g,' ').trim().toLowerCase(); const p = n.parentElement; if (t && p && !p.closest('svg,script,style,noscript') && vis(p)) texts.push([t, p]); }
+  const find = (t, nth=0) => texts.filter(([s]) => s.startsWith(t.toLowerCase()))[nth]?.[1] || null;
+  const q = (s) => [...document.querySelectorAll(s)].find(vis) || null;
+  const qa = (s) => [...document.querySelectorAll(s)].filter(vis);
+  const sy = scrollY, R = v => Math.round(v*10)/10;
+  const info = (el) => { if (!el) return null; const r = el.getBoundingClientRect(); const c = getComputedStyle(el);
+    const o = { box: [R(r.left), R(r.top+sy), R(r.width), R(r.height)].join(','), font: `${c.fontFamily.split(',')[0].replace(/"/g,'')} ${c.fontWeight} ${c.fontSize}/${c.lineHeight} ls:${c.letterSpacing}`, color: c.color };
+    if (c.backgroundColor !== 'rgba(0, 0, 0, 0)') o.bg = c.backgroundColor;
+    if (c.borderRadius !== '0px') o.rad = c.borderRadius;
+    if (c.borderTopWidth !== '0px' || c.borderBottomWidth!=='0px') o.bord = `${c.borderTopWidth} ${c.borderBottomWidth} ${c.borderTopColor}`;
+    if (!['start','left'].includes(c.textAlign)) o.ta = c.textAlign;
+    if (c.backdropFilter && c.backdropFilter!=='none') o.bf = c.backdropFilter;
+    if (c.paddingTop!=='0px'||c.paddingLeft!=='0px') o.pad = `${c.paddingTop} ${c.paddingRight} ${c.paddingBottom} ${c.paddingLeft}`;
+    if (el.tagName==='IMG' || el.tagName==='CANVAS') o.fit = c.objectFit+' '+c.objectPosition;
+    return o; };
+  const out = {};
+  for (const [k, t, nth, up] of __P) { if (keys && !keys.includes(k)) continue; let e; try { e = typeof t === 'string' ? find(t, nth||0) : t(q, find, qa); } catch(err) { e = null; } if (e && up) e = e.closest(up) || e; out[k] = info(e); }
+  out._doc = innerWidth+' '+document.documentElement.scrollWidth+'x'+document.documentElement.scrollHeight;
+  return out;
+};
+return 'ok';
+}

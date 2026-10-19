@@ -1,0 +1,35 @@
+{
+  "$meta": {
+    "description": "Rendered icon sizes observed in components.",
+    "evidence": [
+      "mv.icon.sizes"
+    ]
+  },
+  "iconSize": {
+    "xs": {
+      "$type": "dimension",
+      "$value": "14px",
+      "usage": "timeline play/pause glyph"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "16px",
+      "usage": "nav search / hamburger"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "18px",
+      "usage": "dropdown leaf icons, footer ask-AI icons"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "24px",
+      "usage": "use-case tab icons (<640)"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "48px",
+      "usage": "solution-panel orb mascot"
+    }
+  }
+}

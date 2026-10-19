@@ -1,0 +1,30 @@
+{
+  "id": "button",
+  "kind": "primitive",
+  "contractVersion": "1.0.0",
+  "purpose": "Pill CTA button.",
+  "props": {
+    "variant": [
+      "filled",
+      "frosted",
+      "outlined",
+      "filled-white",
+      "nav-pill"
+    ],
+    "label": "maxWords 3"
+  },
+  "tokens": [
+    "{button.height}",
+    "{button.radius}",
+    "{button.filled.bg}",
+    "{button.frosted.bg}",
+    "{button.outlined.border}",
+    "{button.filled-white.bg}",
+    "{nav.demo-pill.bg}",
+    "{typography.label}"
+  ],
+  "accessibility": "Native <a>/<button>; focus-visible 2px currentColor outline offset 2px.",
+  "evidence": [
+    "mv.css.buttons"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "icon",
+  "kind": "primitive",
+  "contractVersion": "1.0.0",
+  "purpose": "Inline SVG glyph sized by iconSize tokens, inheriting currentColor.",
+  "props": {
+    "size": [
+      "xs",
+      "sm",
+      "md",
+      "lg",
+      "xl"
+    ],
+    "label": "optional accessible name"
+  },
+  "tokens": [
+    "{iconSize.xs}",
+    "{iconSize.sm}",
+    "{iconSize.md}",
+    "{iconSize.lg}",
+    "{iconSize.xl}"
+  ],
+  "accessibility": "aria-hidden unless labelled (then role=img).",
+  "evidence": [
+    "mv.icon.sizes"
+  ]
+}

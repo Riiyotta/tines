@@ -1,0 +1,185 @@
+{
+  "$meta": {
+    "description": "Semantic roles. Generators reference these, never raw hex. Each resolves to a foundation token (resolution checked by extraction/verify_all.py).",
+    "evidence": [
+      "mv.tw.colors.core",
+      "mv.tw.colors.purple",
+      "mv.tw.colors.surface",
+      "mv.css.buttons"
+    ]
+  },
+  "color": {
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.purple.55}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{color.lightest}"
+      },
+      "hover-accent": {
+        "$type": "color",
+        "$value": "{color.accent}"
+      },
+      "on-dark-tile": {
+        "$type": "color",
+        "$value": "{color.purple.75}"
+      },
+      "timeline": {
+        "$type": "color",
+        "$value": "{color.purple.70}"
+      },
+      "timeline-time": {
+        "$type": "color",
+        "$value": "{color.purple.60}"
+      }
+    },
+    "surface": {
+      "page": {
+        "$type": "color",
+        "$value": "{color.lightest}"
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{color.purple.55}"
+      },
+      "brand-strong": {
+        "$type": "color",
+        "$value": "{color.purple.70}"
+      },
+      "brand-hover": {
+        "$type": "color",
+        "$value": "{color.purple.60}"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.purple.5}"
+      },
+      "subtle-hover": {
+        "$type": "color",
+        "$value": "{color.purple.10}"
+      },
+      "frosted": {
+        "$type": "color",
+        "$value": "{color.alpha.frosted}"
+      },
+      "tag": {
+        "$type": "color",
+        "$value": "{color.alpha.tag}"
+      },
+      "nav-blur": {
+        "$type": "color",
+        "$value": "{color.alpha.nav-blur}"
+      },
+      "nav-backdrop": {
+        "$type": "color",
+        "$value": "{color.alpha.nav-backdrop}"
+      },
+      "mobile-menu": {
+        "$type": "color",
+        "$value": "{color.alpha.mobile-menu}"
+      },
+      "ask-ai": {
+        "$type": "color",
+        "$value": "{color.alpha.ask-ai}"
+      },
+      "timeline-bar": {
+        "$type": "color",
+        "$value": "{color.alpha.timeline-bar}"
+      },
+      "timeline-track": {
+        "$type": "color",
+        "$value": "{color.alpha.timeline-track}"
+      }
+    },
+    "border": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.purple.55}"
+      },
+      "on-brand": {
+        "$type": "color",
+        "$value": "{color.purple.40}"
+      },
+      "card-on-brand": {
+        "$type": "color",
+        "$value": "{color.alpha.card-border}"
+      }
+    }
+  },
+  "typography": {
+    "display": {
+      "$type": "typographyRole",
+      "$value": {
+        "fontSize": "{fontSize.h1-lg}",
+        "fontFamily": "{fontFamily.sans}",
+        "fontWeight": 400,
+        "mobileWeight": 500
+      }
+    },
+    "heading": {
+      "$type": "typographyRole",
+      "$value": {
+        "fontSize": "{fontSize.h2}",
+        "fontFamily": "{fontFamily.sans}",
+        "fontWeight": 400,
+        "mobileWeight": 500
+      }
+    },
+    "heading-serif": {
+      "$type": "typographyRole",
+      "$value": {
+        "fontSize": "{fontSize.monitor-h2}",
+        "fontFamily": "{fontFamily.serif}",
+        "fontWeight": 400,
+        "emphasisWeight": 700
+      }
+    },
+    "byline": {
+      "$type": "typographyRole",
+      "$value": {
+        "fontSize": "{fontSize.byline}",
+        "fontFamily": "{fontFamily.serif}",
+        "fontWeight": 400,
+        "mobileFontFamily": "{fontFamily.sans}",
+        "mobileWeight": 500,
+        "note": "<640 bylines switch to Roobert 500 (QA correction; spec said Reckless)"
+      }
+    },
+    "kicker": {
+      "$type": "typographyRole",
+      "$value": {
+        "fontSize": "{fontSize.kicker}",
+        "fontFamily": "{fontFamily.mono}",
+        "fontWeight": 700,
+        "textTransform": "uppercase"
+      }
+    },
+    "label": {
+      "$type": "typographyRole",
+      "$value": {
+        "fontSize": "{fontSize.button}",
+        "fontFamily": "{fontFamily.mono}",
+        "fontWeight": 700,
+        "textTransform": "uppercase"
+      }
+    },
+    "nav": {
+      "$type": "typographyRole",
+      "$value": {
+        "fontSize": "{fontSize.nav}",
+        "fontFamily": "{fontFamily.sans}",
+        "fontWeight": 600
+      }
+    },
+    "body": {
+      "$type": "typographyRole",
+      "$value": {
+        "fontSize": "{fontSize.solution-body}",
+        "fontFamily": "{fontFamily.sans}",
+        "fontWeight": 500
+      }
+    }
+  }
+}

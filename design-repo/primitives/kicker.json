@@ -1,0 +1,17 @@
+{
+  "id": "kicker",
+  "kind": "primitive",
+  "contractVersion": "1.0.0",
+  "purpose": "Uppercase mono eyebrow above section headings.",
+  "props": {
+    "text": "maxWords 7"
+  },
+  "tokens": [
+    "{typography.kicker}",
+    "{fontSize.kicker}"
+  ],
+  "accessibility": "Plain <p>, not a heading.",
+  "evidence": [
+    "mv.css.kicker"
+  ]
+}
