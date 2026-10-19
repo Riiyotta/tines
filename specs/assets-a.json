@@ -1,0 +1,4005 @@
+[
+ {
+  "url": "https://www.tines.com/v5-assets/images/g2-badges/general/Leader.svg",
+  "localPath": "public/assets/pages/pricing/Leader.svg",
+  "page": "/pricing/",
+  "section": "Don’t take our word for it",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/g2-badges/general/MostImplementable.svg",
+  "localPath": "public/assets/pages/pricing/MostImplementable.svg",
+  "page": "/pricing/",
+  "section": "Don’t take our word for it",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/g2-badges/general/BestUsability.svg",
+  "localPath": "public/assets/pages/pricing/BestUsability.svg",
+  "page": "/pricing/",
+  "section": "Don’t take our word for it",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/g2-badges/general/BestRelationship.svg",
+  "localPath": "public/assets/pages/pricing/BestRelationship.svg",
+  "page": "/pricing/",
+  "section": "Don’t take our word for it",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/g2-badges/enterprise/EasiestToDoBusinessWith_Enterprise.svg",
+  "localPath": "public/assets/pages/pricing/EasiestToDoBusinessWith_Enterprise.svg",
+  "page": "/pricing/",
+  "section": "Don’t take our word for it",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/g2-badges/enterprise/FastestImplementation_Enterprise.svg",
+  "localPath": "public/assets/pages/pricing/FastestImplementation_Enterprise.svg",
+  "page": "/pricing/",
+  "section": "Don’t take our word for it",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/3b/build-in-code.svg",
+  "localPath": "public/assets/pages/3b/build-in-code.svg",
+  "page": "/3b/",
+  "section": "Build anything, anywhere",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/3b/build-anywhere.svg",
+  "localPath": "public/assets/pages/3b/build-anywhere.svg",
+  "page": "/3b/",
+  "section": "Build anything, anywhere",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/3b/build-spaces.svg",
+  "localPath": "public/assets/pages/3b/build-spaces.svg",
+  "page": "/3b/",
+  "section": "Build anything, anywhere",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/3b/build-skills.svg",
+  "localPath": "public/assets/pages/3b/build-skills.svg",
+  "page": "/3b/",
+  "section": "Build anything, anywhere",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/3b/build-branches.svg",
+  "localPath": "public/assets/pages/3b/build-branches.svg",
+  "page": "/3b/",
+  "section": "Build anything, anywhere",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/3b/sandboxed-execution.svg",
+  "localPath": "public/assets/pages/3b/sandboxed-execution.svg",
+  "page": "/3b/",
+  "section": "Run securely, optimize continually",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/3b/deployed.svg",
+  "localPath": "public/assets/pages/3b/deployed.svg",
+  "page": "/3b/",
+  "section": "Run securely, optimize continually",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/3b/autofix.svg",
+  "localPath": "public/assets/pages/3b/autofix.svg",
+  "page": "/3b/",
+  "section": "Run securely, optimize continually",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/3b/autotune.svg",
+  "localPath": "public/assets/pages/3b/autotune.svg",
+  "page": "/3b/",
+  "section": "Run securely, optimize continually",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/3b/ai-spend.svg",
+  "localPath": "public/assets/pages/3b/ai-spend.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/3b/duplicates.svg",
+  "localPath": "public/assets/pages/3b/duplicates.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/3b/routes.svg",
+  "localPath": "public/assets/pages/3b/routes.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/3b/coda-stamp.svg",
+  "localPath": "public/assets/pages/3b/coda-stamp.svg",
+  "page": "/3b/",
+  "section": "ThreeBCodaSection-module-scss-module__B3n1VG__sect",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/videos/3b-demo-teaser.mp4",
+  "localPath": "public/assets/pages/3b/3b-demo-teaser.mp4",
+  "page": "/3b/",
+  "section": "The AI-native intelligent workflow platform",
+  "type": "video"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522920-logo-slack.svg",
+  "localPath": "public/assets/pages/3b-examples/1684522920-logo-slack.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522846-logo-salesforce.svg",
+  "localPath": "public/assets/pages/3b-examples/1684522846-logo-salesforce.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1791212748-anthropic-icon.svg",
+  "localPath": "public/assets/pages/3b-examples/1791212748-anthropic-icon.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1791212753-anthropic-icon-white.svg",
+  "localPath": "public/assets/pages/3b-examples/1791212753-anthropic-icon-white.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684503328-logo-jira.svg",
+  "localPath": "public/assets/pages/3b-examples/1684503328-logo-jira.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684500824-logo-bamboohr.svg",
+  "localPath": "public/assets/pages/3b-examples/1684500824-logo-bamboohr.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684523203-logo-tines.svg",
+  "localPath": "public/assets/pages/3b-examples/1684523203-logo-tines.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692230497-logo-tines-dark-mode.svg",
+  "localPath": "public/assets/pages/3b-examples/1692230497-logo-tines-dark-mode.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1781603599-google.svg",
+  "localPath": "public/assets/pages/3b-examples/1781603599-google.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684521852-logo-okta.svg",
+  "localPath": "public/assets/pages/3b-examples/1684521852-logo-okta.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692230595-logo-okta-dark-mode.svg",
+  "localPath": "public/assets/pages/3b-examples/1692230595-logo-okta-dark-mode.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684501881-logo-crowdstrike.svg",
+  "localPath": "public/assets/pages/3b-examples/1684501881-logo-crowdstrike.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684500742-logo-aws.svg",
+  "localPath": "public/assets/pages/3b-examples/1684500742-logo-aws.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692230010-logo-aws-dark-mode.svg",
+  "localPath": "public/assets/pages/3b-examples/1692230010-logo-aws-dark-mode.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684502461-logo-github.svg",
+  "localPath": "public/assets/pages/3b-examples/1684502461-logo-github.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692231398-logo-github-dark-mode.svg",
+  "localPath": "public/assets/pages/3b-examples/1692231398-logo-github-dark-mode.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684523360-logo-virustotal.svg",
+  "localPath": "public/assets/pages/3b-examples/1684523360-logo-virustotal.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684521627-logo-microsoft.svg",
+  "localPath": "public/assets/pages/3b-examples/1684521627-logo-microsoft.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1781602588-calendar.svg",
+  "localPath": "public/assets/pages/3b-examples/1781602588-calendar.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1769183379-gong.svg",
+  "localPath": "public/assets/pages/3b-examples/1769183379-gong.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1769183383-gongdark.svg",
+  "localPath": "public/assets/pages/3b-examples/1769183383-gongdark.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1781602539-sheets.svg",
+  "localPath": "public/assets/pages/3b-examples/1781602539-sheets.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1739960574-netsuite.png",
+  "localPath": "public/assets/pages/3b-examples/1739960574-netsuite.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1781602610-gmail.svg",
+  "localPath": "public/assets/pages/3b-examples/1781602610-gmail.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684500868-logo-azure.png",
+  "localPath": "public/assets/pages/3b-examples/1684500868-logo-azure.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684521594-logo-microsoft-teams.svg",
+  "localPath": "public/assets/pages/3b-examples/1684521594-logo-microsoft-teams.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684523291-logo-urlscan.svg",
+  "localPath": "public/assets/pages/3b-examples/1684523291-logo-urlscan.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1700080424-emailrep.png",
+  "localPath": "public/assets/pages/3b-examples/1700080424-emailrep.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522369-logo-pagerduty.png",
+  "localPath": "public/assets/pages/3b-examples/1684522369-logo-pagerduty.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1756819854-greenhouse.png",
+  "localPath": "public/assets/pages/3b-examples/1756819854-greenhouse.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1756819865-greenhouse_dark.png",
+  "localPath": "public/assets/pages/3b-examples/1756819865-greenhouse_dark.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684502541-logo-greynoise.svg",
+  "localPath": "public/assets/pages/3b-examples/1684502541-logo-greynoise.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692231366-logo-greynoise-dark-mode.svg",
+  "localPath": "public/assets/pages/3b-examples/1692231366-logo-greynoise-dark-mode.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522889-logo-servicenow.svg",
+  "localPath": "public/assets/pages/3b-examples/1684522889-logo-servicenow.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692232085-logo-abuseipdb.png",
+  "localPath": "public/assets/pages/3b-examples/1692232085-logo-abuseipdb.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684502269-logo-elastic.svg",
+  "localPath": "public/assets/pages/3b-examples/1684502269-logo-elastic.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692231110-logo-notion.svg",
+  "localPath": "public/assets/pages/3b-examples/1692231110-logo-notion.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522854-logo-sentinelone.svg",
+  "localPath": "public/assets/pages/3b-examples/1684522854-logo-sentinelone.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1694507781-logo-zoom.svg",
+  "localPath": "public/assets/pages/3b-examples/1694507781-logo-zoom.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1721057822-ansible-icon-32px.svg",
+  "localPath": "public/assets/pages/3b-examples/1721057822-ansible-icon-32px.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1759225353-arch_aws-security-hub_16-1.svg",
+  "localPath": "public/assets/pages/3b-examples/1759225353-arch_aws-security-hub_16-1.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1686239596-logo-axonius.svg",
+  "localPath": "public/assets/pages/3b-examples/1686239596-logo-axonius.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684942139-logo-cloudflare.svg",
+  "localPath": "public/assets/pages/3b-examples/1684942139-logo-cloudflare.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1749073042-drata-icon-square-1.svg",
+  "localPath": "public/assets/pages/3b-examples/1749073042-drata-icon-square-1.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1749073107-icon_square_dark-1.svg",
+  "localPath": "public/assets/pages/3b-examples/1749073107-icon_square_dark-1.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1781602557-drive.svg",
+  "localPath": "public/assets/pages/3b-examples/1781602557-drive.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684523140-logo-terraform.svg",
+  "localPath": "public/assets/pages/3b-examples/1684523140-logo-terraform.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1700481480-hibob.png",
+  "localPath": "public/assets/pages/3b-examples/1700481480-hibob.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1691163896-logo-intercom.svg",
+  "localPath": "public/assets/pages/3b-examples/1691163896-logo-intercom.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692230660-logo-intercom-dark-mode.svg",
+  "localPath": "public/assets/pages/3b-examples/1692230660-logo-intercom-dark-mode.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1689703506-logo-jamf.svg",
+  "localPath": "public/assets/pages/3b-examples/1689703506-logo-jamf.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1695289113-mitre.png",
+  "localPath": "public/assets/pages/3b-examples/1695289113-mitre.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1691163585-logo-netskope.svg",
+  "localPath": "public/assets/pages/3b-examples/1691163585-logo-netskope.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684521703-logo-nextdns.png",
+  "localPath": "public/assets/pages/3b-examples/1684521703-logo-nextdns.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684521764-logo-octoperf.svg",
+  "localPath": "public/assets/pages/3b-examples/1684521764-logo-octoperf.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522175-logo-openai.svg",
+  "localPath": "public/assets/pages/3b-examples/1684522175-logo-openai.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692230568-logo-openai-dark-mode.svg",
+  "localPath": "public/assets/pages/3b-examples/1692230568-logo-openai-dark-mode.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522802-logo-qualys.svg",
+  "localPath": "public/assets/pages/3b-examples/1684522802-logo-qualys.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522672-logo-recorded-future.svg",
+  "localPath": "public/assets/pages/3b-examples/1684522672-logo-recorded-future.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692230864-logo-recorded-future.svg",
+  "localPath": "public/assets/pages/3b-examples/1692230864-logo-recorded-future.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522902-logo-shodan.png",
+  "localPath": "public/assets/pages/3b-examples/1684522902-logo-shodan.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522939-logo-snowflake.svg",
+  "localPath": "public/assets/pages/3b-examples/1684522939-logo-snowflake.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1766062141-sublimesecurity.svg",
+  "localPath": "public/assets/pages/3b-examples/1766062141-sublimesecurity.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1766062152-sublimesecuritydark.svg",
+  "localPath": "public/assets/pages/3b-examples/1766062152-sublimesecuritydark.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684942253-logo-tailscale.svg",
+  "localPath": "public/assets/pages/3b-examples/1684942253-logo-tailscale.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692231935-logo-tailscale-dark-mode.svg",
+  "localPath": "public/assets/pages/3b-examples/1692231935-logo-tailscale-dark-mode.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1768549841-tavily.svg",
+  "localPath": "public/assets/pages/3b-examples/1768549841-tavily.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1768549854-tavilydark.svg",
+  "localPath": "public/assets/pages/3b-examples/1768549854-tavilydark.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684523115-logo-tenable.svg",
+  "localPath": "public/assets/pages/3b-examples/1684523115-logo-tenable.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692231820-logo-tenable-dark-mode.svg",
+  "localPath": "public/assets/pages/3b-examples/1692231820-logo-tenable-dark-mode.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684523432-logo-wiz.svg",
+  "localPath": "public/assets/pages/3b-examples/1684523432-logo-wiz.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1696949996-abusech.png",
+  "localPath": "public/assets/pages/3b-examples/1696949996-abusech.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684500056-logo-airtable.svg",
+  "localPath": "public/assets/pages/3b-examples/1684500056-logo-airtable.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684500512-logo-apivoid.svg",
+  "localPath": "public/assets/pages/3b-examples/1684500512-logo-apivoid.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1723651897-automox.png",
+  "localPath": "public/assets/pages/3b-examples/1723651897-automox.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1785940601-seal_of_cybersecurity_and_infrastructure_security_agency-1.png",
+  "localPath": "public/assets/pages/3b-examples/1785940601-seal_of_cybersecurity_and_infrastructure_security_agency-1.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684501531-logo-cisco.svg",
+  "localPath": "public/assets/pages/3b-examples/1684501531-logo-cisco.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1718370713-confluence.svg",
+  "localPath": "public/assets/pages/3b-examples/1718370713-confluence.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684502201-logo-duo.svg",
+  "localPath": "public/assets/pages/3b-examples/1684502201-logo-duo.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1785940505-first.png",
+  "localPath": "public/assets/pages/3b-examples/1785940505-first.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684502576-logo-gripsecurity.png",
+  "localPath": "public/assets/pages/3b-examples/1684502576-logo-gripsecurity.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684503233-logo-idme.svg",
+  "localPath": "public/assets/pages/3b-examples/1684503233-logo-idme.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692231268-logo-idme-dark-mode.svg",
+  "localPath": "public/assets/pages/3b-examples/1692231268-logo-idme-dark-mode.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1721382463-infoblox.svg",
+  "localPath": "public/assets/pages/3b-examples/1721382463-infoblox.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1721382480-infoblox.svg",
+  "localPath": "public/assets/pages/3b-examples/1721382480-infoblox.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1710434427-jumpcloud.png",
+  "localPath": "public/assets/pages/3b-examples/1710434427-jumpcloud.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1710434431-jumpcloud.png",
+  "localPath": "public/assets/pages/3b-examples/1710434431-jumpcloud.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684503414-logo-knowbe4.svg",
+  "localPath": "public/assets/pages/3b-examples/1684503414-logo-knowbe4.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1689003931-logo-kubernetes.svg",
+  "localPath": "public/assets/pages/3b-examples/1689003931-logo-kubernetes.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1720032750-lansweeper-logo-square.png",
+  "localPath": "public/assets/pages/3b-examples/1720032750-lansweeper-logo-square.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1696581663-linkedin.png",
+  "localPath": "public/assets/pages/3b-examples/1696581663-linkedin.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1696581666-linkedin.png",
+  "localPath": "public/assets/pages/3b-examples/1696581666-linkedin.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684503651-logo-malware-traffic-analysis.png",
+  "localPath": "public/assets/pages/3b-examples/1684503651-logo-malware-traffic-analysis.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692231201-logo-malware-traffic-analysis-dark-mode.png",
+  "localPath": "public/assets/pages/3b-examples/1692231201-logo-malware-traffic-analysis-dark-mode.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684521966-logo-meta.svg",
+  "localPath": "public/assets/pages/3b-examples/1684521966-logo-meta.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692866778-windows-defender.png",
+  "localPath": "public/assets/pages/3b-examples/1692866778-windows-defender.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1694092000-onedrive-8-64.png",
+  "localPath": "public/assets/pages/3b-examples/1694092000-onedrive-8-64.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684521665-logo-mimecast.png",
+  "localPath": "public/assets/pages/3b-examples/1684521665-logo-mimecast.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1689703951-logo-ocrspace.svg",
+  "localPath": "public/assets/pages/3b-examples/1689703951-logo-ocrspace.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692377305-logo-ocrspace-dark-mode.svg",
+  "localPath": "public/assets/pages/3b-examples/1692377305-logo-ocrspace-dark-mode.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1711027500-opal.png",
+  "localPath": "public/assets/pages/3b-examples/1711027500-opal.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522487-logo-paloaltonetworks.svg",
+  "localPath": "public/assets/pages/3b-examples/1684522487-logo-paloaltonetworks.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765962497-parallel_logo.svg",
+  "localPath": "public/assets/pages/3b-examples/1765962497-parallel_logo.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1765962502-parallel_logo_dark.svg",
+  "localPath": "public/assets/pages/3b-examples/1765962502-parallel_logo_dark.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1707816192-proofpoint_logo.png",
+  "localPath": "public/assets/pages/3b-examples/1707816192-proofpoint_logo.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1707816195-proofpoint_logo.png",
+  "localPath": "public/assets/pages/3b-examples/1707816195-proofpoint_logo.png",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522614-logo-pulsedive.svg",
+  "localPath": "public/assets/pages/3b-examples/1684522614-logo-pulsedive.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684522825-logo-runzero.svg",
+  "localPath": "public/assets/pages/3b-examples/1684522825-logo-runzero.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692230838-logo-runzero-dark-mode.svg",
+  "localPath": "public/assets/pages/3b-examples/1692230838-logo-runzero-dark-mode.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1721671106-smsheet.svg",
+  "localPath": "public/assets/pages/3b-examples/1721671106-smsheet.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1770800782-stripe_logo.svg",
+  "localPath": "public/assets/pages/3b-examples/1770800782-stripe_logo.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1770800785-stripe_logo_dark.svg",
+  "localPath": "public/assets/pages/3b-examples/1770800785-stripe_logo_dark.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1753692565-cymru.svg",
+  "localPath": "public/assets/pages/3b-examples/1753692565-cymru.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1790100004-1784587474-cases.svg",
+  "localPath": "public/assets/pages/3b-examples/1790100004-1784587474-cases.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684523444-logo-workplace.svg",
+  "localPath": "public/assets/pages/3b-examples/1684523444-logo-workplace.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1776157805-workramp.svg",
+  "localPath": "public/assets/pages/3b-examples/1776157805-workramp.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1769779073-xerologo.svg",
+  "localPath": "public/assets/pages/3b-examples/1769779073-xerologo.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684523491-logo-zendesk.svg",
+  "localPath": "public/assets/pages/3b-examples/1684523491-logo-zendesk.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1692230783-logo-zendesk-dark-mode.svg",
+  "localPath": "public/assets/pages/3b-examples/1692230783-logo-zendesk-dark-mode.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1684523532-logo-zscaler.svg",
+  "localPath": "public/assets/pages/3b-examples/1684523532-logo-zscaler.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/case-studies/case-studies-hero-illustration.svg",
+  "localPath": "public/assets/pages/customers/case-studies-hero-illustration.svg",
+  "page": "/customers/",
+  "section": "Customers",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/gartner-cool-vendor-2021.png",
+  "localPath": "public/assets/pages/customers/gartner-cool-vendor-2021.png",
+  "page": "/customers/",
+  "section": "Highlighted as a Gartner Cool Vendor in Security O",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1741779100-texas-a-m-system-cyber-operations-logo-dark-gray.png",
+  "localPath": "public/assets/pages/customers/1741779100-texas-a-m-system-cyber-operations-logo-dark-gray.png",
+  "page": "/customers/",
+  "section": "The Legos of security automation",
+  "type": "image"
+ },
+ {
+  "url": "https://www.tines.com/static/product-mobile-backdrop-2ae189ade6f1fe20599b469a477ddd73.svg",
+  "localPath": "public/assets/pages/book-a-demo/product-mobile-backdrop-2ae189ade6f1fe20599b469a477ddd73.svg",
+  "page": "/book-a-demo/",
+  "section": "Talk to a product expert",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/book-a-demo-form-icon-35f81fc8fb7e604edf366ab90becc657.svg",
+  "localPath": "public/assets/pages/book-a-demo/book-a-demo-form-icon-35f81fc8fb7e604edf366ab90becc657.svg",
+  "page": "/book-a-demo/",
+  "section": "Talk to a product expert",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/about/tines-photo-icon-thomas-kinsella.jpg",
+  "localPath": "public/assets/pages/about/tines-photo-icon-thomas-kinsella.jpg",
+  "page": "/about/",
+  "section": "Born in security, used by everyone.",
+  "type": "image"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/about/tines-photo-icon-eoin-hinchy.jpg",
+  "localPath": "public/assets/pages/about/tines-photo-icon-eoin-hinchy.jpg",
+  "page": "/about/",
+  "section": "Born in security, used by everyone.",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1713882536-tines_eoin_hinchy.jpg",
+  "localPath": "public/assets/pages/about/1713882536-tines_eoin_hinchy.jpg",
+  "page": "/about/",
+  "section": "Our leadership",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1713882905-tines_thomas_kinsella.jpg",
+  "localPath": "public/assets/pages/about/1713882905-tines_thomas_kinsella.jpg",
+  "page": "/about/",
+  "section": "Our leadership",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1713882944-tines_terry_tripp.jpg",
+  "localPath": "public/assets/pages/about/1713882944-tines_terry_tripp.jpg",
+  "page": "/about/",
+  "section": "Our leadership",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1713882989-tines_maria_dillon.jpg",
+  "localPath": "public/assets/pages/about/1713882989-tines_maria_dillon.jpg",
+  "page": "/about/",
+  "section": "Our leadership",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1714073891-tines-niall-cowman.jpg",
+  "localPath": "public/assets/pages/about/1714073891-tines-niall-cowman.jpg",
+  "page": "/about/",
+  "section": "Our leadership",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1713883040-tines_stephen_obrien.jpg",
+  "localPath": "public/assets/pages/about/1713883040-tines_stephen_obrien.jpg",
+  "page": "/about/",
+  "section": "Our leadership",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1713883074-tines_brian_long.jpg",
+  "localPath": "public/assets/pages/about/1713883074-tines_brian_long.jpg",
+  "page": "/about/",
+  "section": "Our leadership",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1713883104-tines_jonny_belton.jpg",
+  "localPath": "public/assets/pages/about/1713883104-tines_jonny_belton.jpg",
+  "page": "/about/",
+  "section": "Our leadership",
+  "type": "image"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/ai-page-hero-illo.svg?dpl=dpl_5srQMXGdMimS445CALiLjCjjtJiS",
+  "localPath": "public/assets/pages/ai-in-tines/ai-page-hero-illo.svg",
+  "page": "/ai-in-tines/",
+  "section": "Make AI an accelerator for work you can rely on",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/aicpaBadge.png",
+  "localPath": "public/assets/pages/ai-in-tines/aicpaBadge.png",
+  "page": "/ai-in-tines/",
+  "section": "Taking trust seriously",
+  "type": "image"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/hippaBadge.png",
+  "localPath": "public/assets/pages/ai-in-tines/hippaBadge.png",
+  "page": "/ai-in-tines/",
+  "section": "Taking trust seriously",
+  "type": "image"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/gdprBadge.png",
+  "localPath": "public/assets/pages/ai-in-tines/gdprBadge.png",
+  "page": "/ai-in-tines/",
+  "section": "Taking trust seriously",
+  "type": "image"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/sensiba-iso-iec-27001.png",
+  "localPath": "public/assets/pages/ai-in-tines/sensiba-iso-iec-27001.png",
+  "page": "/ai-in-tines/",
+  "section": "Taking trust seriously",
+  "type": "image"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/sensiba-iso-iec-27701.png",
+  "localPath": "public/assets/pages/ai-in-tines/sensiba-iso-iec-27701.png",
+  "page": "/ai-in-tines/",
+  "section": "Taking trust seriously",
+  "type": "image"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/sensiba-x-iso-42001.png",
+  "localPath": "public/assets/pages/ai-in-tines/sensiba-x-iso-42001.png",
+  "page": "/ai-in-tines/",
+  "section": "Taking trust seriously",
+  "type": "image"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/ai-page-custom-ai-provider-support.svg?dpl=dpl_5srQMXGdMimS445CALiLjCjjtJiS",
+  "localPath": "public/assets/pages/ai-in-tines/ai-page-custom-ai-provider-support.svg",
+  "page": "/ai-in-tines/",
+  "section": "PageSection-module-scss-module__mL52Va__inner",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/ai-page-ai-for-all.svg?dpl=dpl_5srQMXGdMimS445CALiLjCjjtJiS",
+  "localPath": "public/assets/pages/ai-in-tines/ai-page-ai-for-all.svg",
+  "page": "/ai-in-tines/",
+  "section": "PageSection-module-scss-module__mL52Va__inner",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/ai-page-outcome-agent-icon.svg?dpl=dpl_5srQMXGdMimS445CALiLjCjjtJiS",
+  "localPath": "public/assets/pages/ai-in-tines/ai-page-outcome-agent-icon.svg",
+  "page": "/ai-in-tines/",
+  "section": "A practical way to interact with AI across the org",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/ai-page-outcome-execution-icon.svg?dpl=dpl_5srQMXGdMimS445CALiLjCjjtJiS",
+  "localPath": "public/assets/pages/ai-in-tines/ai-page-outcome-execution-icon.svg",
+  "page": "/ai-in-tines/",
+  "section": "A practical way to interact with AI across the org",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/ai-page-outcome-internal-icon.svg?dpl=dpl_5srQMXGdMimS445CALiLjCjjtJiS",
+  "localPath": "public/assets/pages/ai-in-tines/ai-page-outcome-internal-icon.svg",
+  "page": "/ai-in-tines/",
+  "section": "A practical way to interact with AI across the org",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/ai-page-outcome-enterprise-icon.svg?dpl=dpl_5srQMXGdMimS445CALiLjCjjtJiS",
+  "localPath": "public/assets/pages/ai-in-tines/ai-page-outcome-enterprise-icon.svg",
+  "page": "/ai-in-tines/",
+  "section": "A practical way to interact with AI across the org",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/ai-page-extend-chat-illo.svg",
+  "localPath": "public/assets/pages/ai-in-tines/ai-page-extend-chat-illo.svg",
+  "page": "/ai-in-tines/",
+  "section": "Extend your AI with consistent controls and visibi",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/ai-page-extend-agent-illo.svg",
+  "localPath": "public/assets/pages/ai-in-tines/ai-page-extend-agent-illo.svg",
+  "page": "/ai-in-tines/",
+  "section": "Extend your AI with consistent controls and visibi",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/ai-page-extend-mcp-server-illo.svg",
+  "localPath": "public/assets/pages/ai-in-tines/ai-page-extend-mcp-server-illo.svg",
+  "page": "/ai-in-tines/",
+  "section": "Extend your AI with consistent controls and visibi",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/ai-page-extend-mcp-client-illo.svg",
+  "localPath": "public/assets/pages/ai-in-tines/ai-page-extend-mcp-client-illo.svg",
+  "page": "/ai-in-tines/",
+  "section": "Extend your AI with consistent controls and visibi",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/ai-in-tines/AITrustCardBackdrop.svg",
+  "localPath": "public/assets/pages/ai-in-tines/AITrustCardBackdrop.svg",
+  "page": "/ai-in-tines/",
+  "section": "Taking trust seriously",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/enterpriseFloatingShieldedBuildingIcon-1ed05126eb5216037499b356d9f349c8.svg",
+  "localPath": "public/assets/pages/enterprise/enterpriseFloatingShieldedBuildingIcon-1ed05126eb5216037499b356d9f349c8.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1730990024-tines-integrations-logo-grid.svg",
+  "localPath": "public/assets/pages/enterprise/1730990024-tines-integrations-logo-grid.svg",
+  "page": "/enterprise/",
+  "section": "Build, run, and monitor your most important workfl",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1730990056-tines-private-and-secure-ai.svg",
+  "localPath": "public/assets/pages/enterprise/1730990056-tines-private-and-secure-ai.svg",
+  "page": "/enterprise/",
+  "section": "Build, run, and monitor your most important workfl",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1730990075-tines-enterprise-grade-controls-and-monitoring.svg",
+  "localPath": "public/assets/pages/enterprise/1730990075-tines-enterprise-grade-controls-and-monitoring.svg",
+  "page": "/enterprise/",
+  "section": "Build, run, and monitor your most important workfl",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1730990110-tines-deploy-anywhere.svg",
+  "localPath": "public/assets/pages/enterprise/1730990110-tines-deploy-anywhere.svg",
+  "page": "/enterprise/",
+  "section": "Build, run, and monitor your most important workfl",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731508299-tines-advanced-collaboration.svg",
+  "localPath": "public/assets/pages/enterprise/1731508299-tines-advanced-collaboration.svg",
+  "page": "/enterprise/",
+  "section": "Build, run, and monitor your most important workfl",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/tines-illo-security-operations--framed-a30b1f6905cc9b7f5b860e80b8373ff2.svg",
+  "localPath": "public/assets/pages/enterprise/tines-illo-security-operations--framed-a30b1f6905cc9b7f5b860e80b8373ff2.svg",
+  "page": "/enterprise/",
+  "section": "A platform for organization-wide intelligent workf",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/tines-illo-compliance--framed-ff0bd9fa4a986bab9b7a9e14b27a604d.svg",
+  "localPath": "public/assets/pages/enterprise/tines-illo-compliance--framed-ff0bd9fa4a986bab9b7a9e14b27a604d.svg",
+  "page": "/enterprise/",
+  "section": "A platform for organization-wide intelligent workf",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/tines-illo-incidents-and-alerts--framed-b3018038eac88ceed53622d74dafc87b.svg",
+  "localPath": "public/assets/pages/enterprise/tines-illo-incidents-and-alerts--framed-b3018038eac88ceed53622d74dafc87b.svg",
+  "page": "/enterprise/",
+  "section": "A platform for organization-wide intelligent workf",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/tines-illo-asset-management--framed-95236292df040b5773fbb8cb53808c5a.svg",
+  "localPath": "public/assets/pages/enterprise/tines-illo-asset-management--framed-95236292df040b5773fbb8cb53808c5a.svg",
+  "page": "/enterprise/",
+  "section": "A platform for organization-wide intelligent workf",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/tines-illo-employee-lifecycle-management--framed-dfd1b4398e0ec5c08b4bc89679ff84d4.svg",
+  "localPath": "public/assets/pages/enterprise/tines-illo-employee-lifecycle-management--framed-dfd1b4398e0ec5c08b4bc89679ff84d4.svg",
+  "page": "/enterprise/",
+  "section": "A platform for organization-wide intelligent workf",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/tines-illo-chatops--framed-44ca26ebe9aece900064efdc27262570.svg",
+  "localPath": "public/assets/pages/enterprise/tines-illo-chatops--framed-44ca26ebe9aece900064efdc27262570.svg",
+  "page": "/enterprise/",
+  "section": "A platform for organization-wide intelligent workf",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/tines-illo-zero-trust--framed-a14dbd53112b10184b4965f74863c6e5.svg",
+  "localPath": "public/assets/pages/enterprise/tines-illo-zero-trust--framed-a14dbd53112b10184b4965f74863c6e5.svg",
+  "page": "/enterprise/",
+  "section": "A platform for organization-wide intelligent workf",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/tines-spot-icon-incidents-and-alerts-53a417a03af3738567c5b4e965e2301b.svg",
+  "localPath": "public/assets/pages/enterprise/tines-spot-icon-incidents-and-alerts-53a417a03af3738567c5b4e965e2301b.svg",
+  "page": "/enterprise/",
+  "section": "See more practical examples",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/tines-spot-icon-asset-management-11ecb73ff2a204de597f6f0e0426087e.svg",
+  "localPath": "public/assets/pages/enterprise/tines-spot-icon-asset-management-11ecb73ff2a204de597f6f0e0426087e.svg",
+  "page": "/enterprise/",
+  "section": "See more practical examples",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/tines-spot-icon-core-capabilities-a858b8f65e06cbbd171c78d6d04bd2b3.svg",
+  "localPath": "public/assets/pages/enterprise/tines-spot-icon-core-capabilities-a858b8f65e06cbbd171c78d6d04bd2b3.svg",
+  "page": "/enterprise/",
+  "section": "See more practical examples",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/tines-spot-icon-threat-intel-0e21be167ccd0fb073898eb207e52803.svg",
+  "localPath": "public/assets/pages/enterprise/tines-spot-icon-threat-intel-0e21be167ccd0fb073898eb207e52803.svg",
+  "page": "/enterprise/",
+  "section": "See more practical examples",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/EasiestToDoBusinessWith_Enterprise-7eb17464f4f96d22cb74d4a2ab0d972d.svg",
+  "localPath": "public/assets/pages/enterprise/EasiestToDoBusinessWith_Enterprise-7eb17464f4f96d22cb74d4a2ab0d972d.svg",
+  "page": "/enterprise/",
+  "section": "pdnec9y",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/FastestImplementation_Enterprise-f8b0dc5564862f2c69260f96f07dbc75.svg",
+  "localPath": "public/assets/pages/enterprise/FastestImplementation_Enterprise-f8b0dc5564862f2c69260f96f07dbc75.svg",
+  "page": "/enterprise/",
+  "section": "pdnec9y",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731438139-icon-partner-directory.svg",
+  "localPath": "public/assets/pages/enterprise/1731438139-icon-partner-directory.svg",
+  "page": "/enterprise/",
+  "section": "pdnec9y",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731438183-tines-icon-professional-services.svg",
+  "localPath": "public/assets/pages/enterprise/1731438183-tines-icon-professional-services.svg",
+  "page": "/enterprise/",
+  "section": "pdnec9y",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/enterpriseHeroIllustrationLeft-dc696c12d805cb81d6aa93001e8385e5.svg",
+  "localPath": "public/assets/pages/enterprise/enterpriseHeroIllustrationLeft-dc696c12d805cb81d6aa93001e8385e5.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/enterpriseHeroIllustrationRight-77fc888ef5020ad34e300d72176253ca.svg",
+  "localPath": "public/assets/pages/enterprise/enterpriseHeroIllustrationRight-77fc888ef5020ad34e300d72176253ca.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/enterpriseHeroIllustrationMobile-f41fd3e9c243b4bcbed749a7ef193ff4.svg",
+  "localPath": "public/assets/pages/enterprise/enterpriseHeroIllustrationMobile-f41fd3e9c243b4bcbed749a7ef193ff4.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/explosion-cta-backdrop-layer-light-speed-1-a5e592da744b86019fa7dd20a08675fa.svg",
+  "localPath": "public/assets/pages/enterprise/explosion-cta-backdrop-layer-light-speed-1-a5e592da744b86019fa7dd20a08675fa.svg",
+  "page": "/enterprise/",
+  "section": "Built by you,powered by Tines",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/explosion-cta-backdrop-layer-light-speed-2-d9c9fd3504b9d73566556cd6fe9bab48.svg",
+  "localPath": "public/assets/pages/enterprise/explosion-cta-backdrop-layer-light-speed-2-d9c9fd3504b9d73566556cd6fe9bab48.svg",
+  "page": "/enterprise/",
+  "section": "Built by you,powered by Tines",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/explosion-cta-backdrop-layer-light-speed-3-063d5549af5e844b3f0873183eaa8beb.svg",
+  "localPath": "public/assets/pages/enterprise/explosion-cta-backdrop-layer-light-speed-3-063d5549af5e844b3f0873183eaa8beb.svg",
+  "page": "/enterprise/",
+  "section": "Built by you,powered by Tines",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731490800-tines-illustration-universe.svg",
+  "localPath": "public/assets/pages/soar/1731490800-tines-illustration-universe.svg",
+  "page": "/soar/",
+  "section": "Break away from legacy SOAR",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1730978909-spot-icon-floating-shielded-building.svg",
+  "localPath": "public/assets/pages/soar/1730978909-spot-icon-floating-shielded-building.svg",
+  "page": "/soar/",
+  "section": "Modernize your security approach",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731492762-tines-illo-build.svg",
+  "localPath": "public/assets/pages/soar/1731492762-tines-illo-build.svg",
+  "page": "/soar/",
+  "section": "Meet Tines: purpose-built to scale your security o",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1746808120-spot-icon-asset-management.svg",
+  "localPath": "public/assets/pages/soar/1746808120-spot-icon-asset-management.svg",
+  "page": "/soar/",
+  "section": "Key resources",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731080855-spot-icon-plug-purple.svg",
+  "localPath": "public/assets/pages/soar/1731080855-spot-icon-plug-purple.svg",
+  "page": "/soar/",
+  "section": "pdnec9y",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1689279266-mars-com-logo-white.svg",
+  "localPath": "public/assets/pages/soar/1689279266-mars-com-logo-white.svg",
+  "page": "/soar/",
+  "section": "pdnec9y",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1730307672-gigaom-report-24-landing-page-image.png",
+  "localPath": "public/assets/pages/soar/1730307672-gigaom-report-24-landing-page-image.png",
+  "page": "/soar/",
+  "section": "pdnec9y",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731493887-spot-icon-run.svg",
+  "localPath": "public/assets/pages/soar/1731493887-spot-icon-run.svg",
+  "page": "/soar/",
+  "section": "pdnec9y",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1720800025-beyon-cyber-logo-white.svg",
+  "localPath": "public/assets/pages/soar/1720800025-beyon-cyber-logo-white.svg",
+  "page": "/soar/",
+  "section": "pdnec9y",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1730980836-spot-icon-soar.svg",
+  "localPath": "public/assets/pages/soar/1730980836-spot-icon-soar.svg",
+  "page": "/soar/",
+  "section": "pdnec9y",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731080761-spot-icon-core-capabilities.svg",
+  "localPath": "public/assets/pages/soar/1731080761-spot-icon-core-capabilities.svg",
+  "page": "/soar/",
+  "section": "pdnec9y",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731492731-tines-illo-application-security.svg",
+  "localPath": "public/assets/pages/soar/1731492731-tines-illo-application-security.svg",
+  "page": "/soar/",
+  "section": "Talk to a product expert",
+  "type": "svg"
+ },
+ {
+  "url": "https://image.mux.com/yBWr48GtZb302cW9k4mSfn5KUIOn7901Iy/thumbnail.jpg",
+  "localPath": "public/assets/pages/soar/yBWr48GtZb302cW9k4mSfn5KUIOn7901Iy-thumbnail.jpg",
+  "page": "/soar/",
+  "section": "Automate with SOAR that scales",
+  "type": "video-poster"
+ },
+ {
+  "url": "https://stream.mux.com/yBWr48GtZb302cW9k4mSfn5KUIOn7901Iy/high.mp4",
+  "localPath": "public/assets/pages/soar/mux-yBWr48GtZb302cW9k4mSfn5KUIOn7901Iy.mp4",
+  "page": "/soar/",
+  "section": "Automate with SOAR that scales",
+  "type": "video"
+ },
+ {
+  "url": "https://image.mux.com/2JlKQb4n4mvg6T2JzoVUZErTQDsV8K7Z/thumbnail.jpg",
+  "localPath": "public/assets/pages/soar/2JlKQb4n4mvg6T2JzoVUZErTQDsV8K7Z-thumbnail.jpg",
+  "page": "/soar/",
+  "section": "Power interoperability across your stack",
+  "type": "video-poster"
+ },
+ {
+  "url": "https://stream.mux.com/2JlKQb4n4mvg6T2JzoVUZErTQDsV8K7Z/high.mp4",
+  "localPath": "public/assets/pages/soar/mux-2JlKQb4n4mvg6T2JzoVUZErTQDsV8K7Z.mp4",
+  "page": "/soar/",
+  "section": "Power interoperability across your stack",
+  "type": "video"
+ },
+ {
+  "url": "https://image.mux.com/syyEdoEeVvvPTkTzNCFqAxoPaRNvcVuB/thumbnail.jpg",
+  "localPath": "public/assets/pages/soar/syyEdoEeVvvPTkTzNCFqAxoPaRNvcVuB-thumbnail.jpg",
+  "page": "/soar/",
+  "section": "Build without technical blockers",
+  "type": "video-poster"
+ },
+ {
+  "url": "https://stream.mux.com/syyEdoEeVvvPTkTzNCFqAxoPaRNvcVuB/high.mp4",
+  "localPath": "public/assets/pages/soar/mux-syyEdoEeVvvPTkTzNCFqAxoPaRNvcVuB.mp4",
+  "page": "/soar/",
+  "section": "Build without technical blockers",
+  "type": "video"
+ },
+ {
+  "url": "https://image.mux.com/WHaEsYObZGQxgY77u6K9q2oKUOg7QK4d/thumbnail.jpg",
+  "localPath": "public/assets/pages/soar/WHaEsYObZGQxgY77u6K9q2oKUOg7QK4d-thumbnail.jpg",
+  "page": "/soar/",
+  "section": "Foster a culture of cybersecurity",
+  "type": "video-poster"
+ },
+ {
+  "url": "https://stream.mux.com/WHaEsYObZGQxgY77u6K9q2oKUOg7QK4d/high.mp4",
+  "localPath": "public/assets/pages/soar/mux-WHaEsYObZGQxgY77u6K9q2oKUOg7QK4d.mp4",
+  "page": "/soar/",
+  "section": "Foster a culture of cybersecurity",
+  "type": "video"
+ },
+ {
+  "url": "https://image.mux.com/E3k3UKKP5lMknGd7ZfnbhKHn5aBTMZu4/thumbnail.jpg",
+  "localPath": "public/assets/pages/soar/E3k3UKKP5lMknGd7ZfnbhKHn5aBTMZu4-thumbnail.jpg",
+  "page": "/soar/",
+  "section": "Streamline case management processes",
+  "type": "video-poster"
+ },
+ {
+  "url": "https://stream.mux.com/E3k3UKKP5lMknGd7ZfnbhKHn5aBTMZu4/high.mp4",
+  "localPath": "public/assets/pages/soar/mux-E3k3UKKP5lMknGd7ZfnbhKHn5aBTMZu4.mp4",
+  "page": "/soar/",
+  "section": "Streamline case management processes",
+  "type": "video"
+ },
+ {
+  "url": "https://www.tines.com/static/HQRemote-15cb7ab4043bb86b478341abdf594b0e.svg",
+  "localPath": "public/assets/pages/careers/HQRemote-15cb7ab4043bb86b478341abdf594b0e.svg",
+  "page": "/careers/",
+  "section": "Where we work",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1746197549-inside-tines-blake-1.png",
+  "localPath": "public/assets/pages/careers/1746197549-inside-tines-blake-1.png",
+  "page": "/careers/",
+  "section": "Hear from our team",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1741014420-inside-tines-yannick-1.png",
+  "localPath": "public/assets/pages/careers/1741014420-inside-tines-yannick-1.png",
+  "page": "/careers/",
+  "section": "Hear from our team",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1741014420-inside-tines-ashley-1.png",
+  "localPath": "public/assets/pages/careers/1741014420-inside-tines-ashley-1.png",
+  "page": "/careers/",
+  "section": "Hear from our team",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1741014420-inside-tines-colm-1.png",
+  "localPath": "public/assets/pages/careers/1741014420-inside-tines-colm-1.png",
+  "page": "/careers/",
+  "section": "Hear from our team",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1689674312-tab_1.png",
+  "localPath": "public/assets/pages/careers/1689674312-tab_1.png",
+  "page": "/careers/",
+  "section": "Hear from our team",
+  "type": "image"
+ },
+ {
+  "url": "https://www.tines.com/static/TimesAward-dc788a1fa0c0bd826bdb5ea78922437a.png",
+  "localPath": "public/assets/pages/careers/TimesAward-dc788a1fa0c0bd826bdb5ea78922437a.png",
+  "page": "/careers/",
+  "section": "Awards",
+  "type": "image"
+ },
+ {
+  "url": "https://www.tines.com/static/BostonJournalAward-4419bf0f667b065e1ea55ac06a05fe9c.png",
+  "localPath": "public/assets/pages/careers/BostonJournalAward-4419bf0f667b065e1ea55ac06a05fe9c.png",
+  "page": "/careers/",
+  "section": "Awards",
+  "type": "image"
+ },
+ {
+  "url": "https://www.tines.com/static/DeloitteAward-76ef37a837efba6f7fc2980ab8f3cb6a.png",
+  "localPath": "public/assets/pages/careers/DeloitteAward-76ef37a837efba6f7fc2980ab8f3cb6a.png",
+  "page": "/careers/",
+  "section": "Awards",
+  "type": "image"
+ },
+ {
+  "url": "https://www.tines.com/static/StateOfSecurity-9bf305afa71e9231fd8e9e6ef9631c0d.svg",
+  "localPath": "public/assets/pages/careers/StateOfSecurity-9bf305afa71e9231fd8e9e6ef9631c0d.svg",
+  "page": "/careers/",
+  "section": "Benefits",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/Drums-9bf8ea7d630732caee4a9f35e6303154.svg",
+  "localPath": "public/assets/pages/careers/Drums-9bf8ea7d630732caee4a9f35e6303154.svg",
+  "page": "/careers/",
+  "section": "Open positions",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/static/Partnership-fc9328d48ba4dafe17c0d761295cee9d.svg",
+  "localPath": "public/assets/pages/careers/Partnership-fc9328d48ba4dafe17c0d761295cee9d.svg",
+  "page": "/careers/",
+  "section": "Inclusion matters",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1663865545-guidepoint-security-logo.svg",
+  "localPath": "public/assets/pages/partners/1663865545-guidepoint-security-logo.svg",
+  "page": "/partners/",
+  "section": "Channel partners",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1710335299-trace3-logo.png",
+  "localPath": "public/assets/pages/partners/1710335299-trace3-logo.png",
+  "page": "/partners/",
+  "section": "Channel partners",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1663865649-optiv-logo.svg",
+  "localPath": "public/assets/pages/partners/1663865649-optiv-logo.svg",
+  "page": "/partners/",
+  "section": "Channel partners",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1710336205-wwt-logo.svg",
+  "localPath": "public/assets/pages/partners/1710336205-wwt-logo.svg",
+  "page": "/partners/",
+  "section": "Channel partners",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1695213985-evotek-logo-color-2.png",
+  "localPath": "public/assets/pages/partners/1695213985-evotek-logo-color-2.png",
+  "page": "/partners/",
+  "section": "Channel partners",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1695213898-kudelski-security-dark-logo-1.png",
+  "localPath": "public/assets/pages/partners/1695213898-kudelski-security-dark-logo-1.png",
+  "page": "/partners/",
+  "section": "Channel partners",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1711032793-amazon_web_services-logo-wine.svg",
+  "localPath": "public/assets/pages/partners/1711032793-amazon_web_services-logo-wine.svg",
+  "page": "/partners/",
+  "section": "Channel partners",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1711032899-elastic.svg",
+  "localPath": "public/assets/pages/partners/1711032899-elastic.svg",
+  "page": "/partners/",
+  "section": "Channel partners",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1674059597-wiz-logo-blue.svg",
+  "localPath": "public/assets/pages/partners/1674059597-wiz-logo-blue.svg",
+  "page": "/partners/",
+  "section": "Channel partners",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1663848130-crowdstrike-logo.svg",
+  "localPath": "public/assets/pages/partners/1663848130-crowdstrike-logo.svg",
+  "page": "/partners/",
+  "section": "Channel partners",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1710336351-logo-cribl.svg",
+  "localPath": "public/assets/pages/partners/1710336351-logo-cribl.svg",
+  "page": "/partners/",
+  "section": "Channel partners",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1710335806-sysdig-logo-black.svg",
+  "localPath": "public/assets/pages/partners/1710335806-sysdig-logo-black.svg",
+  "page": "/partners/",
+  "section": "Channel partners",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1710345890-tines-achieves-key-aws-partner-milestones-ahead-of-re_inforce-2023.png",
+  "localPath": "public/assets/pages/partners/1710345890-tines-achieves-key-aws-partner-milestones-ahead-of-re_inforce-2023.png",
+  "page": "/partners/",
+  "section": "Backed by the companies you trust",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1710345910-tines-named-hashicorp-s-2023-emerging-partner-of-the-year.png",
+  "localPath": "public/assets/pages/partners/1710345910-tines-named-hashicorp-s-2023-emerging-partner-of-the-year.png",
+  "page": "/partners/",
+  "section": "Backed by the companies you trust",
+  "type": "image"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1711376247-icon-microphone.svg",
+  "localPath": "public/assets/pages/partners/1711376247-icon-microphone.svg",
+  "page": "/partners/",
+  "section": "Get the latest updates",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1710348134-chat-bubbles-icon.svg",
+  "localPath": "public/assets/pages/partners/1710348134-chat-bubbles-icon.svg",
+  "page": "/partners/",
+  "section": "Get the latest updates",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1710348174-speed-icon.svg",
+  "localPath": "public/assets/pages/partners/1710348174-speed-icon.svg",
+  "page": "/partners/",
+  "section": "Get the latest updates",
+  "type": "svg"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/pricing-3hxbxq-heroillustration.svg",
+  "page": "/pricing/",
+  "section": "page-module-scss-module__3HXBXq__heroIllustration ",
+  "type": "inline-svg",
+  "renderedSize": "200x168"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/pricing-ugahsw-icon.svg",
+  "page": "/pricing/",
+  "section": "Free edition",
+  "type": "inline-svg",
+  "renderedSize": "42x106"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/pricing-ugahsw-icon-2.svg",
+  "page": "/pricing/",
+  "section": "Free edition",
+  "type": "inline-svg",
+  "renderedSize": "55x106"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/pricing-coinbase.svg",
+  "page": "/pricing/",
+  "section": "Pricing",
+  "type": "inline-svg",
+  "renderedSize": "118x26"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/pricing-databricks.svg",
+  "page": "/pricing/",
+  "section": "Pricing",
+  "type": "inline-svg",
+  "renderedSize": "157x37"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/pricing-reddit.svg",
+  "page": "/pricing/",
+  "section": "Pricing",
+  "type": "inline-svg",
+  "renderedSize": "96x32"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/pricing-snowflake.svg",
+  "page": "/pricing/",
+  "section": "Pricing",
+  "type": "inline-svg",
+  "renderedSize": "157x36"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/pricing-me.svg",
+  "page": "/pricing/",
+  "section": "Pricing",
+  "type": "inline-svg",
+  "renderedSize": "155x34"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/pricing-dropbox.svg",
+  "page": "/pricing/",
+  "section": "Pricing",
+  "type": "inline-svg",
+  "renderedSize": "142x29"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/pricing-pinterest.svg",
+  "page": "/pricing/",
+  "section": "Pricing",
+  "type": "inline-svg",
+  "renderedSize": "148x36"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/pricing-mongodb.svg",
+  "page": "/pricing/",
+  "section": "Pricing",
+  "type": "inline-svg",
+  "renderedSize": "133x34"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/pricing-sophos.svg",
+  "page": "/pricing/",
+  "section": "Pricing",
+  "type": "inline-svg",
+  "renderedSize": "108x19"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/pricing-canva.svg",
+  "page": "/pricing/",
+  "section": "Pricing",
+  "type": "inline-svg",
+  "renderedSize": "67x36"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/pricing-mckesson.svg",
+  "page": "/pricing/",
+  "section": "Pricing",
+  "type": "inline-svg",
+  "renderedSize": "124x17"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/pricing-3xe0ag-ribboncontent.svg",
+  "page": "/pricing/",
+  "section": "PageSection-module-scss-module__mL52Va__inner",
+  "type": "inline-svg",
+  "renderedSize": "40x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/pricing-3hxbxq-heroillustration-2.svg",
+  "page": "/pricing/",
+  "section": "page-module-scss-module__3HXBXq__heroIllustration ",
+  "type": "inline-svg",
+  "renderedSize": "240x201"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-headspace.svg",
+  "page": "/3b/",
+  "section": "ThreeBPullQuote-module-scss-module__yVyN2a__quote ",
+  "type": "inline-svg",
+  "renderedSize": "144x30"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-3gthra-filletleft.svg",
+  "page": "/3b/",
+  "section": "The AI-native intelligent workflow platform",
+  "type": "inline-svg",
+  "renderedSize": "8x8"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-3gthra-filletright.svg",
+  "page": "/3b/",
+  "section": "The AI-native intelligent workflow platform",
+  "type": "inline-svg",
+  "renderedSize": "8x8"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-3gthra-playpause.svg",
+  "page": "/3b/",
+  "section": "The AI-native intelligent workflow platform",
+  "type": "inline-svg",
+  "renderedSize": "20x20"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-orb.svg",
+  "page": "/3b/",
+  "section": "Build anything, anywhere",
+  "type": "inline-svg",
+  "renderedSize": "55x55"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-q5byyg-icon.svg",
+  "page": "/3b/",
+  "section": "Build anything, anywhere",
+  "type": "inline-svg",
+  "renderedSize": "36x36"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-q5byyg-send.svg",
+  "page": "/3b/",
+  "section": "Build anything, anywhere",
+  "type": "inline-svg",
+  "renderedSize": "14x14"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tiletitleicon.svg",
+  "page": "/3b/",
+  "section": "Build anything, anywhere",
+  "type": "inline-svg",
+  "renderedSize": "18x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-stopwatch-showing-the-current-local-time.svg",
+  "page": "/3b/",
+  "section": "Build anything, anywhere",
+  "type": "inline-svg",
+  "renderedSize": "117x142"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tiletitleicon-2.svg",
+  "page": "/3b/",
+  "section": "Build anything, anywhere",
+  "type": "inline-svg",
+  "renderedSize": "18x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tiletitleicon-3.svg",
+  "page": "/3b/",
+  "section": "Build anything, anywhere",
+  "type": "inline-svg",
+  "renderedSize": "18x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tiletitleicon-4.svg",
+  "page": "/3b/",
+  "section": "Build anything, anywhere",
+  "type": "inline-svg",
+  "renderedSize": "18x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tilecornervisual.svg",
+  "page": "/3b/",
+  "section": "Build anything, anywhere",
+  "type": "inline-svg",
+  "renderedSize": "900x608"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-connectorsvisual.svg",
+  "page": "/3b/",
+  "section": "Run securely, optimize continually",
+  "type": "inline-svg",
+  "renderedSize": "612x438"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tiletitleicon-5.svg",
+  "page": "/3b/",
+  "section": "Run securely, optimize continually",
+  "type": "inline-svg",
+  "renderedSize": "18x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tiletitleicon-6.svg",
+  "page": "/3b/",
+  "section": "Run securely, optimize continually",
+  "type": "inline-svg",
+  "renderedSize": "18x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tilecornervisual-2.svg",
+  "page": "/3b/",
+  "section": "Run securely, optimize continually",
+  "type": "inline-svg",
+  "renderedSize": "900x560"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tiletitleicon-7.svg",
+  "page": "/3b/",
+  "section": "Run securely, optimize continually",
+  "type": "inline-svg",
+  "renderedSize": "18x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tilecornervisual-3.svg",
+  "page": "/3b/",
+  "section": "Run securely, optimize continually",
+  "type": "inline-svg",
+  "renderedSize": "900x560"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-fin.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "inline-svg",
+  "renderedSize": "76x30"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tiletitleicon-8.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "inline-svg",
+  "renderedSize": "18x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tilecornervisual-4.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "inline-svg",
+  "renderedSize": "678x465"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-accessmapvisual.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "inline-svg",
+  "renderedSize": "308x142"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tiletitleicon-9.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "inline-svg",
+  "renderedSize": "18x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tiletitleicon-10.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "inline-svg",
+  "renderedSize": "18x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tilecornervisual-5.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "inline-svg",
+  "renderedSize": "400x376"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tileoverlayillustration.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "inline-svg",
+  "renderedSize": "678x465"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tiletitleicon-11.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "inline-svg",
+  "renderedSize": "18x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tiletitleicon-12.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "inline-svg",
+  "renderedSize": "18x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tileoverlaycenter.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "inline-svg",
+  "renderedSize": "540x390"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tiletitleicon-13.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "inline-svg",
+  "renderedSize": "18x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-stopwatch-showing-the-current-local-time-2.svg",
+  "page": "/3b/",
+  "section": "Build anything, anywhere",
+  "type": "inline-svg",
+  "renderedSize": "117x142"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-accessmapvisual-2.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "inline-svg",
+  "renderedSize": "284x131"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-kwifpg-tileoverlaycenter-2.svg",
+  "page": "/3b/",
+  "section": "Monitor everything",
+  "type": "inline-svg",
+  "renderedSize": "432x312"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-exuiig-icon.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "18x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-bvqaqq-searchicon.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "17x17"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-bvqaqq-bookmarkicon.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "24x24"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-bvqaqq-bookmarkicon-2.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "24x24"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-bvqaqq-bookmarkicon-3.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "24x24"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-bvqaqq-bookmarkicon-4.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "24x24"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-bvqaqq-bookmarkicon-5.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "24x24"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-bvqaqq-bookmarkicon-6.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "24x24"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-2.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-3.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-4.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-5.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-6.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-7.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-8.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-9.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-10.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-11.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-case-studies-omada-health.svg",
+  "page": "/customers/",
+  "section": "PageSection-module-scss-module__mL52Va__inner",
+  "type": "inline-svg",
+  "renderedSize": "100x24"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-case-studies-omada-health-2.svg",
+  "page": "/customers/",
+  "section": "PageSection-module-scss-module__mL52Va__inner",
+  "type": "inline-svg",
+  "renderedSize": "19x33"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-case-studies-scaling-service-delivery-ho.svg",
+  "page": "/customers/",
+  "section": "PageSection-module-scss-module__mL52Va__inner",
+  "type": "inline-svg",
+  "renderedSize": "100x25"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-case-studies-hawx-smart-pest-control-cut.svg",
+  "page": "/customers/",
+  "section": "PageSection-module-scss-module__mL52Va__inner",
+  "type": "inline-svg",
+  "renderedSize": "100x27"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-case-studies-personio-transforms-fragile.svg",
+  "page": "/customers/",
+  "section": "PageSection-module-scss-module__mL52Va__inner",
+  "type": "inline-svg",
+  "renderedSize": "100x19"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-case-studies-brex-modernizes-security-an.svg",
+  "page": "/customers/",
+  "section": "PageSection-module-scss-module__mL52Va__inner",
+  "type": "inline-svg",
+  "renderedSize": "100x26"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-case-studies-vimeo.svg",
+  "page": "/customers/",
+  "section": "PageSection-module-scss-module__mL52Va__inner",
+  "type": "inline-svg",
+  "renderedSize": "100x33"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-case-studies-netskope-triples-the-effici.svg",
+  "page": "/customers/",
+  "section": "PageSection-module-scss-module__mL52Va__inner",
+  "type": "inline-svg",
+  "renderedSize": "100x15"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-case-studies-ip-performance.svg",
+  "page": "/customers/",
+  "section": "PageSection-module-scss-module__mL52Va__inner",
+  "type": "inline-svg",
+  "renderedSize": "100x35"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-case-studies-notion.svg",
+  "page": "/customers/",
+  "section": "PageSection-module-scss-module__mL52Va__inner",
+  "type": "inline-svg",
+  "renderedSize": "100x35"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-case-studies-intercom.svg",
+  "page": "/customers/",
+  "section": "The Legos of security automation",
+  "type": "inline-svg",
+  "renderedSize": "100x24"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-p3agja-decorations.svg",
+  "page": "/customers/",
+  "section": "The Legos of security automation",
+  "type": "inline-svg",
+  "renderedSize": "19x16"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-1uhxvg-stars.svg",
+  "page": "/customers/",
+  "section": "The Legos of security automation",
+  "type": "inline-svg",
+  "renderedSize": "17x16"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-case-studies-fortune-brands.svg",
+  "page": "/customers/",
+  "section": "The Legos of security automation",
+  "type": "inline-svg",
+  "renderedSize": "100x21"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-case-studies-mckesson.svg",
+  "page": "/customers/",
+  "section": "The Legos of security automation",
+  "type": "inline-svg",
+  "renderedSize": "100x14"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-case-studies-bitpanda.svg",
+  "page": "/customers/",
+  "section": "The Legos of security automation",
+  "type": "inline-svg",
+  "renderedSize": "100x25"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-case-studies-crowdfunding-tech-company.svg",
+  "page": "/customers/",
+  "section": "The Legos of security automation",
+  "type": "inline-svg",
+  "renderedSize": "100x31"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-case-studies-mars.svg",
+  "page": "/customers/",
+  "section": "The Legos of security automation",
+  "type": "inline-svg",
+  "renderedSize": "100x29"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-1uhxvg-stars-2.svg",
+  "page": "/customers/",
+  "section": "The Legos of security automation",
+  "type": "inline-svg",
+  "renderedSize": "18x16"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-l7ky0w-ctablock.svg",
+  "page": "/customers/",
+  "section": "The Legos of security automation",
+  "type": "inline-svg",
+  "renderedSize": "96x99"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/book-a-demo-talk-to-a-product-expert.svg",
+  "page": "/book-a-demo/",
+  "section": "Talk to a product expert",
+  "type": "inline-svg",
+  "renderedSize": "560x560"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/book-a-demo-talk-to-a-product-expert-2.svg",
+  "page": "/book-a-demo/",
+  "section": "Talk to a product expert",
+  "type": "inline-svg",
+  "renderedSize": "660x423"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/book-a-demo-talk-to-a-product-expert-3.svg",
+  "page": "/book-a-demo/",
+  "section": "Talk to a product expert",
+  "type": "inline-svg",
+  "renderedSize": "820x454"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/book-a-demo-talk-to-a-product-expert-4.svg",
+  "page": "/book-a-demo/",
+  "section": "Talk to a product expert",
+  "type": "inline-svg",
+  "renderedSize": "420x336"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/book-a-demo-talk-to-a-product-expert-5.svg",
+  "page": "/book-a-demo/",
+  "section": "Talk to a product expert",
+  "type": "inline-svg",
+  "renderedSize": "400x343"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/book-a-demo-talk-to-a-product-expert-6.svg",
+  "page": "/book-a-demo/",
+  "section": "Talk to a product expert",
+  "type": "inline-svg",
+  "renderedSize": "10x7"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/about-l7fuyq-illustration.svg",
+  "page": "/about/",
+  "section": "The intelligentworkflow platform.",
+  "type": "inline-svg",
+  "renderedSize": "976x555"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/about-linkedin-com-in-eoinhinchy.svg",
+  "page": "/about/",
+  "section": "Our leadership",
+  "type": "inline-svg",
+  "renderedSize": "18x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/about-accel.svg",
+  "page": "/about/",
+  "section": "Backed by the best",
+  "type": "inline-svg",
+  "renderedSize": "97x31"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/about-activantcapital-com.svg",
+  "page": "/about/",
+  "section": "Backed by the best",
+  "type": "inline-svg",
+  "renderedSize": "185x32"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/about-addition.svg",
+  "page": "/about/",
+  "section": "Backed by the best",
+  "type": "inline-svg",
+  "renderedSize": "192x24"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/about-blossom.svg",
+  "page": "/about/",
+  "section": "Backed by the best",
+  "type": "inline-svg",
+  "renderedSize": "154x36"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/about-felicis.svg",
+  "page": "/about/",
+  "section": "Backed by the best",
+  "type": "inline-svg",
+  "renderedSize": "115x34"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/about-goldmansachs-com.svg",
+  "page": "/about/",
+  "section": "Backed by the best",
+  "type": "inline-svg",
+  "renderedSize": "191x36"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/about-index-ventures.svg",
+  "page": "/about/",
+  "section": "Backed by the best",
+  "type": "inline-svg",
+  "renderedSize": "117x32"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/about-visionfund-com-uk.svg",
+  "page": "/about/",
+  "section": "Backed by the best",
+  "type": "inline-svg",
+  "renderedSize": "150x23"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/about-g1t3uw-cardheader.svg",
+  "page": "/about/",
+  "section": "Our values",
+  "type": "inline-svg",
+  "renderedSize": "74x50"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/about-g1t3uw-cardheader-2.svg",
+  "page": "/about/",
+  "section": "Our values",
+  "type": "inline-svg",
+  "renderedSize": "89x49"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/about-g1t3uw-cardheader-3.svg",
+  "page": "/about/",
+  "section": "Our values",
+  "type": "inline-svg",
+  "renderedSize": "94x56"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/about-ys8.svg",
+  "page": "/about/",
+  "section": "Join our team",
+  "type": "inline-svg",
+  "renderedSize": "58x95"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/ai-in-tines-7qprqg-quote.svg",
+  "page": "/ai-in-tines/",
+  "section": "Make AI an accelerator for work you can rely on",
+  "type": "inline-svg",
+  "renderedSize": "24x24"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/ai-in-tines-7qprqg-attribution.svg",
+  "page": "/ai-in-tines/",
+  "section": "Make AI an accelerator for work you can rely on",
+  "type": "inline-svg",
+  "renderedSize": "100x16"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/ai-in-tines-5uzf.svg",
+  "page": "/ai-in-tines/",
+  "section": "CenteredQuoteSection-module-scss-module__5UZf-W__s",
+  "type": "inline-svg",
+  "renderedSize": "40x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/ai-in-tines-5uzf-2.svg",
+  "page": "/ai-in-tines/",
+  "section": "CenteredQuoteSection-module-scss-module__5UZf-W__s",
+  "type": "inline-svg",
+  "renderedSize": "132x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-canva.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "56x30"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-code42.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "104x25"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-coinbase.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "98x22"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-databricks.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "131x31"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-elastic.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "91x36"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-intelligent-workflows-for-the-enterprise.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "141x31"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-intelligent-workflows-for-the-enterprise-2.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "133x19"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-intelligent-workflows-for-the-enterprise-3.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "129x28"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-intelligent-workflows-for-the-enterprise-4.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "93x32"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-mars.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "70x20"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-mckesson.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "103x14"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-navan.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "81x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-intelligent-workflows-for-the-enterprise-5.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "73x25"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-reddit.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "80x27"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-sophos.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "90x16"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-sprinklr.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "122x27"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-code42-2.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "104x25"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-elastic-2.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "91x36"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-intelligent-workflows-for-the-enterprise-6.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "141x31"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-intelligent-workflows-for-the-enterprise-7.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "133x19"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-intelligent-workflows-for-the-enterprise-8.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "93x32"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-mars-2.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "70x20"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-navan-2.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "81x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-intelligent-workflows-for-the-enterprise-9.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "73x25"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-sprinklr-2.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "122x27"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-intelligent-workflows-for-the-enterprise-10.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "1358x739"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-enterprise-scalability-and-resiliency.svg",
+  "page": "/enterprise/",
+  "section": "Enterprise scalability and resiliency",
+  "type": "inline-svg",
+  "renderedSize": "9x10"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-enterprise-scalability-and-resiliency-2.svg",
+  "page": "/enterprise/",
+  "section": "Enterprise scalability and resiliency",
+  "type": "inline-svg",
+  "renderedSize": "9x10"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-a-platform-for-organization-wide-intelli.svg",
+  "page": "/enterprise/",
+  "section": "A platform for organization-wide intelligent workf",
+  "type": "inline-svg",
+  "renderedSize": "69x108"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-a-platform-for-organization-wide-intelli-2.svg",
+  "page": "/enterprise/",
+  "section": "A platform for organization-wide intelligent workf",
+  "type": "inline-svg",
+  "renderedSize": "11x33"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-a-platform-for-organization-wide-intelli-3.svg",
+  "page": "/enterprise/",
+  "section": "A platform for organization-wide intelligent workf",
+  "type": "inline-svg",
+  "renderedSize": "75x88"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-a-platform-for-organization-wide-intelli-4.svg",
+  "page": "/enterprise/",
+  "section": "A platform for organization-wide intelligent workf",
+  "type": "inline-svg",
+  "renderedSize": "75x88"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-a-platform-for-organization-wide-intelli-5.svg",
+  "page": "/enterprise/",
+  "section": "A platform for organization-wide intelligent workf",
+  "type": "inline-svg",
+  "renderedSize": "75x88"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-a-platform-for-organization-wide-intelli-6.svg",
+  "page": "/enterprise/",
+  "section": "A platform for organization-wide intelligent workf",
+  "type": "inline-svg",
+  "renderedSize": "75x88"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-a-platform-for-organization-wide-intelli-7.svg",
+  "page": "/enterprise/",
+  "section": "A platform for organization-wide intelligent workf",
+  "type": "inline-svg",
+  "renderedSize": "75x88"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-a-platform-for-organization-wide-intelli-8.svg",
+  "page": "/enterprise/",
+  "section": "A platform for organization-wide intelligent workf",
+  "type": "inline-svg",
+  "renderedSize": "75x88"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-partnered-with-the-companies-you-trust-t.svg",
+  "page": "/enterprise/",
+  "section": "Partnered with the companies you trust today",
+  "type": "inline-svg",
+  "renderedSize": "118x74"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-aws-marketplace.svg",
+  "page": "/enterprise/",
+  "section": "Partnered with the companies you trust today",
+  "type": "inline-svg",
+  "renderedSize": "196x46"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-elastic-3.svg",
+  "page": "/enterprise/",
+  "section": "Partnered with the companies you trust today",
+  "type": "inline-svg",
+  "renderedSize": "114x43"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-partnered-with-the-companies-you-trust-t-2.svg",
+  "page": "/enterprise/",
+  "section": "Partnered with the companies you trust today",
+  "type": "inline-svg",
+  "renderedSize": "148x34"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-partnered-with-the-companies-you-trust-t-3.svg",
+  "page": "/enterprise/",
+  "section": "Partnered with the companies you trust today",
+  "type": "inline-svg",
+  "renderedSize": "173x38"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-partnered-with-the-companies-you-trust-t-4.svg",
+  "page": "/enterprise/",
+  "section": "Partnered with the companies you trust today",
+  "type": "inline-svg",
+  "renderedSize": "81x50"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-partnered-with-the-companies-you-trust-t-5.svg",
+  "page": "/enterprise/",
+  "section": "Partnered with the companies you trust today",
+  "type": "inline-svg",
+  "renderedSize": "110x49"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-partnered-with-the-companies-you-trust-t-6.svg",
+  "page": "/enterprise/",
+  "section": "Partnered with the companies you trust today",
+  "type": "inline-svg",
+  "renderedSize": "134x24"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-partnered-with-the-companies-you-trust-t-7.svg",
+  "page": "/enterprise/",
+  "section": "Partnered with the companies you trust today",
+  "type": "inline-svg",
+  "renderedSize": "108x28"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-with-you-every-step-of-the-way.svg",
+  "page": "/enterprise/",
+  "section": "With you every step of the way",
+  "type": "inline-svg",
+  "renderedSize": "42x42"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-with-you-every-step-of-the-way-2.svg",
+  "page": "/enterprise/",
+  "section": "With you every step of the way",
+  "type": "inline-svg",
+  "renderedSize": "42x42"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-with-you-every-step-of-the-way-3.svg",
+  "page": "/enterprise/",
+  "section": "With you every step of the way",
+  "type": "inline-svg",
+  "renderedSize": "42x42"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-with-you-every-step-of-the-way-4.svg",
+  "page": "/enterprise/",
+  "section": "With you every step of the way",
+  "type": "inline-svg",
+  "renderedSize": "42x42"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-webinars-remediating-mars-cloud-security.svg",
+  "page": "/enterprise/",
+  "section": "pdnec9y",
+  "type": "inline-svg",
+  "renderedSize": "85x78"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-built-by-you-powered-by-tines.svg",
+  "page": "/enterprise/",
+  "section": "Built by you,powered by Tines",
+  "type": "inline-svg",
+  "renderedSize": "42x42"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-12.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-13.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-14.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-15.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-16.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-17.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-18.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-19.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-20.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-21.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-22.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/3b-examples-qnftca-row-23.svg",
+  "page": "/3b/examples/",
+  "section": "Examples Gallery",
+  "type": "inline-svg",
+  "renderedSize": "1344x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-canva-2.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "45x24"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-code42-3.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "83x20"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-coinbase-2.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "78x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-databricks-2.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "105x25"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-elastic-4.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "73x29"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-intelligent-workflows-for-the-enterprise-11.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "113x25"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-intelligent-workflows-for-the-enterprise-12.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "106x15"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-intelligent-workflows-for-the-enterprise-13.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "103x22"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-intelligent-workflows-for-the-enterprise-14.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "74x26"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-mars-3.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "56x16"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-mckesson-2.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "82x11"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-navan-3.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "65x14"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-intelligent-workflows-for-the-enterprise-15.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "58x20"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-reddit-2.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "64x22"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-sophos-2.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "72x13"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-sprinklr-3.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "inline-svg",
+  "renderedSize": "98x22"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-break-away-from-legacy-soar.svg",
+  "page": "/soar/",
+  "section": "Break away from legacy SOAR",
+  "type": "inline-svg",
+  "renderedSize": "419x36"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "87x31"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-2.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "70x33"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-3.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "70x25"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-4.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "105x25"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-5.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "95x22"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-6.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "144x23"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-7.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "114x23"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-8.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "89x35"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-9.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "114x27"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-10.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "120x24"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-11.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "78x23"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-12.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "126x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-13.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "127x21"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-14.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "135x31"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-15.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "80x24"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-16.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "127x30"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-17.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "109x18"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-trusted-by-industry-leaders-18.svg",
+  "page": "/soar/",
+  "section": "Trusted by industry leaders",
+  "type": "inline-svg",
+  "renderedSize": "79x31"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-for-the-whole-team.svg",
+  "page": "/soar/",
+  "section": "For the  whole team",
+  "type": "inline-svg",
+  "renderedSize": "15x15"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-for-the-whole-team-2.svg",
+  "page": "/soar/",
+  "section": "For the  whole team",
+  "type": "inline-svg",
+  "renderedSize": "40x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-sounds-hard-to-believe.svg",
+  "page": "/soar/",
+  "section": "Sounds… hard to believe?",
+  "type": "inline-svg",
+  "renderedSize": "66x85"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-sounds-hard-to-believe-2.svg",
+  "page": "/soar/",
+  "section": "Sounds… hard to believe?",
+  "type": "inline-svg",
+  "renderedSize": "66x85"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-g2-com-products-tines-reviews.svg",
+  "page": "/soar/",
+  "section": "Sounds… hard to believe?",
+  "type": "inline-svg",
+  "renderedSize": "24x24"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-g2-com-products-tines-reviews-2.svg",
+  "page": "/soar/",
+  "section": "Sounds… hard to believe?",
+  "type": "inline-svg",
+  "renderedSize": "8x8"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-g2-com-products-tines-reviews-3.svg",
+  "page": "/soar/",
+  "section": "Sounds… hard to believe?",
+  "type": "inline-svg",
+  "renderedSize": "72x12"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-gartner-com-reviews-market-security-orch.svg",
+  "page": "/soar/",
+  "section": "Sounds… hard to believe?",
+  "type": "inline-svg",
+  "renderedSize": "89x20"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-case-studies-snowflake.svg",
+  "page": "/soar/",
+  "section": "Sounds… hard to believe?",
+  "type": "inline-svg",
+  "renderedSize": "19x19"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-knowbe4.svg",
+  "page": "/soar/",
+  "section": "Sounds… hard to believe?",
+  "type": "inline-svg",
+  "renderedSize": "101x28"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-case-studies.svg",
+  "page": "/soar/",
+  "section": "Sounds… hard to believe?",
+  "type": "inline-svg",
+  "renderedSize": "14x12"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-talk-to-a-product-expert.svg",
+  "page": "/soar/",
+  "section": "Talk to a product expert",
+  "type": "inline-svg",
+  "renderedSize": "1126x1092"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-joinourteam.svg",
+  "page": "/careers/",
+  "section": "Joinourteam",
+  "type": "inline-svg",
+  "renderedSize": "84x83"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-joinourteam-2.svg",
+  "page": "/careers/",
+  "section": "Joinourteam",
+  "type": "inline-svg",
+  "renderedSize": "84x80"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-joinourteam-3.svg",
+  "page": "/careers/",
+  "section": "Joinourteam",
+  "type": "inline-svg",
+  "renderedSize": "92x82"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-joinourteam-4.svg",
+  "page": "/careers/",
+  "section": "Joinourteam",
+  "type": "inline-svg",
+  "renderedSize": "84x83"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-joinourteam-5.svg",
+  "page": "/careers/",
+  "section": "Joinourteam",
+  "type": "inline-svg",
+  "renderedSize": "84x83"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-joinourteam-6.svg",
+  "page": "/careers/",
+  "section": "Joinourteam",
+  "type": "inline-svg",
+  "renderedSize": "84x83"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-joinourteam-7.svg",
+  "page": "/careers/",
+  "section": "Joinourteam",
+  "type": "inline-svg",
+  "renderedSize": "90x82"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-joinourteam-8.svg",
+  "page": "/careers/",
+  "section": "Joinourteam",
+  "type": "inline-svg",
+  "renderedSize": "84x82"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-joinourteam-9.svg",
+  "page": "/careers/",
+  "section": "Joinourteam",
+  "type": "inline-svg",
+  "renderedSize": "84x82"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-joinourteam-10.svg",
+  "page": "/careers/",
+  "section": "Joinourteam",
+  "type": "inline-svg",
+  "renderedSize": "84x82"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-joinourteam-11.svg",
+  "page": "/careers/",
+  "section": "Joinourteam",
+  "type": "inline-svg",
+  "renderedSize": "84x82"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-joinourteam-12.svg",
+  "page": "/careers/",
+  "section": "Joinourteam",
+  "type": "inline-svg",
+  "renderedSize": "84x80"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-pdnec9y.svg",
+  "page": "/careers/",
+  "section": "pdnec9y",
+  "type": "inline-svg",
+  "renderedSize": "95x95"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-pdnec9y-2.svg",
+  "page": "/careers/",
+  "section": "pdnec9y",
+  "type": "inline-svg",
+  "renderedSize": "95x95"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-pdnec9y-3.svg",
+  "page": "/careers/",
+  "section": "pdnec9y",
+  "type": "inline-svg",
+  "renderedSize": "95x95"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-open-positions.svg",
+  "page": "/careers/",
+  "section": "Open positions",
+  "type": "inline-svg",
+  "renderedSize": "12x12"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/contact-dlpgqa-pensticker.svg",
+  "page": "/contact/",
+  "section": "Get support",
+  "type": "inline-svg",
+  "renderedSize": "36x36"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/contact-0lthvg-bellsticker.svg",
+  "page": "/contact/",
+  "section": "Get support",
+  "type": "inline-svg",
+  "renderedSize": "38x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/contact-raehdq-handssticker.svg",
+  "page": "/contact/",
+  "section": "Get support",
+  "type": "inline-svg",
+  "renderedSize": "40x39"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/contact-scrollsticker.svg",
+  "page": "/contact/",
+  "section": "Get support",
+  "type": "inline-svg",
+  "renderedSize": "39x37"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/contact-etvr3a-flowersticker.svg",
+  "page": "/contact/",
+  "section": "Get support",
+  "type": "inline-svg",
+  "renderedSize": "46x40"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/contact-nte4ta-lightbulbsticker.svg",
+  "page": "/contact/",
+  "section": "Get support",
+  "type": "inline-svg",
+  "renderedSize": "28x44"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/contact-chx0na-officeillustration.svg",
+  "page": "/contact/",
+  "section": "Our offices",
+  "type": "inline-svg",
+  "renderedSize": "80x112"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/contact-chx0na-officeillustration-2.svg",
+  "page": "/contact/",
+  "section": "Our offices",
+  "type": "inline-svg",
+  "renderedSize": "81x112"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/contact-chx0na-supportillustration.svg",
+  "page": "/contact/",
+  "section": "Contact support",
+  "type": "inline-svg",
+  "renderedSize": "243x240"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-joinourteam-13.svg",
+  "page": "/careers/",
+  "section": "Joinourteam",
+  "type": "inline-svg",
+  "renderedSize": "59x58"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-joinourteam-14.svg",
+  "page": "/careers/",
+  "section": "Joinourteam",
+  "type": "inline-svg",
+  "renderedSize": "59x58"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-joinourteam-15.svg",
+  "page": "/careers/",
+  "section": "Joinourteam",
+  "type": "inline-svg",
+  "renderedSize": "63x57"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-joinourteam-16.svg",
+  "page": "/careers/",
+  "section": "Joinourteam",
+  "type": "inline-svg",
+  "renderedSize": "59x57"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/soar-talk-to-a-product-expert-2.svg",
+  "page": "/soar/",
+  "section": "Talk to a product expert",
+  "type": "inline-svg",
+  "renderedSize": "352x1176"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/partners-1qtwww-illustration.svg",
+  "page": "/partners/",
+  "section": "Work smarter with Tines’ trusted partners",
+  "type": "inline-svg",
+  "renderedSize": "636x306"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/partners-ycazqw-searchbar.svg",
+  "page": "/partners/",
+  "section": "Channel partners",
+  "type": "inline-svg",
+  "renderedSize": "16x16"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/partners-uqr6qw-quotebody.svg",
+  "page": "/partners/",
+  "section": "Make your tools and systems work together like nev",
+  "type": "inline-svg",
+  "renderedSize": "27x24"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-dataimg-intelligent-workflows-for-the-enterprise.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-dataimg-intelligent-workflows-for-the-enterprise-2.svg",
+  "page": "/enterprise/",
+  "section": "Intelligent workflows for the enterprise",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-dataimg-see-more-practical-examples.svg",
+  "page": "/enterprise/",
+  "section": "See more practical examples",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-dataimg-with-you-every-step-of-the-way.svg",
+  "page": "/enterprise/",
+  "section": "With you every step of the way",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-dataimg-pdnec9y.svg",
+  "page": "/enterprise/",
+  "section": "pdnec9y",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-dataimg-pdnec9y-2.svg",
+  "page": "/enterprise/",
+  "section": "pdnec9y",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-dataimg-pdnec9y-3.svg",
+  "page": "/enterprise/",
+  "section": "pdnec9y",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-dataimg-pdnec9y-4.svg",
+  "page": "/enterprise/",
+  "section": "pdnec9y",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-dataimg-built-by-you-powered-by-tines.svg",
+  "page": "/enterprise/",
+  "section": "Built by you,powered by Tines",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-dataimg-built-by-you-powered-by-tines-2.svg",
+  "page": "/enterprise/",
+  "section": "Built by you,powered by Tines",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-dataimg-built-by-you-powered-by-tines-3.svg",
+  "page": "/enterprise/",
+  "section": "Built by you,powered by Tines",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-dataimg-built-by-you-powered-by-tines-4.svg",
+  "page": "/enterprise/",
+  "section": "Built by you,powered by Tines",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-dataimg-where-we-work.svg",
+  "page": "/careers/",
+  "section": "Where we work",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-dataimg-where-we-work-2.svg",
+  "page": "/careers/",
+  "section": "Where we work",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-dataimg-simplicity.svg",
+  "page": "/careers/",
+  "section": "Simplicity",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-dataimg-simplicity-2.svg",
+  "page": "/careers/",
+  "section": "Simplicity",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-dataimg-simplicity-3.svg",
+  "page": "/careers/",
+  "section": "Simplicity",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/careers-dataimg-hear-from-our-team.svg",
+  "page": "/careers/",
+  "section": "Hear from our team",
+  "type": "svg-data-uri"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/customers-cardfooter-logo-1.svg",
+  "page": "/customers/",
+  "section": "The Legos of security automation",
+  "type": "inline-svg",
+  "renderedSize": "11x10"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/about-cardfooter-logo-1.svg",
+  "page": "/about/",
+  "section": "Born in security, used by everyone.",
+  "type": "inline-svg",
+  "renderedSize": "48x80"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-cardfooter-elastic-1.svg",
+  "page": "/enterprise/",
+  "section": "Enterprise scalability and resiliency",
+  "type": "inline-svg",
+  "renderedSize": "91x36"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-cardfooter-logo-2.svg",
+  "page": "/enterprise/",
+  "section": "Enterprise scalability and resiliency",
+  "type": "inline-svg",
+  "renderedSize": "93x32"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-cardfooter-mars-3.svg",
+  "page": "/enterprise/",
+  "section": "Enterprise scalability and resiliency",
+  "type": "inline-svg",
+  "renderedSize": "70x20"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-cardfooter-snowflake-4.svg",
+  "page": "/enterprise/",
+  "section": "Enterprise scalability and resiliency",
+  "type": "inline-svg",
+  "renderedSize": "131x30"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/enterprise-cardfooter-mckesson-5.svg",
+  "page": "/enterprise/",
+  "section": "Enterprise scalability and resiliency",
+  "type": "inline-svg",
+  "renderedSize": "103x14"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/partners-cardfooter-logo-1.svg",
+  "page": "/partners/",
+  "section": "Make your tools and systems work together like nev",
+  "type": "inline-svg",
+  "renderedSize": "110x47"
+ },
+ {
+  "url": "inline",
+  "localPath": "reference/svg/pages/partners-cardfooter-logo-2.svg",
+  "page": "/partners/",
+  "section": "Make your tools and systems work together like nev",
+  "type": "inline-svg",
+  "renderedSize": "88x32"
+ }
+]

@@ -1,0 +1,1250 @@
+[
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/illustrations/aiSocExtendedIllo.svg",
+  "localPath": "public/assets/pages/solutions-security-ai-soc/aiSocExtendedIllo.svg",
+  "page": "solutions-security-ai-soc",
+  "section": "SolutionChildPageHero",
+  "type": "svg",
+  "natural": "594x440"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/illustrations/RainbowBridgeToSkyIcon.svg",
+  "localPath": "public/assets/pages/solutions-shared/RainbowBridgeToSkyIcon.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar,solutions-it,solutions-security",
+  "section": "SolutionPageSecondaryDescription",
+  "type": "svg",
+  "natural": "124x81"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1750935920-spot-icon-agents.svg",
+  "localPath": "public/assets/pages/solutions-shared/spot-icon-agents.svg",
+  "page": "solutions-security-ai-soc,solutions-security-soar,solutions-security",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "70x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1749810024-funnel.svg",
+  "localPath": "public/assets/pages/solutions-security-ai-soc/funnel.svg",
+  "page": "solutions-security-ai-soc",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "70x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1745570417-accelerate.svg",
+  "localPath": "public/assets/pages/solutions-security-ai-soc/accelerate.svg",
+  "page": "solutions-security-ai-soc",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "70x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1760696111-ai-soc-tines-icon.svg",
+  "localPath": "public/assets/pages/solutions-security-ai-soc/ai-soc-tines-icon.svg",
+  "page": "solutions-security-ai-soc",
+  "section": "ContentCardBase",
+  "type": "svg",
+  "natural": "66x83"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1760696227-ai-in-tines-icon.svg",
+  "localPath": "public/assets/pages/solutions-security-ai-soc/ai-in-tines-icon.svg",
+  "page": "solutions-security-ai-soc",
+  "section": "ContentCardBase",
+  "type": "svg",
+  "natural": "71x76"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731080761-spot-icon-core-capabilities.svg",
+  "localPath": "public/assets/pages/solutions-security-ai-soc/spot-icon-core-capabilities.svg",
+  "page": "solutions-security-ai-soc",
+  "section": "ContentCardBase",
+  "type": "svg",
+  "natural": "70x90"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/illustrations/shiftLeftExtendedIllo.svg",
+  "localPath": "public/assets/pages/solutions-it-it-service-delivery-and-support/shiftLeftExtendedIllo.svg",
+  "page": "solutions-it-it-service-delivery-and-support",
+  "section": "SolutionChildPageHero",
+  "type": "svg",
+  "natural": "513x312"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1752075667-credentials-key.svg",
+  "localPath": "public/assets/pages/solutions-it-it-service-delivery-and-support/credentials-key.svg",
+  "page": "solutions-it-it-service-delivery-and-support",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "92x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731493775-spot-icon-build.svg",
+  "localPath": "public/assets/pages/solutions-shared/spot-icon-build.svg",
+  "page": "solutions-it-it-service-delivery-and-support,solutions-it,solutions-security",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "76x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1749811680-event-leak.svg",
+  "localPath": "public/assets/pages/solutions-it-it-service-delivery-and-support/event-leak.svg",
+  "page": "solutions-it-it-service-delivery-and-support",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "95x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1749811778-patch-configuration.svg",
+  "localPath": "public/assets/pages/solutions-it-it-service-delivery-and-support/patch-configuration.svg",
+  "page": "solutions-it-it-service-delivery-and-support",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "70x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1749811538-pallet-jack.svg",
+  "localPath": "public/assets/pages/solutions-it-it-service-delivery-and-support/pallet-jack.svg",
+  "page": "solutions-it-it-service-delivery-and-support",
+  "section": "ContentCardBase",
+  "type": "svg",
+  "natural": "90x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1732897168-icon-automation-robot.svg",
+  "localPath": "public/assets/pages/solutions-shared/icon-automation-robot.svg",
+  "page": "solutions-it-it-service-delivery-and-support,public-sector",
+  "section": "ContentCardBase",
+  "type": "svg",
+  "natural": "95x84"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1743010964-intercom-logo-white.svg",
+  "localPath": "public/assets/pages/solutions-it-it-service-delivery-and-support/intercom-logo-white.svg",
+  "page": "solutions-it-it-service-delivery-and-support",
+  "section": "ContentCardBase",
+  "type": "svg",
+  "natural": "175x41"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1749760060-spot-icon-actions-as-building-blocks.svg",
+  "localPath": "public/assets/pages/solutions-it-it-service-delivery-and-support/spot-icon-actions-as-building-blocks.svg",
+  "page": "solutions-it-it-service-delivery-and-support",
+  "section": "ContentCardBase",
+  "type": "svg",
+  "natural": "98x90"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/illustrations/soarExtendedIllo.svg",
+  "localPath": "public/assets/pages/solutions-security-soar/soarExtendedIllo.svg",
+  "page": "solutions-security-soar",
+  "section": "SolutionChildPageHero",
+  "type": "svg",
+  "natural": "594x440"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1752143904-pendulum.svg",
+  "localPath": "public/assets/pages/solutions-shared/pendulum.svg",
+  "page": "solutions-security-soar,financial-services",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "99x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1779715147-spot-icon-alert-2.svg",
+  "localPath": "public/assets/pages/solutions-shared/spot-icon-alert-2.svg",
+  "page": "solutions-security-soar,solutions-security",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "56x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1749752043-spot-icon-cases.svg",
+  "localPath": "public/assets/pages/solutions-shared/spot-icon-cases.svg",
+  "page": "solutions-security-soar,public-sector,solutions-security",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "74x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1730980836-spot-icon-soar.svg",
+  "localPath": "public/assets/pages/solutions-shared/spot-icon-soar.svg",
+  "page": "solutions-security-soar,financial-services",
+  "section": "ContentCardBase",
+  "type": "svg",
+  "natural": "90x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1689279266-mars-com-logo-white.svg",
+  "localPath": "public/assets/pages/solutions-security-soar/mars-com-logo-white.svg",
+  "page": "solutions-security-soar",
+  "section": "ContentCardBase",
+  "type": "svg",
+  "natural": "1000x287"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/decorations/PageIconClouds.svg",
+  "localPath": "public/assets/pages/solutions-it/PageIconClouds.svg",
+  "page": "solutions-it",
+  "section": "PageIconDispatcher",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/decorations/CloudsLeft.svg",
+  "localPath": "public/assets/pages/solutions-it/CloudsLeft.svg",
+  "page": "solutions-it",
+  "section": "HeroHeadlineDecoration",
+  "type": "svg",
+  "natural": "360x454"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/decorations/CloudsRight.svg",
+  "localPath": "public/assets/pages/solutions-it/CloudsRight.svg",
+  "page": "solutions-it",
+  "section": "HeroHeadlineDecoration",
+  "type": "svg",
+  "natural": "360x454"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1782809644-spot-icon-connected-wires.svg",
+  "localPath": "public/assets/pages/solutions-shared/spot-icon-connected-wires.svg",
+  "page": "solutions-it,mssps",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "78x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1746808156-spot-icon-core-capabilities.svg",
+  "localPath": "public/assets/pages/solutions-shared/spot-icon-core-capabilities.svg",
+  "page": "solutions-it,mssps",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "70x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731496175-spot-icon-monitor.svg",
+  "localPath": "public/assets/pages/solutions-shared/spot-icon-monitor.svg",
+  "page": "solutions-it,mssps,solutions-security",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "55x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1749811431-endpoint-gate.svg",
+  "localPath": "public/assets/pages/solutions-shared/endpoint-gate.svg",
+  "page": "solutions-it,solutions-security",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "100x90"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/illustrations/itAsABusinessEnablerIllo.svg",
+  "localPath": "public/assets/pages/solutions-it/itAsABusinessEnablerIllo.svg",
+  "page": "solutions-it",
+  "section": "SolutionChildEntryLinkCard",
+  "type": "svg",
+  "natural": "164x191"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/illustrations/itpmTilesIllo.svg",
+  "localPath": "public/assets/pages/solutions-it/itpmTilesIllo.svg",
+  "page": "solutions-it",
+  "section": "SolutionChildEntryLinkCard",
+  "type": "svg",
+  "natural": "158x157"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/illustrations/networkingMediumIllo.svg",
+  "localPath": "public/assets/pages/solutions-it/networkingMediumIllo.svg",
+  "page": "solutions-it",
+  "section": "SolutionChildEntryLinkCard",
+  "type": "svg",
+  "natural": "180x180"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/illustrations/itOpsIllo.svg",
+  "localPath": "public/assets/pages/solutions-it/itOpsIllo.svg",
+  "page": "solutions-it",
+  "section": "SolutionChildEntryLinkCard",
+  "type": "svg",
+  "natural": "135x182"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/illustrations/shiftLeftIllo.svg",
+  "localPath": "public/assets/pages/solutions-shared/shiftLeftIllo.svg",
+  "page": "solutions-it,financial-services",
+  "section": "SolutionChildEntryLinkCard",
+  "type": "svg",
+  "natural": "162x189"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/public-sector/tines-public-sector-layered-product-visual-phone.png",
+  "localPath": "public/assets/pages/public-sector/tines-public-sector-layered-product-visual-phone.png",
+  "page": "public-sector",
+  "section": "PublicSectorLayeredProductVisual",
+  "type": "image"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/public-sector/tines-public-sector-layered-product-visual-tablet.png",
+  "localPath": "public/assets/pages/public-sector/tines-public-sector-layered-product-visual-tablet.png",
+  "page": "public-sector",
+  "section": "PublicSectorLayeredProductVisual",
+  "type": "image"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/public-sector/tines-public-sector-layered-product-visual-desktop.png",
+  "localPath": "public/assets/pages/public-sector/tines-public-sector-layered-product-visual-desktop.png",
+  "page": "public-sector",
+  "section": "PublicSectorLayeredProductVisual",
+  "type": "image",
+  "natural": "1920x913"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1730990024-tines-integrations-logo-grid.svg",
+  "localPath": "public/assets/pages/solutions-shared/tines-integrations-logo-grid.svg",
+  "page": "public-sector,mssps",
+  "section": "FeatureHighlightCard",
+  "type": "svg",
+  "natural": "386x294"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1730990110-tines-deploy-anywhere.svg",
+  "localPath": "public/assets/pages/solutions-shared/tines-deploy-anywhere.svg",
+  "page": "public-sector,mssps",
+  "section": "FeatureHighlightCard",
+  "type": "svg",
+  "natural": "386x294"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1730990075-tines-enterprise-grade-controls-and-monitoring.svg",
+  "localPath": "public/assets/pages/public-sector/tines-enterprise-grade-controls-and-monitoring.svg",
+  "page": "public-sector",
+  "section": "FeatureHighlightCard",
+  "type": "svg",
+  "natural": "386x294"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731492828-tines-illo-communication-framed.svg",
+  "localPath": "public/assets/pages/solutions-shared/tines-illo-communication-framed.svg",
+  "page": "public-sector,mssps",
+  "section": "SolutionForUseCasesSection",
+  "type": "svg",
+  "natural": "240x240"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731492890-tines-illo-endpoint-detection-and-response-framed.svg",
+  "localPath": "public/assets/pages/public-sector/tines-illo-endpoint-detection-and-response-framed.svg",
+  "page": "public-sector",
+  "section": "SolutionForUseCasesSection",
+  "type": "svg",
+  "natural": "240x240"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1785501331-tines-networking-medium-illo-squared.svg",
+  "localPath": "public/assets/pages/public-sector/tines-networking-medium-illo-squared.svg",
+  "page": "public-sector",
+  "section": "SolutionForUseCasesSection",
+  "type": "svg",
+  "natural": "240x240"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731492985-tines-illo-monitor-framed.svg",
+  "localPath": "public/assets/pages/public-sector/tines-illo-monitor-framed.svg",
+  "page": "public-sector",
+  "section": "SolutionForUseCasesSection",
+  "type": "svg",
+  "natural": "240x240"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731492839-tines-illo-compliance-framed.svg",
+  "localPath": "public/assets/pages/solutions-shared/tines-illo-compliance-framed.svg",
+  "page": "public-sector,mssps,financial-services",
+  "section": "SolutionForUseCasesSection",
+  "type": "svg",
+  "natural": "240x240"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1746808141-spot-icon-incidents-and-alerts.svg",
+  "localPath": "public/assets/pages/solutions-shared/spot-icon-incidents-and-alerts.svg",
+  "page": "public-sector,mssps",
+  "section": "SolutionForExamplesSection",
+  "type": "svg",
+  "natural": "81x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1746808173-spot-icon-threat-intelligence.svg",
+  "localPath": "public/assets/pages/solutions-shared/spot-icon-threat-intelligence.svg",
+  "page": "public-sector,mssps",
+  "section": "SolutionForExamplesSection",
+  "type": "svg",
+  "natural": "76x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1732617491-spot-icon-phishing.svg",
+  "localPath": "public/assets/pages/public-sector/spot-icon-phishing.svg",
+  "page": "public-sector",
+  "section": "SolutionForExamplesSection",
+  "type": "svg",
+  "natural": "63x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1732617453-spot-icon-compliance.svg",
+  "localPath": "public/assets/pages/public-sector/spot-icon-compliance.svg",
+  "page": "public-sector",
+  "section": "SolutionForExamplesSection",
+  "type": "svg",
+  "natural": "70x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1732617475-spot-icon-vulnerability-management.svg",
+  "localPath": "public/assets/pages/public-sector/spot-icon-vulnerability-management.svg",
+  "page": "public-sector",
+  "section": "SolutionForExamplesSection",
+  "type": "svg",
+  "natural": "76x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1747082349-cover-1.png",
+  "localPath": "public/assets/pages/public-sector/cover-1.png",
+  "page": "public-sector",
+  "section": "ContentCardBase",
+  "type": "image",
+  "natural": "2550x3300"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1771928814-spot-icon-governance-scroll.svg",
+  "localPath": "public/assets/pages/public-sector/spot-icon-governance-scroll.svg",
+  "page": "public-sector",
+  "section": "ContentCardBase",
+  "type": "svg",
+  "natural": "95x90"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/explosion-cta/explosion-cta-backdrop-layer-light-speed-1.svg",
+  "localPath": "public/assets/pages/solutions-shared/explosion-cta-backdrop-layer-light-speed-1.svg",
+  "page": "public-sector,mssps,financial-services",
+  "section": "ExplosionCTASection",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/explosion-cta/explosion-cta-backdrop-layer-light-speed-2.svg",
+  "localPath": "public/assets/pages/solutions-shared/explosion-cta-backdrop-layer-light-speed-2.svg",
+  "page": "public-sector,mssps,financial-services",
+  "section": "ExplosionCTASection",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/explosion-cta/explosion-cta-backdrop-layer-light-speed-3.svg",
+  "localPath": "public/assets/pages/solutions-shared/explosion-cta-backdrop-layer-light-speed-3.svg",
+  "page": "public-sector,mssps,financial-services",
+  "section": "ExplosionCTASection",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/explosion-cta/explosion-cta-backdrop-layer-light-speed-4.svg",
+  "localPath": "public/assets/pages/solutions-shared/explosion-cta-backdrop-layer-light-speed-4.svg",
+  "page": "public-sector,mssps,financial-services",
+  "section": "ExplosionCTASection",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/explosion-cta/top-left-block-light.svg",
+  "localPath": "public/assets/pages/solutions-shared/top-left-block-light.svg",
+  "page": "public-sector,mssps,financial-services",
+  "section": "ExplosionCTASection",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/explosion-cta/coffee-mug-light.svg",
+  "localPath": "public/assets/pages/solutions-shared/coffee-mug-light.svg",
+  "page": "public-sector,mssps,financial-services",
+  "section": "ExplosionCTASection",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/explosion-cta/bottom-right-pentagon-light.svg",
+  "localPath": "public/assets/pages/solutions-shared/bottom-right-pentagon-light.svg",
+  "page": "public-sector,mssps,financial-services",
+  "section": "ExplosionCTASection",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1746805359-spot-icon-application.svg",
+  "localPath": "public/assets/pages/mssps/spot-icon-application.svg",
+  "page": "mssps",
+  "section": "SolutionForValuePropositionSection",
+  "type": "svg",
+  "natural": "88x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1783003513-feature-highlight-workflows.svg",
+  "localPath": "public/assets/pages/mssps/feature-highlight-workflows.svg",
+  "page": "mssps",
+  "section": "FeatureHighlightCard",
+  "type": "svg",
+  "natural": "386x294"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1782984943-feature-highlight-client-protected-data.svg",
+  "localPath": "public/assets/pages/mssps/feature-highlight-client-protected-data.svg",
+  "page": "mssps",
+  "section": "FeatureHighlightCard",
+  "type": "svg",
+  "natural": "386x294"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1730990056-tines-private-and-secure-ai.svg",
+  "localPath": "public/assets/pages/mssps/tines-private-and-secure-ai.svg",
+  "page": "mssps",
+  "section": "FeatureHighlightCard",
+  "type": "svg",
+  "natural": "386x294"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731492928-tines-illo-incidents-and-alerts-framed.svg",
+  "localPath": "public/assets/pages/solutions-shared/tines-illo-incidents-and-alerts-framed.svg",
+  "page": "mssps,financial-services",
+  "section": "SolutionForUseCasesSection",
+  "type": "svg",
+  "natural": "240x240"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731492729-tines-illo-application-security-framed.svg",
+  "localPath": "public/assets/pages/mssps/tines-illo-application-security-framed.svg",
+  "page": "mssps",
+  "section": "SolutionForUseCasesSection",
+  "type": "svg",
+  "natural": "240x240"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731492852-tines-illo-core-capabilities-framed.svg",
+  "localPath": "public/assets/pages/solutions-shared/tines-illo-core-capabilities-framed.svg",
+  "page": "mssps,financial-services",
+  "section": "SolutionForUseCasesSection",
+  "type": "svg",
+  "natural": "240x240"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1746805973-spot-icon-brochure-accordion.svg",
+  "localPath": "public/assets/pages/mssps/spot-icon-brochure-accordion.svg",
+  "page": "mssps",
+  "section": "SolutionForExamplesSection",
+  "type": "svg",
+  "natural": "59x90"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731493361-spot-icon-ticket-management.svg",
+  "localPath": "public/assets/pages/mssps/spot-icon-ticket-management.svg",
+  "page": "mssps",
+  "section": "SolutionForExamplesSection",
+  "type": "svg",
+  "natural": "70x90"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/g2-badges/general/Leader.svg",
+  "localPath": "public/assets/pages/mssps/Leader.svg",
+  "page": "mssps",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "130x150"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/g2-badges/general/MostImplementable.svg",
+  "localPath": "public/assets/pages/mssps/MostImplementable.svg",
+  "page": "mssps",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "130x150"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/g2-badges/general/BestUsability.svg",
+  "localPath": "public/assets/pages/mssps/BestUsability.svg",
+  "page": "mssps",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "130x150"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/g2-badges/general/BestRelationship.svg",
+  "localPath": "public/assets/pages/mssps/BestRelationship.svg",
+  "page": "mssps",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "130x150"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/g2-badges/enterprise/EasiestToDoBusinessWith_Enterprise.svg",
+  "localPath": "public/assets/pages/mssps/EasiestToDoBusinessWith_Enterprise.svg",
+  "page": "mssps",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "130x150"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/g2-badges/enterprise/FastestImplementation_Enterprise.svg",
+  "localPath": "public/assets/pages/mssps/FastestImplementation_Enterprise.svg",
+  "page": "mssps",
+  "section": "PageSection",
+  "type": "svg",
+  "natural": "130x150"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731438139-icon-partner-directory.svg",
+  "localPath": "public/assets/pages/mssps/icon-partner-directory.svg",
+  "page": "mssps",
+  "section": "ContentCardBase",
+  "type": "svg",
+  "natural": "98x98"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1717521115-tines-library-spot-icon.svg",
+  "localPath": "public/assets/pages/mssps/tines-library-spot-icon.svg",
+  "page": "mssps",
+  "section": "ContentCardBase",
+  "type": "svg",
+  "natural": "71x83"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/decorations/PageIconFinancial.svg",
+  "localPath": "public/assets/pages/financial-services/PageIconFinancial.svg",
+  "page": "financial-services",
+  "section": "PageIconDispatcher",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/decorations/FinancialLeft.svg",
+  "localPath": "public/assets/pages/financial-services/FinancialLeft.svg",
+  "page": "financial-services",
+  "section": "SolutionHero",
+  "type": "svg",
+  "natural": "360x454"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/decorations/FinancialRight.svg",
+  "localPath": "public/assets/pages/financial-services/FinancialRight.svg",
+  "page": "financial-services",
+  "section": "SolutionHero",
+  "type": "svg",
+  "natural": "360x454"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1731492760-tines-illo-build-framed.svg",
+  "localPath": "public/assets/pages/financial-services/tines-illo-build-framed.svg",
+  "page": "financial-services",
+  "section": "SolutionForUseCasesSection",
+  "type": "svg",
+  "natural": "240x240"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/illustrations/phishingMediumIllo.svg",
+  "localPath": "public/assets/pages/solutions-shared/phishingMediumIllo.svg",
+  "page": "financial-services,solutions-security",
+  "section": "SolutionChildEntryLinkCard",
+  "type": "svg",
+  "natural": "182x173"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/illustrations/threatIntelMediumIllo.svg",
+  "localPath": "public/assets/pages/solutions-shared/threatIntelMediumIllo.svg",
+  "page": "financial-services,solutions-security",
+  "section": "SolutionChildEntryLinkCard",
+  "type": "svg",
+  "natural": "161x161"
+ },
+ {
+  "url": "https://www.datocms-assets.com/55802/1784716461-spot-icon-wildcode-flower.svg",
+  "localPath": "public/assets/pages/financial-services/spot-icon-wildcode-flower.svg",
+  "page": "financial-services",
+  "section": "ContentCardBase",
+  "type": "svg",
+  "natural": "79x90"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/decorations/PageIconShields.svg",
+  "localPath": "public/assets/pages/solutions-security/PageIconShields.svg",
+  "page": "solutions-security",
+  "section": "PageIconDispatcher",
+  "type": "svg"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/decorations/ShieldsLeft.svg",
+  "localPath": "public/assets/pages/solutions-security/ShieldsLeft.svg",
+  "page": "solutions-security",
+  "section": "HeroHeadlineDecoration",
+  "type": "svg",
+  "natural": "393x239"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/decorations/ShieldsRight.svg",
+  "localPath": "public/assets/pages/solutions-security/ShieldsRight.svg",
+  "page": "solutions-security",
+  "section": "HeroHeadlineDecoration",
+  "type": "svg",
+  "natural": "406x179"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/illustrations/aiSocIllo.svg",
+  "localPath": "public/assets/pages/solutions-security/aiSocIllo.svg",
+  "page": "solutions-security",
+  "section": "SolutionChildEntryLinkCard",
+  "type": "svg",
+  "natural": "496x424"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/illustrations/soarMediumIllo.svg",
+  "localPath": "public/assets/pages/solutions-security/soarMediumIllo.svg",
+  "page": "solutions-security",
+  "section": "SolutionChildEntryLinkCard",
+  "type": "svg",
+  "natural": "171x194"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/illustrations/vulnMngtMediumIllo.svg",
+  "localPath": "public/assets/pages/solutions-security/vulnMngtMediumIllo.svg",
+  "page": "solutions-security",
+  "section": "SolutionChildEntryLinkCard",
+  "type": "svg",
+  "natural": "181x180"
+ },
+ {
+  "url": "https://www.tines.com/v5-assets/images/solutions/illustrations/networkSecurityMediumIllo.svg",
+  "localPath": "public/assets/pages/solutions-security/networkSecurityMediumIllo.svg",
+  "page": "solutions-security",
+  "section": "SolutionChildEntryLinkCard",
+  "type": "svg",
+  "natural": "181x171"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-customer-logo-beyon-cyber.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar,mssps",
+  "section": "SolutionPageCustomerLogosSection (SolutionPageCustomerLogosSection.marqueeRow)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-customer-logo-canva.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar",
+  "section": "SolutionPageCustomerLogosSection (SolutionPageCustomerLogosSection.marqueeRow)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-customer-logo-coinbase.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar",
+  "section": "SolutionPageCustomerLogosSection (SolutionPageCustomerLogosSection.marqueeRow)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-customer-logo-databricks.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar",
+  "section": "SolutionPageCustomerLogosSection (SolutionPageCustomerLogosSection.marqueeRow)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-customer-logo-dropbox.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar",
+  "section": "SolutionPageCustomerLogosSection (SolutionPageCustomerLogosSection.marqueeRow)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-customer-logo-elastic.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar",
+  "section": "SolutionPageCustomerLogosSection (SolutionPageCustomerLogosSection.marqueeRow)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-customer-logo-1.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar",
+  "section": "SolutionPageCustomerLogosSection (SolutionPageCustomerLogosSection.marqueeRow)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-customer-logo-2.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar,mssps",
+  "section": "SolutionPageCustomerLogosSection (SolutionPageCustomerLogosSection.marqueeRow)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-customer-logo-kayak.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar",
+  "section": "SolutionPageCustomerLogosSection (SolutionPageCustomerLogosSection.marqueeRow)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-customer-logo-mars.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar",
+  "section": "SolutionPageCustomerLogosSection (SolutionPageCustomerLogosSection.marqueeRow)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-customer-logo-mckesson.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar",
+  "section": "SolutionPageCustomerLogosSection (SolutionPageCustomerLogosSection.marqueeRow)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-customer-logo-myfitnesspal.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar",
+  "section": "SolutionPageCustomerLogosSection (SolutionPageCustomerLogosSection.marqueeRow)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-customer-logo-reddit.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar",
+  "section": "SolutionPageCustomerLogosSection (SolutionPageCustomerLogosSection.marqueeRow)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-customer-logo-snowflake.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar",
+  "section": "SolutionPageCustomerLogosSection (SolutionPageCustomerLogosSection.marqueeRow)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-customer-logo-sophos.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar,mssps",
+  "section": "SolutionPageCustomerLogosSection (SolutionPageCustomerLogosSection.marqueeRow)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-customer-logo-sprinklr.svg",
+  "page": "solutions-security-ai-soc,solutions-it-it-service-delivery-and-support,solutions-security-soar",
+  "section": "SolutionPageCustomerLogosSection (SolutionPageCustomerLogosSection.marqueeRow)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-ai-soc-content-card-icon-1.svg",
+  "page": "solutions-security-ai-soc",
+  "section": "ContentCardBase ()",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-it-quote-mark-1.svg",
+  "page": "solutions-it,financial-services,solutions-security",
+  "section": "SolutionPageQuoteSection (SolutionPageQuoteSection.ribbonContent)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-it-company-logo-1.svg",
+  "page": "solutions-it",
+  "section": "CurrentColorRemoteSvg (CurrentColorRemoteSvg.wrap)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-hero-illustration-1.svg",
+  "page": "public-sector",
+  "section": "SolutionHero (SolutionHero.backdrop)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-section-icon-1.svg",
+  "page": "public-sector",
+  "section": "PageSection (SolutionForFeatureHighlightsSection.centeredHeader)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-centered-quote-mark-1.svg",
+  "page": "public-sector,financial-services",
+  "section": "CenteredQuoteSection (CenteredQuoteSection.inner)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-company-logo-1.svg",
+  "page": "public-sector",
+  "section": "CurrentColorRemoteSvg (CurrentColorRemoteSvg.wrap)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-section-icon-2.svg",
+  "page": "public-sector",
+  "section": "SolutionForUseCasesSection (SolutionForUseCasesSection.header)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-usecases-chevron-1.svg",
+  "page": "public-sector,mssps,financial-services",
+  "section": "SolutionForUseCasesSection (SolutionForUseCasesSection.chevron)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-usecases-chevron-2.svg",
+  "page": "public-sector,mssps,financial-services",
+  "section": "SolutionForUseCasesSection (SolutionForUseCasesSection.chevron)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-usecases-chevron-3.svg",
+  "page": "public-sector,mssps,financial-services",
+  "section": "SolutionForUseCasesSection (SolutionForUseCasesSection.chevron)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-usecases-chevron-4.svg",
+  "page": "public-sector,mssps,financial-services",
+  "section": "SolutionForUseCasesSection (SolutionForUseCasesSection.chevron)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-usecases-chevron-5.svg",
+  "page": "public-sector,mssps",
+  "section": "SolutionForUseCasesSection (SolutionForUseCasesSection.chevron)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-usecases-next-1.svg",
+  "page": "public-sector",
+  "section": "SolutionForUseCasesSection (SolutionForUseCasesSection.nextButton)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-usecases-next-2.svg",
+  "page": "public-sector,mssps,financial-services",
+  "section": "SolutionForUseCasesSection (SolutionForUseCasesSection.nextButton)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-usecases-next-3.svg",
+  "page": "public-sector,mssps,financial-services",
+  "section": "SolutionForUseCasesSection (SolutionForUseCasesSection.nextButton)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-usecases-next-4.svg",
+  "page": "public-sector,mssps,financial-services",
+  "section": "SolutionForUseCasesSection (SolutionForUseCasesSection.nextButton)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-usecases-next-5.svg",
+  "page": "public-sector,mssps",
+  "section": "SolutionForUseCasesSection (SolutionForUseCasesSection.nextButton)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-section-icon-3.svg",
+  "page": "public-sector",
+  "section": "SolutionForPartnersSection (SolutionForPartnersSection.header)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-partner-logo-aws-marketplace.svg",
+  "page": "public-sector,mssps",
+  "section": "PageSection (SolutionForPartnersSection.logoItem)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-partner-logo-crowdstrike.svg",
+  "page": "public-sector,mssps",
+  "section": "PageSection (SolutionForPartnersSection.logoItem)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-partner-logo-recorded-future.svg",
+  "page": "public-sector",
+  "section": "PageSection (SolutionForPartnersSection.logoItem)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-partner-logo-elastic.svg",
+  "page": "public-sector",
+  "section": "PageSection (SolutionForPartnersSection.logoItem)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-partner-logo-1.svg",
+  "page": "public-sector",
+  "section": "PageSection (SolutionForPartnersSection.logoItem)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-partner-logo-axonius.svg",
+  "page": "public-sector",
+  "section": "PageSection (SolutionForPartnersSection.logoItem)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-partner-logo-noname.svg",
+  "page": "public-sector",
+  "section": "PageSection (SolutionForPartnersSection.logoItem)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-partner-logo-tenable.svg",
+  "page": "public-sector",
+  "section": "PageSection (SolutionForPartnersSection.logoItem)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/public-sector-explosion-tines-icon-1.svg",
+  "page": "public-sector,mssps,financial-services",
+  "section": "ExplosionCTASection (ExplosionCTASection.cardBody)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-mssp-logo-1.svg",
+  "page": "mssps",
+  "section": "SolutionHero (MSSPLogoMarquee.item)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-mssp-logo-2.svg",
+  "page": "mssps",
+  "section": "SolutionHero (MSSPLogoMarquee.item)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-mssp-logo-3.svg",
+  "page": "mssps",
+  "section": "SolutionHero (MSSPLogoMarquee.item)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-mssp-logo-4.svg",
+  "page": "mssps",
+  "section": "SolutionHero (MSSPLogoMarquee.item)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-mssp-logo-5.svg",
+  "page": "mssps",
+  "section": "SolutionHero (MSSPLogoMarquee.item)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-mssp-logo-6.svg",
+  "page": "mssps",
+  "section": "SolutionHero (MSSPLogoMarquee.item)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-mssp-logo-7.svg",
+  "page": "mssps",
+  "section": "SolutionHero (MSSPLogoMarquee.item)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-mssp-hero-illustration-1.svg",
+  "page": "mssps",
+  "section": "SolutionHero (SolutionHero.aside)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-value-prop-grid-1.svg",
+  "page": "mssps",
+  "section": "GridCanvas (GridCanvas.gridCanvas)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-quote-card-mark-1.svg",
+  "page": "mssps",
+  "section": "QuoteCardNeue (QuoteCardNeue.quoteBody)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-company-logo-1.svg",
+  "page": "mssps",
+  "section": "CurrentColorRemoteSvg (CurrentColorRemoteSvg.wrap)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-company-logo-2.svg",
+  "page": "mssps",
+  "section": "CurrentColorRemoteSvg (CurrentColorRemoteSvg.wrap)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-company-logo-3.svg",
+  "page": "mssps",
+  "section": "CurrentColorRemoteSvg (CurrentColorRemoteSvg.wrap)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-section-icon-1.svg",
+  "page": "mssps",
+  "section": "SolutionForUseCasesSection (SolutionForUseCasesSection.header)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-usecases-next-1.svg",
+  "page": "mssps",
+  "section": "SolutionForUseCasesSection (SolutionForUseCasesSection.nextButton)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-company-logo-4.svg",
+  "page": "mssps",
+  "section": "CurrentColorRemoteSvg (CurrentColorRemoteSvg.wrap)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-company-logo-5.svg",
+  "page": "mssps",
+  "section": "CurrentColorRemoteSvg (CurrentColorRemoteSvg.wrap)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-company-logo-6.svg",
+  "page": "mssps",
+  "section": "CurrentColorRemoteSvg (CurrentColorRemoteSvg.wrap)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-company-logo-7.svg",
+  "page": "mssps",
+  "section": "CurrentColorRemoteSvg (CurrentColorRemoteSvg.wrap)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-section-icon-2.svg",
+  "page": "mssps",
+  "section": "SolutionForPartnersSection (SolutionForPartnersSection.header)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-partner-logo-1.svg",
+  "page": "mssps",
+  "section": "PageSection (SolutionForPartnersSection.logoItem)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-partner-logo-2.svg",
+  "page": "mssps",
+  "section": "PageSection (SolutionForPartnersSection.logoItem)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-partner-logo-3.svg",
+  "page": "mssps",
+  "section": "PageSection (SolutionForPartnersSection.logoItem)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-partner-logo-4.svg",
+  "page": "mssps",
+  "section": "PageSection (SolutionForPartnersSection.logoItem)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-partner-logo-5.svg",
+  "page": "mssps",
+  "section": "PageSection (SolutionForPartnersSection.logoItem)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/mssps-services-icon-1.svg",
+  "page": "mssps",
+  "section": "SolutionForServicesSection ()",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/financial-services-section-icon-1.svg",
+  "page": "financial-services",
+  "section": "SolutionForUseCasesSection (SolutionForUseCasesSection.header)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/financial-services-usecases-next-1.svg",
+  "page": "financial-services",
+  "section": "SolutionForUseCasesSection (SolutionForUseCasesSection.nextButton)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/financial-services-company-logo-1.svg",
+  "page": "financial-services",
+  "section": "CurrentColorRemoteSvg (CurrentColorRemoteSvg.wrap)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/solutions-security-company-logo-1.svg",
+  "page": "solutions-security",
+  "section": "CurrentColorRemoteSvg (CurrentColorRemoteSvg.wrap)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/security-pullquote-mark-1.svg",
+  "page": "security",
+  "section": "unknown (p13zkcmj)",
+  "type": "inline-svg"
+ },
+ {
+  "url": "inline-svg",
+  "localPath": "reference/svg/pages/security-anchor-link-1.svg",
+  "page": "security",
+  "section": "unknown (h1sl8rs8)",
+  "type": "inline-svg"
+ }
+]

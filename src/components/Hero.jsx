@@ -1,13 +1,15 @@
 import InlineSvg from './InlineSvg.jsx'
+import HundredXField from '../motion/flowerField/HundredXField.jsx'
 import tagArrow from '../../reference/svg/hero-content-4.svg?raw'
 import pauseIcon from '../../reference/svg/hero-icon-109.svg?raw'
 import filletLeft from '../../reference/svg/hero-filletLeft-110.svg?raw'
 import filletRight from '../../reference/svg/hero-filletRight-111.svg?raw'
-import productFrame from '../../reference/svg/hero-product-visual-frame.svg?raw'
-// Live re-lays out the scripted SVG per breakpoint: phone (<640, 3:4), tablet (640-1279, 4:3), desktop (>=1280, 2:1).
-// Phone/tablet frames captured from the live DOM at 390 / 1000 (ids prefixed to avoid collisions).
-import productFramePhone from '../../reference/svg/hero-product-visual-frame-phone.svg?raw'
-import productFrameTablet from '../../reference/svg/hero-product-visual-frame-tablet.svg?raw'
+// Product demo first-paint frames (t = 0 "Your workspace", what the original first paints) per breakpoint:
+// phone (<640, 3:4), tablet (640-1279, 4:3), desktop (>=1280, 2:1). The scripted demo itself is rendered
+// over them by src/components/hero-demo (driven from the timeline clock), which then hides these.
+import productFrame from './hero-demo/first-frame-desktop.svg?raw'
+import productFramePhone from './hero-demo/first-frame-phone.svg?raw'
+import productFrameTablet from './hero-demo/first-frame-tablet.svg?raw'
 import coinbase from '../../reference/svg/logo-coinbase.svg?raw'
 import databricks from '../../reference/svg/logo-databricks.svg?raw'
 import reddit from '../../reference/svg/logo-reddit.svg?raw'
@@ -168,19 +170,13 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* "100×" wordmark stage (canvas stand-in) */}
+      {/* "100×" wordmark stage: live FlowerField canvas (PNG fallback until first frame) */}
       <div className="hero-stage order-3 flex flex-col items-center">
         <div
           data-motion="hundredx-sink"
           className="hero-wordmark relative z-0 mt-sp-md aspect-[504.96/264] max-w-none sm:-mt-[6.5%] xl:-mb-[12%]"
         >
-          <img
-            data-motion="hero-canvas-100x"
-            src="/assets/canvas/hero-field-0.png"
-            alt="100× — simpler, faster, easier to adopt"
-            draggable="false"
-            className="pointer-events-none absolute left-1/2 top-1/2 h-auto w-[131.71%] max-w-none -translate-x-1/2 -translate-y-1/2 select-none"
-          />
+          <HundredXField />
         </div>
       </div>
       </div>

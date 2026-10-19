@@ -154,14 +154,16 @@ export function createFlowerField(canvas, o) {
   const flowerKey = (f, family) => `f${f.variant}|${family}|${f.strokeScale}`
   const specialKey = (f) => `s${f.special}|${f.strokeScale}`
   const want = (f, family) => {
+    const memo = f.keys ?? (f.keys = {})
+    if (memo[family]) return memo[family]
     if (f.special >= 0) {
       const k = specialKey(f)
       if (!sprites.has(k)) sprites.want(k, () => scaleStrokes(specials[f.special].svg, f.strokeScale))
-      return k
+      return (memo[family] = k)
     }
     const k = flowerKey(f, family)
     if (!sprites.has(k)) sprites.want(k, () => scaleStrokes(recolorFlowerSvg(flowerSvgs[f.variant - 1], f.variant, family, palette), f.strokeScale))
-    return k
+    return (memo[family] = k)
   }
   const initialKeys = [...new Set(flowers.map((f) => want(f, f.family)))]
 
@@ -191,6 +193,7 @@ export function createFlowerField(canvas, o) {
     unit = w / totalW
     flowerSide = Math.max(1, Math.ceil(maxNatural * sizeScale * 1.12 * unit))
     sprites.clearRasters()
+    for (const f of flowers) { const [w, h] = spriteDims(f); f.dw = w; f.dh = h }
     if (o.clipToShape) {
       layer = layer ?? document.createElement('canvas')
       layer.width = w; layer.height = h
@@ -274,8 +277,9 @@ export function createFlowerField(canvas, o) {
       f.offX += (f.tgtX - f.offX) * follow
       f.offY += (f.tgtY - f.offY) * follow
       for (const w of waves) {
-        const d = Math.hypot(f.x - w.x, f.y - w.y)
-        if (d > w.range) continue
+        const ddx = f.x - w.x, ddy = f.y - w.y
+        if (ddx * ddx + ddy * ddy > w.range * w.range) continue
+        const d = Math.sqrt(ddx * ddx + ddy * ddy)
         const a = t - w.start - d / w.speed
         if (a < 0) continue
         if (f.special < 0 && w.id > f.lastWave) {
@@ -300,17 +304,15 @@ export function createFlowerField(canvas, o) {
     const side = k >= 1 ? r : Math.max(1, Math.round(r * k))
     const cos = Math.cos(angle), sin = Math.sin(angle)
     if (f.special >= 0) {
-      const [w, h] = spriteDims(f)
-      const img = sprites.get(specialKey(f), w, h)
+      const img = sprites.get(want(f, 'default'), f.dw, f.dh)
       if (!img) return
       const sp = specials[f.special], m = Math.max(sp.width, sp.height)
       c.setTransform(cos, sin, -sin, cos, cx, cy)
       c.drawImage(img, -(side * sp.width) / m / 2, -(side * sp.height) / m / 2, (side * sp.width) / m, (side * sp.height) / m)
       return
     }
-    const [sw, sh] = spriteDims(f)
-    const nextKey = want(f, f.family)
-    const next = sprites.get(nextKey, sw, sh)
+    const sw = f.dw, sh = f.dh
+    const next = sprites.get(want(f, f.family), sw, sh)
     let prev = null
     if (f.shown !== f.family) prev = sprites.get(want(f, f.shown), sw, sh)
     if (next && f.mix < 1 && !reduced) {
@@ -348,7 +350,7 @@ export function createFlowerField(canvas, o) {
     drones?.draw(ctx, t, unit, dpr, shape, reduced)
   }
 
-  const rasterList = () => flowers.map((f) => [f.special >= 0 ? specialKey(f) : flowerKey(f, f.family), ...spriteDims(f)])
+  const rasterList = () => flowers.map((f) => [want(f, f.family), f.dw, f.dh])
   const gate = frameGate(o.maxFps ?? 60)
   const introEnd = sweep + bloom
   let rastersWarm = false
