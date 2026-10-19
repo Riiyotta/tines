@@ -1,4 +1,4 @@
-import { Suspense, lazy, useEffect } from 'react'
+import { Suspense, createContext, lazy, useContext, useEffect, useLayoutEffect, useState } from 'react'
 import { BrowserRouter, Routes, Route, Outlet, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
@@ -9,7 +9,10 @@ import Footer from './components/Footer.jsx'
 //   pages/pricing.jsx          -> /pricing/
 //   pages/blog/index.jsx       -> /blog/
 //   pages/blog/[slug].jsx      -> /blog/:slug/
-// A page module may export `title` (string) for document.title.
+// A page module may export `title` (string) for document.title and `theme`
+// (a name from [data-page-theme] in index.css; omitted = homepage colors) and `chrome`
+// ('simple' = Navbar/Footer variant="simple" for /soar/; omitted = full chrome).
+const ChromeContext = createContext(() => {})
 const modules = import.meta.glob('./pages/**/*.jsx')
 
 function toPath(file) {
@@ -27,8 +30,21 @@ const routes = Object.entries(modules)
     const Page = lazy(async () => {
       const mod = await load()
       const Titled = (props) => {
+        const setChrome = useContext(ChromeContext)
+        useLayoutEffect(() => {
+          setChrome(mod.chrome || 'default')
+          return () => setChrome('default')
+        }, [])
         useEffect(() => {
           if (mod.title) document.title = mod.title
+        }, [])
+        // Layout effect: set before paint so nav/footer never flash the wrong colors.
+        useLayoutEffect(() => {
+          const root = document.documentElement
+          if (mod.theme) root.dataset.pageTheme = mod.theme
+          return () => {
+            delete root.dataset.pageTheme
+          }
         }, [])
         return <mod.default {...props} />
       }
@@ -41,19 +57,22 @@ const routes = Object.entries(modules)
 
 function Layout() {
   const { pathname } = useLocation()
+  const [chrome, setChrome] = useState('default')
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [pathname])
   return (
+    <ChromeContext.Provider value={setChrome}>
     <div className="overflow-x-clip">
-      <Navbar />
+      <Navbar variant={chrome} />
       <main id="main-content">
         <Suspense fallback={<div className="min-h-screen" />}>
           <Outlet />
         </Suspense>
       </main>
-      <Footer />
+      <Footer variant={chrome} />
     </div>
+    </ChromeContext.Provider>
   )
 }
 

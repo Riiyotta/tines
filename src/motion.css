@@ -154,3 +154,89 @@
     }
   }
 }
+
+/* =====================================================================
+   Legacy pages (book-a-demo, enterprise, soar, careers). specs/pages-a.md §14.
+   Easing of the JS drift/parallax on the original is internal; linear is used.
+   ===================================================================== */
+@keyframes backdropGlow { 0% { opacity: .75; } 100% { opacity: 1; } }
+@media (prefers-reduced-motion: no-preference) {
+  [data-motion~='legacy-marquee-track'] { will-change: transform; }
+  [data-motion~='legacy-marquee-track'].is-animating { animation: marqueeDrift var(--marqueeDuration, 30s) linear infinite; }
+  /* explosive CTA backdrop glow (1s ease 1s infinite alternate-reverse) */
+  [data-legacy-cta] [data-motion~='explosion-backdrop'] { animation: backdropGlow 1s ease 1s infinite alternate-reverse; }
+  [data-motion~='legacy-reveal'] { transition: opacity .5s cubic-bezier(.22,1,.36,1); }
+}
+
+/* ===== pages-b2: Industry pages (Kaleidoscope, MSSP marquee, use-case ring, area-nav) ===== */
+@keyframes lineEnter { 0% { opacity: 0; } 100% { opacity: 1; } }
+@keyframes areaDropdownIn { 0% { opacity: 0; transform: translateY(8px); } .1% { opacity: 1; transform: translateY(8px); } 100% { opacity: 1; transform: translateY(0); } }
+/* MSSP hero logo marquee: --marqueePeriod / --marqueeDuration set inline (1558px / 38.95s @1440, 33.325s @390) */
+.mssp-marquee-track { animation: marqueeDrift var(--marqueeDuration, 38.95s) linear infinite; }
+.mssp-marquee-viewport:hover .mssp-marquee-track { animation-play-state: running; }
+.mssp-marquee-mask { -webkit-mask-image: linear-gradient(to right, transparent 0, #000 60px, #000 calc(100% - 60px), transparent 100%); mask-image: linear-gradient(to right, transparent 0, #000 60px, #000 calc(100% - 60px), transparent 100%); }
+.grid-canvas-line { opacity: 0; }
+[data-in-view='true'] .grid-canvas-line { animation: lineEnter .5s forwards; }
+@media (prefers-reduced-motion: reduce) {
+  .mssp-marquee-track { animation: none; }
+  .grid-canvas-line { opacity: 1; animation: none !important; }
+}
+/* pages-b2: use-case tabs progress ring (10s linear, then advance) */
+@keyframes useCaseRing { 0% { stroke-dashoffset: 191.54; } 100% { stroke-dashoffset: 0; } }
+.usecase-ring { stroke-dashoffset: 191.54; }
+@media (prefers-reduced-motion: no-preference) { .usecase-ring[data-running] { animation: useCaseRing 10s linear forwards; animation-play-state: var(--ring-state, running); } }
+
+/* =====================================================================
+   pages-a /3b/ (specs/pages-a.md §2). Easing for entrance motion is not
+   measured beyond labelRise, so the site's main ease cubic-bezier(.22,1,.36,1) is used.
+   ===================================================================== */
+@keyframes heroBedDrift { 0% { transform: translateY(0); } 100% { transform: translateY(var(--bedDrift, 100px)); } }
+@keyframes labelRise { 0% { clip-path: inset(-1rem -1rem 100%); transform: translateY(100%); } 100% { clip-path: none; transform: none; } }
+@keyframes teaserPlayBlink { 0%, 49.99% { opacity: 1; } 50%, 100% { opacity: 0; } }
+@keyframes caretBlink { 0%, 49.99% { opacity: 1; } 50%, 100% { opacity: 0; } }
+@keyframes tileFloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6%); } }
+@keyframes quoteFlowerParallax { 0% { transform: translateY(-80px); } 100% { transform: translateY(80px); } }
+.caret-blink { animation: caretBlink 1.1s steps(1) infinite; }
+.teaser-blink { animation: teaserPlayBlink 1.2s steps(1) infinite; }
+.tile-float { animation: tileFloat 4s ease-in-out infinite; }
+.label-rise { animation: labelRise .4s cubic-bezier(.22,1,.36,1) both; }
+@media (prefers-reduced-motion: reduce) {
+  .caret-blink, .teaser-blink, .tile-float, .label-rise { animation: none; }
+}
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .hero-bed { animation: heroBedDrift linear both; animation-timeline: scroll(root); animation-range: 0px 100vh; }
+  }
+}
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .quote-flower-host { view-timeline-name: --quoteFlowerView; }
+    .quote-flower { animation: quoteFlowerParallax linear both; animation-timeline: --quoteFlowerView; }
+  }
+}
+
+/* ---------- pages-c: university testimonial marquee (specs/pages-c.md §7.1: JS translateX -54.2 px/s, track 2909.5px duplicated) ---------- */
+@keyframes universityMarquee { 0% { transform: translate3d(0, 0, 0); } 100% { transform: translate3d(-50%, 0, 0); } }
+@media (prefers-reduced-motion: no-preference) {
+  .uni-marquee-track { animation: universityMarquee var(--uni-marquee-duration, 53.68s) linear infinite; will-change: transform; }
+  .uni-watch-ring { animation: mascotSpin 20s linear infinite; }
+}
+
+/* ===== pages group B1: UseCaseTabs progress ring (specs/pages-b.md 4.2, 10s linear; stroke-dasharray 191.54) ===== */
+@keyframes useCaseRing { from { stroke-dashoffset: 191.54; } to { stroke-dashoffset: 0; } }
+/* ===== end pages group B1 ===== */
+
+/* pages-a /3b/examples/: icon lattice drift. Linear, 90s per 574px sweep; paused off-screen (data-run=0) and under reduced motion. */
+@keyframes latticeDriftL { 0% { transform: translateX(var(--x0)); } 100% { transform: translateX(calc(var(--x0) - 574px)); } }
+@keyframes latticeDriftR { 0% { transform: translateX(var(--x0)); } 100% { transform: translateX(calc(var(--x0) + 574px)); } }
+.lattice-row { transform: translateX(var(--x0)); }
+@media (prefers-reduced-motion: no-preference) {
+  .lattice[data-run='1'] .lattice-row[data-dir='l'] { animation: latticeDriftL 90s linear infinite alternate; }
+  .lattice[data-run='1'] .lattice-row[data-dir='r'] { animation: latticeDriftR 90s linear infinite alternate; }
+}
+
+/* ---------- pages-c: events AngularGradientBorder (CTA ring; band dash travels the perimeter, 10s linear; easing inferred) ---------- */
+@keyframes angularBorderBand { 0% { stroke-dashoffset: var(--base, 0px); } 100% { stroke-dashoffset: calc(var(--base, 0px) - var(--perimeter, 567px)); } }
+@media (prefers-reduced-motion: no-preference) {
+  .AngularGradientBorder-module-scss-module__HA4VuG__band { animation: angularBorderBand var(--duration, 10s) linear infinite; }
+}

@@ -1,8 +1,12 @@
 const SIGNUP_URL = 'https://login.tines.com/saml_idp/signup'
 
-export default function CtaStartToday() {
+/**
+ * Props (pages-a REUSE MAP): `flush` removes the top margin (most inner pages: the preceding spacer provides 156px;
+ * the homepage and /ai-in-tines/ keep it); `className` is appended. Colors follow the page theme (currentColor / btn vars).
+ */
+export default function CtaStartToday({ flush = false, className = '' }) {
   return (
-    <section className="relative mx-auto mb-[2em] mt-section-margin flex max-w-page flex-col items-center px-page pb-section-pad pt-sp-md sm:mb-0">
+    <section className={`relative mx-auto mb-[2em] ${flush ? 'mt-0' : 'mt-section-margin'} flex max-w-page flex-col items-center px-page pb-section-pad pt-sp-md sm:mb-0 ${className}`}>
       {/* "Start today" canvas stand-in. Region hosts the custom tri-spinner cursor (Animation). */}
       <div
         data-motion="cta-wordmark cta-tri-cursor"

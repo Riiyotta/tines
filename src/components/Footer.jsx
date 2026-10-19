@@ -161,7 +161,11 @@ function Column({ col, open, onToggle, className = '' }) {
   )
 }
 
-export default function Footer() {
+/**
+ * variant="simple" (specs/pages-a.md REUSE MAP, /soar/): only the bottom bar (the "Ask AI about Tines" pill,
+ * "© Tines", "Cookie settings"); the link columns are not rendered. Default variant unchanged.
+ */
+export default function Footer({ variant = 'default' }) {
   // Live: sections expand independently (several can be open at once)
   const [openIds, setOpenIds] = useState(() => new Set())
   const toggle = (id) =>
@@ -175,6 +179,7 @@ export default function Footer() {
 
   return (
     <footer className="relative z-[1] text-[14px] font-medium">
+      {variant !== 'simple' && (
       <div className="mx-auto flex w-full max-w-page flex-col px-page-wide py-[30px] md:grid md:grid-cols-4 md:gap-x-10 md:gap-y-8 md:px-page md:pb-[30px] md:pt-[50px] xl:flex xl:flex-row xl:flex-wrap xl:items-start xl:justify-between">
         {main.map((c, i) => (
           <Column key={c.id} col={c} open={openIds.has(c.id)} onToggle={() => toggle(c.id)} className={i > 0 ? 'footer-divider md:border-0' : ''} />
@@ -186,6 +191,7 @@ export default function Footer() {
           ))}
         </div>
       </div>
+      )}
 
       <div className="mx-auto grid w-full max-w-page grid-cols-[1fr_auto_1fr] items-center gap-4 gap-y-8 px-page-wide pb-10 font-semibold md:gap-y-4 md:px-page md:pt-5">
         <div className="col-span-full row-start-1 flex items-center justify-between gap-2 rounded-[999px] bg-surface-ask-ai py-1 pl-4 pr-[9px] md:col-span-1 md:col-start-2 md:justify-self-center md:pr-1">

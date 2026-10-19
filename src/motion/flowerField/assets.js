@@ -13,8 +13,11 @@ function once(key, fn) {
   return memo.get(key)
 }
 
-const text = (url) => fetch(url).then((r) => { if (!r.ok) throw new Error(`${url}: ${r.status}`); return r.text() })
-export const loadJson = (url) => once(`json:${url}`, () => fetch(url).then((r) => { if (!r.ok) throw new Error(`${url}: ${r.status}`); return r.json() }))
+const fetchOk = (url) => fetch(url).then((r) => { if (!r.ok) throw new Error(`${url}: ${r.status}`); return r })
+// one retry: ~56 small art files are requested in parallel on first paint
+const fetchRetry = (url) => fetchOk(url).catch(() => new Promise((res) => setTimeout(res, 300)).then(() => fetchOk(url)))
+const text = (url) => fetchRetry(url).then((r) => r.text())
+export const loadJson = (url) => once(`json:${url}`, () => fetchRetry(url).then((r) => r.json()))
 
 /** { palette, flowers: string[29], specials: [{ svg, width, height, scale, swayMax, nudgeMaxPx, pressScale, layer }] } */
 export function loadFlowerArt() {

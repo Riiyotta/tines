@@ -1,4 +1,6 @@
 import InlineSvg from './InlineSvg.jsx'
+import { LogoSet } from './shared/LogoSet.jsx'
+import { HeroCopy } from './shared/HeroCopy.jsx'
 import HundredXField from '../motion/flowerField/HundredXField.jsx'
 import tagArrow from '../../reference/svg/hero-content-4.svg?raw'
 import pauseIcon from '../../reference/svg/hero-icon-109.svg?raw'
@@ -10,42 +12,13 @@ import filletRight from '../../reference/svg/hero-filletRight-111.svg?raw'
 import productFrame from './hero-demo/first-frame-desktop.svg?raw'
 import productFramePhone from './hero-demo/first-frame-phone.svg?raw'
 import productFrameTablet from './hero-demo/first-frame-tablet.svg?raw'
-import coinbase from '../../reference/svg/logo-coinbase.svg?raw'
-import databricks from '../../reference/svg/logo-databricks.svg?raw'
-import reddit from '../../reference/svg/logo-reddit.svg?raw'
-import snowflake from '../../reference/svg/logo-snowflake.svg?raw'
-import intercom from '../../reference/svg/logo-intercom.svg?raw'
-import dropbox from '../../reference/svg/logo-dropbox.svg?raw'
-import pinterest from '../../reference/svg/logo-pinterest.svg?raw'
-import mongodb from '../../reference/svg/logo-mongodb.svg?raw'
-import sophos from '../../reference/svg/logo-sophos.svg?raw'
-import canva from '../../reference/svg/logo-canva.svg?raw'
-import mckesson from '../../reference/svg/logo-mckesson.svg?raw'
 
 const SIGNUP_URL = 'https://login.tines.com/saml_idp/signup'
-
-// §2 Logo marquee order
-const LOGOS = [
-  ['Coinbase', coinbase], ['Databricks', databricks], ['Reddit', reddit], ['Snowflake', snowflake],
-  ['Intercom', intercom], ['Dropbox', dropbox], ['Pinterest', pinterest], ['MongoDB', mongodb],
-  ['Sophos', sophos], ['Canva', canva], ['McKesson', mckesson],
-]
 
 // §2 Timeline: 9 segment widths (%) and a static "0:01" state for Animation to drive.
 const SEGMENTS = [4.09248, 4.74727, 3.12388, 13.9067, 19.5505, 17.2748, 19.2059, 9.49215, 8.60636]
 const STATIC_PROGRESS = (1 / 91) * 100 // 0:01 of 1:31
 
-
-function LogoSet({ hidden }) {
-  return LOGOS.map(([name, svg]) => (
-    <span
-      key={name}
-      className="relative flex shrink-0 items-center [&>svg]:block"
-      aria-hidden={hidden || undefined}
-      dangerouslySetInnerHTML={{ __html: svg }}
-    />
-  ))
-}
 
 function TimelineBar() {
   let left = 0
@@ -127,34 +100,27 @@ export default function Hero() {
       <div className="hero-fold">
       {/* Copy block */}
       <div className="relative z-[1] order-1 px-page">
-        <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
-          <a
-            href="/blog/introducing-tines-3b/"
-            className="inline-flex h-[30px] items-center gap-[7px] overflow-hidden rounded-tag text-left border border-purple-55 bg-surface-tag backdrop-blur-frosted hover:bg-surface-tag-hover"
-          >
-            <span className="flex h-full items-center border-r border-purple-55 px-[11.9px] py-[2.38px] font-mono text-tag-new font-bold uppercase">
-              New
-            </span>
-            <span className="flex items-center gap-[7px] pl-[4.62px] pr-[10.5px]">
-              <span className="text-tag font-semibold">Introducing Tines 3B</span>
-              <InlineSvg svg={tagArrow} className="h-2 w-[9px]" />
-            </span>
-          </a>
-
-          <h1 className="mt-6 max-w-[896px] font-sans text-h1-sm font-medium text-purple-55 sm:text-h1-md sm:font-normal 3xl:max-w-none 3xl:text-h1-lg">
-            <span className="block text-pretty">You told everyone to use&nbsp;AI.</span>
-            <span className="block text-pretty">Now give them a secure place to do&nbsp;it.</span>
-          </h1>
-
-          <p className="mt-[0.8em] max-w-[342px] font-sans text-hero-byline-sm font-medium sm:max-w-[1152px] sm:font-serif sm:text-hero-byline">
-            Tines lets every team build. IT and Security maintain complete visibility, governance, and control.
-          </p>
-
-          <div className="mt-6 grid grid-cols-[140px_140px] gap-2">
-            <a href="/book-a-demo/" className="btn btn-filled w-full">Book a demo</a>
-            <a href={SIGNUP_URL} className="btn btn-frosted w-full">Sign up free</a>
-          </div>
-        </div>
+        <HeroCopy
+          tag={
+            <a
+              href="/blog/introducing-tines-3b/"
+              className="inline-flex h-[30px] items-center gap-[7px] overflow-hidden rounded-tag text-left border border-purple-55 bg-surface-tag backdrop-blur-frosted hover:bg-surface-tag-hover"
+            >
+              <span className="flex h-full items-center border-r border-purple-55 px-[11.9px] py-[2.38px] font-mono text-tag-new font-bold uppercase">
+                New
+              </span>
+              <span className="flex items-center gap-[7px] pl-[4.62px] pr-[10.5px]">
+                <span className="text-tag font-semibold">Introducing Tines 3B</span>
+                <InlineSvg svg={tagArrow} className="h-2 w-[9px]" />
+              </span>
+            </a>
+          }
+          title={[
+            <>You told everyone to use&nbsp;AI.</>,
+            <>Now give them a secure place to do&nbsp;it.</>,
+          ]}
+          byline="Tines lets every team build. IT and Security maintain complete visibility, governance, and control."
+        />
       </div>
 
       {/* Logo marquee */}

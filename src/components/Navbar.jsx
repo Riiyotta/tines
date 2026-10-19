@@ -259,7 +259,12 @@ const PANELS = { product: ProductPanel, solutions: SolutionsPanel, discover: Dis
 
 /* ---------- Navbar ---------- */
 
-export default function Navbar() {
+/**
+ * variant="simple" (specs/pages-a.md REUSE MAP, /soar/): header 62px, primary nav hidden, right group = text CTAs
+ * "Log in" + "Sign up" only (no Book a demo, search or hamburger). Default variant unchanged.
+ */
+export default function Navbar({ variant = 'default' }) {
+  const simple = variant === 'simple'
   const [open, setOpen] = useState(null) // desktop dropdown id
   const [menuOpen, setMenuOpen] = useState(false) // mobile menu
   const [accordion, setAccordion] = useState(null) // mobile accordion id
@@ -300,7 +305,7 @@ export default function Navbar() {
       id="site-nav"
       ref={headerRef}
       onMouseLeave={() => setOpen(null)}
-      className="sticky top-0 z-nav h-[68px] text-purple-55 max-sm:top-[5px] max-sm:mx-2 max-sm:mt-[5px] max-sm:h-[62px]"
+      className={`sticky top-0 z-nav text-page-fg max-sm:top-[5px] max-sm:mx-2 max-sm:mt-[5px] max-sm:h-[62px] ${simple ? 'h-[62px]' : 'h-[68px]'}`}
     >
       {/* 1. blur layer */}
       <div
@@ -318,7 +323,7 @@ export default function Navbar() {
           <a href="/" title="Tines" className="flex shrink-0 items-center">
             <InlineSvg svg={tinesLogo} label="Tines" className="h-6 w-[78px] sm:h-[28px] sm:w-[91px]" />
           </a>
-          <nav aria-label="Primary" className="hidden items-center xl:flex">
+          <nav aria-label="Primary" className={`hidden items-center ${simple ? '' : 'xl:flex'}`}>
             {NAV_ITEMS.map((item) =>
               item.href ? (
                 <a
@@ -356,7 +361,7 @@ export default function Navbar() {
             href={LOGIN_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover-tint hidden items-center whitespace-nowrap rounded-nav-item px-[14px] py-2 text-nav font-semibold xl:inline-flex"
+            className={`hover-tint items-center whitespace-nowrap rounded-nav-item px-[14px] py-2 text-nav font-semibold ${simple ? 'inline-flex' : 'hidden xl:inline-flex'}`}
           >
             Log in
           </a>
@@ -364,25 +369,25 @@ export default function Navbar() {
             href={SIGNUP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover-tint hidden items-center whitespace-nowrap rounded-nav-item px-[14px] py-2 text-nav font-semibold xl:inline-flex"
+            className={`hover-tint items-center whitespace-nowrap rounded-nav-item px-[14px] py-2 text-nav font-semibold ${simple ? 'inline-flex' : 'hidden xl:inline-flex'}`}
           >
             Sign up
           </a>
           {/* Desktop: Mono pill; <1024: plain Roobert 600 text link */}
-          <a
+          {!simple && <a
             href="/book-a-demo/"
             className="inline-flex items-center whitespace-nowrap rounded-nav-item px-3 py-2 font-sans text-nav font-semibold xl:ml-3 xl:h-[35px] xl:rounded-pill xl:bg-purple-70 xl:px-5 xl:py-[10px] xl:font-mono xl:text-nav-demo xl:font-bold xl:uppercase xl:text-lightest xl:transition-colors xl:hover:bg-purple-60"
           >
             Book a demo
-          </a>
-          <button
+          </a>}
+          {!simple && <button
             type="button"
             aria-label="Open search"
             className="ml-2 flex h-[38px] w-[38px] items-center justify-center rounded-full text-purple-55 transition-colors xl:bg-purple-5 xl:text-purple-60 xl:hover:bg-purple-10"
           >
             <InlineSvg svg={searchIcon} className="h-4 w-4" />
-          </button>
-          <button
+          </button>}
+          {!simple && <button
             type="button"
             aria-label="Toggle menu"
             aria-expanded={menuOpen}
@@ -390,12 +395,12 @@ export default function Navbar() {
             className="ml-1 inline-flex h-[38px] w-[38px] shrink-0 items-center justify-center xl:hidden"
           >
             <InlineSvg svg={menuOpen ? closeIcon : hamburgerIcon} className="h-4 w-4" />
-          </button>
+          </button>}
         </div>
       </div>
 
       {/* Desktop dropdown panel: starts at the header's bottom edge; 16px transparent gap keeps hover alive */}
-      {Panel && (
+      {Panel && !simple && (
         <div className="absolute inset-x-0 top-full hidden xl:block">
           <div
             data-motion="nav-dropdown-columns"
@@ -407,7 +412,7 @@ export default function Navbar() {
       )}
 
       {/* Mobile menu (<1024) */}
-      {menuOpen && (
+      {menuOpen && !simple && (
         <div
           data-motion="mobile-menu"
           className="fixed left-2 right-2 top-[67px] max-h-[calc(100dvh-75px)] overflow-y-auto overscroll-contain rounded-dd-col bg-surface-mobile-menu px-3 pb-3 pt-2 backdrop-blur-menu sm:top-[68px] sm:max-h-[calc(100dvh-76px)] xl:hidden"

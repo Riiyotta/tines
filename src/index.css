@@ -18,6 +18,11 @@
 
 @layer base {
   :root {
+    /* Page theme defaults = homepage. Pages override via [data-page-theme] below. */
+    --page-bg: theme('colors.lightest');
+    --page-fg: theme('colors.purple.55');
+    --page-btn-bg: theme('colors.purple.55');
+    --page-btn-fg: theme('colors.lightest');
     /* Used by the inline product-visual SVG (its <text> nodes reference these) */
     --fontSans: theme('fontFamily.sans');
     --fontSerif: theme('fontFamily.serif');
@@ -44,10 +49,19 @@
   @media (min-width: 1366px) { :root { --section-padding: 96px; } }
   @media (min-width: 1440px) { :root { --sp-sm: 24px; --sp-md: 30px; --sp-lg: 40px; --sp-xl: 55px; --sp-xxl: 64px; --section-margin: 156px; } }
 
+  /* Page themes (specs/pages-a.md §0.1). A page module exports `theme = '<name>'`; App sets
+     data-page-theme on <html>. Unlisted pages use the homepage defaults from :root. */
+  [data-page-theme='pricing'] { --page-bg: theme('colors.purple.50'); --page-fg: theme('colors.white'); --page-btn-bg: theme('colors.white'); --page-btn-fg: theme('colors.purple.50'); }
+  [data-page-theme='3b'] { --page-bg: theme('colors.purple.5'); }
+  [data-page-theme='plain'] { --page-fg: theme('colors.purple.65'); --page-btn-bg: theme('colors.purple.65'); }
+  [data-page-theme='about'] { --page-bg: theme('colors.coolgray.95'); --page-fg: theme('colors.lightest'); --page-btn-bg: theme('colors.lightest'); --page-btn-fg: theme('colors.coolgray.95'); }
+  [data-page-theme='purple-5-plain'] { --page-bg: theme('colors.purple.5'); --page-fg: theme('colors.purple.65'); --page-btn-bg: theme('colors.purple.65'); }
+  [data-page-theme='enterprise'] { --page-fg: theme('colors.legacy-ink'); --page-btn-bg: theme('colors.legacy-ink'); }
+
   html {
     line-height: 1.15;
-    background-color: theme('colors.lightest');
-    color: theme('colors.purple.55');
+    background-color: var(--page-bg);
+    color: var(--page-fg);
     font-family: theme('fontFamily.sans');
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -114,22 +128,36 @@
   .btn:active { filter: brightness(.9); }
   .btn:disabled, .btn[aria-disabled='true'] { opacity: .5; cursor: not-allowed; pointer-events: none; }
   .btn:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
-  .btn-filled { background-color: theme('colors.purple.55'); color: theme('colors.lightest'); }
+  .btn-filled { background-color: var(--page-btn-bg); color: var(--page-btn-fg); }
   .btn-filled:hover { filter: brightness(1.1); }
   .btn-frosted {
     background-color: theme('colors.surface.frosted');
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
-    border-color: theme('colors.purple.55');
-    color: theme('colors.purple.55');
+    border-color: var(--page-fg);
+    color: var(--page-fg);
   }
-  .btn-outlined { background-color: transparent; border-color: theme('colors.purple.55'); color: theme('colors.purple.55'); }
+  .btn-outlined { background-color: transparent; border-color: var(--page-fg); color: var(--page-fg); }
   /* --unfilledHoverBg from the snapshot CSS: currentColor 10% over page bg, at 85% */
   .btn-frosted:hover, .btn-outlined:hover {
-    background-color: color-mix(in srgb, color-mix(in srgb, theme('colors.purple.55') 10%, theme('colors.lightest')) 85%, transparent);
+    background-color: color-mix(in srgb, color-mix(in srgb, var(--page-fg) 10%, var(--page-bg)) 85%, transparent);
   }
-  .btn-filled-white { background-color: theme('colors.lightest'); color: theme('colors.purple.55'); }
+  .btn-filled-white { background-color: var(--page-bg); color: var(--page-fg); }
   .btn-filled-white:hover { background-color: color-mix(in srgb, theme('colors.lightest') 90%, transparent); }
+
+  /* "Sans" size modifier (pages-a §Buttons used / pages-c §1): Roobert 600 14/14, h 39, pad 0 19.6px, r 9990.
+     Combine with a color class: `btn btn-sans btn-filled`. */
+  .btn.btn-sans {
+    height: 39px;
+    padding: 0 19.6px;
+    font-family: theme('fontFamily.sans');
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+  @media (max-width: 639px) { .btn.btn-sans { padding: 0 17.5px; } }
 
   /* Hover tint used by nav items / text CTAs (§1). The original swaps the tint instantly (transition: all 0s). */
   @media (hover: hover) {
@@ -182,3 +210,141 @@
     .footer-accordion > * { overflow: visible; }
   }
 }
+
+/* ===== pages-a: pricing / 3b / 3b-examples / customers ===== */
+@layer base {
+  /* ---- pages-a (pricing, 3b, 3b/examples, customers): --c-* palette used by exported illustration SVGs ---- */
+  :root {
+    --c-blue25:#98b7f2;
+    --c-blue30:#84a9f1;
+    --c-blue35:#729bed;
+    --c-blue40:#618ee8;
+    --c-blue45:#5180e0;
+    --c-blue80:#192f7d;
+    --c-green30:#50bc8c;
+    --c-green40:#00a370;
+    --c-green45:#009465;
+    --c-green75:#004c34;
+    --c-magenta30:#e374f4;
+    --c-magenta45:#be45d1;
+    --c-orange25:#ffa87b;
+    --c-orange30:#ff965e;
+    --c-orange40:#f27324;
+    --c-orange45:#e26717;
+    --c-orange50:#d15c08;
+    --c-orange55:#c05200;
+    --c-orange75:#75320d;
+    --c-pink20:#ffa8cf;
+    --c-pink25:#ff91c6;
+    --c-pink30:#ff78bc;
+    --c-pink40:#ed52a6;
+    --c-pink45:#dd4799;
+    --c-pink50:#cd3d8b;
+    --c-pink55:#be327e;
+    --c-pink75:#761f4b;
+    --c-purple15:#d0c8ff;
+    --c-purple2:#f5f2fb;
+    --c-purple25:#b6a7ff;
+    --c-purple30:#aa95ff;
+    --c-purple35:#9e84fd;
+    --c-purple40:#9274f4;
+    --c-purple45:#8665eb;
+    --c-purple50:#7a56e0;
+    --c-purple75:#4a288a;
+    --c-purple85:#351f5e;
+    --c-sky30:#55b4dc;
+    --c-sky40:#009bca;
+    --c-sky45:#008db9;
+    --c-teal25:#56cec6;
+    --c-teal30:#2ac4bc;
+    --c-teal45:#009b95;
+    --c-teal70:#005b5b;
+  }
+  :root { --lightest: theme('colors.lightest'); }
+}
+
+/* ===== pages-a (pricing): "3D lip" CTA = border 1px 1px 3px, bottom lip rgba(0,0,0,.1); :active thins the lip to 2px ===== */
+@layer components {
+  .btn-lip { height: 42px; width: 160px; border-width: 1px 1px 3px; border-bottom-color: rgba(0,0,0,.1); }
+  .btn-lip:active { border-bottom-width: 2px; filter: none; }
+}
+
+/* ===== pages group B1 (solutions / sub-solutions), specs/pages-b.md sections 0.5, 2, 3 ===== */
+:root { --radius: 12px; --card-pad: 28px; }
+@media (min-width: 640px) { :root { --radius: 14px; --card-pad: 40px; } }
+@media (min-width: 1024px) { :root { --card-pad: 55px; } }
+@media (min-width: 1440px) { :root { --card-pad: 72px; } }
+/* Accent theme: the live site remaps --acc* from `data-color-theme=<hue>` on a card. */
+[data-color-theme='purple'] { --acc5: theme('colors.purple.5'); --acc10: theme('colors.purple.10'); --acc20: theme('colors.purple.20'); --acc25: theme('colors.purple.25'); --acc30: theme('colors.purple.30'); --acc40: theme('colors.purple.40'); --acc50: theme('colors.purple.50'); --acc60: theme('colors.purple.60'); --acc70: theme('colors.purple.70'); --acc80: theme('colors.purple.80'); }
+/* pink / orange / green use the rendered (display-p3 -> sRGB) readbacks of the live cards, which differ slightly from the
+   spec's hex fallbacks; they already exist as tint.* / pga.* tokens. */
+[data-color-theme='pink'] { --acc5: theme('colors.tint.rose'); --acc10: theme('colors.tint.rose-mid'); --acc20: theme('colors.tint.rose-line'); --acc25: theme('colors.pga.pink-line'); --acc30: theme('colors.tint.pink-dot'); --acc40: theme('colors.pink.40'); --acc50: theme('colors.pink.50'); --acc60: theme('colors.pink.60'); --acc70: theme('colors.pink.70'); --acc80: theme('colors.pink.80'); }
+[data-color-theme='orange'] { --acc5: theme('colors.tint.peach'); --acc10: theme('colors.tint.peach-mid'); --acc20: theme('colors.tint.peach-line'); --acc25: theme('colors.pga.orange-line'); --acc30: theme('colors.tint.peach-hover'); --acc40: theme('colors.orange.40'); --acc50: theme('colors.orange.50'); --acc60: theme('colors.orange.60'); --acc70: theme('colors.orange.70'); --acc80: theme('colors.orange.80'); }
+[data-color-theme='green'] { --acc5: theme('colors.green.5'); --acc10: theme('colors.green.10'); --acc20: theme('colors.green.20'); --acc25: theme('colors.green.25'); --acc30: theme('colors.green.30'); --acc40: theme('colors.green.40'); --acc50: theme('colors.tint.green-book'); --acc60: theme('colors.green.60'); --acc70: theme('colors.tint.green-ink-dk'); --acc80: theme('colors.tint.green-ink-xdk'); }
+[data-color-theme='teal'] { --acc5: theme('colors.teal.5'); --acc10: theme('colors.teal.10'); --acc20: theme('colors.teal.20'); --acc30: theme('colors.teal.30'); --acc50: theme('colors.teal.50'); --acc70: theme('colors.teal.70'); --acc80: theme('colors.teal.80'); }
+[data-color-theme='yellow'] { --acc5: theme('colors.yellow.5'); --acc10: theme('colors.yellow.10'); --acc20: theme('colors.yellow.20'); --acc30: theme('colors.yellow.30'); --acc50: theme('colors.yellow.50'); --acc70: theme('colors.yellow.70'); --acc80: theme('colors.yellow.80'); }
+/* Hero buttons on these pages are purple-70 while the page foreground is purple-65 (--btn-color in the live CSS). */
+.btn-tone-70 { --page-fg: theme('colors.purple.70'); --page-btn-bg: theme('colors.purple.70'); }
+/* ===== end pages group B1 ===== */
+
+/* ===== pages-b2: IndustryPage (/financial-services/, /public-sector/, /mssps/) + /security/ ===== */
+@layer base {
+  /* Industry pages: nav/footer/main fg and filled-button bg are purple-70 (specs/pages-b.md §0.2). /security/ uses the existing 'plain' theme (purple-65). */
+  [data-page-theme='industry'] { --page-fg: theme('colors.purple.70'); --page-btn-bg: theme('colors.purple.70'); }
+}
+
+/* ===== pages-a (/3b/): bento grid, frosted page button, video player ===== */
+@layer components {
+  /* "frosted" button whose fill is the page bg @ .65 (live 3b: rgba(236,232,253,.65)); hover = --unfilledHoverBg */
+  .btn-frosted-page {
+    background-color: color-mix(in srgb, var(--page-bg) 65%, transparent);
+    -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+    border-color: var(--page-fg); color: var(--page-fg);
+  }
+  .btn-frosted-page:hover { background-color: color-mix(in srgb, color-mix(in srgb, var(--page-fg) 10%, var(--page-bg)) 85%, transparent); }
+
+  /* ThreeBBento: 1 col (<768), 2 cols (768-1023), 12/13 cols from 1024; each tile sets --c / --r (grid-column / grid-row) */
+  .bento-grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+  @media (min-width: 768px) { .bento-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; } }
+  @media (min-width: 1024px) {
+    .bento-grid { grid-template-columns: repeat(var(--cols, 12), minmax(0, 1fr)); grid-template-rows: var(--rows-xl, var(--rows)); gap: 24px; }
+    .bento-cell { grid-column: var(--c); grid-row: var(--r); }
+  }
+  @media (min-width: 1280px) { .bento-grid { grid-template-rows: var(--rows-2xl, var(--rows)); } }
+  @media (min-width: 1440px) { .bento-grid { grid-template-rows: var(--rows); } }
+  .bento-intro { grid-column: 1 / -1; }
+  @media (min-width: 1024px) { .bento-intro { grid-column: var(--c); grid-row: var(--r); } }
+  /* <1024 tiles are square (live: 318x318 @390, 329x327 @768) and grow only where --min-h says so */
+  .bento-tile { aspect-ratio: 1 / 1; min-height: var(--min-h, 0px); }
+  @media (min-width: 768px) { .bento-tile { min-height: var(--min-h-md, 0px); } }
+  @media (min-width: 768px) and (max-width: 1023px) { .bento-wide-md { grid-column: 1 / -1; } }
+  @media (min-width: 1024px) { .bento-tile { aspect-ratio: auto; min-height: 0; } }
+  .tile-scrim-b { background: linear-gradient(to top, theme('colors.lightest') 0%, theme('colors.lightest') 25%, transparent 65%); }
+  .tile-scrim-prompt { background: linear-gradient(to top, color-mix(in srgb, theme('colors.lightest') 70%, transparent), transparent); }
+}
+
+/* ---- pages-c: /university/, /events/, /webinars/, /case-studies/ (grid-paper, theme, svg vars) ---- */
+@layer base {
+  /* /events/ overrides the foreground to purple-70 (specs/pages-c.md §0.1) */
+  [data-page-theme='events'] { --page-fg: theme('colors.purple.70'); --page-btn-bg: theme('colors.purple.70'); }
+  /* event detail + webinars: foreground purple-65 like the other collection pages, but with the events accent (#7a56e0) */
+  [data-page-theme='events-65'] { --page-fg: theme('colors.purple.65'); --page-btn-bg: theme('colors.purple.65'); }
+  [data-page-theme^='events'] main .text-accent { color: theme('colors.purple.50'); }
+  /* Variables that the downloaded SVG illustrations reference (webinars access-form icon, case-study tines mark, ...) */
+  :root { --acc10: theme('colors.purple.10'); --acc50: theme('colors.purple.50'); --acc70: theme('colors.purple.70'); --acc90: theme('colors.purple.90'); --lightest: theme('colors.lightest'); }
+}
+@layer components {
+  /* University "grid paper": 24x24 cell, 1px lines in #8d75e6 at 10% (specs/pages-c.md §7.1) */
+  .pc-grid-paper {
+    background-image: url("data:image/svg+xml,<svg width='24' height='24' xmlns='http://www.w3.org/2000/svg'><g opacity='0.1'><line x1='12.5' y1='0' x2='12.5' y2='24' stroke='%238d75e6'/><line x1='0' y1='11.5' x2='24' y2='11.5' stroke='%238d75e6'/></g></svg>");
+  }
+}
+
+/* pages-b2: the live --acc* steps are display-p3 values; their sRGB readbacks (measured via canvas on the live pages) differ from the hex fallbacks
+   b1's [data-color-theme] block uses. Industry pages only, so group-b1 pages are untouched. */
+[data-page-theme='industry'] [data-color-theme='orange'] { --acc5:#ffe1c4; --acc10:#ffcea6; --acc20:#ffab70; --acc30:#ff8e46; --acc40:#f27324; --acc50:#d15c08; --acc55:#c05100; --acc60:#ad4900; --acc70:#8a3701; --acc80:#622c12; }
+[data-page-theme='industry'] [data-color-theme='pink'] { --acc5:#ffdeee; --acc10:#ffc7e5; --acc20:#ff9ad2; --acc25:#ff87c8; --acc30:#ff75bd; --acc40:#ed52a6; --acc50:#cd3d8b; --acc55:#be327e; --acc60:#ad2a71; --acc70:#8a2057; --acc80:#631e40; }
+[data-page-theme='industry'] [data-color-theme='green'] { --acc5:#e4eee7; --acc10:#cae4d4; --acc20:#90d1af; --acc25:#71c79d; --acc30:#50bc8c; --acc40:#00a46e; --acc50:#008b53; --acc55:#007f4a; --acc60:#007442; --acc70:#005d35; --acc80:#00452a; }
+[data-page-theme='industry'] [data-color-theme='purple'] { --acc5:#ece8fd; --acc10:#ded8ff; --acc20:#c3b5ff; --acc25:#b7a4ff; --acc30:#aa94ff; --acc40:#9275f4; --acc50:#7a56e0; --acc55:#714bd0; --acc60:#6741bf; --acc70:#542f9c; --acc80:#3f2374; }
+[data-page-theme='industry'] [data-color-theme='teal'] { --acc5:#ddf1ed; --acc10:#bee9e4; --acc20:#7ad8d0; --acc30:#2ac4bc; --acc50:#008e89; --acc70:#006061; --acc80:#004445; }
+[data-page-theme='industry'] [data-color-theme='blue'] { --acc5:#e7ecf5; --acc10:#d4dff3; --acc20:#acc4f3; --acc30:#84a9f1; --acc50:#4372d6; --acc55:#3565cc; --acc70:#1f42a1; }
