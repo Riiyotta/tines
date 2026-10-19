@@ -2192,5 +2192,15 @@
   "type": "inline-svg",
   "format": "svg",
   "bytes": 1123
+ },
+ {
+  "url": "https://www.tines.com/images/spot-illustrations/tines-icon-webinar-150w.png",
+  "localPath": "public/assets/pages/webinars/sidebar-spot-illustration-webinar.png",
+  "page": "/webinars/",
+  "section": "index-sidebar",
+  "type": "image",
+  "format": "png",
+  "dimensions": "150x150 (rendered)",
+  "bytes": 1620
  }
 ]
