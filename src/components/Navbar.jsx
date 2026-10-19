@@ -376,14 +376,14 @@ export default function Navbar({ variant = 'default' }) {
           {/* Desktop: Mono pill; <1024: plain Roobert 600 text link */}
           {!simple && <a
             href="/book-a-demo/"
-            className="inline-flex items-center whitespace-nowrap rounded-nav-item px-3 py-2 font-sans text-nav font-semibold xl:ml-3 xl:h-[35px] xl:rounded-pill xl:bg-purple-70 xl:px-5 xl:py-[10px] xl:font-mono xl:text-nav-demo xl:font-bold xl:uppercase xl:text-lightest xl:transition-colors xl:hover:bg-purple-60"
+            className="inline-flex items-center whitespace-nowrap rounded-nav-item px-3 py-2 font-sans text-nav font-semibold xl:ml-3 xl:h-[35px] xl:rounded-pill xl:bg-nav-btn xl:px-5 xl:py-[10px] xl:font-mono xl:text-nav-demo xl:font-bold xl:uppercase xl:text-nav-btn-fg xl:transition-colors xl:hover:bg-nav-btn-hover"
           >
             Book a demo
           </a>}
           {!simple && <button
             type="button"
             aria-label="Open search"
-            className="ml-2 flex h-[38px] w-[38px] items-center justify-center rounded-full text-purple-55 transition-colors xl:bg-purple-5 xl:text-purple-60 xl:hover:bg-purple-10"
+            className="ml-2 flex h-[38px] w-[38px] items-center justify-center rounded-full text-purple-55 transition-colors xl:bg-nav-search xl:text-nav-search-fg xl:hover:bg-nav-search-hover"
           >
             <InlineSvg svg={searchIcon} className="h-4 w-4" />
           </button>}

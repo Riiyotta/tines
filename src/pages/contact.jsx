@@ -6,7 +6,7 @@ import CtaStartToday from '../components/CtaStartToday.jsx'
 import { SECONDARY, OFFICES, pen, bell } from '../components/pages/contact/data.js'
 import support from '../../reference/svg/pages/contact-chx0na-supportillustration.svg?raw'
 
-export const title = 'Contact us'
+export const title = 'Contact us | Tines'
 export const theme = 'plain'
 
 const H2 = 'font-serif text-[18px] font-bold leading-[19.8px] tracking-[-0.18px] sm:text-[20px] sm:leading-[22px] sm:tracking-[-0.2px] text-purple-55'
@@ -49,8 +49,8 @@ export default function Contact() {
         The fastest way to reach us is to <a href="#support" className="font-bold underline hover:text-accent">send us a message</a>.
       </SimplePageHero>
 
-      <section className="mx-0 flex max-w-[1320px] flex-col gap-4 px-[18px] sm:mx-[60px] sm:gap-6 sm:px-10 min-[1440px]:mx-auto">
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6">
+      <section className="mx-auto flex max-w-[1320px] flex-col gap-4 px-page sm:gap-6">
+        <div className="grid grid-cols-1 gap-4 sm:gap-6 lg:grid-cols-2">
           <div className="relative flex min-h-[200px] flex-col justify-between rounded-[12px] border border-green-25 bg-green-5 p-6 sm:rounded-usp">
             <div><h2 className={H2}>Get support</h2><p className="mt-[3.5px] font-sans text-[14px] font-semibold leading-[22.4px]">Report an issue or get help.</p></div>
             <Sticker svg={pen} />
@@ -78,14 +78,14 @@ export default function Contact() {
             </div>
           ))}
         </div>
-        <p className="mx-auto mt-[51px] max-w-[576px] text-center font-sans text-[16px] font-medium leading-[22.4px] sm:mt-[79px] sm:leading-[25.6px]">
+        <p className="mx-auto mt-[51px] max-w-[576px] text-center font-sans text-[16px] font-medium leading-[22.4px] sm:mt-[calc(var(--sp-xl)+24px)] sm:leading-[25.6px]">
           If your inquiry does not match one of the above departments, contact support using <a href="#support" className="font-bold">this form</a> or send a question to <a href="mailto:hello@tines.com" className="font-bold">hello@tines.com</a>.
         </p>
       </section>
 
       <section className="mt-section-margin px-[18px] pb-24 sm:px-page-wide sm:pb-section-margin">
-        <SectionHeading loose className="text-purple-55">Our offices</SectionHeading>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6">
+        <SectionHeading loose mb={false} className="mb-sp-xl text-purple-55">Our offices</SectionHeading>
+        <div className="grid grid-cols-1 gap-4 sm:gap-6 lg:grid-cols-2">
           {OFFICES.map((o) => (
             <div key={o.city} className={`flex flex-col gap-4 rounded-[12px] border p-6 sm:gap-6 sm:rounded-usp ${o.cls}`}>
               <div>
@@ -103,8 +103,8 @@ export default function Contact() {
       </section>
 
       <section id="support" className="px-[18px] pb-24 sm:px-page-wide sm:pb-section-margin">
-        <SectionHeading loose align="left" className="text-purple-55">Contact support</SectionHeading>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+        <SectionHeading loose align="left" mb={false} className="mb-sp-xl text-purple-55">Contact support</SectionHeading>
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
           <SupportForm />
           <aside className="flex flex-col justify-between max-sm:order-first">
             <div>
@@ -114,7 +114,7 @@ export default function Contact() {
                 <li><a href="https://explained.tines.com/" className="hover:text-purple-40">→ Getting answers to your Tines questions</a></li>
               </ul>
             </div>
-            <InlineSvg svg={support} className="mx-auto mt-10 hidden h-[240px] w-[243px] sm:block" />
+            <InlineSvg svg={support} className="mx-auto mt-10 hidden h-[240px] w-[243px] lg:block" />
           </aside>
         </div>
       </section>

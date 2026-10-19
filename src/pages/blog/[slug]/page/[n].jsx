@@ -3,7 +3,6 @@ import BlogCategory from '../../../../components/pages/blog/BlogCategory.jsx'
 import BlogNotFound from '../../../../components/pages/blog/BlogNotFound.jsx'
 import { categoryBySlug } from '../../../../components/pages/blog/data.js'
 
-export const title = 'Blog | Tines'
 export const theme = 'plain'
 
 export default function BlogCategoryPage() {

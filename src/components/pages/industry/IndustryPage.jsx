@@ -1,6 +1,6 @@
 /**
  * IndustryPage: one shell for /financial-services/, /public-sector/ and /mssps/ (specs/pages-b.md section 4).
- * AreaNav (section links, no crumb) -> IndustryHero -> sections[] separated by the fixed spacers
+ * AreaNav (section links, no crumb) -> SolutionHero -> sections[] separated by the fixed spacers
  * (`margin` = --section-margin 156/96, `pad` = --section-padding 96/40, `xxl` = --sp-xxl 64/45, `none`) -> ExplosionCta (industry variant).
  * Each page supplies { hero, sections } from its sibling data file.
  */
@@ -13,18 +13,22 @@ import { G2BadgeList } from '../../shared/G2BadgeList.jsx'
 import { PartnerLogoGrid } from '../../shared/PartnerLogoGrid.jsx'
 import { QuoteCardNeue } from '../../shared/QuoteCardNeue.jsx'
 import { SectionHeading } from '../../shared/SectionHeading.jsx'
+import { ChildEntryCard, ChildEntryCardGrid } from '../../shared/ChildEntryCard.jsx'
+import { ContentCard } from '../../shared/ContentCard.jsx'
+import { ContentCardGrid } from '../../shared/ContentCardGrid.jsx'
+import { RibbonQuote } from '../../shared/RibbonQuote.jsx'
+import { UseCaseTabs } from '../../shared/UseCaseTabs.jsx'
+import { SolutionHero } from '../../shared/SolutionHero.jsx'
+import { OpeningParagraphs } from '../../shared/OpeningParagraphs.jsx'
 import InlineSvg from '../../InlineSvg.jsx'
-import { BannerQuote } from './BannerQuote.jsx'
-import { ChildCardGrid } from './ChildCardGrid.jsx'
-import { ContentCardGrid } from './ContentCardGrid.jsx'
-import { IndustryHero } from './IndustryHero.jsx'
 import { Kaleidoscope } from './Kaleidoscope.jsx'
 import { MsspLogoMarquee } from './MsspLogoMarquee.jsx'
 import { ServicesRibbon } from './ServicesRibbon.jsx'
-import { UseCaseTabs } from './UseCaseTabs.jsx'
 import { ValuePropositionGrid } from './ValuePropositionGrid.jsx'
+import quoteMark from '../../../../reference/svg/pages/solutions-it-quote-mark-1.svg?raw'
 import { industryLinks, svg, MS } from './assets.js'
 
+const WRAP = 'mx-auto w-full max-w-[1440px] px-page-wide'
 const GAP = { margin: 'h-section-margin', pad: 'h-section-pad', xxl: 'h-sp-xxl', none: '' }
 
 const G2_ALT = {
@@ -51,7 +55,7 @@ function ProductVisual({ base }) {
 function Section({ s }) {
   switch (s.type) {
     case 'tabs':
-      return <UseCaseTabs header={s.header} tabs={s.tabs} />
+      return <UseCaseTabs as="section" className={WRAP} header={s.header} tabs={s.tabs} />
     case 'quote':
       return (
         <CenteredQuote
@@ -63,20 +67,43 @@ function Section({ s }) {
         />
       )
     case 'childGrid':
-      return <ChildCardGrid {...s} />
+      return (
+        <section className={WRAP}>
+          <ChildEntryCardGrid layout="headingCell" title={s.title} description={s.description}>
+            {s.cards.map((c) => (
+              <ChildEntryCard key={c.title} {...c} />
+            ))}
+          </ChildEntryCardGrid>
+        </section>
+      )
     case 'banner':
-      return <BannerQuote {...s} logo={<InlineSvg svg={s.logo} className="block h-[38px] w-[153px]" />} />
+      return (
+        <RibbonQuote
+          {...s}
+          size="banner"
+          as="section"
+          className={WRAP}
+          mark={<InlineSvg svg={quoteMark} className="block h-10 w-10" />}
+          logo={<InlineSvg svg={s.logo} className="block h-[38px] w-[153px]" />}
+        />
+      )
     case 'kaleidoscope':
       return <Kaleidoscope lines={s.lines} />
     case 'content':
       return (
-        <ContentCardGrid
-          layout={s.layout}
-          cards={s.cards.map(({ iconSrc, iconClass, ...c }) => ({
-            ...c,
-            icon: iconSrc ? <img src={iconSrc} alt="" className={iconClass || ''} /> : undefined,
-          }))}
-        />
+        <section className={WRAP}>
+          <ContentCardGrid layout={s.layout} rows="auto">
+            {s.cards.map(({ iconSrc, iconClass, ...c }) => (
+              <ContentCard
+                key={c.title}
+                titleBleed={!c.caseDecor}
+                compact
+                {...c}
+                icon={iconSrc ? <img src={iconSrc} alt="" className={iconClass || ''} /> : undefined}
+              />
+            ))}
+          </ContentCardGrid>
+        </section>
       )
     case 'productVisual':
       return <ProductVisual base={s.base} />
@@ -90,7 +117,7 @@ function Section({ s }) {
       return <ValuePropositionGrid {...s} />
     case 'quoteCards':
       return (
-        <section className="mx-auto w-full max-w-[1440px] px-page-wide">
+        <section className={WRAP}>
           {s.title && <SectionHeading solution max="max-w-[690px]">{s.title}</SectionHeading>}
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             {s.cards.map((c, i) => (
@@ -109,7 +136,7 @@ function Section({ s }) {
       return <ServicesRibbon {...s} />
     case 'g2':
       return (
-        <section className="mx-auto w-full max-w-[1440px] px-page-wide">
+        <section className={WRAP}>
           <G2BadgeList
             size={120}
             gap={24}
@@ -129,28 +156,60 @@ function Section({ s }) {
   }
 }
 
+// Maps a page's `hero` data (industry data files) onto the shared SolutionHero props.
+function Hero({ hero }) {
+  const { variant, kicker, title, description, buttons, decoration, backdropSvg, aside, marqueeLogos, smallPrint, opening } = hero
+  const common = { kicker, title, description, buttons }
+  if (variant === 'split') {
+    return (
+      <SolutionHero
+        {...common}
+        variant="split"
+        aside={<InlineSvg svg={aside} className="block h-auto w-[286px] max-md:order-3 max-md:mt-8 max-md:max-h-[220px] max-md:w-auto max-md:justify-self-center [&>svg]:max-md:max-h-[220px] [&>svg]:max-md:w-auto" />}
+        footer={marqueeLogos ? <MsspLogoMarquee logos={marqueeLogos} /> : undefined}
+      />
+    )
+  }
+  const hasBackdrop = decoration?.left || decoration?.right || backdropSvg
+  return (
+    <SolutionHero
+      {...common}
+      decoration={decoration?.pageIcon ? { icon: { src: decoration.pageIcon, className: 'mb-[42px] h-auto w-[117px]' } } : undefined}
+      backdrop={
+        hasBackdrop ? (
+          <>
+            {decoration?.left && <img src={decoration.left} alt="" className="absolute -left-5 top-[40px] h-[454px] w-[360px] max-w-none" />}
+            {decoration?.right && <img src={decoration.right} alt="" className="absolute -right-5 top-[23px] h-[454px] w-[360px] max-w-none" />}
+            {backdropSvg && <InlineSvg svg={backdropSvg} className="absolute bottom-0 left-[70px] block h-[169px] w-[207px]" />}
+          </>
+        ) : undefined
+      }
+      smallPrint={
+        smallPrint && (
+          <>
+            {smallPrint.map((l, i) => (
+              <p key={i}>
+                {l.text}
+                {l.link && <a href={l.link.href} className="underline underline-offset-[.15em]">{l.link.label}</a>}
+                {l.after}
+              </p>
+            ))}
+          </>
+        )
+      }
+    >
+      {opening && <OpeningParagraphs variant="wide" heading={opening.title} paragraphs={opening.paragraphs} />}
+    </SolutionHero>
+  )
+}
+
 export default function IndustryPage({ page }) {
   const { hero, sections, slug } = page
   const links = industryLinks(slug)
-  const heroProps = {
-    ...hero,
-    footer: hero.marqueeLogos ? <MsspLogoMarquee logos={hero.marqueeLogos} /> : undefined,
-    smallPrint: hero.smallPrint && (
-      <>
-        {hero.smallPrint.map((l, i) => (
-          <p key={i}>
-            {l.text}
-            {l.link && <a href={l.link.href} className="underline underline-offset-[.15em]">{l.link.label}</a>}
-            {l.after}
-          </p>
-        ))}
-      </>
-    ),
-  }
   return (
     <div>
       <AreaNav pill={{ label: 'Solutions', static: true }} links={links} collapseLabel={links.find((l) => l.active)?.label} />
-      <IndustryHero {...heroProps} />
+      <Hero hero={hero} />
       {sections.map((s, i) => (
         <div key={i}>
           <div className={GAP[s.gap || 'margin']} aria-hidden="true" />

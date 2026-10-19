@@ -19,7 +19,7 @@ export default function CaseStudiesAll() {
           <h1 className="font-serif text-[42px] font-normal leading-[48.3px] tracking-[-0.84px] sm:text-[48px] sm:leading-[55.2px] sm:tracking-[-0.96px]">All case studies</h1>
           <p className="mt-4 font-sans text-[16px] font-medium leading-[22.4px]">Discover how companies, from Fortune 100 enterprises to fast-growing startups, use Tines to automate their most important work.</p>
         </header>
-        <CardGrid as="ul" cols={{ base: 1, lg: 3 }} gap={[24, 24]} className="m-0 list-none p-0 max-lg:!gap-y-4">
+        <CardGrid as="ul" cols={{ base: 1 }} gap={[24, 24]} className="m-0 list-none p-0 max-sm:!gap-y-4 sm:grid-cols-2 xl:grid-cols-3">
           {studies.map((c) => (
             <li key={c.slug}>
               <CaseStudyBookCard href={c.href} palette={c.theme} logo={c.logoSvg} logoAlt={c.company} quote={c.quote || c.headline} stat={c.stat} />

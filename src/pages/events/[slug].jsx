@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom'
+import { NotFoundPage } from '../../components/shared/NotFoundPage.jsx'
 import { AreaNav, NewsletterSection } from '../../components/shared/index.js'
 import CtaStartToday from '../../components/CtaStartToday.jsx'
 import EventDetail from '../../components/pages/events/Detail.jsx'
@@ -20,10 +21,7 @@ export default function EventPage() {
           <CtaStartToday />
         </>
       ) : (
-        <section className="mx-auto flex min-h-[50vh] max-w-page flex-col items-center justify-center px-page text-center">
-          <h1 className="font-serif text-h2-sm">Event not found in this clone</h1>
-          <a href="/events/" className="btn btn-filled mt-6">All events</a>
-        </section>
+        <NotFoundPage actions={[{ href: "/events/", label: "All events" }, { href: "/", label: "Back to home" }]} />
       )}
     </>
   )

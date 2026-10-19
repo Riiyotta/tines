@@ -119,6 +119,11 @@ const SAMPLE_LESSONS = {
     'What are intelligent workflows?', 'Meet Tines Stories', 'Identify intelligent workflow opportunities',
     'Building blocks of intelligent workflows', 'Tines Stories resources', 'Knowledge check', 'Key takeaways',
   ],
+  // university group c2: live lesson titles for the Builder: Core modules
+  'builder-core/story-design': ['Establish your idea', 'Choose the right tools', 'Linear story design', 'Story fork design', 'Story organization', 'Knowledge check', 'Key takeaways'],
+  'builder-core/resources': ['What is a resource?', 'Resource types', 'Create and manage resources', 'Implement resources in stories', 'Knowledge check', 'Key takeaways'],
+  'builder-core/credentials': ['What is a credential?', 'Credential types', 'Connect flows', 'Create and manage credentials', 'Implement credentials in stories', 'Knowledge check', 'Key takeaways'],
+  'builder-core/introduction-to-functions': ['Formulas and functions', 'Mathematical functions', 'Time functions', 'Text functions', 'Logic functions', 'Knowledge check', 'Key takeaways'],
 }
 
 export function getCourse(slug) {
@@ -136,7 +141,30 @@ export function getModule(courseSlug, moduleSlug) {
   const idx = course.modules.indexOf(m)
   const names = SAMPLE_LESSONS[`${courseSlug}/${moduleSlug}`] || ['Overview', 'Walkthrough', 'Practice', 'Key takeaways']
   const lessons = names.map((n) => ({ name: n, slug: slugify(n), href: `/university/${courseSlug}/${moduleSlug}/${slugify(n)}/` }))
-  return { course, module: m, index: idx, lessons }
+  const own = MODULE_INTROS[`${courseSlug}/${moduleSlug}`]
+  const intro = own?.intro || [`Welcome to <strong>${m.name}</strong>, module ${idx + 1} of the <strong>${course.name}</strong> learning path. Work through the lessons in order, try the ideas in your own tenant as you go, and finish with a short knowledge check.`]
+  const objectives = own?.objectives || [`Explain the key ideas behind ${m.name.toLowerCase()} in Tines Stories.`, 'Apply them to a small story of your own.', 'Spot common mistakes and know how to avoid them.']
+  return { course, module: m, index: idx, lessons, intro, objectives }
+}
+
+// Module landing copy (original text; live shows an Introduction + Learning objectives per module).
+const MODULE_INTROS = {
+  'builder-core/story-design': {
+    intro: ['Welcome to <strong>Story design</strong>, the first module of the <strong>Builder: Core</strong> learning path. Here you will look closely at the planning side of building in Tines Stories: how to sketch an idea, pick the right pieces and lay a story out so that teammates can follow it. A little care at this stage saves a great deal of rework later, and it makes the stories you hand over far easier for others to read, trust and maintain over time.'],
+    objectives: ['Recognise the kinds of processes that make a good fit for a story in Tines.', 'Sketch and organise a story using sound, consistent habits for layout and naming.', 'Build straight-line and branching flows by choosing the most suitable actions.'],
+  },
+  'builder-core/resources': {
+    intro: ['Welcome to the <strong>Resources</strong> module. Resources give your stories a place to keep information that should outlast a single run, such as lookup lists, settings and counters.', 'You will see how they differ from events, which only live for the duration of a run, and how to read and update them from your actions.'],
+    objectives: ['Describe what a resource is and when to use one.', 'Choose between the available resource types.', 'Create, edit and reference resources inside a story.'],
+  },
+  'builder-core/credentials': {
+    intro: ['Almost every story talks to outside systems, and those systems usually want proof of who is asking. This module covers how to keep that proof safe while still using it in your actions.', 'You will meet the different credential types and learn how to set them up without ever pasting a secret into a story.'],
+    objectives: ['Explain why credentials are stored separately from actions.', 'Pick the credential type that matches a service.', 'Create a credential and use it from an action.'],
+  },
+  'builder-core/introduction-to-functions': {
+    intro: ['Welcome to <strong>Introduction to functions</strong>. Functions let you reshape data as it moves through a story, from simple arithmetic to dates, text and conditions.', 'Think of them as the formulas you may already know from spreadsheets, applied to the events your story receives.'],
+    objectives: ['Write a basic formula using a function.', 'Work with numbers, dates and text values.', 'Use logic functions to branch on the data you have.'],
+  },
 }
 
 // Placeholder lesson body (original copy; structure from the spec's counts: 11 p, 3 h2, 2 ul / 6 li, 1 callout ~410 words)

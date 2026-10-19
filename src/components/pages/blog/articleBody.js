@@ -2,7 +2,8 @@
 import { words, title } from '../placeholder.js'
 import { stories, storyProps } from '../library/data.js'
 
-const p = (n, seed) => ({ t: 'p', text: words(n, seed) })
+// `more` = extra sentences shown from md up only (the live article's paragraphs run longer on wide screens than on phones).
+const p = (n, seed, more = 0) => ({ t: 'p', text: words(n, seed), more: more ? words(Math.ceil(more / 2), seed + 211) : undefined, more2: more ? words(Math.floor(more / 2), seed + 307) : undefined })
 const h2 = (seed) => ({ t: 'h2', text: title(4, seed) })
 const h3 = (seed) => ({ t: 'h3', text: title(5, seed) })
 const ul = (seed, nested) => ({ t: 'ul', items: [words(9, seed), words(11, seed + 1), words(8, seed + 2)], nested: nested ? [words(6, seed + 3), words(7, seed + 4)] : null })
@@ -17,9 +18,9 @@ export function longBody() {
   const h3Plan = [2, 2, 2, 2, 3]
   let h3n = 0
   h3Plan.forEach((count, i) => {
-    out.push(h2(s++), p(38, s++), p(30, s++))
+    out.push(h2(s++), p(38, s++, 16), p(30, s++, 16))
     for (let k = 0; k < count; k++) {
-      out.push(h3(s++), p(32, s++))
+      out.push(h3(s++), p(32, s++, 14))
       if (h3n < 11) out.push(ul(s++, h3n === 4))
       h3n++
     }

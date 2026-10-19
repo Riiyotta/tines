@@ -2,6 +2,7 @@ import { Suspense, createContext, lazy, useContext, useEffect, useLayoutEffect, 
 import { BrowserRouter, Routes, Route, Outlet, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
+import { NotFoundPage } from './components/shared/NotFoundPage.jsx'
 
 // File-based routes: every src/pages/**/*.jsx is a page, so page agents add
 // files without editing this one.
@@ -36,7 +37,7 @@ const routes = Object.entries(modules)
           return () => setChrome('default')
         }, [])
         useEffect(() => {
-          if (mod.title) document.title = mod.title
+          if (mod.title && !('notFound' in document.documentElement.dataset)) document.title = mod.title
         }, [])
         // Layout effect: set before paint so nav/footer never flash the wrong colors.
         useLayoutEffect(() => {
@@ -64,6 +65,7 @@ function Layout() {
   return (
     <ChromeContext.Provider value={setChrome}>
     <div className="overflow-x-clip">
+      <a href="#main-content" className="skip-link">Skip to content</a>
       <Navbar variant={chrome} />
       <main id="main-content">
         <Suspense fallback={<div className="min-h-screen" />}>
@@ -76,24 +78,15 @@ function Layout() {
   )
 }
 
-function NotFound() {
-  return (
-    <section className="mx-auto flex min-h-[60vh] max-w-page flex-col items-center justify-center px-page text-center text-purple-55">
-      <h1 className="font-sans text-h2-sm sm:text-h2">Page not cloned yet</h1>
-      <a href="/" className="btn btn-filled mt-sp-md">Back to home</a>
-    </section>
-  )
-}
-
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <Routes>
         <Route element={<Layout />}>
           {routes.map(({ path, Page }) => (
             <Route key={path} path={path} element={<Page />} />
           ))}
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

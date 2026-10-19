@@ -46,11 +46,11 @@ export function UniversityHero() {
   return (
     <section className="mx-auto max-w-page px-page">
       <div className="pc-grid-paper relative rounded-[12px] border border-tint-lilac-edge">
-        <div className="flex justify-center max-sm:mt-[18px] max-sm:h-[104px] sm:h-[46px]">
-          <img src="/assets/pages/university/university-hero-icon.svg" alt="" width="168" height="104" className="h-[104px] w-[168px] max-w-none sm:-mt-[58px]" />
+        <div className="flex justify-center max-sm:mt-[32px] max-sm:h-[88px] sm:h-[46px]">
+          <img src="/assets/pages/university/university-hero-icon.svg" alt="" width="168" height="104" className="h-[88px] w-[142px] max-w-none sm:-mt-[58px] sm:h-[104px] sm:w-[168px]" />
         </div>
-        <div className="px-4 pb-[60px] pt-10 text-center sm:pt-[60px]">
-          <h1 className="mb-8 font-serif text-[38px] font-normal leading-[38px] tracking-[-1.14px] sm:text-[64px] sm:leading-[64px] sm:tracking-[-1.92px]">Tines Stories University</h1>
+        <div className="px-4 pb-10 pt-10 text-center 2xl:pb-[60px] 2xl:pt-[60px]">
+          <h1 className="mb-8 font-serif text-[clamp(38px,5.265vw,64px)] font-normal leading-[1] tracking-[-0.03em]">Tines Stories University</h1>
           <p className="mx-auto max-w-[700px] px-[10px] font-sans text-[16px] font-medium leading-[22.4px]">
             Build your Tines Stories skills through learning paths designed for every experience level. Earn professional badges you can share on LinkedIn and across your network.
           </p>

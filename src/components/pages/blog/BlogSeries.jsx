@@ -3,10 +3,12 @@ import CtaStartToday from '../../CtaStartToday.jsx'
 import InlineSvg from '../../InlineSvg.jsx'
 import chevron from '../../../../reference/svg/pages/blog-series-list-chevron.svg?raw'
 import BlogNav from './BlogNav.jsx'
+import { usePageTitle } from '../_lib/usePageTitle.js'
 import { moreSeries, seriesBySlug } from './data.js'
 
 export default function BlogSeries({ slug }) {
   const s = seriesBySlug(slug)
+  usePageTitle(s.docTitle || `${s.title} | Tines Blog`)
   return (
     <>
       <BlogNav active="/blog/" />

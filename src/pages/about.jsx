@@ -11,7 +11,7 @@ import icon1 from '../../reference/svg/pages/about-g1t3uw-cardheader.svg?raw'
 import icon2 from '../../reference/svg/pages/about-g1t3uw-cardheader-2.svg?raw'
 import icon3 from '../../reference/svg/pages/about-g1t3uw-cardheader-3.svg?raw'
 
-export const title = 'About Tines'
+export const title = 'About | Tines'
 export const theme = 'about'
 
 const KICKER = 'font-sans text-[12px] font-semibold uppercase leading-[16.8px] tracking-[1.2px]'

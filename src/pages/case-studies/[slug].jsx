@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom'
+import { NotFoundPage } from '../../components/shared/NotFoundPage.jsx'
 import { AreaNav, PageSection } from '../../components/shared/index.js'
 import CtaStartToday from '../../components/CtaStartToday.jsx'
 import { StudyHero, StudyBody, MoreStudies } from '../../components/pages/case-studies/Study.jsx'
@@ -22,10 +23,7 @@ export default function CaseStudyPage() {
           <div className="pt-0"><CtaStartToday /></div>
         </>
       ) : (
-        <PageSection className="py-24 text-center">
-          <h1 className="font-serif text-h2-sm">Case study not found in this clone</h1>
-          <a href="/case-studies/all/" className="btn btn-filled mt-6">All case studies</a>
-        </PageSection>
+        <NotFoundPage actions={[{ href: "/case-studies/all/", label: "All case studies" }, { href: "/", label: "Back to home" }]} />
       )}
     </div>
   )

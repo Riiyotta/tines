@@ -53,7 +53,7 @@ function Row({ logos, speed, start }) {
 export function CustomerLogosMarquee({ title, description, className = '' }) {
   return (
     <div className={`overflow-hidden rounded-card border border-[color-mix(in_srgb,currentColor_20%,transparent)] py-sp-xl ${className}`}>
-      <header className="px-4 text-center sm:ml-[8.333%] sm:grid sm:max-w-[650px] sm:grid-cols-[auto_1fr] sm:items-center sm:text-left 2xl:grid-cols-[minmax(auto,265px)_minmax(265px,1fr)]">
+      <header className="px-4 text-center sm:ml-[8.333%] sm:grid sm:max-w-[650px] sm:grid-cols-2 sm:items-center sm:text-left 2xl:grid-cols-[minmax(auto,265px)_minmax(265px,1fr)]">
         <h2 className="m-0 px-[1.25em] font-serif text-[28px] font-normal leading-[32.2px] tracking-[-0.56px] max-sm:pb-4 sm:mr-[1em] sm:border-r sm:border-[color-mix(in_srgb,currentColor_20%,transparent)] sm:px-0 sm:pr-[1em]">{title}</h2>
         <p className="m-0 font-sans text-solution-body-sm font-medium">{description}</p>
       </header>

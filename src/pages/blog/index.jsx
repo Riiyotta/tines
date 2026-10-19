@@ -7,7 +7,7 @@ import BlogNav from '../../components/pages/blog/BlogNav.jsx'
 import ArticleCard from '../../components/pages/blog/ArticleCard.jsx'
 import { articles, bySlug, guides, latest, productUpdates, tutorials } from '../../components/pages/blog/data.js'
 
-export const title = 'Blog | Tines'
+export const title = 'Tines Blog'
 export const theme = 'plain'
 
 const featuredCard = (a, key) => (

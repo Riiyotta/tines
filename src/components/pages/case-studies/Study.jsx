@@ -3,6 +3,7 @@ import { PageSection, Prose, PullQuote, ImageBlock, CardGrid, CaseStudyBookCard 
 import InlineSvg from '../../InlineSvg.jsx'
 import plus from '../../../../reference/svg/pages/case-studies-plus-sign.svg?raw'
 import tinesMark from '../../../../reference/svg/pages/case-studies-tines-logo-cell.svg?raw'
+import anchorIcon from '../../../../reference/svg/pages/blog-heading-anchor-link.svg?raw'
 import { makeText } from './placeholder.js'
 
 // hero card theme (card bg / header cell / quote ink); notion + vimeo are green on the live site
@@ -55,7 +56,7 @@ export function StudyBody({ s }) {
   return (
     <PageSection className="mt-24">
       <article className="mx-auto max-w-[680px]">
-        <Prose weight500 className="[&_p]:!max-w-none">
+        <Prose weight500 className="[&_p]:!max-w-none max-sm:!text-[16px] max-sm:!leading-[26px]">
           {s.blocks.map((tok, idx) => {
             const [head, w] = tok.split(':')
             const k = head[0]
@@ -68,7 +69,7 @@ export function StudyBody({ s }) {
               const id = text.toLowerCase().replace(/[^a-z0-9]+/g, '-')
               return (
                 <h2 key={idx} id={id} className="group relative">
-                  <a href={`#${id}`}><span>{text}</span><span aria-hidden="true" className="ml-[8.4px] inline-block h-[17px] w-[17px] align-middle text-[14px] opacity-0 transition-opacity duration-150 group-hover:opacity-100">#</span></a>
+                  <a href={`#${id}`} className="!font-normal !no-underline"><span>{text}</span><InlineSvg svg={anchorIcon} className="ml-[8.4px] h-[17px] w-[17px] align-middle opacity-0 transition-opacity duration-150 group-hover:opacity-100" /></a>
                 </h2>
               )
             }
@@ -100,7 +101,7 @@ export function MoreStudies({ items }) {
   return (
     <PageSection spaced>
       <h2 className="mb-[55px] font-serif text-[24px] font-normal leading-[27.6px] tracking-[-0.24px] sm:text-[32px] sm:leading-[36.8px] sm:tracking-[-0.64px]">More case studies</h2>
-      <CardGrid cols={{ base: 1, lg: 3 }} gap={[24, 24]} className="max-lg:!gap-y-4">
+      <CardGrid cols={{ base: 1 }} gap={[24, 24]} className="max-sm:!gap-y-4 sm:grid-cols-2 xl:grid-cols-3">
         {items.map((c) => <CaseStudyBookCard key={c.slug} href={c.href} palette={c.theme} logo={c.logoSvg} logoAlt={c.company} quote={c.quote || c.headline} stat={c.stat} />)}
       </CardGrid>
       <div className="mt-[55px] flex justify-center"><a href="/case-studies/all/" className="btn btn-sans btn-outlined">See all case studies</a></div>

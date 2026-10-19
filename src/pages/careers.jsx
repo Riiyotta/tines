@@ -40,7 +40,7 @@ export default function Careers() {
 
       <section className={`${sec} mt-0`}>
         <div className="text-center">
-          <h2 className="font-serif text-section-h2-sm font-normal text-purple-60 sm:text-section-h2">Our values</h2>
+          <h2 className="font-serif text-section-h2-sm font-normal text-purple-60 md:text-[38px] md:leading-[39.9px] lg:text-section-h2">Our values</h2>
           <p className="mx-auto mt-6 max-w-[384px] font-sans text-[16px] font-medium leading-6">We live our values of Speed, Simplicity and Soundness in everything we do at Tines.</p>
           <a href="/about/" className="mt-7 inline-block font-sans text-[16px] font-bold leading-[22px] text-purple-60 hover:underline">Learn more about Tines →</a>
         </div>
@@ -48,8 +48,8 @@ export default function Careers() {
       </section>
 
       <section className={`${sec} mt-section-margin`}>
-        <h2 className="text-center font-serif text-section-h2-sm font-normal sm:text-section-h2">Hear from our team</h2>
-        <ul className="m-0 mt-[96px] grid list-none grid-cols-1 gap-x-6 gap-y-16 p-0 sm:grid-cols-2 xl:grid-cols-3">
+        <h2 className="text-center font-serif text-section-h2-sm font-normal md:text-[38px] md:leading-[39.9px] lg:text-section-h2">Hear from our team</h2>
+        <ul className="m-0 mt-10 grid list-none grid-cols-1 gap-x-6 gap-y-[45px] p-0 md:mt-12 md:gap-y-16 xl:mt-[66px] 2xl:mt-[96px] sm:grid-cols-2 xl:grid-cols-3">
           {POSTS.map((p) => (
             <li key={p.title}><ArticleEntryCard href={p.href} cover={p.img} title={p.title} coverClass="transition-[filter,transform] duration-100 hover:brightness-[1.03]" /></li>
           ))}

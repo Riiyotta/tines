@@ -29,7 +29,7 @@ const COLORS = {
 export function ValueCards({ variant = 'about', items, className = '' }) {
   const data = items || TITLES.map((title, i) => ({ title, body: BODY[i], icon: ICONS[variant][i] }))
   return (
-    <ul className={`m-0 grid list-none grid-cols-1 gap-4 p-0 md:grid-cols-3 md:gap-6 ${className}`}>
+    <ul className={`m-0 grid list-none grid-cols-1 gap-4 p-0 md:gap-6 ${variant === 'careers' ? 'xl:grid-cols-3' : 'md:grid-cols-3'} ${className}`}>
       {data.map((it, i) =>
         variant === 'about' ? (
           <li key={it.title} className={`grid content-between gap-6 rounded-[12px] p-6 sm:gap-10 sm:rounded-usp sm:p-[55px] ${COLORS.about[i]}`}>
@@ -40,11 +40,11 @@ export function ValueCards({ variant = 'about', items, className = '' }) {
             </div>
           </li>
         ) : (
-          <li key={it.title} className={`grid content-between gap-[12.8px] rounded-usp px-[28.8px] pb-[28.8px] pt-8 md:min-h-[386px] ${COLORS.careers[i]}`}>
-            {it.icon ? <InlineSvg svg={it.icon} className="h-14 w-[83px]" /> : <span />}
+          <li key={it.title} className={`grid content-between gap-[12.8px] rounded-usp p-10 text-center xl:min-h-[386px] xl:px-[28.8px] xl:pb-[28.8px] xl:pt-8 xl:text-left ${COLORS.careers[i]}`}>
+            {it.icon ? <div className="flex h-[120px] items-center justify-center xl:items-start xl:justify-start"><InlineSvg svg={it.icon} className="h-14 w-[83px]" /></div> : <span />}
             <div>
-              <h3 className="font-serif text-[42px] font-normal leading-[1.15] tracking-[-1.26px]">{it.title}</h3>
-              <p className="mt-[12.8px] font-sans text-[16px] font-medium leading-[19.2px]">{it.body}</p>
+              <h3 className="font-serif text-[24px] font-normal leading-normal tracking-[-0.72px] xl:text-[42px] xl:tracking-[-1.26px]">{it.title}</h3>
+              <p className="mx-auto mt-[12.8px] max-w-[448px] font-sans text-[16px] font-medium leading-[19.2px] xl:mx-0 xl:max-w-none">{it.body}</p>
             </div>
           </li>
         ),

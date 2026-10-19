@@ -9,7 +9,7 @@ export function SubSolutionHero({ theme = 'purple', crumbs = [], title, descript
   return (
     <div
       data-color-theme={theme}
-      className={`grid rounded-card border border-[var(--acc20)] text-[var(--acc70)] md:grid-cols-[minmax(auto,12fr)_minmax(24px,1fr)_minmax(24px,1fr)_minmax(auto,7.2fr)] 2xl:-mx-card-pad ${className}`}
+      className={`grid rounded-card border border-[var(--acc20)] text-[var(--acc70)] md:grid-cols-[minmax(auto,11.8fr)_minmax(24px,1fr)_minmax(24px,1fr)_minmax(auto,7.1fr)] lg:grid-cols-[minmax(auto,12fr)_minmax(24px,1fr)_minmax(24px,1fr)_minmax(auto,7.2fr)] 2xl:-mx-card-pad ${className}`}
     >
       <div className="order-4 rounded-b-[12px] bg-[var(--acc5)] p-card-pad text-left md:order-1 md:rounded-b-none md:rounded-l-[14px]">
         <nav aria-label="Breadcrumb" className="font-sans text-nav font-semibold">

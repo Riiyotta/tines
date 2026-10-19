@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom'
+import { NotFoundPage } from '../../../components/shared/NotFoundPage.jsx'
 import { CardGrid, ContentCard, SectionHeader, StoryCard } from '../../../components/shared/index.js'
 import StoriesNav, { ExplosionCta } from '../../../components/pages/stories/StoriesNav.jsx'
 import BuildYourOwn from '../../../components/pages/stories/BuildYourOwn.jsx'
@@ -22,11 +23,7 @@ export default function VendorTemplate() {
     return (
       <>
         <StoriesNav crumb="Templates" crumbHref="/stories/templates/" active="Discover" />
-        <section className="mx-auto flex min-h-[50vh] max-w-[1440px] flex-col items-start justify-center px-page-wide">
-          <h1 className="font-serif text-display-lg-sm font-normal sm:text-display-lg">Not found in this clone</h1>
-          <p className="mt-4 font-sans text-[16px] font-medium leading-[22.4px]">This product template page has not been cloned.</p>
-          <a href="/stories/templates/" className="btn btn-filled mt-6">All templates</a>
-        </section>
+        <NotFoundPage actions={[{ href: "/stories/templates/", label: "All templates" }, { href: "/", label: "Back to home" }]} />
       </>
     )
   }

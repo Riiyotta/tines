@@ -21,7 +21,7 @@ export default function UniversityNav({ crumbs = [] }) {
             {crumbs.length > 0 && <InlineSvg svg={chevron} className="h-4 w-4" />}
           </div>
           {crumbs.map((c, i) => (
-            <div key={c.label} className="mr-[5.2px] flex items-center max-sm:[&:nth-child(2)]:basis-full max-sm:[&:nth-child(2)]:order-3 sm:order-none">
+            <div key={c.label} className={`mr-[5.2px] flex items-center ${i === crumbs.length - 1 && i > 0 ? 'max-sm:hidden' : ''}`}>
               <a href={c.href} className="mr-[4.875px] font-sans text-[13px] font-semibold leading-[15px]">{c.label}</a>
               {i < crumbs.length - 1 && <InlineSvg svg={chevron} className="h-4 w-4" />}
             </div>

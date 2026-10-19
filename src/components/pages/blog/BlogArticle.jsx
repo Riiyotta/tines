@@ -3,6 +3,7 @@ import CtaStartToday from '../../CtaStartToday.jsx'
 import InlineSvg from '../../InlineSvg.jsx'
 import anchorIcon from '../../../../reference/svg/pages/blog-heading-anchor-link.svg?raw'
 import BlogNav from './BlogNav.jsx'
+import { usePageTitle } from '../_lib/usePageTitle.js'
 import { bySlug } from './data.js'
 import { genericBody, gridStories, longBody, shortBody } from './articleBody.js'
 
@@ -20,7 +21,7 @@ function SidebarCard({ className = '' }) {
 
 function Block({ b, i }) {
   switch (b.t) {
-    case 'p': return <p style={b.gap ? { marginTop: 18 + b.gap } : undefined}>{b.text}</p>
+    case 'p': return <p style={b.gap ? { marginTop: 18 + b.gap } : undefined}>{b.text}{b.more && <span className="max-md:hidden"> {b.more}</span>}{b.more2 && <span className="max-xl:hidden"> {b.more2}</span>}</p>
     case 'h2': {
       const id = `section-${i}`
       return (
@@ -69,6 +70,7 @@ function Block({ b, i }) {
 
 export default function BlogArticle({ slug }) {
   const a = bySlug(slug)
+  usePageTitle(a?.docTitle || (a && `${a.title} | Tines`))
   if (!a) return null
   const body = slug === 'building-ai-agents-getting-started' ? longBody() : a.kind === 'video' ? shortBody() : genericBody(slug.length)
   const cover = a.detailCover ? `/assets/pages/blog/${a.detailCover}` : a.cover
@@ -76,30 +78,30 @@ export default function BlogArticle({ slug }) {
   return (
     <>
       <BlogNav active={`/blog/${(a.categories?.[0] || '').toLowerCase()}/`} />
-      <div className="mx-auto max-w-[1440px] px-page-wide pt-[55px]">
-        <h1 className="font-serif text-article-h1-sm font-normal sm:text-article-h1">{a.title}</h1>
-        <div className="mt-12 flex flex-col justify-between gap-6 md:flex-row md:items-center">
+      <div className="mx-auto max-w-[1440px] px-page-wide pt-[35px] md:pt-[40px] 2xl:pt-[55px]">
+        <h1 className="font-serif text-article-h1-sm font-normal sm:text-[48px] sm:leading-[52.8px] sm:tracking-[-0.72px] xl:text-article-h1">{a.title}</h1>
+        <div className="mt-12 flex flex-col justify-between gap-6 md:mt-[54px] md:gap-[28px] xl:mt-[61px] xl:flex-row xl:items-center xl:gap-6 2xl:mt-12">
           {authors.length > 1 ? (
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-[repeat(2,418px)] md:gap-6">
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 xl:min-w-0 xl:grid-cols-[repeat(2,minmax(0,418px))]">
               {authors.map((au) => <AuthorChip key={au.name} {...au} />)}
             </div>
           ) : (
             <PersonInfo prefix="Written by" size={42} {...authors[0]} />
           )}
-          <div className="flex flex-wrap items-center gap-[10.5px] md:justify-end">
-            <time className="font-sans text-[14px] font-medium leading-[16.1px] opacity-70">{a.date || 'Published on July 16, 2026'}</time>
+          <div className="flex flex-wrap items-center gap-[10.5px] xl:shrink-0 xl:justify-end">
+            <time className="whitespace-nowrap font-sans text-[14px] font-medium leading-[16.1px] opacity-70">{a.date || 'Published on July 16, 2026'}</time>
             {(a.categories || []).map((c) => (
-              <a key={c} href={`/blog/${c === 'Tines × Tines' ? 'tines-x-tines' : c.toLowerCase().replace(/ /g, '-')}/`} className="rounded-[26px] bg-[color-mix(in_srgb,currentColor_10%,transparent)] px-[9.75px] py-[5.2px] font-sans text-[13px] font-medium leading-[14.95px]">{c}</a>
+              <a key={c} href={`/blog/${c === 'Tines × Tines' ? 'tines-by-tines' : c.toLowerCase().replace(/ /g, '-')}/`} className="rounded-[26px] bg-[color-mix(in_srgb,currentColor_10%,transparent)] px-[9.75px] py-[5.2px] font-sans text-[13px] font-medium leading-[14.95px]">{c}</a>
             ))}
           </div>
         </div>
       </div>
-      <div className="mt-10 pb-36">
+      <div className="mt-10 pb-36 md:mt-[30px] xl:mt-[44px] 2xl:mt-10">
         <ArticleLayout variant="article" aside={<SidebarCard />}>
           <div className="mb-8 aspect-[828/435] overflow-hidden rounded-[22px] bg-light-200">
             <img src={cover} alt="" className="h-full w-full object-cover" />
           </div>
-          <Prose>
+          <Prose fullBelow2xl>
             {body.map((b, i) => <Block key={i} b={b} i={i} />)}
           </Prose>
           <SidebarCard className="mt-10 md:hidden" />

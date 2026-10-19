@@ -85,7 +85,7 @@ export const LOCATIONS = L.slice(0, 6)
 
 // ~40-word ORIGINAL placeholder bodies for the three value cards (icons from the downloaded careers set)
 export const VALUES = [
-  { title: 'Simplicity', icon: svg('dataimg-simplicity'), body: 'We cut through complexity so that our product, our processes and our conversations with customers are easy to understand and easy to use. Every decision we make should remove friction and keep attention on the work that matters most.' },
-  { title: 'Speed', icon: svg('dataimg-simplicity-2'), body: 'We move quickly, ship often and learn from what we hear. Speed only matters when it is paired with purpose, so we take ownership, gather feedback, and improve in small steps, until pace turns into real momentum for everyone.' },
-  { title: 'Soundness', icon: svg('dataimg-simplicity-3'), body: 'We hold ourselves to a high bar for quality, security and honesty. Doing right by our customers and teammates is what sets us apart, so we are open about our work, our limits and our mistakes, always and everywhere.' },
+  { title: 'Simplicity', icon: svg('dataimg-simplicity'), body: 'We cut through complexity so our product, our processes and our conversations stay easy to understand. Every decision should remove friction and keep attention on the work that matters.' },
+  { title: 'Speed', icon: svg('dataimg-simplicity-2'), body: 'We move quickly, ship often and learn from what we hear. Speed only matters with purpose, so we take ownership, gather feedback and improve in small steps until pace becomes momentum.' },
+  { title: 'Soundness', icon: svg('dataimg-simplicity-3'), body: 'We hold ourselves to a high bar for quality, security and honesty. Doing right by customers and teammates sets us apart, so we are open about our work, our limits and our mistakes.' },
 ]

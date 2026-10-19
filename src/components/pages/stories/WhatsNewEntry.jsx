@@ -1,4 +1,5 @@
 import { ArticleLayout, ExplosionCta, Prose, VideoBlock } from '../../shared/index.js'
+import { NotFoundPage } from '../../shared/NotFoundPage.jsx'
 import AvatarStack from './AvatarStack.jsx'
 import StoriesNav from './StoriesNav.jsx'
 import WhatsNewCard from './WhatsNewCard.jsx'
@@ -14,11 +15,7 @@ export default function WhatsNewEntry({ slug }) {
     return (
       <>
         <StoriesNav crumb="What’s new" crumbHref="/stories/whats-new/" active="Discover" />
-        <section className="mx-auto flex min-h-[50vh] max-w-[1440px] flex-col items-start justify-center px-page-wide">
-          <h1 className="font-serif text-category-h1-sm font-normal sm:text-page-h1">Not found in this clone</h1>
-          <p className="mt-4 font-sans text-[16px] font-medium leading-[22.4px]">This update has not been cloned.</p>
-          <a href="/stories/whats-new/" className="btn btn-filled mt-6">All updates</a>
-        </section>
+        <NotFoundPage actions={[{ href: "/stories/whats-new/", label: "All updates" }, { href: "/", label: "Back to home" }]} />
       </>
     )
   }

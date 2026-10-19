@@ -1,10 +1,14 @@
+import { SectionHeading } from './SectionHeading.jsx'
+
 /**
- * ChildEntryCard + ChildEntryCardGrid (pages-b section 2.3): colour-stepped link card (illustration / 20 / 10 strips + title).
- * ChildEntryCard props: title, href, theme ('purple'|'pink'|'orange'|'green'|'yellow'|'teal'), img, className.
- * ChildEntryCardGrid props: layout 'fourPerRowCentered' | 'threePerRow' (flex-wrap centred rows from 1280; 2 columns from 768).
+ * ChildEntryCard + ChildEntryCardGrid (pages-b section 2.3 / 4.4): colour-stepped link card (illustration / 20 / 10 strips + title).
+ * ChildEntryCard props: title, href, theme (alias hue; 'purple'|'pink'|'orange'|'green'|'yellow'|'teal'), img, className.
+ * ChildEntryCardGrid props: layout 'fourPerRowCentered' | 'threePerRow' (flex-wrap centred rows from 1280; 2 columns from 768)
+ *   | 'headingCell' (industry pages: 1 col <640, 2 cols >=640, 4 cols >=1194; cell 1 is an h2 `title` + p `description`), className.
  * Hover: border acc20 -> acc30 (.15s).
  */
-export function ChildEntryCard({ title, href, theme = 'purple', img, className = '' }) {
+export function ChildEntryCard({ title, href, theme, hue, img, className = '' }) {
+  theme = theme || hue || 'purple'
   return (
     <a
       href={href}
@@ -28,6 +32,17 @@ const LAYOUT = {
   threePerRow: '2xl:flex 2xl:flex-wrap 2xl:justify-center [&>*]:2xl:w-[calc((100%-48px)/3)]',
 }
 
-export function ChildEntryCardGrid({ layout = 'fourPerRowCentered', children, className = '' }) {
+export function ChildEntryCardGrid({ layout = 'fourPerRowCentered', title, description, children, className = '' }) {
+  if (layout === 'headingCell') {
+    return (
+      <div className={`grid grid-cols-1 gap-6 sm:grid-cols-2 min-[1194px]:grid-cols-4 ${className}`}>
+        <header className="max-sm:text-center">
+          <SectionHeading solution align="left" mb={false} className="max-sm:!text-center [text-wrap:balance]">{title}</SectionHeading>
+          <p className="mt-6 font-sans text-[16px] font-medium leading-[22.4px]">{description}</p>
+        </header>
+        {children}
+      </div>
+    )
+  }
   return <div className={`grid gap-sp-gap md:grid-cols-2 ${LAYOUT[layout]} ${className}`}>{children}</div>
 }

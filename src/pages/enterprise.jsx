@@ -37,13 +37,13 @@ export default function Enterprise() {
         title={<>Intelligent workfl<span>o</span>ws for the enterprise</>}
         decoLeft={HERO.left}
         decoRight={HERO.right}
-        decoLeftClass="-left-[136px] top-[192px]"
-        decoRightClass="-right-[88px] top-[62px]"
-        className="md:h-[506px]"
+        decoLeftClass="max-xl:!hidden xl:-left-[64px] xl:top-[195px] xl:w-[165px] 2xl:-left-[124px] 2xl:top-[133px] 2xl:w-[232px]"
+        decoRightClass="w-[75vw] left-[49.6vw] top-[63px] xl:left-[47.7vw] xl:top-[8px] xl:w-[768px] 2xl:left-auto 2xl:-right-[48px] 2xl:top-[13px] 2xl:w-[820px]"
+        className="md:h-[410px] xl:h-[470px] 2xl:h-[506px]"
         innerClassName="md:!pt-16 max-md:!pt-[49px] max-md:!pb-[40px] max-md:[&>h1]:!mt-[14px]"
         actions={<LegacyButton href="/book-a-demo/">Book a demo</LegacyButton>}
       >
-        Leading organizations trust Tines to transform security and IT operations, from boosting SOAR workflows to speeding up incident response, and Tines is built to scale with your team.
+        Leading organizations trust Tines for security and IT operations, from advancing SOAR workflows at Mars to faster incident response at Jamf, all built to scale with your team.
       </LegacyHero>
 
       <div className="mt-6 text-legacy-ink">

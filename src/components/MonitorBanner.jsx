@@ -37,12 +37,12 @@ export default function MonitorBanner() {
         </div>
         <div className="flex flex-col gap-[14px] font-serif text-monitor-body-sm font-medium xl:text-monitor-body">
           <p>
-            Now, finance is building dashboards in Claude Code. Marketing shipped an app on a personal Vercel account.
-            Someone committed an API key to GitHub last week.
+            Today, finance is wiring up dashboards with Claude Code. Marketing launched an app from a personal Vercel
+            login. A teammate pushed a live API key to a repo just last week.
           </p>
           <p>
-            None of it is malicious. They’re doing exactly what you asked. But without visibility and control, innovation
-            creates new risk. It’s time to give every team a secure place to build.
+            Nobody here means harm; people simply act on what you encouraged. Without oversight, speed breeds exposure.
+            Every team deserves a safe place to build, with guardrails included.
           </p>
         </div>
       </div>

@@ -21,6 +21,10 @@ module.exports = {
         'page-fg': 'var(--page-fg)',
         'page-btn': 'var(--page-btn-bg)',
         'page-btn-fg': 'var(--page-btn-fg)',
+        // ---- global group: navbar Book-a-demo / search button follow the page theme ----
+        'nav-btn': 'var(--page-nav-btn-bg)', 'nav-btn-hover': 'var(--page-nav-btn-hover)', 'nav-btn-fg': 'var(--page-nav-btn-fg)',
+        'nav-search': 'var(--page-nav-search-bg)', 'nav-search-hover': 'var(--page-nav-search-hover)', 'nav-search-fg': 'var(--page-nav-search-fg)',
+        // ---- end global group ----
         // Dark/legacy page neutrals (specs/pages-a.md §0.1)
         coolgray: { 80: '#3b3945', 85: '#312f3b', 95: '#1f1c27', 99: '#181420' },
         'legacy-ink': '#4d3e78',
@@ -108,9 +112,9 @@ module.exports = {
         surface: {
           'nav-blur': 'color-mix(in srgb, var(--page-bg) 70%, transparent)', // page-themed (default lightest)
           'nav-backdrop': 'color-mix(in srgb, var(--page-bg) 90%, transparent)',
-          'mobile-menu': 'rgba(252,249,245,0.8)',
-          'mobile-pill': 'rgba(113,75,208,0.10)',
-          'mobile-pill-open': 'rgba(113,75,208,0.16)',
+          'mobile-menu': 'color-mix(in srgb, var(--page-bg) 80%, transparent)', // follows page theme (default lightest = rgba(252,249,245,.8))
+          'mobile-pill': 'color-mix(in srgb, var(--page-fg) 10%, transparent)', // default page-fg purple-55
+          'mobile-pill-open': 'color-mix(in srgb, var(--page-fg) 16%, transparent)',
           frosted: 'rgba(252,249,245,0.65)',
           tag: 'rgba(252,249,245,0.55)',
           // AnnouncementBar :hover / :active -> var(--unfilledHoverBg): purple55 10% over lightest, at 85% (instant, transition 0s)

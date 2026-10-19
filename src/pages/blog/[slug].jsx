@@ -5,7 +5,6 @@ import BlogSeries from '../../components/pages/blog/BlogSeries.jsx'
 import { bySlug, categoryBySlug, seriesBySlug } from '../../components/pages/blog/data.js'
 import { useParams } from 'react-router-dom'
 
-export const title = 'Blog | Tines'
 export const theme = 'plain'
 
 /** /blog/<slug>/ is a category (articles, news, ...), a series, or an article. */

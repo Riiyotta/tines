@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom'
+import { NotFoundPage } from '../../components/shared/NotFoundPage.jsx'
 import { AreaNav, PageSection, Prose } from '../../components/shared/index.js'
 import { AccessForm, SpeakerSidebar, MissedBlock } from '../../components/pages/webinars/Detail.jsx'
 import { getWebinar, webinarNav } from '../../components/pages/webinars/data.js'
@@ -15,10 +16,7 @@ export default function WebinarPage() {
     return (
       <>
         {nav}
-        <section className="mx-auto flex min-h-[50vh] max-w-page flex-col items-center justify-center px-page text-center">
-          <h1 className="font-serif text-h2-sm">Webinar not found in this clone</h1>
-          <a href="/webinars/" className="btn btn-filled mt-6">All webinars</a>
-        </section>
+        <NotFoundPage actions={[{ href: "/webinars/", label: "All webinars" }, { href: "/", label: "Back to home" }]} />
       </>
     )
   }

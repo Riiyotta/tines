@@ -181,7 +181,7 @@
   .mssp-marquee-track { animation: none; }
   .grid-canvas-line { opacity: 1; animation: none !important; }
 }
-/* pages-b2: use-case tabs progress ring (10s linear, then advance) */
+/* UseCaseTabs progress ring (specs/pages-b.md 4.2: 10s linear, stroke-dasharray 191.54, then advance) */
 @keyframes useCaseRing { 0% { stroke-dashoffset: 191.54; } 100% { stroke-dashoffset: 0; } }
 .usecase-ring { stroke-dashoffset: 191.54; }
 @media (prefers-reduced-motion: no-preference) { .usecase-ring[data-running] { animation: useCaseRing 10s linear forwards; animation-play-state: var(--ring-state, running); } }
@@ -221,10 +221,6 @@
   .uni-marquee-track { animation: universityMarquee var(--uni-marquee-duration, 53.68s) linear infinite; will-change: transform; }
   .uni-watch-ring { animation: mascotSpin 20s linear infinite; }
 }
-
-/* ===== pages group B1: UseCaseTabs progress ring (specs/pages-b.md 4.2, 10s linear; stroke-dasharray 191.54) ===== */
-@keyframes useCaseRing { from { stroke-dashoffset: 191.54; } to { stroke-dashoffset: 0; } }
-/* ===== end pages group B1 ===== */
 
 /* pages-a /3b/examples/: icon lattice drift. Linear, 90s per 574px sweep; paused off-screen (data-run=0) and under reduced motion. */
 @keyframes latticeDriftL { 0% { transform: translateX(var(--x0)); } 100% { transform: translateX(calc(var(--x0) - 574px)); } }

@@ -46,7 +46,7 @@ function Sidebar({ ctx, lessonSlug }) {
 
 function Body() {
   return (
-    <Prose lesson className="[&_p]:!mt-4 [&_p]:!max-w-none [&_h2]:!mt-7 [&_ul]:!my-4 [&_ul]:!max-w-none [&_ul]:!pl-10 [&_li+li]:!mt-2 [&_p:first-child]:!mt-0">
+    <Prose lesson className="[&_p]:!mt-4 [&_p]:!max-w-none [&_p]:!leading-[26px] [&_li]:!leading-[26px] [&_h2]:!mt-7 [&_ul]:!my-4 [&_ul]:!max-w-none [&_ul]:!pl-10 [&_li+li]:!mt-2 [&_p:first-child]:!mt-0">
       {LESSON_BODY.map((b, i) => {
         if (b.t === 'h2') return <h2 key={i}>{b.c}</h2>
         if (b.t === 'ul') return <ul key={i}>{b.c.map((li, j) => <li key={j} dangerouslySetInnerHTML={{ __html: li }} />)}</ul>
@@ -62,21 +62,55 @@ function Body() {
   )
 }
 
+// ---- university group c2: module landing header + intro column (live /university/<course>/<module>/ reuses the lesson shell) ----
+function ModuleHeader({ ctx }) {
+  const { course, module: m, index, lessons } = ctx
+  return (
+    <header>
+      <div className="pr-5">
+        <span className="block pt-[18px] font-mono text-[12px] font-bold uppercase leading-[16.8px] tracking-[0.6px]">Module {index + 1} / {course.modules.length - 1}</span>
+        <h1 className="mt-9 font-serif text-[38px] font-normal leading-[normal] tracking-[-1.14px] sm:text-[42px] sm:tracking-[-1.26px] min-[1024px]:text-[58px] min-[1024px]:leading-[49.88px] min-[1024px]:tracking-[-1.74px]">{m.name}</h1>
+      </div>
+      <div className="mt-[var(--sp-a)] flex items-center">
+        <a href={lessons[0].href} className={`inline-flex h-[50px] shrink-0 items-center justify-center rounded-[39px] border px-7 font-sans text-[14px] font-semibold leading-[18px] transition-[filter] duration-100 hover:brightness-[1.04] sm:min-w-[230px] min-[1280px]:h-[63px] min-[1280px]:px-9 min-[1280px]:text-[18px] ${course.cta.split(' ')[0]} border-transparent`}>Start module <span className="ml-[6px]">→</span></a>
+        <i aria-hidden="true" className="h-px flex-1 bg-purple-10" />
+      </div>
+      <p className="mt-[var(--sp-b)] font-sans text-[14px] font-medium leading-[19.6px]">
+        <a href="https://login.tines.com/" className="font-bold">Sign in to your tenant <sup className="text-[10.5px] leading-none">↗</sup></a> to remember your learning progress.
+      </p>
+    </header>
+  )
+}
+
+function ModuleBody({ ctx }) {
+  return (
+    <Prose lesson className="[&_p]:!mt-4 [&_p]:!max-w-none [&_p]:!leading-[26px] [&_li]:!leading-[26px] [&_h2]:!mt-7 max-[700px]:[&_h2]:!text-[24px] max-[700px]:[&_h2]:!leading-[30px] [&_h2:first-child]:!mt-0 [&_ul]:!my-4 [&_ul]:!mb-2 [&_ul]:!max-w-none [&_ul]:!pl-10 [&_li+li]:!mt-2">
+      <h2>Introduction</h2>
+      {ctx.intro.map((t, i) => <p key={i} dangerouslySetInnerHTML={{ __html: t }} />)}
+      <h2>Learning objectives</h2>
+      <p>By the end of this module, you’ll be able to:</p>
+      <ul>{ctx.objectives.map((t) => <li key={t}>{t}</li>)}</ul>
+    </Prose>
+  )
+}
+
+/** Lesson shell. Omit `lessonSlug` (undefined) to render the module landing page instead of a lesson. */
 export default function Lesson({ ctx, lessonSlug }) {
   const { course, module: m, lessons } = ctx
-  const i = Math.max(0, lessons.findIndex((l) => l.slug === lessonSlug))
+  const isModule = lessonSlug == null
+  const i = isModule ? -1 : Math.max(0, lessons.findIndex((l) => l.slug === lessonSlug))
   const lesson = lessons[i]
-  const prev = lessons[i - 1] ? { name: lessons[i - 1].name, href: lessons[i - 1].href } : { name: m.name, href: m.href }
-  const next = lessons[i + 1]
+  const prev = isModule ? null : lessons[i - 1] ? { name: lessons[i - 1].name, href: lessons[i - 1].href } : { name: m.name, href: m.href }
+  const next = lessons[i + 1] // module landing (i = -1): first lesson
   return (
     <section className="mx-auto max-w-page px-page">
-      <div className="grid rounded-[12px] border border-purple-10 pb-0 pl-5 pt-[30px] max-xl:pl-0 xl:grid-cols-[288px_minmax(0,978px)] xl:gap-[72px]">
-        <aside className="max-xl:hidden xl:sticky xl:top-[100px] xl:self-start"><Sidebar ctx={ctx} lessonSlug={lessonSlug} /></aside>
-        <div className="px-4 pb-10 xl:px-0">
-          <header className="pt-3"><h1 className="pb-10 pr-5 font-serif text-[38px] font-normal leading-[normal] tracking-[-1.14px] sm:text-[48px] sm:leading-[41.28px] sm:tracking-[-1.44px]">{lesson.name}</h1></header>
-          <div className="mt-[55px] max-w-[680px] pr-5">
+      <div className="pc-grid-paper grid rounded-[12px] border border-purple-10 pb-0 pl-5 pt-[30px] max-sm:pl-[18px] sm:grid-cols-[250px_minmax(0,1fr)] sm:gap-6 min-[1280px]:grid-cols-[279px_minmax(0,1fr)] min-[1280px]:gap-12 min-[1400px]:grid-cols-[288px_minmax(0,1fr)] min-[1400px]:gap-[72px]">
+        <aside className="max-sm:hidden sm:sticky sm:top-[100px] sm:self-start"><Sidebar ctx={ctx} lessonSlug={lessonSlug} /></aside>
+        <div className="pb-10 [--sp-a:45px] [--sp-b:35px] min-[1024px]:[--sp-a:50px] min-[1024px]:[--sp-b:40px] min-[1280px]:[--sp-a:58px] min-[1280px]:[--sp-b:45px] min-[1400px]:[--sp-a:64px] min-[1400px]:[--sp-b:55px]">
+          {isModule ? <ModuleHeader ctx={ctx} /> : <header className="pt-3"><h1 className="pb-10 pr-5 font-serif text-[38px] font-normal leading-[normal] tracking-[-1.14px] sm:text-[48px] sm:leading-[41.28px] sm:tracking-[-1.44px]">{lesson.name}</h1></header>}
+          <div className="mt-[var(--sp-b)] max-w-[680px] pr-5">
             <div className="max-w-[660px]">
-              <Body />
+              {isModule ? <ModuleBody ctx={ctx} /> : <Body />}
               <div className="mt-[47px] flex min-h-[100px] flex-col justify-center rounded-[8px] border border-tint-lilac-line bg-lightest p-6">
                 <div className="flex items-center justify-between font-sans text-[16px] font-semibold">
                   <span>Was this lesson helpful?</span>
@@ -85,9 +119,9 @@ export default function Lesson({ ctx, lessonSlug }) {
                   </span>
                 </div>
               </div>
-              <nav aria-label="Lesson navigation" className={`mt-[47px] grid gap-6 sm:grid-cols-[318px_318px]`}>
-                {[{ ...prev, dir: 'prev' }, next && { ...next, dir: 'next' }].filter(Boolean).map((n) => (
-                  <a key={n.dir} href={n.href} className="grid min-h-[100px] grid-cols-1 gap-[28.8px] rounded-[8px] border border-tint-lilac-line bg-lightest px-4 py-[12.8px] font-sans text-[16px] font-semibold transition-colors hover:bg-purple-2">
+              <nav aria-label="Lesson navigation" className={`mt-[47px] grid grid-cols-2 gap-6`}>
+                {[prev && { ...prev, dir: 'prev' }, next && { ...next, dir: 'next' }].filter(Boolean).map((n) => (
+                  <a key={n.dir} href={n.href} className={`grid min-h-[100px] grid-cols-1 content-between gap-[28.8px] rounded-[8px] border border-tint-lilac-line bg-lightest px-4 py-[12.8px] font-sans text-[16px] font-semibold transition-colors hover:bg-purple-2 ${n.dir === 'next' && !prev ? 'col-start-2' : ''}`}>
                     <InlineSvg svg={n.dir === 'prev' ? arrowL : arrowR} className={`h-6 w-6 ${n.dir === 'next' ? 'justify-self-end' : ''}`} />
                     <span className={n.dir === 'next' ? 'text-right' : ''}>{n.name}</span>
                   </a>

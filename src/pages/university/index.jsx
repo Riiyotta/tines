@@ -4,7 +4,7 @@ import UniversityNav from '../../components/pages/university/UniversityNav.jsx'
 import { UniversityHero, DividerTitle, CourseCard, Resources, ProgramCard, WatchIntro } from '../../components/pages/university/Sections.jsx'
 import { courses, resources, programs } from '../../components/pages/university/data.js'
 
-export const title = 'Tines Stories University'
+export const title = 'Learn how to build with Tines Stories University | Tines'
 export const theme = 'plain'
 
 export default function UniversityIndex() {
@@ -14,10 +14,10 @@ export default function UniversityIndex() {
       <UniversityHero />
       <PageSection className="mt-16">
         <DividerTitle>What are you looking to learn?</DividerTitle>
-        <CardGrid cols={{ base: 1, md: 2 }} gap={[64, 40]} className="mt-16 mb-16">
+        <CardGrid cols={{ base: 1 }} gap={[64, 40]} className="mt-16 mb-16 2xl:grid-cols-2">
           {courses.slice(0, 2).map((c) => <CourseCard key={c.slug} course={c} featured />)}
         </CardGrid>
-        <CardGrid cols={{ base: 1, md: 2, lg: 3 }} gap={[64, 40]}>
+        <CardGrid cols={{ base: 1 }} gap={[64, 40]} className="2xl:grid-cols-3">
           {courses.slice(2).map((c) => <CourseCard key={c.slug} course={c} />)}
         </CardGrid>
       </PageSection>
@@ -26,7 +26,7 @@ export default function UniversityIndex() {
         <div className="mt-16"><Resources items={resources} /></div>
       </PageSection>
       <PageSection spaced>
-        <CardGrid cols={{ base: 1, md: 2 }} gap={[80, 24]}>
+        <CardGrid cols={{ base: 1 }} gap={[80, 24]} className="2xl:grid-cols-2">
           {programs.map((p) => <ProgramCard key={p.title} p={p} />)}
         </CardGrid>
       </PageSection>

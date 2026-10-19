@@ -29,8 +29,63 @@ export const articles = [
   art('thomas-kinsella-technovation', 'Why wild code is the next big challenge for CIOs', 'cover-thomas-kinsella-technovation.jpg', { categories: ['News'] }),
   art('whats-new-in-tines-august-2026-edition', "What's new in Tines: August 2026 edition", 'cover-whats-new-in-tines-august-2026-edition.jpg', { categories: ['Product updates'] }),
   art('tines-achieves-tx-ramp-level-2-certification', 'Tines achieves TX-RAMP Level 2 certification', 'cover-tines-achieves-tx-ramp-level-2-certification.jpg', { categories: ['News'] }),
+  // ---- /blog/articles/ live first page (blog group c1): remaining entries so every card links to a real clone article ----
+  art("building-ai-agents-advanced", "Building AI agents in Tines Stories: tips and tricks for advanced builders", "cover-building-ai-agents-advanced.jpg", { live: true }),
+  art("federal-ai-soc-blueprint", "From executive order to operational reality: a federal AI SOC blueprint", "cover-federal-ai-soc-blueprint.jpg", { live: true }),
+  art("how-datadog-and-tines-help-you-scale-your-security-and-compliance", "Transform observability into action: How Datadog and Tines help you scale your security and compliance in real time", "cover-how-datadog-and-tines-help-you-scale-your-security-and-compl.jpg", { live: true }),
+  art("whats-new-in-tines-july-2026-edition", "What's new in Tines: July 2026 edition", "cover-whats-new-in-tines-july-2026-edition.jpg", { live: true }),
+  art("wild-code-memos-sandboxes", "Memos and sandboxes won't solve your wild code problem", "cover-wild-code-memos-sandboxes.jpg", { live: true }),
+  art("msps-tool-sprawl", "What MSPs gain when they conquer tool sprawl", "cover-msps-tool-sprawl.jpg", { live: true }),
+  art("making-tines-3b", "Making Tines 3B", "cover-making-tines-3b.jpg", { live: true }),
+  art("introducing-tines-3b", "Introducing Tines 3B, the next generation of Tines", "cover-introducing-tines-3b.jpg", { live: true }),
+  art("wild-code-it-crisis", "Wild code: the IT crisis hiding in plain sight", "cover-wild-code-it-crisis.jpg", { live: true }),
+  art("ai-soc-automation-how-to-build-an-ai-driven-soc", "AI SOC automation: how to build an AI-driven SOC", "cover-ai-soc-automation-how-to-build-an-ai-driven-soc.jpg", { live: true }),
+  art("vulnerability-remediation-workflow-coordinating-security-it-and-owners", "Vulnerability remediation workflow: coordinating security, IT, and owners", "cover-vulnerability-remediation-workflow-coordinating-security-it-.jpg", { live: true }),
+  art("phishing-response-workflow-a-blueprint-for-security-teams", "Phishing response workflow: a blueprint for security teams", "cover-phishing-response-workflow-a-blueprint-for-security-teams.jpg", { live: true }),
+  art("automated-employee-onboarding-a-cross-team-workflow-blueprint", "Automated employee onboarding: a cross-team workflow blueprint", "cover-automated-employee-onboarding-a-cross-team-workflow-blueprin.jpg", { live: true }),
+  art("it-process-automation-empowering-it-teams-to-scale", "IT process automation: empowering IT teams to scale", "cover-it-process-automation-empowering-it-teams-to-scale.jpg", { live: true }),
 ]
 export const bySlug = (s) => articles.find((a) => a.slug === s)
+
+// ---- blog group c1: live metadata (document titles, dates, categories, listing thumbnails, authors) for the /blog/articles/ first page ----
+export const liveMeta = {
+  'it-onboarding-automation-building-a-provisioning-agent-with-tines-3b': { docTitle: "IT Onboarding Automation: Build an Agent with Tines 3B", date: "Published on October 8, 2026", categories: [], authors: [], thumb: `${B}/cover-it-onboarding-automation-building-a-provisioning-agent.jpg` },
+  'headspace-taming-wild-code-with-tines-3b': { docTitle: "How Headspace Is Taming Wild Code with Tines 3B", date: "Published on September 23, 2026", categories: ["News"], authors: [{ name: "Rosie Ellison", role: "Lead Product Manager, Tines" }], thumb: `${B}/cover-headspace-taming-wild-code-with-tines-3b.jpg` },
+  'finance-billing-app': { docTitle: "How Tines' finance team built a custom billing app for <$1,000", date: "Published on September 21, 2026", categories: ["News"], authors: [{ name: "Peter Coleman", role: "Director of Finance, Tines" }], thumb: `${B}/cover-finance-billing-app.jpg` },
+  'build-your-own-ai-soc': { docTitle: "The AI SOC is commoditized. Here’s why building our own is the next frontier.", date: "Published on September 15, 2026", categories: ["News"], authors: [{ name: "Tim Bandos", role: "Field CISO, Tines" }], thumb: `${B}/cover-build-your-own-ai-soc.jpg` },
+  'ai-governance-monitoring-how-to-prove-your-program-is-actually-working': { docTitle: "AI governance monitoring: how to prove your program works | Tines", date: "Published on September 20, 2026", categories: ["News"], authors: [], thumb: `${B}/cover-ai-governance-monitoring-how-to-prove-your-program-is-.jpg` },
+  'thomas-kinsella-technovation': { docTitle: "Why wild code is the next big challenge for CIOs", date: "Published on September 15, 2026", categories: ["News"], authors: [], thumb: `${B}/cover-thomas-kinsella-technovation.jpg` },
+  'tines-3b-first-90': { docTitle: "We gave every employee access to Tines 3B. Here's what happened next.", date: "Published on September 7, 2026", categories: ["News"], authors: [{ name: "Martin Moroney", role: "Director of Internal Automation, Tines" }], thumb: `${B}/cover-tines-3b-first-90.jpg` },
+  'whats-new-in-tines-august-2026-edition': { docTitle: "What's new in Tines: August 2026 edition", date: "Published on September 8, 2026", categories: ["Product updates"], authors: [{ name: "Alex Puzzolo", role: 'Tines' }], thumb: `${B}/cover-whats-new-in-tines-august-2026-edition.jpg` },
+  'tines-achieves-tx-ramp-level-2-certification': { docTitle: "Tines achieves TX-RAMP Level 2 certification", date: "Published on September 3, 2026", categories: ["News"], authors: [{ name: "Niall Heffernan", role: "Staff GRC Analyst, Tines" }], thumb: `${B}/cover-tines-achieves-tx-ramp-level-2-certification.jpg` },
+  'building-ai-agents-getting-started': { docTitle: "Building AI agents in Tines Stories — tips and tricks for getting started", date: "Published on July 16, 2026", categories: ["Tutorials"], authors: [{ name: "Colleen Gallagher", role: "Senior Customer Success Engineer, Tines" }, { name: "Michael Tolan", role: "Senior Engineer - Customer Experience, Tines" }], thumb: `${B}/cover-building-ai-agents-getting-started.jpg` },
+  'building-ai-agents-advanced': { docTitle: "Building AI agents in Tines Stories — tips and tricks for advanced builders", date: "Published on July 16, 2026", categories: ["Tutorials"], authors: [{ name: "Colleen Gallagher", role: "Senior Customer Success Engineer, Tines" }, { name: "Michael Tolan", role: "Senior Engineer - Customer Experience, Tines" }], thumb: `${B}/cover-building-ai-agents-advanced.jpg` },
+  'federal-ai-soc-blueprint': { docTitle: "From executive order to operational reality: a federal AI SOC blueprint", date: "Published on August 4, 2026", categories: ["News"], authors: [{ name: "Navid Wlotzka", role: "Principal Solutions Engineer, Federal" }], thumb: `${B}/cover-federal-ai-soc-blueprint.jpg` },
+  'how-datadog-and-tines-help-you-scale-your-security-and-compliance': { docTitle: "How Datadog and Tines help you scale your security and compliance in real time", date: "Published on August 27, 2026", categories: [], authors: [{ name: "Emily Kerr", role: "Senior Partner Marketing Manager, Tines" }], thumb: `${B}/cover-how-datadog-and-tines-help-you-scale-your-security-and-compl.jpg` },
+  'whats-new-in-tines-july-2026-edition': { docTitle: "Tines product updates for July 2026", date: "Published on August 14, 2026", categories: ["Product updates"], authors: [{ name: "Alex Puzzolo", role: 'Tines' }], thumb: `${B}/cover-whats-new-in-tines-july-2026-edition.jpg` },
+  'wild-code-memos-sandboxes': { docTitle: "Memos and sandboxes won't solve your wild code problem", date: "Published on July 23, 2026", categories: [], authors: [], thumb: `${B}/cover-wild-code-memos-sandboxes.jpg` },
+  'msps-tool-sprawl': { docTitle: "What MSPs gain when they conquer tool sprawl", date: "Published on July 31, 2026", categories: ["News"], authors: [], thumb: `${B}/cover-msps-tool-sprawl.jpg` },
+  'making-tines-3b': { docTitle: "The making of Tines 3B", date: "Published on July 28, 2026", categories: ["News"], authors: [{ name: "Stephen O’Brien", role: "Head of Product, Tines" }, { name: "Eoghan Reid", role: "Lead Product Designer, Tines" }], thumb: `${B}/cover-making-tines-3b.jpg` },
+  'introducing-tines-3b': { docTitle: "Introducing Tines 3B, the next generation of Tines", date: "Published on July 31, 2026", categories: ["News"], authors: [{ name: "Eoin Hinchy", role: "Co-founder and CEO, Tines" }], thumb: `${B}/cover-introducing-tines-3b.jpg` },
+  'wild-code-it-crisis': { docTitle: "Wild code: the IT crisis hiding in plain sight", date: "Published on July 24, 2026", categories: ["News"], authors: [], thumb: `${B}/cover-wild-code-it-crisis.jpg` },
+  'ai-soc-automation-how-to-build-an-ai-driven-soc': { docTitle: "AI SOC automation: how to build an AI-driven SOC | Tines", date: "Published on July 22, 2026", categories: ["News"], authors: [], thumb: `${B}/cover-ai-soc-automation-how-to-build-an-ai-driven-soc.jpg` },
+  'vulnerability-remediation-workflow-coordinating-security-it-and-owners': { docTitle: "Vulnerability remediation workflow: coordinating security, IT, and owners | Tines", date: "Published on July 22, 2026", categories: ["News"], authors: [], thumb: `${B}/cover-vulnerability-remediation-workflow-coordinating-security-it-.jpg` },
+  'phishing-response-workflow-a-blueprint-for-security-teams': { docTitle: "Phishing response workflow: a blueprint for security teams | Tines", date: "Published on July 22, 2026", categories: ["News"], authors: [], thumb: `${B}/cover-phishing-response-workflow-a-blueprint-for-security-teams.jpg` },
+  'automated-employee-onboarding-a-cross-team-workflow-blueprint': { docTitle: "Automated employee onboarding: a cross-team workflow blueprint | Tines", date: "Published on July 22, 2026", categories: ["News"], authors: [], thumb: `${B}/cover-automated-employee-onboarding-a-cross-team-workflow-blueprin.jpg` },
+  'it-process-automation-empowering-it-teams-to-scale': { docTitle: "IT process automation: empowering IT teams to scale | Tines", date: "Published on July 22, 2026", categories: ["News"], authors: [], thumb: `${B}/cover-it-process-automation-empowering-it-teams-to-scale.jpg` },
+}
+
+for (const a of articles) {
+  const m = liveMeta[a.slug]
+  if (!m) continue
+  a.docTitle = m.docTitle
+  a.date = m.date
+  a.thumb = m.thumb
+  if (m.categories.length) a.categories = m.categories
+  if (m.authors.length) a.authors = m.authors.map((x) => ({ ...(a.authors?.find((o) => o.name === x.name) || {}), ...x }))
+}
+/** Live order of the first page of /blog/articles/ (24 cards). */
+export const allArticles = ["it-onboarding-automation-building-a-provisioning-agent-with-tines-3b","headspace-taming-wild-code-with-tines-3b","finance-billing-app","build-your-own-ai-soc","ai-governance-monitoring-how-to-prove-your-program-is-actually-working","thomas-kinsella-technovation","tines-3b-first-90","whats-new-in-tines-august-2026-edition","tines-achieves-tx-ramp-level-2-certification","building-ai-agents-getting-started","building-ai-agents-advanced","federal-ai-soc-blueprint","how-datadog-and-tines-help-you-scale-your-security-and-compliance","whats-new-in-tines-july-2026-edition","wild-code-memos-sandboxes","msps-tool-sprawl","making-tines-3b","introducing-tines-3b","wild-code-it-crisis","ai-soc-automation-how-to-build-an-ai-driven-soc","vulnerability-remediation-workflow-coordinating-security-it-and-owners","phishing-response-workflow-a-blueprint-for-security-teams","automated-employee-onboarding-a-cross-team-workflow-blueprint","it-process-automation-empowering-it-teams-to-scale"].map(bySlug)
 
 export const latest = ['it-onboarding-automation-building-a-provisioning-agent-with-tines-3b', 'headspace-taming-wild-code-with-tines-3b', 'finance-billing-app', 'build-your-own-ai-soc', 'ai-governance-monitoring-how-to-prove-your-program-is-actually-working', 'thomas-kinsella-technovation', 'whats-new-in-tines-august-2026-edition', 'tines-achieves-tx-ramp-level-2-certification', 'building-ai-agents-getting-started'].map(bySlug)
 export const tutorials = [
@@ -55,8 +110,8 @@ export const categories = [
   { slug: 'engineering', label: 'Engineering', h1: 'Engineering', pages: 3, filter: 'Engineering' },
   { slug: 'product-updates', label: 'Product updates', h1: 'Product updates', pages: 5, filter: 'Product updates' },
   { slug: 'inside-tines', label: 'Inside Tines', h1: 'Inside Tines', pages: 4, filter: 'Inside Tines' },
-  { slug: 'tines-x-tines', label: 'Tines × Tines', h1: 'Tines × Tines', pages: 2, filter: 'Tines × Tines' },
-  { slug: 'guides', label: 'Guides', h1: 'Guides', pages: 1, filter: null, guides: true },
+  { slug: 'tines-by-tines', label: 'Tines × Tines', h1: 'Tines × Tines', pages: 2, filter: 'Tines × Tines' },
+  { slug: 'guides', label: 'Guides', docTitle: 'All guides, white papers, and original research', h1: 'Guides', pages: 1, filter: null, guides: true },
 ]
 export const categoryBySlug = (s) => categories.find((c) => c.slug === s)
 
@@ -68,7 +123,7 @@ export const navLinks = [
 
 export const series = [
   {
-    slug: 'migrating-to-tines-cases', title: 'Migrating to Tines Cases', cover: `${B}/series-cover-migrating-to-tines-cases.png`,
+    slug: 'migrating-to-tines-cases', title: 'Migrating to Tines Cases', docTitle: 'Migrating to Tines Cases: A complete guide to case management migration', cover: `${B}/series-cover-migrating-to-tines-cases.png`,
     description: 'A short placeholder description of this series, outlining the steps involved and what each part of the migration covers for teams planning ahead.',
     entries: [
       ['Introduction: migrating to Tines Cases', 'it-onboarding-automation-building-a-provisioning-agent-with-tines-3b'],

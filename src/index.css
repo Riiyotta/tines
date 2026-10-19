@@ -23,6 +23,13 @@
     --page-fg: theme('colors.purple.55');
     --page-btn-bg: theme('colors.purple.55');
     --page-btn-fg: theme('colors.lightest');
+    /* global group: navbar Book-a-demo + search button (live differs per theme) */
+    --page-nav-btn-bg: theme('colors.purple.70');
+    --page-nav-btn-hover: theme('colors.purple.60');
+    --page-nav-btn-fg: theme('colors.lightest');
+    --page-nav-search-bg: theme('colors.purple.5');
+    --page-nav-search-hover: theme('colors.purple.10');
+    --page-nav-search-fg: theme('colors.purple.60');
     /* Used by the inline product-visual SVG (its <text> nodes reference these) */
     --fontSans: theme('fontFamily.sans');
     --fontSerif: theme('fontFamily.serif');
@@ -51,11 +58,11 @@
 
   /* Page themes (specs/pages-a.md §0.1). A page module exports `theme = '<name>'`; App sets
      data-page-theme on <html>. Unlisted pages use the homepage defaults from :root. */
-  [data-page-theme='pricing'] { --page-bg: theme('colors.purple.50'); --page-fg: theme('colors.white'); --page-btn-bg: theme('colors.white'); --page-btn-fg: theme('colors.purple.50'); }
-  [data-page-theme='3b'] { --page-bg: theme('colors.purple.5'); }
+  [data-page-theme='pricing'] { --page-bg: theme('colors.purple.50'); --page-fg: theme('colors.white'); --page-btn-bg: theme('colors.white'); --page-btn-fg: theme('colors.purple.50'); --page-nav-btn-bg: theme('colors.lightest'); --page-nav-btn-hover: theme('colors.white'); --page-nav-btn-fg: theme('colors.purple.70'); --page-nav-search-bg: theme('colors.purple.55'); --page-nav-search-hover: theme('colors.purple.60'); --page-nav-search-fg: theme('colors.purple.10'); }
+  [data-page-theme='3b'] { --page-bg: theme('colors.purple.5'); --page-nav-search-bg: theme('colors.purple.10'); --page-nav-search-hover: theme('colors.purple.15'); }
   [data-page-theme='plain'] { --page-fg: theme('colors.purple.65'); --page-btn-bg: theme('colors.purple.65'); }
-  [data-page-theme='about'] { --page-bg: theme('colors.coolgray.95'); --page-fg: theme('colors.lightest'); --page-btn-bg: theme('colors.lightest'); --page-btn-fg: theme('colors.coolgray.95'); }
-  [data-page-theme='purple-5-plain'] { --page-bg: theme('colors.purple.5'); --page-fg: theme('colors.purple.65'); --page-btn-bg: theme('colors.purple.65'); }
+  [data-page-theme='about'] { --page-bg: theme('colors.coolgray.95'); --page-fg: theme('colors.lightest'); --page-btn-bg: theme('colors.lightest'); --page-btn-fg: theme('colors.coolgray.95'); --page-nav-btn-bg: theme('colors.lightest'); --page-nav-btn-hover: theme('colors.white'); --page-nav-btn-fg: theme('colors.purple.70'); --page-nav-search-bg: theme('colors.coolgray.85'); --page-nav-search-hover: theme('colors.coolgray.80'); --page-nav-search-fg: theme('colors.purple.10'); }
+  [data-page-theme='purple-5-plain'] { --page-bg: theme('colors.purple.5'); --page-nav-search-bg: theme('colors.purple.10'); --page-nav-search-hover: theme('colors.purple.15'); --page-fg: theme('colors.purple.65'); --page-btn-bg: theme('colors.purple.65'); }
   [data-page-theme='enterprise'] { --page-fg: theme('colors.legacy-ink'); --page-btn-bg: theme('colors.legacy-ink'); }
 
   html {
@@ -274,14 +281,14 @@
 @media (min-width: 640px) { :root { --radius: 14px; --card-pad: 40px; } }
 @media (min-width: 1024px) { :root { --card-pad: 55px; } }
 @media (min-width: 1440px) { :root { --card-pad: 72px; } }
-/* Accent theme: the live site remaps --acc* from `data-color-theme=<hue>` on a card. */
-[data-color-theme='purple'] { --acc5: theme('colors.purple.5'); --acc10: theme('colors.purple.10'); --acc20: theme('colors.purple.20'); --acc25: theme('colors.purple.25'); --acc30: theme('colors.purple.30'); --acc40: theme('colors.purple.40'); --acc50: theme('colors.purple.50'); --acc60: theme('colors.purple.60'); --acc70: theme('colors.purple.70'); --acc80: theme('colors.purple.80'); }
-/* pink / orange / green use the rendered (display-p3 -> sRGB) readbacks of the live cards, which differ slightly from the
-   spec's hex fallbacks; they already exist as tint.* / pga.* tokens. */
-[data-color-theme='pink'] { --acc5: theme('colors.tint.rose'); --acc10: theme('colors.tint.rose-mid'); --acc20: theme('colors.tint.rose-line'); --acc25: theme('colors.pga.pink-line'); --acc30: theme('colors.tint.pink-dot'); --acc40: theme('colors.pink.40'); --acc50: theme('colors.pink.50'); --acc60: theme('colors.pink.60'); --acc70: theme('colors.pink.70'); --acc80: theme('colors.pink.80'); }
-[data-color-theme='orange'] { --acc5: theme('colors.tint.peach'); --acc10: theme('colors.tint.peach-mid'); --acc20: theme('colors.tint.peach-line'); --acc25: theme('colors.pga.orange-line'); --acc30: theme('colors.tint.peach-hover'); --acc40: theme('colors.orange.40'); --acc50: theme('colors.orange.50'); --acc60: theme('colors.orange.60'); --acc70: theme('colors.orange.70'); --acc80: theme('colors.orange.80'); }
-[data-color-theme='green'] { --acc5: theme('colors.green.5'); --acc10: theme('colors.green.10'); --acc20: theme('colors.green.20'); --acc25: theme('colors.green.25'); --acc30: theme('colors.green.30'); --acc40: theme('colors.green.40'); --acc50: theme('colors.tint.green-book'); --acc60: theme('colors.green.60'); --acc70: theme('colors.tint.green-ink-dk'); --acc80: theme('colors.tint.green-ink-xdk'); }
-[data-color-theme='teal'] { --acc5: theme('colors.teal.5'); --acc10: theme('colors.teal.10'); --acc20: theme('colors.teal.20'); --acc30: theme('colors.teal.30'); --acc50: theme('colors.teal.50'); --acc70: theme('colors.teal.70'); --acc80: theme('colors.teal.80'); }
+/* Accent theme: the live site remaps --acc* from `data-color-theme=<hue>` on a card/section. ONE set for every page (solutions + industry).
+   Values are the display-p3 --acc* steps read back as sRGB (canvas readback on the live pages), not the spec's hex fallbacks. */
+[data-color-theme='orange'] { --acc5:#ffe1c4; --acc10:#ffcea6; --acc20:#ffab70; --acc25:#ff9c5b; --acc30:#ff8e46; --acc40:#f27324; --acc50:#d15c08; --acc55:#c05100; --acc60:#ad4900; --acc70:#8a3701; --acc80:#622c12; }
+[data-color-theme='pink'] { --acc5:#ffdeee; --acc10:#ffc7e5; --acc20:#ff9ad2; --acc25:#ff87c8; --acc30:#ff75bd; --acc40:#ed52a6; --acc50:#cd3d8b; --acc55:#be327e; --acc60:#ad2a71; --acc70:#8a2057; --acc80:#631e40; }
+[data-color-theme='green'] { --acc5:#e4eee7; --acc10:#cae4d4; --acc20:#90d1af; --acc25:#71c79d; --acc30:#50bc8c; --acc40:#00a46e; --acc50:#008b53; --acc55:#007f4a; --acc60:#007442; --acc70:#005d35; --acc80:#00452a; }
+[data-color-theme='purple'] { --acc5:#ece8fd; --acc10:#ded8ff; --acc20:#c3b5ff; --acc25:#b7a4ff; --acc30:#aa94ff; --acc40:#9275f4; --acc50:#7a56e0; --acc55:#714bd0; --acc60:#6741bf; --acc70:#542f9c; --acc80:#3f2374; }
+[data-color-theme='teal'] { --acc5:#ddf1ed; --acc10:#bee9e4; --acc20:#7ad8d0; --acc30:#2ac4bc; --acc50:#008e89; --acc70:#006061; --acc80:#004445; }
+[data-color-theme='blue'] { --acc5:#e7ecf5; --acc10:#d4dff3; --acc20:#acc4f3; --acc30:#84a9f1; --acc50:#4372d6; --acc55:#3565cc; --acc70:#1f42a1; }
 [data-color-theme='yellow'] { --acc5: theme('colors.yellow.5'); --acc10: theme('colors.yellow.10'); --acc20: theme('colors.yellow.20'); --acc30: theme('colors.yellow.30'); --acc50: theme('colors.yellow.50'); --acc70: theme('colors.yellow.70'); --acc80: theme('colors.yellow.80'); }
 /* Hero buttons on these pages are purple-70 while the page foreground is purple-65 (--btn-color in the live CSS). */
 .btn-tone-70 { --page-fg: theme('colors.purple.70'); --page-btn-bg: theme('colors.purple.70'); }
@@ -340,11 +347,7 @@
   }
 }
 
-/* pages-b2: the live --acc* steps are display-p3 values; their sRGB readbacks (measured via canvas on the live pages) differ from the hex fallbacks
-   b1's [data-color-theme] block uses. Industry pages only, so group-b1 pages are untouched. */
-[data-page-theme='industry'] [data-color-theme='orange'] { --acc5:#ffe1c4; --acc10:#ffcea6; --acc20:#ffab70; --acc30:#ff8e46; --acc40:#f27324; --acc50:#d15c08; --acc55:#c05100; --acc60:#ad4900; --acc70:#8a3701; --acc80:#622c12; }
-[data-page-theme='industry'] [data-color-theme='pink'] { --acc5:#ffdeee; --acc10:#ffc7e5; --acc20:#ff9ad2; --acc25:#ff87c8; --acc30:#ff75bd; --acc40:#ed52a6; --acc50:#cd3d8b; --acc55:#be327e; --acc60:#ad2a71; --acc70:#8a2057; --acc80:#631e40; }
-[data-page-theme='industry'] [data-color-theme='green'] { --acc5:#e4eee7; --acc10:#cae4d4; --acc20:#90d1af; --acc25:#71c79d; --acc30:#50bc8c; --acc40:#00a46e; --acc50:#008b53; --acc55:#007f4a; --acc60:#007442; --acc70:#005d35; --acc80:#00452a; }
-[data-page-theme='industry'] [data-color-theme='purple'] { --acc5:#ece8fd; --acc10:#ded8ff; --acc20:#c3b5ff; --acc25:#b7a4ff; --acc30:#aa94ff; --acc40:#9275f4; --acc50:#7a56e0; --acc55:#714bd0; --acc60:#6741bf; --acc70:#542f9c; --acc80:#3f2374; }
-[data-page-theme='industry'] [data-color-theme='teal'] { --acc5:#ddf1ed; --acc10:#bee9e4; --acc20:#7ad8d0; --acc30:#2ac4bc; --acc50:#008e89; --acc70:#006061; --acc80:#004445; }
-[data-page-theme='industry'] [data-color-theme='blue'] { --acc5:#e7ecf5; --acc10:#d4dff3; --acc20:#acc4f3; --acc30:#84a9f1; --acc50:#4372d6; --acc55:#3565cc; --acc70:#1f42a1; }
+/* ---- global group: skip link (live .skip-link) ---- */
+.skip-link { position: fixed; top: 10px; left: 10px; z-index: 9999; padding: 11.2px 22.4px; border-radius: 6px; background: theme('colors.legacy-ink'); color: theme('colors.lightest'); font: 600 14px/16.1px theme('fontFamily.sans'); text-decoration: none; transform: translateY(-200%); }
+.skip-link:focus { transform: none; outline: 1px auto theme('colors.accent'); }
+/* ---- end global group ---- */

@@ -6,11 +6,12 @@
  * ArticleLayout variants: 'blog' (828 + 260 aside, gap), 'article' (blog article: px-page-wide, 828 + 260, gap 40), 'narrow' (680 centred, case study), 'lesson' (660 + 288 left nav), 'whatsnew' (936, pr 192).
  * pages-c: <640 article scale (14/22.75, h2 24/30, ul pl 21) measured on the blog article.
  * Props: variant, aside (node, sticky), children, className.
+ * Prose `fullBelow2xl` (c1): p/ul use the full column below 1280 (blog article: the live 80% cap only applies at >= 1280).
  */
-export function Prose({ weight500 = false, lesson = false, className = '', children }) {
+export function Prose({ weight500 = false, lesson = false, fullBelow2xl = false, className = '', children }) {
   return (
     <div
-      className={`prose-tines font-sans ${lesson ? 'text-[16px] leading-[26px]' : 'text-prose'} ${weight500 ? 'font-medium' : 'font-normal'} ${className}
+      className={`prose-tines font-sans ${lesson ? 'text-[16px] leading-[26px]' : 'text-prose'} ${weight500 ? 'font-medium' : 'font-normal'} ${fullBelow2xl ? 'max-2xl:[&_p]:!max-w-none max-2xl:[&_ul]:!max-w-none' : ''} ${className}
         [&_p]:mt-[18px] [&_p]:max-w-[80%] [&_strong]:font-semibold [&_em]:italic
         [&_a]:font-bold [&_a]:underline [&_a]:decoration-1 hover:[&_a]:text-purple-45
         [&_h2]:mt-[42px] [&_h2]:font-serif [&_h2]:text-prose-h2 [&_h2]:font-normal
@@ -29,7 +30,7 @@ const LAYOUT = {
   lesson: { wrap: 'mx-auto max-w-[1520px] px-page md:grid md:grid-cols-[288px_minmax(0,660px)] md:gap-[72px]', main: '' },
   whatsnew: { wrap: 'mx-auto max-w-[1520px] px-page', main: 'max-w-[936px] md:pr-48' },
   // pages-c blog article: padding 0 156 / max 1440 (px-page-wide), grid 828 + 260, gap 40
-  article: { wrap: 'mx-auto max-w-[1440px] px-page-wide md:grid md:grid-cols-[minmax(0,828px)_260px] md:gap-10', main: '' },
+  article: { wrap: 'mx-auto max-w-[1440px] px-page-wide md:grid md:grid-cols-[minmax(0,828px)_200px] md:gap-[30px] 2xl:grid-cols-[minmax(0,828px)_260px] 2xl:gap-10', main: '' }, // c1: live aside is 200 / gap 30 below 1280
 }
 
 export function ArticleLayout({ variant = 'blog', aside, children, className = '' }) {

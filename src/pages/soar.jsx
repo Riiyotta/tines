@@ -10,7 +10,7 @@ import assetMgmt from '../../public/assets/pages/soar/1746808120-spot-icon-asset
 import appSec from '../../public/assets/pages/soar/1731492731-tines-illo-application-security.svg?raw'
 import gridBg from '../../reference/svg/pages/soar-talk-to-a-product-expert.svg?raw'
 
-export const title = 'SOAR | Tines'
+export const title = 'Break away from legacy SOAR | Tines'
 export const theme = 'plain'
 export const chrome = 'simple'
 

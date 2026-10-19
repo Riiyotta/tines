@@ -7,7 +7,7 @@ import { EXTEND_CARDS, BADGES, TRUST_GREEN, TRUST_ORANGE, OWN_CARDS, OUTCOMES } 
 import attribution from '../../reference/svg/pages/ai-in-tines-7qprqg-attribution.svg?raw'
 import idcLogo from '../../reference/svg/pages/ai-in-tines-5uzf-2.svg?raw'
 
-export const title = 'AI in Tines'
+export const title = 'AI Agents, Copilots & MCP | AI Interaction Layer | Tines'
 export const theme = 'plain'
 
 const H2_32 = 'font-serif text-[32px] font-normal leading-[38.4px] tracking-[-0.96px]'
