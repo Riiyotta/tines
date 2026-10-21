@@ -2,6 +2,18 @@
 
 Version headings here are documentation-only (see `versionFieldNote` in `registry.manifest.json`).
 
+## 1.1.0 — generation-safe brand path (review revision)
+
+Reviewer finding: the source Tines logo role must not be usable by a generated website. Status unchanged: `design-review-pending`, `productionApproved: false`.
+
+- **Modes.** PageSpec has a required, closed `mode` (`reference` | `generated`); `pageSpecVersion` and `allowlistVersion` bumped to 1.1.0 because a required field was added (breaking for 1.0.0 specs).
+- **Roles.** `brand.tines-logo` stays reference/clone-only (policy `reference-context-only`, now also `generatedMode: blocked-in-generated`, both pinned). New generation-safe roles `brand.placeholder` (policy `may-generate-new`) and `brand.user-supplied` (new policy `operator-supplied-only`). No generated "neutral mark" role: the evidence does not support one and inventing it risks a Tines lookalike. Every one of the 11 roles now carries `generatedMode` (generation-safe / slot-operator-supplied / blocked-in-generated), checked against its policy; policies of the 8 existing roles are unchanged.
+- **Validator + graph.** New error rules `GENERATED_NO_REFERENCE_ASSET` (no blocked role anywhere in a generated spec, any field/section/depth), `GENERATED_BRAND_REQUIRED` (nav `logo` and footer `logoMark` must be `brand.placeholder`/`brand.user-supplied`), `GENERATED_NO_SOURCE_BRAND_TEXT` (whole-word "Tines" in any string). 13 -> 16 graph rules, same ids/severities in `compatibility/graph.json` and `semantic_validate.RULES`.
+- **Schema / contracts.** The two brand-mark fields accept the three `brand.*` roles (`brandMark`/`generatedAssetRoles` in `sections/chrome.site-nav.json` and `chrome.site-footer.json`); every other media field is unchanged.
+- **Examples.** `schema/example.pagespec.json` is `mode: reference`; new `schema/example.generated.pagespec.json` (fictional "Example Co", original copy, placeholder + user-supplied brand marks).
+- **Checks.** `verify_all.py` gains `mode-contract` and a rewritten `asset-roles` check (pins, policy/mode coherence, brand-mark wiring, no blocked role in the generated example, the real logo only reachable through brand-mark fields); both examples go through the schema and semantic checks. `drift_proof.py` gains 23 injections (41 total). Adversarial suite 49 -> 104 mutations, 10 -> 24 controls (counts recomputed in the manifest/README).
+- **Baseline defect fixed.** `verify_all` `citations` was failing (49 stale citations) because later commits in the source project (multi-page router, shared components, page-themed nav colours, live 100x canvas, width-dependent timeline) moved or changed the cited code. Citations were re-pinned and the claims that had changed were rewritten in the ledger. The rest of the repo still describes the homepage snapshot; pages added to the source since are not modelled.
+
 ## 1.0.0 — initial build
 
 - Built from scratch per the design-repo-extraction BUILD-GUIDE: tokens (312 leaves across foundation/semantic/component/layout + light theme), 6 primitives, 7 components, 11 section contracts, 1 template, 1 route, 13 compatibility rules, 9 asset roles.

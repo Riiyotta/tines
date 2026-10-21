@@ -11,14 +11,39 @@ An AI-ready design-repo extracted from the local tines.com homepage clone: token
 - `required: false` on seven template nodes is an **inferred allowance**: a generated page may omit those sections, but must keep the order. With only one real instance this is a judgement call, not a measured fact. The nav, `hero.intro`, the Start-today CTA and the footer are required.
 - **Links.** The footer links to absolute `https://www.tines.com/...` URLs. The nav items and the hero, solution and CTA buttons, however, use root-relative paths copied from the original (`/customers/`, `/pricing/`, `/3b/`, `/book-a-demo/`). Those resolve against the clone's own host, where only `/` exists, so they are dead links in the clone. PageSpecs never carry URLs. CTAs carry an `intent` enum (`book-demo`, `sign-up`, `explore-product`) instead.
 
-## Licensing and asset rules (read before generating anything)
+## Two modes: `reference` and `generated` (read before generating anything)
 
-See `assets/asset-roles.json`. Every media field in the schema is a closed `assetRole`, pinned per field, with a generation policy:
+Every PageSpec declares a required, closed `mode`. The rule, exactly:
+
+| Mode | Meaning | `brand.tines-logo` (real Tines logo) |
+|---|---|---|
+| `reference` | The spec reproduces/describes this local clone of the source site. | **Allowed**, only as the existing chrome asset in `chrome.site-nav` / `chrome.site-footer`. |
+| `generated` | The spec is a NEW website for someone else. | **Error (`GENERATED_NO_REFERENCE_ASSET`) anywhere in the spec**, in any field or section. The source brand name "Tines" is also an error in any string (`GENERATED_NO_SOURCE_BRAND_TEXT`, whole-word match, so "routines" is fine). Every section whose contract has a `brandMark` field (nav `logo`, footer `logoMark`) must set it from a generation-safe brand role: **`brand.placeholder` or `brand.user-supplied`** (`GENERATED_BRAND_REQUIRED`). |
+
+- `brand.tines-logo` stays in the repo **for reference/clone use only**; its policy is `reference-context-only` and it is pinned (policy and `generatedMode: blocked-in-generated`), so a different-but-valid value fails `verify_all`.
+- `brand.placeholder` (policy `may-generate-new`): a neutral, clearly labelled placeholder or a text-only wordmark of the new site's OWN name. It must not resemble the Tines logo. This repo ships no artwork for it on purpose, and no generated "neutral mark" role exists: nothing in the evidence supports one, and inventing one risks a lookalike.
+- `brand.user-supplied` (policy `operator-supplied-only`): a slot for the user's own logo; the generator never creates or imitates it. Prefer it whenever a real logo exists.
+- The schema accepts all three brand roles in the two brand-mark fields in both modes (a reference-mode page may use a placeholder too); the semantic validator applies the mode rules. JSON Schema alone cannot express "any field, any depth", which is why the mode rules live in `schema/semantic_validate.py` and `compatibility/graph.json`.
+- Examples: `schema/example.pagespec.json` (mode `reference`, real Tines logo, real short headings) and `schema/example.generated.pagespec.json` (mode `generated`, fictional "Example Co" with original copy, `brand.placeholder` in the nav and `brand.user-supplied` in the footer). `verify_all` fails if the generated example contains any reference-only role.
+
+Every role in `assets/asset-roles.json` is classified by `generatedMode` (closed vocabulary, coherent with its generation policy):
+
+| `generatedMode` | Roles | In a generated PageSpec |
+|---|---|---|
+| `generation-safe` | `brand.placeholder`, `brand.user-supplied`, `icon.ui-glyph` | Allowed. |
+| `slot-operator-supplied` | `customer.logo-trademark`, `partner.assistant-icon`, `product.demo-frame`, `product.screenshot`, `illustration.brand-art`, `editorial.promo-image`, `artwork.canvas-standin` | Allowed only as an empty slot the operator fills with their own or licensed assets; the Tines/third-party original is never reproduced. Their policies are unchanged. |
+| `blocked-in-generated` (policy `reference-context-only`) | `brand.tines-logo` | Error anywhere. |
+
+## Licensing and asset rules
+
+See `assets/asset-roles.json`. Every media field in the schema is a closed `assetRole`, pinned per field (the two brand-mark fields accept the three `brand.*` roles), with a generation policy:
 
 | Role | Policy | Meaning |
 |---|---|---|
 | `customer.logo-trademark` | must-not-fabricate | 11 real third-party trademarks (Canva, Coinbase, Databricks, Dropbox, Intercom, McKesson, MongoDB, Pinterest, Reddit, Snowflake, Sophos). Never generate, redraw, name or reuse them, and never present real customers as endorsements. A marquee holds operator-supplied licensed logos only. |
-| `brand.tines-logo` | reference-context-only | The Tines logo and wordmark appear only as the existing chrome asset in this local reference. Never alter or imitate them. |
+| `brand.tines-logo` | reference-context-only | The Tines logo and wordmark appear only as the existing chrome asset in this local reference (mode `reference`). Never alter or imitate them. Forbidden in mode `generated`. |
+| `brand.placeholder` | may-generate-new | Generation-safe neutral brand placeholder (see modes above). |
+| `brand.user-supplied` | operator-supplied-only | Generation-safe slot for the user's own logo. |
 | `partner.assistant-icon` | must-not-fabricate | ChatGPT, Claude, Gemini, Perplexity and Grok marks in the footer. |
 | `product.demo-frame`, `product.screenshot` | must-not-reuse-in-new-pages | Proprietary Tines product UI. These are slots only. |
 | `illustration.brand-art`, `editorial.promo-image` | must-not-reuse-in-new-pages | Proprietary illustrations and real editorial imagery. |
@@ -27,7 +52,7 @@ See `assets/asset-roles.json`. Every media field in the schema is a closed `asse
 
 - Generated pages must not reproduce real logos, real customer names presented as endorsements, real employee or customer photos, or Tines' proprietary product screenshots and copy. Short headings are the only exception.
 - **Fonts:** Roobert, Roobert Mono and Reckless are commercial licensed typefaces self-hosted by Tines. Generated pages may reference the font tokens only within this local reference context. Production use requires obtaining licences. Never redistribute the WOFF2 files (this repo ships none).
-- The example PageSpec uses only short real headings and labels. Body fields are kept brief and stay within every `maxWords` budget.
+- The reference example PageSpec uses only short real headings and labels; the generated example uses original fictional copy only. Body fields are kept brief and stay within every `maxWords` budget.
 
 ## Layout
 
@@ -39,12 +64,12 @@ tokens/20-component/        button, nav, use-case tab, timeline, footer
 tokens/30-layout/           container, gutters, grids
 tokens/themes/light.json    the only evidenced theme; resolves every semantic colour
 tokens/llm/                 component-allowlist, token-catalog, token-policy
-assets/asset-roles.json     closed asset-role vocabulary + licensing + font policy
+assets/asset-roles.json     closed asset-role vocabulary, generatedMode classification, modes, licensing + font policy
 primitives/ components/     contracts (props, token refs, evidence)
 sections/                   11 section contracts (content+maxWords, constraints, motion, responsive)
 templates/                  templates.json (structured nodes) + routes.json
-compatibility/graph.json    rhythm/position rules with severity
-schema/                     pagespec.schema.json, example.pagespec.json, semantic_validate.py, tests/adversarial_test.py
+compatibility/graph.json    rhythm/position + mode (GENERATED_*) rules with severity
+schema/                     pagespec.schema.json, example.pagespec.json (reference), example.generated.pagespec.json (generated), semantic_validate.py, tests/adversarial_test.py
 extraction/                 measured-values.json (evidence ledger), verify_all.py, drift_proof.py
 ```
 
@@ -59,15 +84,20 @@ extraction/                 measured-values.json (evidence ledger), verify_all.p
 | sections | 11 |
 | templates | 1 |
 | routes | 1 |
-| graphRules | 13 |
-| assetRoles | 9 |
+| graphRules | 16 |
+| assetRoles | 11 |
 | themes | 1 |
 | evidenceEntries | 65 |
-| adversarialMutations | 49 |
-| adversarialControls | 10 |
+| examples | 2 |
+| adversarialMutations | 104 |
+| adversarialControls | 24 |
 <!-- counts:end -->
 
 Token split: 223 foundation, 31 semantic, 49 component and 9 layout.
+
+## Source-tree drift
+
+This design-repo models only the homepage (`/`, `template.home`). The source project has since gained a file-based router and many more pages that are NOT modelled here. In this revision the evidence-ledger citations were re-pinned to the current source (49 had drifted; several claims were corrected, e.g. nav blur colours are now page-themed, the 100x wordmark is a live canvas with the PNG as fallback, and the timeline duration varies 88.0-99.5s with frame width). Prose elsewhere in this repo (for example "static PNG stand-ins" in the known gaps below, and the `artwork.canvas-standin` role) still describes the homepage snapshot as first built.
 
 ## Evidence
 
@@ -94,14 +124,14 @@ Requires Python 3.9+ and `jsonschema`.
 
 ```bash
 python3 extraction/verify_all.py              # all checks; exit 1 on any FAIL
-python3 schema/semantic_validate.py schema/example.pagespec.json
+python3 schema/semantic_validate.py schema/example.pagespec.json schema/example.generated.pagespec.json
 python3 schema/tests/adversarial_test.py      # every mutation rejected, every control passes
 python3 extraction/drift_proof.py             # proves the drift checks fail on injected defects
 ```
 
 ## Version fields
 
-`allowlistVersion` and `pageSpecVersion` are machine-checked by `verify_all.py`, against the allowlist and the schema const. `repositoryVersion` and the CHANGELOG headings are documentation only. Nothing enforces them (see `versionFieldNote` in the manifest).
+`allowlistVersion` and `pageSpecVersion` (1.1.0: adds required `mode` and the brand roles) are machine-checked by `verify_all.py`, against the allowlist and the schema const. `repositoryVersion` and the CHANGELOG headings are documentation only. Nothing enforces them (see `versionFieldNote` in the manifest).
 
 ## Packaging
 
