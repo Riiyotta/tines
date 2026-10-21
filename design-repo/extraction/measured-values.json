@@ -2,10 +2,11 @@
   "$comment": "Evidence ledger. The ONLY file in this design-repo allowed to cite paths outside the design-repo. Every citation is '<path relative to the design-repo folder>:<line>[-<line>]' plus a 'contains' anchor: a literal substring that must appear inside the cited line range. extraction/verify_all.py resolves each one against the sibling source tree when it exists and degrades to a WARNING (not a failure) when the design-repo is used standalone (e.g. unzipped elsewhere). Other repo files reference these entries by id (mv.*) only.",
   "ledgerVersion": "1.0.0",
   "sourceProject": {
-    "name": "tines-clone (local React 18 + Vite 5 + Tailwind 3 rebuild of the tines.com homepage)",
+    "name": "tines-clone (local React 18 + Vite 5 + Tailwind 3 rebuild of tines.com; this design-repo models only the homepage '/', the source has since grown a file-based router with many more pages)",
     "original": "https://www.tines.com/",
     "relativeLocation": "..",
-    "note": "Source tree is read-only evidence. Commercially sensitive: local reference only."
+    "note": "Source tree is read-only evidence. Commercially sensitive: local reference only.",
+    "citationsRepinnedAgainst": "Citations were re-pinned to the source tree as of the 'generation-safe' revision after later source commits (multi-page build, shared components) shifted lines; verify_all 'citations' resolves every one against the live tree."
   },
   "entries": {
     "mv.ia.template": {
@@ -35,11 +36,15 @@
       ]
     },
     "mv.app.order": {
-      "claim": "Real render order: Navbar, main(Hero, MonitorBanner, SolutionPanel, UseCases, WhyTines, CtaStartToday), Footer. Route count 1: no router exists.",
+      "claim": "Real render order: shared Layout in App.jsx = Navbar, main(Outlet), Footer; the homepage page module (src/pages/index.jsx) renders Hero, MonitorBanner, SolutionPanel, UseCases, WhyTines, CtaStartToday. NOTE: the source has since gained a file-based react-router (src/pages/**) with many more routes; this design-repo still models only '/' (template.home) and is a snapshot of the homepage.",
       "citations": [
         {
-          "ref": "../src/App.jsx:12-27",
+          "ref": "../src/pages/index.jsx:14-22",
           "contains": "<CtaStartToday />"
+        },
+        {
+          "ref": "../src/App.jsx:68-76",
+          "contains": "<Outlet />"
         },
         {
           "ref": "../src/main.jsx:1-6",
@@ -60,7 +65,7 @@
       "claim": "lightest #fcf9f5, accent #8d75e6 (--pageAccent resolved live), darkest #16131e.",
       "citations": [
         {
-          "ref": "../tailwind.config.cjs:18-21",
+          "ref": "../tailwind.config.cjs:32-36",
           "contains": "accent: '#8d75e6'"
         }
       ]
@@ -69,7 +74,7 @@
       "claim": "Purple scale 1..99; purple.55 #714bd0 is --pageForeground (default text, borders, filled buttons, solution panel).",
       "citations": [
         {
-          "ref": "../tailwind.config.cjs:22-27",
+          "ref": "../tailwind.config.cjs:36-41",
           "contains": "55: '#714bd0'"
         }
       ]
@@ -78,7 +83,7 @@
       "claim": "Green scale 1..35.",
       "citations": [
         {
-          "ref": "../tailwind.config.cjs:28-31",
+          "ref": "../tailwind.config.cjs:67-70",
           "contains": "10: '#cae4d4'"
         }
       ]
@@ -87,7 +92,7 @@
       "claim": "Legacy light/dark endpoints.",
       "citations": [
         {
-          "ref": "../tailwind.config.cjs:33-34",
+          "ref": "../tailwind.config.cjs:78-80",
           "contains": "light: { 100: '#f8f4f0'"
         }
       ]
@@ -96,7 +101,7 @@
       "claim": "Use-case tab colours it #007f4a, security #714bd0, finance #008784, people #c05100, operations #3565cc.",
       "citations": [
         {
-          "ref": "../tailwind.config.cjs:36-42",
+          "ref": "../tailwind.config.cjs:82-88",
           "contains": "people: '#c05100'"
         }
       ]
@@ -105,7 +110,7 @@
       "claim": "Per-tab panel text / frame edge / toggle-pill colours.",
       "citations": [
         {
-          "ref": "../tailwind.config.cjs:46-52",
+          "ref": "../tailwind.config.cjs:92-98",
           "contains": "'it-pill': '#00512f'"
         }
       ]
@@ -114,17 +119,17 @@
       "claim": "Nav dropdown tile/column colours.",
       "citations": [
         {
-          "ref": "../tailwind.config.cjs:54-64",
+          "ref": "../tailwind.config.cjs:100-110",
           "contains": "'it-tile': '#008b53'"
         }
       ]
     },
     "mv.tw.colors.surface": {
-      "claim": "Translucent surfaces (nav blur .7, backdrop .9, frosted .65, tag .55, card border .14, timeline bar/track, ask-AI .05).",
+      "claim": "Translucent surfaces (nav blur 70% and backdrop 90% - now color-mix of the page-themed --page-bg, default lightest = rgba(252,249,245,.7/.9); frosted .65, tag .55, card border .14, timeline bar/track, ask-AI .05).",
       "citations": [
         {
-          "ref": "../tailwind.config.cjs:66-79",
-          "contains": "'nav-blur': 'rgba(252,249,245,0.7)'"
+          "ref": "../tailwind.config.cjs:112-127",
+          "contains": "'nav-blur': 'color-mix(in srgb, var(--page-bg) 70%, transparent)'"
         }
       ]
     },
@@ -132,7 +137,7 @@
       "claim": "Stacks: Roobert / Reckless / Roobert Mono with system fallbacks.",
       "citations": [
         {
-          "ref": "../tailwind.config.cjs:81-85",
+          "ref": "../tailwind.config.cjs:147-151",
           "contains": "serif: ['Reckless', 'Georgia', 'serif']"
         }
       ]
@@ -141,7 +146,7 @@
       "claim": "Measured type roles (size, line-height, letter-spacing) at 1440/1280/768/390.",
       "citations": [
         {
-          "ref": "../tailwind.config.cjs:87-139",
+          "ref": "../tailwind.config.cjs:149-251",
           "contains": "'h1-lg': ['64px'"
         }
       ]
@@ -150,7 +155,7 @@
       "claim": "Tailwind spacing aliases map to stepped CSS vars.",
       "citations": [
         {
-          "ref": "../tailwind.config.cjs:140-153",
+          "ref": "../tailwind.config.cjs:265-269",
           "contains": "'section-margin': 'var(--section-margin)'"
         }
       ]
@@ -159,7 +164,7 @@
       "claim": "Page container max-width 1520px.",
       "citations": [
         {
-          "ref": "../tailwind.config.cjs:154-156",
+          "ref": "../tailwind.config.cjs:269-273",
           "contains": "page: '1520px'"
         }
       ]
@@ -168,7 +173,7 @@
       "claim": "Radii: pill 990, full2 9990, panel 48/32/24, tab/usp 14, frame 24, hero-frame 18, transport 22, tag 28, nav-item 50, dropdown col/tile/chip 20/12/9.",
       "citations": [
         {
-          "ref": "../tailwind.config.cjs:157-177",
+          "ref": "../tailwind.config.cjs:269-289",
           "contains": "panel: '48px'"
         }
       ]
@@ -177,7 +182,7 @@
       "claim": "Backdrop blurs nav 10, frosted 12, menu 16, timeline 24.",
       "citations": [
         {
-          "ref": "../tailwind.config.cjs:178-183",
+          "ref": "../tailwind.config.cjs:300-304",
           "contains": "timeline: '24px'"
         }
       ]
@@ -186,7 +191,7 @@
       "claim": "Easings snappy cubic-bezier(.22,1,.36,1), plain ease, spring cubic-bezier(.34,1.56,.64,1).",
       "citations": [
         {
-          "ref": "../tailwind.config.cjs:184-188",
+          "ref": "../tailwind.config.cjs:303-307",
           "contains": "snappy: 'cubic-bezier(.22,1,.36,1)'"
         }
       ]
@@ -195,7 +200,7 @@
       "claim": "Nav z-index 1000.",
       "citations": [
         {
-          "ref": "../tailwind.config.cjs:189-191",
+          "ref": "../tailwind.config.cjs:308-312",
           "contains": "nav: '1000'"
         }
       ]
@@ -222,7 +227,7 @@
       "claim": "text-wrap: pretty set globally on html.",
       "citations": [
         {
-          "ref": "../src/index.css:54-55",
+          "ref": "../src/index.css:75-76",
           "contains": "text-wrap: pretty"
         }
       ]
@@ -240,7 +245,7 @@
       "claim": "Kicker: Roobert Mono 700 uppercase 13/13, 0.65px tracking.",
       "citations": [
         {
-          "ref": "../src/index.css:84-92",
+          "ref": "../src/index.css:105-113",
           "contains": "letter-spacing: 0.65px"
         }
       ]
@@ -249,7 +254,7 @@
       "claim": "Workflow/Frontend toggle pill moves by clip-path inset over .28s snappy; no transition under reduced motion.",
       "citations": [
         {
-          "ref": "../src/index.css:167-173",
+          "ref": "../src/index.css:202-208",
           "contains": "transition: clip-path .28s cubic-bezier(.22,1,.36,1)"
         }
       ]
@@ -258,7 +263,7 @@
       "claim": "Footer HAS 1px dividers at 12% currentColor; accordion grid-template-rows 200ms ease below 768. (CLONE_SPEC said 'no borders' - wrong.)",
       "citations": [
         {
-          "ref": "../src/index.css:175-183",
+          "ref": "../src/index.css:210-218",
           "contains": "currentColor 12%"
         },
         {
@@ -271,7 +276,7 @@
       "claim": "Mobile nav accordion grid-template-rows .25s; chevron rotate .2s. Not gated by prefers-reduced-motion in the clone.",
       "citations": [
         {
-          "ref": "../src/index.css:148-156",
+          "ref": "../src/index.css:183-191",
           "contains": "transition: grid-template-rows .25s"
         }
       ]
@@ -280,7 +285,7 @@
       "claim": "Logo marquee edge-fade mask 60px.",
       "citations": [
         {
-          "ref": "../src/index.css:158-162",
+          "ref": "../src/index.css:193-197",
           "contains": "#000 60px"
         }
       ]
@@ -289,11 +294,11 @@
       "claim": "Product-visual margin-top: +45px (sp-xxl) below 640; sp-xxl - 175px = -130px at 640-1023; -(40px + max(0, min(100svh, fold-fit) - 900px)) at >=1024, i.e. -40px for viewports up to ~900px tall (-75.6px at 1440x1100). Measured identical on the live original and a fresh build of the current clone source. CLONE_SPEC's '-40px' is correct for >=1024 but incomplete.",
       "citations": [
         {
-          "ref": "../src/index.css:77-81",
+          "ref": "../src/index.css:98-102",
           "contains": "margin-top: calc(-1 * (40px"
         },
         {
-          "ref": "../src/components/Hero.jsx:176-177",
+          "ref": "../src/components/Hero.jsx:150-152",
           "contains": "sm:max-xl:mt-[calc(var(--sp-xxl)-175px)]"
         },
         {
@@ -306,7 +311,7 @@
       "claim": "Hero frame aspect 3:4 below 640, 4:3 from 640 until 1280, 2:1 from 1280; separate phone/tablet/desktop SVG frames.",
       "citations": [
         {
-          "ref": "../src/components/Hero.jsx:180-187",
+          "ref": "../src/components/Hero.jsx:156-160",
           "contains": "aspect-[3/4]"
         }
       ]
@@ -321,36 +326,40 @@
       ]
     },
     "mv.hero.mobile-roobert": {
-      "claim": "<640 the hero H1 uses Roobert 500 (400 from 640) and the byline uses Roobert 500 (Reckless from 640). CLONE_SPEC listed Reckless at 390 - wrong.",
+      "claim": "<640 the hero H1 uses Roobert 500 (400 from 640) and the byline uses Roobert 500 (Reckless from 640). CLONE_SPEC listed Reckless at 390 - wrong. (Markup now lives in the shared HeroCopy component extracted from Hero.jsx.)",
       "citations": [
         {
-          "ref": "../src/components/Hero.jsx:130",
+          "ref": "../src/components/shared/HeroCopy.jsx:14",
           "contains": "text-h1-sm font-medium"
         },
         {
-          "ref": "../src/components/Hero.jsx:135",
+          "ref": "../src/components/shared/HeroCopy.jsx:19",
           "contains": "font-sans text-hero-byline-sm font-medium sm:max-w-[1152px] sm:font-serif"
         }
       ]
     },
     "mv.hero.logos": {
-      "claim": "Marquee: 11 real third-party customer trademarks (Coinbase, Databricks, Reddit, Snowflake, Intercom, Dropbox, Pinterest, MongoDB, Sophos, Canva, McKesson), set rendered twice.",
+      "claim": "Marquee: 11 real third-party customer trademarks (Coinbase, Databricks, Reddit, Snowflake, Intercom, Dropbox, Pinterest, MongoDB, Sophos, Canva, McKesson), set rendered twice. (Logo list now in shared LogoSet.jsx; Hero.jsx wraps it in the marquee track.)",
       "citations": [
         {
-          "ref": "../src/components/Hero.jsx:25-30",
+          "ref": "../src/components/shared/LogoSet.jsx:24-28",
           "contains": "['Coinbase', coinbase]"
         },
         {
-          "ref": "../src/components/Hero.jsx:146-157",
+          "ref": "../src/components/Hero.jsx:130-134",
           "contains": "logo-marquee-track"
         }
       ]
     },
     "mv.hero.wordmark": {
-      "claim": "100x wordmark stage is a static PNG stand-in for a runtime canvas; carries data-motion hundredx-sink.",
+      "claim": "100x wordmark stage: the static PNG is now only the accessible image + fallback until the first frame of a live canvas (HundredXField); the stage still carries data-motion hundredx-sink. (The design-repo's artwork.canvas-standin role still describes the PNG snapshot, which remains the only reference artwork.)",
       "citations": [
         {
-          "ref": "../src/components/Hero.jsx:159-173",
+          "ref": "../src/components/Hero.jsx:139-146",
+          "contains": "hundredx-sink"
+        },
+        {
+          "ref": "../src/motion/flowerField/HundredXField.jsx:23",
           "contains": "hero-field-0.png"
         }
       ]
@@ -359,28 +368,28 @@
       "claim": "Timeline bar docked on TOP of the frame (data-dock=top); caption chip above the knob with top-rounded corners; 9 segments with live-measured widths 4.09248..8.60636%; static 0:01 / 1:31.",
       "citations": [
         {
-          "ref": "../src/components/Hero.jsx:32-34",
+          "ref": "../src/components/Hero.jsx:18-20",
           "contains": "4.09248"
         },
         {
-          "ref": "../src/components/Hero.jsx:57-62",
+          "ref": "../src/components/Hero.jsx:32-37",
           "contains": "data-dock=\"top\""
         },
         {
-          "ref": "../src/components/Hero.jsx:89-99",
+          "ref": "../src/components/Hero.jsx:78-82",
           "contains": "bottom-[calc(100%+13.1px)]"
         }
       ]
     },
     "mv.timeline.behaviour": {
-      "claim": "Scene duration 91.6315s, loops; 9 chapters; holds at gate t=1.8s (shows 0:01) until the visual is >=65% in view; scrub snaps to chapter within 6px.",
+      "claim": "Default scene duration 91.6315s (the 1360px desktop-band value; the real duration now varies 88.0-99.5s with frame width via src/motion/timelineChapters.js), loops; 9 chapters; holds at gate t=1.8s (shows 0:01) until the visual is >=65% in view; scrub snaps to chapter within 6px.",
       "citations": [
         {
-          "ref": "../src/motion/timeline.js:1-25",
-          "contains": "const DURATION = 91.63153223079219"
+          "ref": "../src/motion/timeline.js:77",
+          "contains": "let duration = 91.63153223079219"
         },
         {
-          "ref": "../src/motion/timeline.js:129-142",
+          "ref": "../src/motion/timeline.js:227-231",
           "contains": ">= 0.65"
         }
       ]
@@ -458,7 +467,7 @@
           "contains": "prefers-reduced-motion: reduce"
         },
         {
-          "ref": "../src/motion.css:106-110",
+          "ref": "../src/motion.css:119-123",
           "contains": "panelWipe 1s"
         }
       ]
@@ -527,11 +536,11 @@
           "contains": "href: '/customers/'"
         },
         {
-          "ref": "../src/components/Navbar.jsx:372-377",
+          "ref": "../src/components/Navbar.jsx:378-381",
           "contains": "href=\"/book-a-demo/\""
         },
         {
-          "ref": "../src/components/Hero.jsx:117-118",
+          "ref": "../src/components/Hero.jsx:105-107",
           "contains": "/blog/introducing-tines-3b/"
         },
         {
@@ -548,7 +557,7 @@
           "contains": "nav-dropdown-columns"
         },
         {
-          "ref": "../src/motion.css:72-78",
+          "ref": "../src/motion.css:81-85",
           "contains": "snappyIn .4s cubic-bezier(.22, 1, .36, 1) both"
         }
       ]
@@ -557,15 +566,15 @@
       "claim": "Icon sizes 14 (timeline), 16 (search/hamburger), 18 (dropdown leaf, ask-AI), 24 (mobile tab icon), 48 (orb).",
       "citations": [
         {
-          "ref": "../src/components/Hero.jsx:71",
+          "ref": "../src/components/Hero.jsx:46",
           "contains": "h-[14px] w-[14px]"
         },
         {
-          "ref": "../src/components/Navbar.jsx:383",
+          "ref": "../src/components/Navbar.jsx:388",
           "contains": "h-4 w-4"
         },
         {
-          "ref": "../src/components/Footer.jsx:203",
+          "ref": "../src/components/Footer.jsx:209",
           "contains": "h-[18px] w-[18px]"
         },
         {
@@ -590,7 +599,7 @@
           "contains": "2xl:grid-cols-[repeat(4,1fr)]"
         },
         {
-          "ref": "../src/components/Footer.jsx:178",
+          "ref": "../src/components/Footer.jsx:183",
           "contains": "md:grid-cols-4"
         }
       ]
@@ -630,7 +639,7 @@
       "claim": "hundredx-sink: scroll(root) 0 -> 80vh, translateY 0 -> 45px, >=920 only, no-preference only.",
       "citations": [
         {
-          "ref": "../src/motion.css:121-132",
+          "ref": "../src/motion.css:140-144",
           "contains": "animation-range: 0px 80vh"
         },
         {
@@ -643,7 +652,7 @@
       "claim": "Appear 600ms on the inner SVG only; timeline bar fade/intro 600ms delay 200ms.",
       "citations": [
         {
-          "ref": "../src/motion.css:84-89",
+          "ref": "../src/motion.css:94-98",
           "contains": "threeBVisualAppear .6s"
         }
       ]
@@ -652,7 +661,7 @@
       "claim": "Solution flower bed view-timeline parallax translateY 33% -> 12%; orb face gaze offset max r*0.14.",
       "citations": [
         {
-          "ref": "../src/motion.css:133-143",
+          "ref": "../src/motion.css:147-151",
           "contains": "--solutionPanelView"
         },
         {
@@ -678,7 +687,7 @@
       "claim": "USP constellation spin 60s / spinSlow 75s reverse; stars twinkle.",
       "citations": [
         {
-          "ref": "../src/motion.css:98-104",
+          "ref": "../src/motion.css:111-115",
           "contains": "constellationSpin 75s linear infinite reverse"
         }
       ]
@@ -691,7 +700,7 @@
           "contains": "e.pointerType !== 'mouse'"
         },
         {
-          "ref": "../src/motion.css:112-113",
+          "ref": "../src/motion.css:125-127",
           "contains": "interactiveCursorSpin 6s linear infinite"
         }
       ]
