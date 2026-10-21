@@ -95,6 +95,47 @@ def _unwired_role(o):
                                  "description": "x", "guidance": "x", "sourceFiles": [], "evidence": ["mv.assets.manifest"]}
 
 
+def _schema_mode_enum(o):
+    o["properties"]["mode"]["enum"].append("staging")
+
+
+def _schema_mode_optional(o):
+    o["required"].remove("mode")
+
+
+def _nav_logo_drop_placeholder(o):
+    for b in o["definitions"]["node"]["allOf"]:
+        if b["if"]["properties"]["type"]["const"] == "chrome.site-nav":
+            b["then"]["properties"]["content"]["properties"]["logo"]["allOf"][1]["properties"]["assetRole"]["enum"].remove("brand.placeholder")
+
+
+def _marquee_allows_logo(o):
+    for b in o["definitions"]["node"]["allOf"]:
+        if b["if"]["properties"]["type"]["const"] == "proof.logo-marquee":
+            ar = b["then"]["properties"]["content"]["properties"]["logoAsset"]["allOf"][1]["properties"]
+            ar["assetRole"] = {"enum": ["customer.logo-trademark", "brand.tines-logo"]}
+
+
+def _gen_example_logo(o):
+    o["nodes"][-1]["content"]["logoMark"]["assetRole"] = "brand.tines-logo"
+
+
+def _gen_example_mode_ref(o):
+    o["mode"] = "reference"
+
+
+def _unflag_brand(o):
+    o["content"]["fields"]["logo"].pop("brandMark")
+
+
+def _contract_drop_role(o):
+    o["assetRoles"].remove("brand.placeholder")
+
+
+def _nav_generated_roles(o):
+    o["content"]["fields"]["logo"]["generatedAssetRoles"] = ["brand.placeholder"]
+
+
 INJECTIONS = [
     # (name, mutator, check that must FAIL, needs source tree)
     ("phantom allowlist entry", edit("tokens/llm/component-allowlist.json", lambda o: o["sections"].append("proof.testimonials")), "allowlist-parity", False),
@@ -105,6 +146,30 @@ INJECTIONS = [
     ("allowlistVersion drift", edit("tokens/llm/component-allowlist.json", lambda o: o.update(allowlistVersion="1.0.1")), "manifest", False),
     ("pinned asset policy -> different VALID value", edit("assets/asset-roles.json", lambda o: o["roles"]["customer.logo-trademark"].update(generationPolicy="must-not-reuse-in-new-pages")), "asset-roles", False),
     ("documented-but-unwired asset role", edit("assets/asset-roles.json", _unwired_role), "asset-roles", False),
+    # ---- reference / generated mode + brand-logo drift
+    ("mode enum drift (schema gains 'staging')", edit("schema/pagespec.schema.json", _schema_mode_enum), "mode-contract", False),
+    ("schema no longer requires mode", edit("schema/pagespec.schema.json", _schema_mode_optional), "mode-contract", False),
+    ("graph modes enum drift", edit("compatibility/graph.json", lambda o: o["modes"]["enum"].append("staging")), "mode-contract", False),
+    ("allowlist modes drift", edit("tokens/llm/component-allowlist.json", lambda o: o["modes"].remove("generated")), "mode-contract", False),
+    ("manifest modes drift", edit("registry.manifest.json", lambda o: o["modes"].remove("reference")), "mode-contract", False),
+    ("generated example declares reference mode", edit("schema/example.generated.pagespec.json", _gen_example_mode_ref), "mode-contract", False),
+    ("generated example deleted", lambda b: os.remove(os.path.join(b, "schema", "example.generated.pagespec.json")), "mode-contract", False),
+    ("README stops documenting a GENERATED rule", replace_text("README.md", "GENERATED_BRAND_REQUIRED", "GENERATED_BRAND_NEEDED"), "mode-contract", False),
+    ("graph rule GENERATED_NO_REFERENCE_ASSET removed", edit("compatibility/graph.json", lambda o: o.update(rules=[r for r in o["rules"] if r["id"] != "GENERATED_NO_REFERENCE_ASSET"])), "graph-validator", False),
+    ("PINNED: brand.tines-logo policy -> different VALID value", edit("assets/asset-roles.json", lambda o: o["roles"]["brand.tines-logo"].update(generationPolicy="may-generate-new")), "asset-roles", False),
+    ("PINNED: brand.tines-logo generatedMode -> generation-safe", edit("assets/asset-roles.json", lambda o: o["roles"]["brand.tines-logo"].update(generatedMode="generation-safe")), "asset-roles", False),
+    ("PINNED: brand.placeholder generatedMode -> blocked", edit("assets/asset-roles.json", lambda o: o["roles"]["brand.placeholder"].update(generatedMode="blocked-in-generated")), "asset-roles", False),
+    ("role left unclassified (no generatedMode)", edit("assets/asset-roles.json", lambda o: o["roles"]["product.screenshot"].pop("generatedMode")), "asset-roles", False),
+    ("generatedMode outside the closed enum", edit("assets/asset-roles.json", lambda o: o["roles"]["icon.ui-glyph"].update(generatedMode="allowed")), "asset-roles", False),
+    ("policy/generatedMode contradiction", edit("assets/asset-roles.json", lambda o: o["roles"]["customer.logo-trademark"].update(generatedMode="generation-safe")), "asset-roles", False),
+    ("pin dropped for the real logo", edit("assets/asset-roles.json", lambda o: o["pinnedGeneratedMode"].pop("brand.tines-logo")), "asset-roles", False),
+    ("sourceBrand terms emptied", edit("assets/asset-roles.json", lambda o: o["sourceBrand"].update(terms=[])), "asset-roles", False),
+    ("generated example uses the reference-only logo", edit("schema/example.generated.pagespec.json", _gen_example_logo), "asset-roles", False),
+    ("Tines logo reachable in a non-brand field (schema)", edit("schema/pagespec.schema.json", _marquee_allows_logo), "asset-roles", False),
+    ("nav contract unflags brandMark", edit("sections/chrome.site-nav.json", _unflag_brand), "asset-roles", False),
+    ("contract assetRoles misses a brand role", edit("sections/chrome.site-nav.json", _contract_drop_role), "asset-roles", False),
+    ("contract generatedAssetRoles drift", edit("sections/chrome.site-nav.json", _nav_generated_roles), "asset-roles", False),
+    ("schema nav logo drops brand.placeholder (schema vs contract)", edit("schema/pagespec.schema.json", _nav_logo_drop_placeholder), "contract-schema", False),
     ("graph rule removed (validator still has it)", edit("compatibility/graph.json", _drop_rule), "graph-validator", False),
     ("graph severity drift", edit("compatibility/graph.json", _sev), "graph-validator", False),
     ("absolute local path injected", append_text("CHANGELOG.md", "\nsee /" + "Users" + "/someone/tines\n"), "absolute-paths", False),

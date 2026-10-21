@@ -6,13 +6,16 @@ Checks (each reported PASS / WARN / FAIL by name):
   hygiene               no .DS_Store / __MACOSX / __pycache__ inside the repo
   absolute-paths        no local machine paths anywhere in the repo
   external-refs         parent-relative paths appear ONLY in extraction/measured-values.json
-  schema-example        Draft-07 meta-check of the schema + example validates with 0 errors
-  semantic-example      schema/semantic_validate.py reports 0 errors on the example
+  schema-example        Draft-07 meta-check of the schema + EVERY example PageSpec (reference + generated) validates with 0 errors
+  semantic-example      schema/semantic_validate.py reports 0 errors on every example
+  mode-contract         PageSpec mode enum: schema == graph == allowlist == asset-roles == validator MODES; examples declare the right mode
   allowlist-parity      allowlist ids == contract files == schema enums (no phantom, no orphan)
   allowlist-properties  allowlist settable properties == schema node/page properties
   contract-schema       every section contract's fields/maxWords/roles/motion == schema branch
   section-contracts     required contract keys, responsive minWidths are real breakpoints
-  asset-roles           closed policy enum, PINNED compliance policies, role wiring + example coverage
+  asset-roles           closed policy enum, PINNED compliance policies + generatedMode (every role classified, policy<->mode
+                        coherent), brand-mark wiring, the real logo only in brand-mark fields, no blocked role in the
+                        generated example, role wiring + example coverage
   templates-routes      every route bound to exactly one template, both directions
   graph-validator       compatibility/graph.json rule ids + severities == semantic_validate.RULES
   token-refs            every {token.ref} in tokens/primitives/components resolves; theme values match
@@ -156,9 +159,14 @@ def recompute_counts():
         "assetRoles": len(load("assets/asset-roles.json")["roles"]),
         "themes": len(glob.glob(os.path.join(REPO, "tokens", "themes", "*.json"))),
         "evidenceEntries": len(load(LEDGER)["entries"]),
+        "examples": len(example_files()),
         "adversarialMutations": at.count_cases(),
         "adversarialControls": len(at.controls(sv.load_context(REPO))),
     }
+
+
+def example_files():
+    return sorted(os.path.basename(f) for f in glob.glob(os.path.join(REPO, "schema", "example*.pagespec.json")))
 
 
 def schema_field_map(s, root, prefix=""):
@@ -169,7 +177,8 @@ def schema_field_map(s, root, prefix=""):
         p = prefix + name
         r = name in req
         if "allOf" in sub:
-            role = sub["allOf"][1]["properties"]["assetRole"]["const"]
+            ar = sub["allOf"][1]["properties"]["assetRole"]
+            role = (ar["const"],) if "const" in ar else tuple(sorted(ar["enum"]))
             out[p] = (r, "media", None, role)
         elif "enum" in sub:
             out[p] = (r, "enum", None, None)
@@ -199,7 +208,10 @@ def contract_field_map(fields, prefix=""):
     for name, f in fields.items():
         p = prefix + name
         k = f["kind"]
-        role = f.get("assetRole") if k == "media" else (f.get("style") if k == "cta" else None)
+        if k == "media":
+            role = tuple(sorted([f.get("assetRole")] + list(f.get("generatedAssetRoles", []))))
+        else:
+            role = f.get("style") if k == "cta" else None
         mw = f.get("maxWords") if k in ("text", "tlist", "cta") else None
         out[p] = (f["required"], k, mw, role)
         if "fields" in f:
@@ -251,23 +263,63 @@ def check_external_refs():
 def check_schema_example():
     import jsonschema
     s = load("schema/pagespec.schema.json")
-    e = load("schema/example.pagespec.json")
     try:
         jsonschema.Draft7Validator.check_schema(s)
     except Exception as ex:  # noqa
         report("schema-example", "FAIL", ["schema invalid: %s" % ex])
         return
-    errs = list(jsonschema.Draft7Validator(s).iter_errors(e))
-    report("schema-example", "FAIL" if errs else "PASS",
-           ["%s: %s" % (list(x.absolute_path), x.message) for x in errs] or ["Draft7Validator: 0 errors on example"])
+    msgs = []
+    for fn in example_files():
+        errs = list(jsonschema.Draft7Validator(s).iter_errors(load("schema/" + fn)))
+        msgs += ["%s %s: %s" % (fn, list(x.absolute_path), x.message) for x in errs]
+    report("schema-example", "FAIL" if msgs else "PASS", msgs or ["Draft7Validator: 0 errors on %d example PageSpecs (%s)" % (len(example_files()), ", ".join(example_files()))])
 
 
 def check_semantic_example():
     sys.path.insert(0, os.path.join(REPO, "schema"))
     import semantic_validate as sv
-    errors, warnings = sv.validate(load("schema/example.pagespec.json"), sv.load_context(REPO))
-    report("semantic-example", "FAIL" if errors else "PASS",
-           ["%s %s" % e for e in errors] or ["0 errors, %d warnings" % len(warnings)])
+    ctx = sv.load_context(REPO)
+    msgs, nw = [], 0
+    for fn in example_files():
+        errors, warnings = sv.validate(load("schema/" + fn), ctx)
+        msgs += ["%s: %s %s" % ((fn,) + e) for e in errors]
+        nw += len(warnings)
+    report("semantic-example", "FAIL" if msgs else "PASS", msgs or ["0 errors, %d warnings across %d examples" % (nw, len(example_files()))])
+
+
+def check_mode_contract():
+    sys.path.insert(0, os.path.join(REPO, "schema"))
+    import semantic_validate as sv
+    s = load("schema/pagespec.schema.json")
+    al = load("tokens/llm/component-allowlist.json")
+    g = load("compatibility/graph.json")
+    ar = load("assets/asset-roles.json")
+    bad = []
+    sm = s["properties"].get("mode", {}).get("enum")
+    sets = {"schema properties.mode.enum": sm, "graph modes.enum": g.get("modes", {}).get("enum"),
+            "allowlist modes": al.get("modes"), "manifest modes": load(MANIFEST).get("modes"), "asset-roles modes.enum": ar.get("modes", {}).get("enum"),
+            "semantic_validate.MODES": list(sv.MODES)}
+    for k, v in sets.items():
+        if v is None or sorted(v) != sorted(sets["semantic_validate.MODES"]):
+            bad.append("%s = %r != semantic_validate.MODES %r" % (k, v, list(sv.MODES)))
+    if "mode" not in s.get("required", []):
+        bad.append("schema does not require 'mode'")
+    for fn in example_files():
+        e = load("schema/" + fn)
+        want = "generated" if "generated" in fn else "reference"
+        if e.get("mode") != want:
+            bad.append("%s declares mode %r, its name implies %r" % (fn, e.get("mode"), want))
+    if not any("generated" in f for f in example_files()) or "example.pagespec.json" not in example_files():
+        bad.append("need both example.pagespec.json (reference) and example.generated.pagespec.json")
+    for rid in ("GENERATED_NO_REFERENCE_ASSET", "GENERATED_BRAND_REQUIRED", "GENERATED_NO_SOURCE_BRAND_TEXT"):
+        if sv.RULES.get(rid) != "error":
+            bad.append("validator rule %s missing or not error severity" % rid)
+    with open(os.path.join(REPO, "README.md"), encoding="utf-8") as f:
+        readme = f.read()
+    for rid in sorted(r for r in sv.RULES if r.startswith("GENERATED_")) + sorted(ar["roles"]) + ["`reference`", "`generated`"]:
+        if rid not in readme:
+            bad.append("README does not document %s (prose and enforcement must agree)" % rid)
+    report("mode-contract", "FAIL" if bad else "PASS", bad or ["mode enum %s identical in schema, graph, allowlist, asset-roles, validator; %d examples declare the right mode" % (sorted(sm), len(example_files()))])
 
 
 def check_allowlist():
@@ -355,43 +407,103 @@ def check_section_contracts():
     report("section-contracts", "FAIL" if bad else "PASS", bad or ["all contracts complete; responsive steps on real breakpoints"])
 
 
+def _schema_role_fields(s):
+    """{(section, field-path): set(roles)} for every media field in the schema."""
+    out = {}
+
+    def walk(o, sid, path):
+        if isinstance(o, dict):
+            ar = o.get("assetRole")
+            if isinstance(ar, dict) and ("const" in ar or "enum" in ar):
+                out[(sid, path)] = {ar["const"]} if "const" in ar else set(ar["enum"])
+                return
+            for k, v in o.items():
+                walk(v, sid, path + "." + k if k not in ("properties", "items", "then", "allOf") else path)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v, sid, path)
+    for b in s["definitions"]["node"]["allOf"]:
+        walk(b["then"]["properties"]["content"], b["if"]["properties"]["type"]["const"], "")
+    return out
+
+
 def check_asset_roles():
+    sys.path.insert(0, os.path.join(REPO, "schema"))
+    import semantic_validate as sv
     ar = load("assets/asset-roles.json")
     s = load("schema/pagespec.schema.json")
-    ex = json.dumps(load("schema/example.pagespec.json"))
-    sections = {load("sections/" + os.path.basename(f))["id"] for f in glob.glob(os.path.join(REPO, "sections", "*.json"))}
+    exs = {fn: json.dumps(load("schema/" + fn)) for fn in example_files()}
+    ref_ex = exs.get("example.pagespec.json", "")
+    gen_ex = "".join(v for k, v in exs.items() if "generated" in k)
+    contracts = {}
+    for f in glob.glob(os.path.join(REPO, "sections", "*.json")):
+        c = load("sections/" + os.path.basename(f))
+        contracts[c["id"]] = c
     bad = []
-    enum = set(ar["generationPolicyEnum"])
+    # 1. registry coherence + pins (single implementation shared with the adversarial suite)
+    bad += sv.registry_findings(ar)
     for rid, r in ar["roles"].items():
-        if r.get("generationPolicy") not in enum:
-            bad.append("%s policy %r not in closed enum" % (rid, r.get("generationPolicy")))
         if not r.get("guidance"):
             bad.append("%s has no AI-generation guidance" % rid)
         for sec in r.get("allowedSections", []):
-            if sec not in sections:
+            if sec not in contracts:
                 bad.append("%s allowedSections lists unknown %s" % (rid, sec))
-        if '"assetRole": "%s"' % rid not in ex:
-            bad.append("role %s not exercised by schema/example.pagespec.json" % rid)
-    for rid, pol in ar["pinnedPolicies"].items():
-        got = ar["roles"].get(rid, {}).get("generationPolicy")
-        if got != pol:
-            bad.append("PINNED policy drift: %s is %r, must be %r" % (rid, got, pol))
-    # wiring: each const in the schema, and the section it lives in is an allowed section
+        needle = '"assetRole": "%s"' % rid
+        if needle not in "".join(exs.values()):
+            bad.append("role %s not exercised by any example PageSpec" % rid)
+        if r.get("generatedMode") == sv.BLOCKED:
+            if needle in gen_ex:
+                bad.append("generated example uses reference-only role %s" % rid)
+            if needle not in ref_ex:
+                bad.append("reference-only role %s is not exercised by the reference example" % rid)
+        elif r.get("brandMark") and needle not in gen_ex:
+            bad.append("generation-safe brand role %s is not exercised by the generated example" % rid)
+    # 2. wiring: every role is wired into a schema field of an allowed section
+    fields = _schema_role_fields(s)
     wired = {}
-    for b in s["definitions"]["node"]["allOf"]:
-        sid = b["if"]["properties"]["type"]["const"]
-        for m in re.finditer(r'"assetRole": \{"const": "([^"]+)"\}', json.dumps(b)):
-            wired.setdefault(m.group(1), set()).add(sid)
+    for (sid, path), roles in fields.items():
+        for r in roles:
+            wired.setdefault(r, set()).add(sid)
     for rid in ar["roles"]:
         if rid not in wired:
             bad.append("role %s documented but never wired into a schema field" % rid)
         else:
             for sid in wired[rid] - set(ar["roles"][rid]["allowedSections"]):
                 bad.append("role %s wired in %s but not in its allowedSections" % (rid, sid))
-    for must in ("customer.logo-trademark", "brand.tines-logo", "product.screenshot"):
-        if must not in ar["pinnedPolicies"]:
-            bad.append("compliance-critical role %s is not pinned" % must)
-    report("asset-roles", "FAIL" if bad else "PASS", bad or ["%d roles, closed policy enum, %d pinned policies hold, all wired + exercised" % (len(ar["roles"]), len(ar["pinnedPolicies"]))])
+    for rid in wired:
+        if rid not in ar["roles"]:
+            bad.append("schema wires unknown role %s" % rid)
+    # 3. section contracts: assetRoles list == roles allowed there; brandMark fields agree with schema + registry
+    for sid, c in contracts.items():
+        allowed = {rid for rid, r in ar["roles"].items() if sid in r.get("allowedSections", [])}
+        if set(c.get("assetRoles", [])) != allowed:
+            bad.append("%s contract assetRoles %s != roles allowing it %s" % (sid, sorted(c.get("assetRoles", [])), sorted(allowed)))
+    safe_brand = {rid for rid, r in ar["roles"].items() if r.get("brandMark") and r.get("generatedMode") == sv.SAFE}
+    for sid, c in contracts.items():
+        brand_paths = set()
+        for p, f in sv._brand_fields(c["content"]["fields"]):
+            brand_paths.add(p)
+            want = {f.get("assetRole")} | set(f.get("generatedAssetRoles", []))
+            if fields.get((sid, "." + p)) != want:
+                bad.append("%s brand-mark field %s: schema roles %s != contract roles %s" % (sid, p, fields.get((sid, "." + p)), want))
+            gen = set(f.get("generatedAssetRoles", []))
+            expect = {r for r in safe_brand if sid in ar["roles"][r]["allowedSections"]}
+            if gen != expect:
+                bad.append("%s.%s generatedAssetRoles %s != generation-safe brand roles allowed there %s" % (sid, p, sorted(gen), sorted(expect)))
+            if ar["roles"].get(f.get("assetRole"), {}).get("generatedMode") != sv.BLOCKED:
+                bad.append("%s.%s reference brand role %r must be blocked-in-generated" % (sid, p, f.get("assetRole")))
+        # a blocked (reference-only) role may only be reachable through a brand-mark field
+        for (fs, path), roles in fields.items():
+            if fs == sid and path.lstrip(".") not in brand_paths:
+                for r in roles:
+                    if ar["roles"].get(r, {}).get("generatedMode") == sv.BLOCKED:
+                        bad.append("%s field %s allows reference-only role %s but is not a brandMark field" % (sid, path, r))
+    # 4. sections that can carry a brand mark must exist in the template
+    if not any(True for c in contracts.values() for _ in sv._brand_fields(c["content"]["fields"])):
+        bad.append("no section contract declares a brandMark field")
+    n_blocked = sum(r.get("generatedMode") == sv.BLOCKED for r in ar["roles"].values())
+    report("asset-roles", "FAIL" if bad else "PASS", bad or ["%d roles: all classified (%d reference-only/blocked-in-generated, %d generation-safe, %d slot-operator-supplied), closed policy enum, %d pinned policies + %d pinned generatedMode hold, brand marks wired, generated example clean" % (
+        len(ar["roles"]), n_blocked, sum(r["generatedMode"] == sv.SAFE for r in ar["roles"].values()), sum(r["generatedMode"] == "slot-operator-supplied" for r in ar["roles"].values()), len(ar["pinnedPolicies"]), len(ar["pinnedGeneratedMode"]))])
 
 
 def check_templates_routes():
@@ -630,6 +742,7 @@ def main(argv=None):
         check_external_refs()
         check_schema_example()
         check_semantic_example()
+        check_mode_contract()
         check_allowlist()
         check_contract_schema()
         check_section_contracts()
@@ -641,9 +754,14 @@ def main(argv=None):
         check_evidence_ids()
         check_citations(os.path.abspath(a.source_root))
         check_ia_alignment(os.path.abspath(a.source_root))
-        counts = recompute_counts()
-        check_manifest(counts)
-        check_readme(counts)
+        try:
+            counts = recompute_counts()
+        except Exception as ex:  # noqa  (e.g. the adversarial suite cannot load a required example)
+            counts = None
+            report("manifest", "FAIL", ["cannot recompute counts: %s: %s" % (type(ex).__name__, ex)])
+        if counts is not None:
+            check_manifest(counts)
+            check_readme(counts)
     fails = [r for r in results if r["status"] == "FAIL"]
     if a.json:
         print(json.dumps({"results": results, "failed": [r["check"] for r in fails]}, indent=1))
