@@ -2,11 +2,12 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "tines-design-repo/pagespec.schema.json",
   "title": "Tines homepage design-repo PageSpec",
-  "description": "Machine contract for a generated page composition. 'maxWords' is a custom keyword (ignored by Draft-07, enforced by schema/semantic_validate.py). Cross-node rules live in compatibility/graph.json + semantic_validate.py.",
+  "description": "Machine contract for a generated page composition. 'maxWords' is a custom keyword (ignored by Draft-07, enforced by schema/semantic_validate.py). Cross-node rules live in compatibility/graph.json + semantic_validate.py. Required 'mode' (reference|generated) switches the brand rules: see assets/asset-roles.json and compatibility/graph.json.",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "pageSpecVersion",
+    "mode",
     "template",
     "route",
     "theme",
@@ -15,7 +16,14 @@
   ],
   "properties": {
     "pageSpecVersion": {
-      "const": "1.0.0"
+      "const": "1.1.0"
+    },
+    "mode": {
+      "enum": [
+        "reference",
+        "generated"
+      ],
+      "description": "reference = reproduces the local clone (Tines logo allowed); generated = a new website (Tines logo and source brand name forbidden, generation-safe brand mark required). Enforced in schema/semantic_validate.py."
     },
     "template": {
       "enum": [
@@ -62,6 +70,8 @@
     "assetRole": {
       "enum": [
         "brand.tines-logo",
+        "brand.placeholder",
+        "brand.user-supplied",
         "customer.logo-trademark",
         "partner.assistant-icon",
         "product.demo-frame",
@@ -153,7 +163,11 @@
                       {
                         "properties": {
                           "assetRole": {
-                            "const": "brand.tines-logo"
+                            "enum": [
+                              "brand.tines-logo",
+                              "brand.placeholder",
+                              "brand.user-supplied"
+                            ]
                           }
                         }
                       }
@@ -1404,7 +1418,11 @@
                       {
                         "properties": {
                           "assetRole": {
-                            "const": "brand.tines-logo"
+                            "enum": [
+                              "brand.tines-logo",
+                              "brand.placeholder",
+                              "brand.user-supplied"
+                            ]
                           }
                         }
                       }

@@ -1,19 +1,21 @@
 {
-  "$comment": "Closed asset-role vocabulary. Wired through schema/pagespec.schema.json (definitions.assetRole enum + per-field const), tokens/llm/component-allowlist.json (assetRoles) and schema/example.pagespec.json. verify_all.py checks parity, wiring, and the pinned policies below.",
-  "assetRolesVersion": "1.0.0",
+  "$comment": "Closed asset-role vocabulary. Wired through schema/pagespec.schema.json (definitions.assetRole enum + per-field const/enum), tokens/llm/component-allowlist.json (assetRoles) and the example PageSpecs. verify_all.py checks parity, wiring, the pinned policies, the policy<->generatedMode coherence and that no generated example uses a blocked role. Two PageSpec modes exist (see modes): 'reference' (local clone use) and 'generated' (a new website); each role carries a generatedMode classification.",
+  "assetRolesVersion": "1.1.0",
   "generationPolicyEnum": [
     "may-generate-new",
     "reference-context-only",
     "must-not-fabricate",
     "must-not-reuse-in-new-pages",
-    "snapshot-not-source-art"
+    "snapshot-not-source-art",
+    "operator-supplied-only"
   ],
   "generationPolicyMeaning": {
     "may-generate-new": "A generator may create a new original asset for this slot.",
     "reference-context-only": "Existing asset may appear only as-is inside this local reference; never altered, imitated, or used elsewhere.",
     "must-not-fabricate": "Real third-party trademark: never generate, imitate, name or reuse. Operator supplies licensed assets.",
     "must-not-reuse-in-new-pages": "Proprietary Tines content: slot only; supply operator-owned content.",
-    "snapshot-not-source-art": "Runtime-art screenshot: placeholder only, not source art, not reusable."
+    "snapshot-not-source-art": "Runtime-art screenshot: placeholder only, not source art, not reusable.",
+    "operator-supplied-only": "Slot for the operator's/user's OWN asset, supplied by them with rights to use it: the generator never creates, redraws or imitates it and must not substitute any real brand's mark."
   },
   "pinnedPolicies": {
     "brand.tines-logo": "reference-context-only",
@@ -21,12 +23,58 @@
     "partner.assistant-icon": "must-not-fabricate",
     "product.demo-frame": "must-not-reuse-in-new-pages",
     "product.screenshot": "must-not-reuse-in-new-pages",
-    "artwork.canvas-standin": "snapshot-not-source-art"
+    "artwork.canvas-standin": "snapshot-not-source-art",
+    "brand.placeholder": "may-generate-new",
+    "brand.user-supplied": "operator-supplied-only"
   },
   "pinnedPoliciesNote": "Compliance-critical roles whose policy must equal this exact value (a membership-in-enum check alone would accept a different-but-valid value).",
+  "modes": {
+    "enum": [
+      "reference",
+      "generated"
+    ],
+    "meaning": {
+      "reference": "PageSpec reproduces/describes the local clone of the source site. Roles classified blocked-in-generated (the real Tines logo) are allowed in their allowedSections.",
+      "generated": "PageSpec is a NEW website for someone else. No role classified blocked-in-generated may appear anywhere in the spec, the source brand name may not appear in any text, and every section that expects a brand mark must use a generation-safe brand role (brand.placeholder or brand.user-supplied)."
+    }
+  },
+  "generatedModeEnum": [
+    "generation-safe",
+    "slot-operator-supplied",
+    "blocked-in-generated"
+  ],
+  "generatedModeMeaning": {
+    "generation-safe": "Allowed in a generated PageSpec: contains no Tines or third-party source asset (generic glyphs, neutral placeholder, the user's own asset).",
+    "slot-operator-supplied": "Allowed in a generated PageSpec only as an empty slot the operator fills with their own or licensed assets; the Tines/third-party original is never reproduced (policies must-not-fabricate, must-not-reuse-in-new-pages, snapshot-not-source-art).",
+    "blocked-in-generated": "Reference mode only. Presence anywhere in a generated PageSpec is an error (GENERATED_NO_REFERENCE_ASSET). Policy reference-context-only."
+  },
+  "policyToGeneratedMode": {
+    "may-generate-new": "generation-safe",
+    "operator-supplied-only": "generation-safe",
+    "reference-context-only": "blocked-in-generated",
+    "must-not-fabricate": "slot-operator-supplied",
+    "must-not-reuse-in-new-pages": "slot-operator-supplied",
+    "snapshot-not-source-art": "slot-operator-supplied"
+  },
+  "policyToGeneratedModeNote": "Closed mapping checked by verify_all: every role's generatedMode must equal the mode its generationPolicy maps to, so the two vocabularies cannot silently disagree.",
+  "pinnedGeneratedMode": {
+    "brand.tines-logo": "blocked-in-generated",
+    "brand.placeholder": "generation-safe",
+    "brand.user-supplied": "generation-safe"
+  },
+  "pinnedGeneratedModeNote": "Exact-value pins (membership in generatedModeEnum alone would accept a different-but-valid value such as generation-safe for the real Tines logo).",
+  "sourceBrand": {
+    "name": "Tines",
+    "terms": [
+      "tines"
+    ],
+    "note": "In generated mode the source brand name may not appear in any PageSpec string (alt text, labels, copy), so the brand cannot leak as text either."
+  },
   "roles": {
     "brand.tines-logo": {
       "generationPolicy": "reference-context-only",
+      "generatedMode": "blocked-in-generated",
+      "brandMark": true,
       "allowedSections": [
         "chrome.site-nav",
         "chrome.site-footer"
@@ -36,7 +84,39 @@
         "tines-logo.svg",
         "footer-tines-logo-icon_-130.svg"
       ],
-      "guidance": "Only the existing chrome asset, unmodified, inside this local reference. Never redraw, recolour, imitate or place it in content sections. Any use outside local reference needs Tines' permission.",
+      "guidance": "REFERENCE MODE ONLY. Only the existing chrome asset, unmodified, inside this local reference. Never redraw, recolour, imitate or place it in content sections. In a generated PageSpec this role is an error anywhere (use brand.placeholder or brand.user-supplied). Any use outside the local reference needs Tines' permission.",
+      "evidence": [
+        "mv.assets.manifest",
+        "mv.ia.sections"
+      ]
+    },
+    "brand.placeholder": {
+      "generationPolicy": "may-generate-new",
+      "generatedMode": "generation-safe",
+      "brandMark": true,
+      "allowedSections": [
+        "chrome.site-nav",
+        "chrome.site-footer"
+      ],
+      "description": "Generation-safe stand-in for a brand mark: a neutral, clearly-labelled placeholder (plain box or the operator's own site name set as text in the page's own type tokens).",
+      "sourceFiles": [],
+      "guidance": "Use when the operator has not supplied a logo. Must be a plain placeholder or text-only wordmark of the new site's OWN name: no glyph, symbol, lettering or colour treatment derived from or resembling the Tines logo or any other real brand. This repo ships no artwork for it by design.",
+      "evidence": [
+        "mv.assets.manifest",
+        "mv.ia.sections"
+      ]
+    },
+    "brand.user-supplied": {
+      "generationPolicy": "operator-supplied-only",
+      "generatedMode": "generation-safe",
+      "brandMark": true,
+      "allowedSections": [
+        "chrome.site-nav",
+        "chrome.site-footer"
+      ],
+      "description": "The user's/operator's own logo, supplied at generation time (slot only).",
+      "sourceFiles": [],
+      "guidance": "Slot for an asset the user provides and has rights to. The generator never creates or imitates it. Preferred over brand.placeholder whenever a real logo of the new site exists.",
       "evidence": [
         "mv.assets.manifest",
         "mv.ia.sections"
@@ -44,6 +124,7 @@
     },
     "customer.logo-trademark": {
       "generationPolicy": "must-not-fabricate",
+      "generatedMode": "slot-operator-supplied",
       "allowedSections": [
         "proof.logo-marquee"
       ],
@@ -58,6 +139,7 @@
     },
     "partner.assistant-icon": {
       "generationPolicy": "must-not-fabricate",
+      "generatedMode": "slot-operator-supplied",
       "allowedSections": [
         "chrome.site-footer"
       ],
@@ -72,6 +154,7 @@
     },
     "product.demo-frame": {
       "generationPolicy": "must-not-reuse-in-new-pages",
+      "generatedMode": "slot-operator-supplied",
       "allowedSections": [
         "hero.product-demo"
       ],
@@ -87,6 +170,7 @@
     },
     "product.screenshot": {
       "generationPolicy": "must-not-reuse-in-new-pages",
+      "generatedMode": "slot-operator-supplied",
       "allowedSections": [
         "showcase.use-case-tabs"
       ],
@@ -101,6 +185,7 @@
     },
     "illustration.brand-art": {
       "generationPolicy": "must-not-reuse-in-new-pages",
+      "generatedMode": "slot-operator-supplied",
       "allowedSections": [
         "narrative.monitor-banner",
         "narrative.solution-panel",
@@ -123,6 +208,7 @@
     },
     "artwork.canvas-standin": {
       "generationPolicy": "snapshot-not-source-art",
+      "generatedMode": "slot-operator-supplied",
       "allowedSections": [
         "hero.wordmark-stage",
         "narrative.monitor-banner",
@@ -142,6 +228,7 @@
     },
     "editorial.promo-image": {
       "generationPolicy": "must-not-reuse-in-new-pages",
+      "generatedMode": "slot-operator-supplied",
       "allowedSections": [
         "chrome.site-nav"
       ],
@@ -157,6 +244,7 @@
     },
     "icon.ui-glyph": {
       "generationPolicy": "may-generate-new",
+      "generatedMode": "generation-safe",
       "allowedSections": [
         "showcase.use-case-tabs"
       ],
@@ -190,7 +278,8 @@
     "rules": [
       "Local reference only; do not publish or make this design-repo public.",
       "No generating or reproducing real logos, real customer names as endorsements, real employee/customer photos, or Tines proprietary product screenshots/copy beyond short headings.",
-      "All links in the source go to the live tines.com (or are dead root-relative paths in the clone); PageSpecs carry CTA intents, never live URLs."
+      "All links in the source go to the live tines.com (or are dead root-relative paths in the clone); PageSpecs carry CTA intents, never live URLs.",
+      "Two PageSpec modes: 'reference' may carry brand.tines-logo; 'generated' must not (anywhere, as asset or as text) and must use brand.placeholder or brand.user-supplied for every brand mark."
     ]
   }
 }

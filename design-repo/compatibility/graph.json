@@ -1,6 +1,13 @@
 {
-  "$comment": "Rhythm / position rules beyond JSON Schema. Every rule id here is implemented under the same id in schema/semantic_validate.py RULES (verify_all.py checks the two sets are identical and severities agree).",
-  "graphVersion": "1.0.0",
+  "$comment": "Rhythm / position rules beyond JSON Schema. Every rule id here is implemented under the same id in schema/semantic_validate.py RULES (verify_all.py checks the two sets are identical and severities agree). 'modes' lists the PageSpec modes (schema enum, allowlist and semantic_validate.MODES must equal it).",
+  "graphVersion": "1.1.0",
+  "modes": {
+    "enum": [
+      "reference",
+      "generated"
+    ],
+    "rule": "Every PageSpec declares mode. 'reference': the Tines logo role (brand.tines-logo) is allowed in its allowedSections. 'generated': any role whose generatedMode is blocked-in-generated is an error anywhere in the spec, the source brand name is an error in any string, and each section whose contract has a brandMark field must supply it from a generation-safe brand role (brand.placeholder or brand.user-supplied)."
+  },
   "rules": [
     {
       "id": "TEMPLATE_SEQUENCE",
@@ -62,7 +69,7 @@
     {
       "id": "ASSET_ROLE_SECTION",
       "severity": "error",
-      "description": "every assetRole used in a node must list that node's section in assets/asset-roles.json allowedSections."
+      "description": "every assetRole used in a node must list that node's section in assets/asset-roles.json allowedSections. Applies in both modes."
     },
     {
       "id": "REDUCED_MOTION_REQUIRED",
@@ -78,6 +85,21 @@
       "id": "UNIQUE_TEAM_TABS",
       "severity": "error",
       "description": "showcase.use-case-tabs tabs[].teamId must be unique."
+    },
+    {
+      "id": "GENERATED_NO_REFERENCE_ASSET",
+      "severity": "error",
+      "description": "mode 'generated': no assetRole anywhere in the spec may be a role classified blocked-in-generated in assets/asset-roles.json (today: brand.tines-logo)."
+    },
+    {
+      "id": "GENERATED_BRAND_REQUIRED",
+      "severity": "error",
+      "description": "mode 'generated': every node whose section contract declares a brandMark field (chrome.site-nav logo, chrome.site-footer logoMark) must set it, and its assetRole must be a generation-safe brand role (brand.placeholder or brand.user-supplied)."
+    },
+    {
+      "id": "GENERATED_NO_SOURCE_BRAND_TEXT",
+      "severity": "error",
+      "description": "mode 'generated': no string in meta or any node's content may contain the source brand name (assets/asset-roles.json sourceBrand.terms, case-insensitive), so the brand cannot be smuggled in alt text, labels or copy."
     }
   ]
 }

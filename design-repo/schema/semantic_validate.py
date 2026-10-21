@@ -3,7 +3,7 @@
 
 Enforces what JSON Schema (draft-07) cannot: the declared template's real node
 list (templates/templates.json), route binding, rhythm/position rules from
-compatibility/graph.json, asset-role/section licensing, const reduced-motion
+compatibility/graph.json, asset-role/section licensing, the reference/generated MODE brand rules, const reduced-motion
 fallbacks cross-checked against section contracts, and per-instance maxWords.
 
 Every rule id in RULES must also exist in compatibility/graph.json with the
@@ -17,6 +17,7 @@ import copy
 import glob
 import json
 import os
+import re
 import sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -33,10 +34,19 @@ RULES = {
     "HERO_CLUSTER": "error",
     "NO_ADJACENT_SAME_CATEGORY": "warn",
     "ASSET_ROLE_SECTION": "error",
+    "GENERATED_NO_REFERENCE_ASSET": "error",
+    "GENERATED_BRAND_REQUIRED": "error",
+    "GENERATED_NO_SOURCE_BRAND_TEXT": "error",
     "REDUCED_MOTION_REQUIRED": "error",
     "MAX_WORDS": "error",
     "UNIQUE_TEAM_TABS": "error",
 }
+
+# PageSpec modes. Must equal schema properties.mode.enum, compatibility/graph.json modes.enum and the
+# allowlist's modes (verify_all 'mode-contract' fails on drift).
+MODES = ("reference", "generated")
+BLOCKED = "blocked-in-generated"
+SAFE = "generation-safe"
 
 NAV, FOOTER, CTA, INTRO = "chrome.site-nav", "chrome.site-footer", "conversion.start-today-cta", "hero.intro"
 HERO_CLUSTER = {"proof.logo-marquee", "hero.wordmark-stage", "hero.product-demo"}
@@ -61,8 +71,69 @@ def load_context(repo=REPO):
         "templates": _load("templates/templates.json", repo)["templates"],
         "graph": _load("compatibility/graph.json", repo),
         "assetRoles": _load("assets/asset-roles.json", repo)["roles"],
+        "sourceBrand": _load("assets/asset-roles.json", repo).get("sourceBrand", {}),
+        "assetRolesDoc": _load("assets/asset-roles.json", repo),
         "sections": sections,
     }
+
+
+# ---------------------------------------------------------------- asset registry coherence
+# Roles whose policy AND generated-mode classification must be PINNED to an exact value (membership in the
+# closed enums alone would accept a different-but-valid value). verify_all and the adversarial suite both
+# call registry_findings(), so there is exactly one implementation of this rule.
+REQUIRED_POLICY_PINS = ("brand.tines-logo", "brand.placeholder", "brand.user-supplied", "customer.logo-trademark",
+                        "partner.assistant-icon", "product.demo-frame", "product.screenshot", "artwork.canvas-standin")
+REQUIRED_MODE_PINS = ("brand.tines-logo", "brand.placeholder", "brand.user-supplied")
+
+
+def registry_findings(doc):
+    """Return a list of problems in an assets/asset-roles.json document (empty list == coherent)."""
+    bad = []
+    pol_enum = set(doc.get("generationPolicyEnum", []))
+    mode_enum = set(doc.get("generatedModeEnum", []))
+    p2m = doc.get("policyToGeneratedMode", {})
+    if set(p2m) != pol_enum:
+        bad.append("policyToGeneratedMode keys %s != generationPolicyEnum %s" % (sorted(p2m), sorted(pol_enum)))
+    for pol, gm in p2m.items():
+        if gm not in mode_enum:
+            bad.append("policyToGeneratedMode[%s]=%r not in generatedModeEnum" % (pol, gm))
+    if set(doc.get("generatedModeMeaning", {})) != mode_enum:
+        bad.append("generatedModeMeaning keys != generatedModeEnum")
+    if set(doc.get("generationPolicyMeaning", {})) != pol_enum:
+        bad.append("generationPolicyMeaning keys != generationPolicyEnum")
+    if set(doc.get("modes", {}).get("enum", [])) != set(MODES) or set(doc.get("modes", {}).get("meaning", {})) != set(MODES):
+        bad.append("modes block != %s" % (MODES,))
+    roles = doc.get("roles", {})
+    for rid, r in roles.items():
+        pol, gm = r.get("generationPolicy"), r.get("generatedMode")
+        if pol not in pol_enum:
+            bad.append("%s generationPolicy %r not in closed enum" % (rid, pol))
+        if gm not in mode_enum:
+            bad.append("%s generatedMode %r missing or not in closed generatedModeEnum (every role must be classified)" % (rid, gm))
+        elif pol in p2m and p2m[pol] != gm:
+            bad.append("%s generatedMode %r contradicts policy %r (maps to %r)" % (rid, gm, pol, p2m[pol]))
+        if bool(r.get("brandMark")) != rid.startswith("brand."):
+            bad.append("%s brandMark=%r but brand.* naming says %r" % (rid, r.get("brandMark"), rid.startswith("brand.")))
+    for rid, pol in doc.get("pinnedPolicies", {}).items():
+        if roles.get(rid, {}).get("generationPolicy") != pol:
+            bad.append("PINNED policy drift: %s is %r, must be %r" % (rid, roles.get(rid, {}).get("generationPolicy"), pol))
+    for rid, gm in doc.get("pinnedGeneratedMode", {}).items():
+        if roles.get(rid, {}).get("generatedMode") != gm:
+            bad.append("PINNED generatedMode drift: %s is %r, must be %r" % (rid, roles.get(rid, {}).get("generatedMode"), gm))
+    for rid in REQUIRED_POLICY_PINS:
+        if rid not in doc.get("pinnedPolicies", {}):
+            bad.append("compliance-critical role %s is not in pinnedPolicies" % rid)
+    for rid in REQUIRED_MODE_PINS:
+        if rid not in doc.get("pinnedGeneratedMode", {}):
+            bad.append("brand role %s is not in pinnedGeneratedMode" % rid)
+    sb = doc.get("sourceBrand", {})
+    if not sb.get("name") or sb["name"].lower() not in [x.lower() for x in sb.get("terms", [])]:
+        bad.append("sourceBrand.terms must contain the lower-cased sourceBrand.name (else the brand name check is vacuous)")
+    if not any(r.get("brandMark") and r.get("generatedMode") == SAFE for r in roles.values()):
+        bad.append("no generation-safe brand role exists: generated mode could not satisfy GENERATED_BRAND_REQUIRED")
+    if not any(r.get("generatedMode") == BLOCKED for r in roles.values()):
+        bad.append("no role is blocked-in-generated: the real brand logo would be usable in generated mode")
+    return bad
 
 
 # ---------------------------------------------------------------- maxWords walker
@@ -113,7 +184,7 @@ def walk_max_words(schema, inst, root, path, out):
 
 def _asset_refs(obj, path):
     if isinstance(obj, dict):
-        if "assetRole" in obj:
+        if isinstance(obj.get("assetRole"), str):
             yield path, obj["assetRole"]
         for k, v in obj.items():
             for r in _asset_refs(v, "%s.%s" % (path, k)):
@@ -122,6 +193,38 @@ def _asset_refs(obj, path):
         for i, v in enumerate(obj):
             for r in _asset_refs(v, "%s[%d]" % (path, i)):
                 yield r
+
+
+def _strings(obj, path):
+    """Yield (path, string) for every string value under obj (keys excluded)."""
+    if isinstance(obj, str):
+        yield path, obj
+    elif isinstance(obj, dict):
+        for k, v in obj.items():
+            for r in _strings(v, "%s.%s" % (path, k)):
+                yield r
+    elif isinstance(obj, list):
+        for i, v in enumerate(obj):
+            for r in _strings(v, "%s[%d]" % (path, i)):
+                yield r
+
+
+def _brand_fields(fields, prefix=""):
+    """Contract fields flagged brandMark: yield (dotted path, field)."""
+    for name, f in fields.items():
+        if isinstance(f, dict) and f.get("brandMark"):
+            yield prefix + name, f
+        if isinstance(f, dict) and "fields" in f:
+            for r in _brand_fields(f["fields"], prefix + name + "."):
+                yield r
+
+
+def _get(obj, dotted):
+    for part in dotted.split("."):
+        if not isinstance(obj, dict) or part not in obj:
+            return None
+        obj = obj[part]
+    return obj
 
 
 # ---------------------------------------------------------------- validate
@@ -216,6 +319,41 @@ def validate(spec, ctx=None):
             ids = [tab.get("teamId") for tab in n.get("content", {}).get("tabs", []) if isinstance(tab, dict)]
             if len(ids) != len(set(ids)):
                 findings.append(("UNIQUE_TEAM_TABS", "duplicate teamId in %s" % ids))
+
+    # MODE rules (reference | generated). An unknown/missing mode is a SCHEMA error already; skip here.
+    if spec.get("mode") == "generated":
+        roles = ctx["assetRoles"]
+        # (a) no blocked role ANYWHERE in the spec (any field, any section, any depth)
+        for p, role in _asset_refs(spec, "$"):
+            if roles.get(role, {}).get("generatedMode") == BLOCKED:
+                findings.append(("GENERATED_NO_REFERENCE_ASSET",
+                                 "%s: assetRole %r is reference-only and forbidden in a generated PageSpec" % (p, role)))
+        # (b) every contract brand-mark field must be set from a generation-safe brand role
+        safe_brand = {rid for rid, r in roles.items() if r.get("brandMark") and r.get("generatedMode") == SAFE}
+        for i, n in enumerate(nodes):
+            contract = ctx["sections"].get(n.get("type"))
+            if contract is None:
+                continue
+            for path, fld in _brand_fields(contract["content"]["fields"]):
+                val = _get(n.get("content", {}), path)
+                role = val.get("assetRole") if isinstance(val, dict) else None
+                if role not in safe_brand:
+                    findings.append(("GENERATED_BRAND_REQUIRED",
+                                     "nodes[%d].content.%s brand mark has assetRole %r; generated mode requires one of %s"
+                                     % (i, path, role, sorted(safe_brand))))
+        # (c) the source brand name may not appear in any string
+        terms = [t.lower() for t in ctx.get("sourceBrand", {}).get("terms", [])]
+        texts = list(_strings(spec.get("meta", {}), "$.meta"))
+        for i, n in enumerate(nodes):
+            texts += list(_strings(n.get("content", {}), "nodes[%d].content" % i))
+        for p, s in texts:
+            if p.endswith(".assetRole"):
+                continue  # role ids are covered by GENERATED_NO_REFERENCE_ASSET
+            low = s.lower()
+            for term in terms:
+                # whole-word match (not inside another word: 'routines' must not trip 'tines')
+                if term and re.search(r"(?<![a-z])%s(?![a-z])" % re.escape(term), low):
+                    findings.append(("GENERATED_NO_SOURCE_BRAND_TEXT", "%s contains the source brand name %r" % (p, term)))
 
     mw = []
     walk_max_words(ctx["schema"], spec, ctx["schema"], "$", mw)

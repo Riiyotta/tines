@@ -1,0 +1,400 @@
+{
+  "pageSpecVersion": "1.1.0",
+  "mode": "generated",
+  "template": "template.home",
+  "route": "/",
+  "theme": "light",
+  "meta": {
+    "title": "Example Co | Calm automation for busy teams",
+    "description": "Fictional demonstration site showing the generation-safe brand path: placeholder and user-supplied brand marks, original copy only."
+  },
+  "nodes": [
+    {
+      "type": "chrome.site-nav",
+      "content": {
+        "logo": {
+          "assetRole": "brand.placeholder",
+          "alt": "Your logo here"
+        },
+        "items": [
+          {
+            "label": "Product",
+            "hasDropdown": true
+          },
+          {
+            "label": "Solutions",
+            "hasDropdown": true
+          },
+          {
+            "label": "Customers",
+            "hasDropdown": false
+          },
+          {
+            "label": "Discover",
+            "hasDropdown": true
+          },
+          {
+            "label": "Pricing",
+            "hasDropdown": false
+          }
+        ],
+        "utilityLinks": [
+          "Log in",
+          "Sign up"
+        ],
+        "cta": {
+          "label": "Book a demo",
+          "style": "nav-pill",
+          "intent": "book-demo"
+        },
+        "promoCards": [
+          {
+            "title": "Webinar: planning your first rollout",
+            "ctaLabel": "View event",
+            "media": {
+              "assetRole": "editorial.promo-image"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "dropdown-snappy-in",
+        "trigger": "hover-or-click",
+        "reducedMotionFallback": "instant-open"
+      }
+    },
+    {
+      "type": "hero.intro",
+      "content": {
+        "tag": {
+          "badge": "New",
+          "label": "Introducing Example Co 2"
+        },
+        "headlineLines": [
+          "Busy work, handled quietly.",
+          "Give every team a calmer way to run it."
+        ],
+        "byline": "Example Co helps small teams automate routine tasks while owners keep a clear view of what runs and why.",
+        "primaryCta": {
+          "label": "Book a demo",
+          "style": "filled",
+          "intent": "book-demo"
+        },
+        "secondaryCta": {
+          "label": "Sign up free",
+          "style": "frosted",
+          "intent": "sign-up"
+        }
+      },
+      "motion": {
+        "pattern": "static",
+        "trigger": "none",
+        "reducedMotionFallback": "static"
+      }
+    },
+    {
+      "type": "proof.logo-marquee",
+      "content": {
+        "logoSource": "operator-supplied-licensed-logos",
+        "logoCount": 11,
+        "logoAsset": {
+          "assetRole": "customer.logo-trademark"
+        }
+      },
+      "motion": {
+        "pattern": "marquee-drift",
+        "trigger": "continuous",
+        "reducedMotionFallback": "static-row-drag-only"
+      }
+    },
+    {
+      "type": "hero.wordmark-stage",
+      "content": {
+        "media": {
+          "assetRole": "artwork.canvas-standin",
+          "alt": "Illustrative hero wordmark placeholder"
+        },
+        "alt": "Illustrative hero wordmark placeholder"
+      },
+      "motion": {
+        "pattern": "scroll-sink",
+        "trigger": "scroll-root",
+        "reducedMotionFallback": "static-no-sink"
+      }
+    },
+    {
+      "type": "hero.product-demo",
+      "content": {
+        "frame": {
+          "assetRole": "product.demo-frame"
+        },
+        "chapters": [
+          {
+            "title": "Your dashboard"
+          },
+          {
+            "title": "Create a routine"
+          },
+          {
+            "title": "Review activity"
+          }
+        ],
+        "showTimeline": true
+      },
+      "motion": {
+        "pattern": "appear-plus-timeline",
+        "trigger": "on-mount",
+        "reducedMotionFallback": "static-frame-timeline-paused"
+      }
+    },
+    {
+      "type": "narrative.monitor-banner",
+      "content": {
+        "kicker": "A note on everyday operations",
+        "headline": {
+          "lead": "Teams moved fast.",
+          "emphasis": "Keeping track got harder."
+        },
+        "icon": {
+          "assetRole": "illustration.brand-art"
+        },
+        "paragraphs": [
+          "Nothing here is broken.",
+          "It is time to give every team a tidy place to work."
+        ],
+        "background": {
+          "assetRole": "artwork.canvas-standin",
+          "alt": "Illustrative backdrop placeholder"
+        }
+      },
+      "motion": {
+        "pattern": "static-canvas-standin",
+        "trigger": "none",
+        "reducedMotionFallback": "static"
+      }
+    },
+    {
+      "type": "narrative.solution-panel",
+      "content": {
+        "kicker": "Our approach",
+        "headlineLines": [
+          "Room to experiment.",
+          "Clear oversight.",
+          "Nothing hidden."
+        ],
+        "items": [
+          {
+            "title": "See what is running",
+            "body": "One list of every routine and its owner."
+          },
+          {
+            "title": "Approvals that keep pace",
+            "body": "Review in minutes, not days."
+          },
+          {
+            "title": "Fixes you can undo",
+            "body": "Every change is reversible."
+          },
+          {
+            "title": "Start with what you use",
+            "body": "Connect the tools you already have."
+          }
+        ],
+        "mascot": {
+          "assetRole": "illustration.brand-art"
+        },
+        "footerLead": "Example Co",
+        "footerText": "keeps routine work moving and easy to audit.",
+        "cta": {
+          "label": "Explore the product",
+          "style": "filled-white",
+          "intent": "explore-product"
+        },
+        "flowerBed": {
+          "assetRole": "artwork.canvas-standin"
+        }
+      },
+      "motion": {
+        "pattern": "view-parallax-and-gaze",
+        "trigger": "view-timeline",
+        "reducedMotionFallback": "static-no-parallax-no-gaze"
+      }
+    },
+    {
+      "type": "showcase.use-case-tabs",
+      "content": {
+        "kicker": "Teams using Example Co",
+        "headline": "Keep everyday routines moving for the teams who rely on them.",
+        "byline": "Example Co gives each team a safe, simple way to automate.",
+        "tabs": [
+          {
+            "teamId": "it",
+            "title": "IT",
+            "shortTitle": "IT",
+            "body": "Device and access requests.",
+            "icon": {
+              "assetRole": "icon.ui-glyph"
+            }
+          },
+          {
+            "teamId": "security",
+            "title": "Security",
+            "shortTitle": "Security",
+            "body": "Alert intake and triage.",
+            "icon": {
+              "assetRole": "icon.ui-glyph"
+            }
+          },
+          {
+            "teamId": "finance",
+            "title": "Finance",
+            "shortTitle": "Finance",
+            "body": "Invoice approval tracker.",
+            "icon": {
+              "assetRole": "icon.ui-glyph"
+            }
+          },
+          {
+            "teamId": "people",
+            "title": "People",
+            "shortTitle": "People",
+            "body": "New hire checklist.",
+            "icon": {
+              "assetRole": "icon.ui-glyph"
+            }
+          },
+          {
+            "teamId": "operations",
+            "title": "Operations",
+            "shortTitle": "Ops",
+            "body": "Daily operations board.",
+            "icon": {
+              "assetRole": "icon.ui-glyph"
+            }
+          }
+        ],
+        "defaultView": "frontend",
+        "screenshots": {
+          "assetRole": "product.screenshot"
+        }
+      },
+      "motion": {
+        "pattern": "reveal-tab-wipe",
+        "trigger": "intersection-and-click",
+        "reducedMotionFallback": "instant-switch-no-reveal"
+      }
+    },
+    {
+      "type": "proof.why-tines",
+      "content": {
+        "kicker": "Why Example Co?",
+        "headline": "Simple routines, steady results.",
+        "byline": "One calm workspace for every team's automations.",
+        "illustration": {
+          "assetRole": "illustration.brand-art"
+        },
+        "cards": [
+          {
+            "lead": "Made for careful teams.",
+            "rest": "Clear logs and sensible defaults.",
+            "icon": {
+              "assetRole": "illustration.brand-art"
+            }
+          },
+          {
+            "lead": "Ready for daily use.",
+            "rest": "Reliable on ordinary workloads.",
+            "icon": {
+              "assetRole": "illustration.brand-art"
+            }
+          },
+          {
+            "lead": "Works with your tools.",
+            "rest": "Connect what you already run.",
+            "icon": {
+              "assetRole": "illustration.brand-art"
+            }
+          },
+          {
+            "lead": "Quick to learn.",
+            "rest": "Useful on the first day.",
+            "icon": {
+              "assetRole": "illustration.brand-art"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "constellation-spin-twinkle",
+        "trigger": "continuous",
+        "reducedMotionFallback": "static-constellation"
+      }
+    },
+    {
+      "type": "conversion.start-today-cta",
+      "content": {
+        "wordmark": {
+          "assetRole": "artwork.canvas-standin",
+          "alt": "Start today"
+        },
+        "wordmarkAlt": "Start today",
+        "tagline": "Sign up to get started, or book time with us to learn more.",
+        "primaryCta": {
+          "label": "Sign up free",
+          "style": "filled",
+          "intent": "sign-up"
+        },
+        "secondaryCta": {
+          "label": "Book a demo",
+          "style": "outlined",
+          "intent": "book-demo"
+        }
+      },
+      "motion": {
+        "pattern": "tri-cursor",
+        "trigger": "pointer-mouse",
+        "reducedMotionFallback": "cursor-without-spin"
+      }
+    },
+    {
+      "type": "chrome.site-footer",
+      "content": {
+        "columns": [
+          {
+            "title": "Product"
+          },
+          {
+            "title": "Solutions"
+          },
+          {
+            "title": "Discover"
+          },
+          {
+            "title": "Company"
+          },
+          {
+            "title": "Trust and security"
+          }
+        ],
+        "askAi": {
+          "label": "Ask AI about Example Co",
+          "assistantCount": 5,
+          "assistants": {
+            "assetRole": "partner.assistant-icon"
+          }
+        },
+        "logoMark": {
+          "assetRole": "brand.user-supplied",
+          "alt": "Your logo here"
+        },
+        "copyright": "© Example",
+        "cookieLabel": "Cookie settings"
+      },
+      "motion": {
+        "pattern": "accordion-grid-rows",
+        "trigger": "click",
+        "reducedMotionFallback": "instant-expand"
+      }
+    }
+  ]
+}

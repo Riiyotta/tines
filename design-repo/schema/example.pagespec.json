@@ -1,11 +1,12 @@
 {
-  "pageSpecVersion": "1.0.0",
+  "pageSpecVersion": "1.1.0",
+  "mode": "reference",
   "template": "template.home",
   "route": "/",
   "theme": "light",
   "meta": {
     "title": "Tines | The secure environment for AI agents",
-    "description": "Homepage composition reproduced from the local reference clone using short real headings only."
+    "description": "Homepage composition reproduced from the local reference clone using short real headings only. Mode reference: the real Tines logo is allowed here and only here."
   },
   "nodes": [
     {

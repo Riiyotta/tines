@@ -1,5 +1,5 @@
 {
-  "allowlistVersion": "1.0.0",
+  "allowlistVersion": "1.1.0",
   "$comment": "Closed set a generator may instantiate. verify_all.py checks parity with sections/, primitives/, components/, assets/asset-roles.json and the schema's node properties.",
   "sections": [
     "chrome.site-nav",
@@ -36,6 +36,8 @@
   ],
   "assetRoles": [
     "brand.tines-logo",
+    "brand.placeholder",
+    "brand.user-supplied",
     "customer.logo-trademark",
     "partner.assistant-icon",
     "product.demo-frame",
@@ -45,6 +47,10 @@
     "editorial.promo-image",
     "icon.ui-glyph"
   ],
+  "modes": [
+    "reference",
+    "generated"
+  ],
   "nodeSettableProperties": [
     "type",
     "content",
@@ -52,6 +58,7 @@
   ],
   "pageSettableProperties": [
     "pageSpecVersion",
+    "mode",
     "template",
     "route",
     "theme",
@@ -61,6 +68,7 @@
   "notAllowed": [
     "per-instance token/style overrides (no such PageSpec field exists)",
     "section variants (none evidenced)",
-    "raw URLs (CTAs carry an intent enum)"
+    "raw URLs (CTAs carry an intent enum)",
+    "brand.tines-logo (or the source brand name as text) in a PageSpec with mode 'generated'"
   ]
 }

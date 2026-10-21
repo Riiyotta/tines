@@ -47,7 +47,12 @@
       "logoMark": {
         "kind": "media",
         "required": true,
-        "assetRole": "brand.tines-logo"
+        "assetRole": "brand.tines-logo",
+        "generatedAssetRoles": [
+          "brand.placeholder",
+          "brand.user-supplied"
+        ],
+        "brandMark": true
       },
       "copyright": {
         "kind": "text",
@@ -99,6 +104,8 @@
   ],
   "assetRoles": [
     "brand.tines-logo",
+    "brand.placeholder",
+    "brand.user-supplied",
     "partner.assistant-icon"
   ],
   "evidence": [

@@ -12,7 +12,12 @@
       "logo": {
         "kind": "media",
         "required": true,
-        "assetRole": "brand.tines-logo"
+        "assetRole": "brand.tines-logo",
+        "generatedAssetRoles": [
+          "brand.placeholder",
+          "brand.user-supplied"
+        ],
+        "brandMark": true
       },
       "items": {
         "kind": "olist",
@@ -113,6 +118,8 @@
   ],
   "assetRoles": [
     "brand.tines-logo",
+    "brand.placeholder",
+    "brand.user-supplied",
     "editorial.promo-image"
   ],
   "evidence": [
